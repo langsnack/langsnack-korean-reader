@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Short Stories – Langsnack Korean</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --cream:    #f9f6f1;
+    --white:    #ffffff;
+    --sage:     #7a9e7e;
+    --sage-d:   #5a7d5e;
+    --sage-l:   #eaf2eb;
+    --warm:     #e8e0d5;
+    --tan:      #c9b99a;
+    --tan-l:    #f5f0e8;
+    --text:     #2d2d2d;
+    --muted:    #7a7060;
+    --gold:     #c9973a;
+    --gold-l:   #fdf3e0;
+    --red:      #c0544a;
+    --red-l:    #faeae9;
+    --shadow:   0 4px 20px rgba(0,0,0,0.07);
+    --radius:   18px;
+  }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body {
+    font-family: 'DM Sans', 'Noto Sans KR', sans-serif;
+    background: var(--cream);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ── */
+  header {
+    background: var(--white);
+    border-bottom: 1px solid var(--warm);
+    padding: 0 28px;
+  }
+  .header-inner {
+    max-width: 880px;
+    margin: 0 auto;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--sage-d);
+    letter-spacing: -.3px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .logo .dot { color: var(--gold); }
+  .header-tag {
+    font-size: .78rem;
+    font-weight: 600;
+    color: var(--muted);
+    background: var(--tan-l);
+    border: 1px solid var(--warm);
+    border-radius: 20px;
+    padding: 5px 14px;
+    letter-spacing: .3px;
+  }
+
+  /* ── PAGE WRAPPER ── */
+  .page { max-width: 880px; margin: 0 auto; padding: 36px 20px 60px; }
+
+  /* ── SELECTOR ── */
+  .page-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 4px;
+  }
+  .page-sub {
+    font-size: .9rem;
+    color: var(--muted);
+    margin-bottom: 26px;
+  }
+  .story-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 14px;
+  }
+  .story-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 22px 18px 18px;
+    cursor: pointer;
+    border: 1.5px solid var(--warm);
+    box-shadow: var(--shadow);
+    transition: transform .18s, box-shadow .18s, border-color .18s;
+  }
+  .story-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 32px rgba(0,0,0,0.10);
+    border-color: var(--sage);
+  }
+  .story-card .s-emoji { font-size: 2.2rem; display: block; margin-bottom: 10px; }
+  .story-card .s-kr { font-size: 1rem; font-weight: 700; color: var(--text); }
+  .story-card .s-en { font-size: .78rem; color: var(--muted); margin-top: 3px; }
+  .story-card .s-badge {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: .7rem;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 20px;
+    background: var(--sage-l);
+    color: var(--sage-d);
+    letter-spacing: .2px;
+  }
+
+  /* ── READER ── */
+  #reader { display: none; flex-direction: column; gap: 18px; }
+  #reader.visible { display: flex; }
+
+  .panel {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 28px 30px;
+    border: 1.5px solid var(--warm);
+    box-shadow: var(--shadow);
+  }
+
+  /* story text */
+  .story-meta {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+  #story-kr-title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--text);
+    line-height: 1.2;
+  }
+  #story-en-title {
+    font-size: .95rem;
+    color: var(--muted);
+  }
+  #story-body {
+    font-size: 1.15rem;
+    line-height: 2.3;
+    color: var(--text);
+    word-break: keep-all;
+  }
+  #story-body .word {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 1px 2px;
+    border-bottom: 2px solid transparent;
+    transition: background .13s, border-color .13s;
+  }
+  #story-body .word:hover { background: var(--gold-l); border-bottom-color: var(--gold); }
+  #story-body .word.hi { background: var(--gold-l); border-bottom-color: var(--gold); font-weight: 600; }
+
+  .trans-row { margin-top: 16px; }
+  .trans-btn {
+    font-family: inherit;
+    font-size: .82rem;
+    font-weight: 600;
+    color: var(--sage-d);
+    background: var(--sage-l);
+    border: 1px solid #c2d9c4;
+    border-radius: 20px;
+    padding: 6px 16px;
+    cursor: pointer;
+    transition: background .14s;
+  }
+  .trans-btn:hover { background: #d5ead7; }
+  #story-translation {
+    display: none;
+    margin-top: 12px;
+    font-size: .92rem;
+    color: var(--muted);
+    line-height: 1.8;
+    background: var(--tan-l);
+    border-left: 3px solid var(--tan);
+    border-radius: 0 10px 10px 0;
+    padding: 12px 16px;
+  }
+  #story-translation.show { display: block; }
+
+  /* ── TABS ── */
+  .tabs { display: flex; gap: 6px; margin-bottom: 22px; flex-wrap: wrap; }
+  .tab-btn {
+    font-family: inherit;
+    font-size: .85rem;
+    font-weight: 600;
+    background: var(--tan-l);
+    color: var(--muted);
+    border: 1.5px solid var(--warm);
+    border-radius: 20px;
+    padding: 7px 18px;
+    cursor: pointer;
+    transition: all .14s;
+  }
+  .tab-btn.active { background: var(--sage); color: #fff; border-color: var(--sage); }
+
+  /* ── VOCAB ── */
+  .vocab-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px,1fr)); gap: 10px; }
+  .vocab-card {
+    background: var(--cream);
+    border: 1.5px solid var(--warm);
+    border-radius: 14px;
+    padding: 12px 14px;
+    cursor: pointer;
+    transition: border-color .14s, transform .14s, background .14s;
+  }
+  .vocab-card:hover, .vocab-card.active {
+    border-color: var(--sage);
+    background: var(--sage-l);
+    transform: translateY(-2px);
+  }
+  .vocab-card .vc-top { display: flex; justify-content: space-between; align-items: flex-start; }
+  .vocab-card .vc-emoji { font-size: 1.3rem; }
+  .vocab-card .vc-kr { font-size: 1.05rem; font-weight: 700; color: var(--sage-d); margin-top: 6px; }
+  .vocab-card .vc-rom { font-size: .75rem; color: var(--muted); font-style: italic; margin-top: 2px; }
+  .vocab-card .vc-en { font-size: .8rem; color: #555; margin-top: 6px; line-height: 1.3; }
+
+  /* ── QUIZ ── */
+  .quiz-status { font-size: .8rem; color: var(--muted); margin-bottom: 10px; letter-spacing: .2px; }
+  #quiz-question {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 16px;
+    line-height: 1.6;
+  }
+  .quiz-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .qopt {
+    font-family: inherit;
+    font-size: .9rem;
+    font-weight: 500;
+    background: var(--cream);
+    border: 1.5px solid var(--warm);
+    border-radius: 12px;
+    padding: 11px 14px;
+    cursor: pointer;
+    color: var(--text);
+    text-align: left;
+    line-height: 1.4;
+    transition: all .13s;
+  }
+  .qopt:hover { background: var(--sage-l); border-color: var(--sage); }
+  .qopt.correct { background: #e6f5e8; border-color: var(--sage); color: var(--sage-d); font-weight: 700; }
+  .qopt.wrong { background: var(--red-l); border-color: var(--red); color: var(--red); }
+  #quiz-feedback { margin-top: 12px; font-size: .95rem; font-weight: 600; min-height: 22px; }
+  .fb-ok { color: var(--sage-d); }
+  .fb-no { color: var(--red); }
+  #quiz-next {
+    display: none;
+    margin-top: 12px;
+    font-family: inherit;
+    font-size: .88rem;
+    font-weight: 600;
+    background: var(--sage);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 9px 22px;
+    cursor: pointer;
+    transition: background .14s;
+  }
+  #quiz-next:hover { background: var(--sage-d); }
+  #quiz-score { font-size: .82rem; color: var(--muted); margin-top: 8px; }
+
+  /* ── CLOZE ── */
+  .cloze-hint { font-size: .82rem; color: var(--muted); margin-bottom: 14px; }
+  #cloze-text { font-size: 1.1rem; line-height: 2.8; color: var(--text); word-break: keep-all; }
+  .blank {
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid var(--sage);
+    width: 76px;
+    font-size: .98rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: var(--sage-d);
+    background: transparent;
+    outline: none;
+    text-align: center;
+    padding: 1px 4px;
+    margin: 0 3px;
+    font-weight: 700;
+    transition: border-color .13s;
+  }
+  .blank.correct { border-color: var(--sage); color: var(--sage-d); }
+  .blank.wrong { border-color: var(--red); color: var(--red); }
+  #cloze-check {
+    margin-top: 16px;
+    font-family: inherit;
+    font-size: .88rem;
+    font-weight: 600;
+    background: var(--gold);
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 9px 22px;
+    cursor: pointer;
+    transition: background .14s;
+  }
+  #cloze-check:hover { background: #b07e28; }
+  #cloze-result { margin-top: 10px; font-size: .9rem; font-weight: 600; min-height: 20px; }
+
+  /* ── NAV ── */
+  .nav-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+  .nav-btn {
+    font-family: inherit;
+    font-size: .85rem;
+    font-weight: 600;
+    border: 1.5px solid var(--warm);
+    border-radius: 20px;
+    padding: 9px 20px;
+    cursor: pointer;
+    transition: all .14s;
+    background: var(--white);
+    color: var(--text);
+  }
+  .nav-btn:hover { border-color: var(--sage); color: var(--sage-d); background: var(--sage-l); }
+  .nav-btn.primary { background: var(--sage); color: #fff; border-color: var(--sage); }
+  .nav-btn.primary:hover { background: var(--sage-d); border-color: var(--sage-d); }
+  #story-counter { font-size: .82rem; color: var(--muted); font-weight: 500; }
+
+  /* ── TOOLTIP ── */
+  #tt {
+    position: fixed;
+    background: var(--text);
+    color: #fff;
+    border-radius: 10px;
+    padding: 9px 13px;
+    font-size: .82rem;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .13s;
+    z-index: 9999;
+    max-width: 200px;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    line-height: 1.5;
+  }
+  #tt.on { opacity: 1; }
+  #tt .t-kr { font-size: .98rem; font-weight: 700; color: #f5d37a; }
+  #tt .t-rom { font-size: .72rem; color: #bbb; font-style: italic; }
+  #tt .t-en { font-size: .8rem; margin-top: 3px; color: #eee; }
+
+  @media(max-width:580px){
+    .panel { padding: 20px 16px; }
+    .quiz-opts { grid-template-columns: 1fr; }
+    #story-kr-title { font-size: 1.35rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo">LANGSNACK<span class="dot">.</span></div>
+    <div class="header-tag">Short Stories · 단편 이야기</div>
+  </div>
+</header>
+
+<!-- SELECTOR -->
+<div class="page" id="selector-page">
+  <div class="page-title">Short Stories</div>
+  <div class="page-sub">Click a story to start reading • 이야기를 선택해서 시작하세요</div>
+  <div class="story-grid" id="story-grid"></div>
+</div>
+
+<!-- READER -->
+<div class="page" id="reader-page" style="display:none">
+  <div id="reader">
+
+    <div class="nav-row">
+      <button class="nav-btn" onclick="backToMenu()">← All Stories</button>
+      <span id="story-counter"></span>
+    </div>
+
+    <!-- Story -->
+    <div class="panel">
+      <div class="story-meta">
+        <div id="story-kr-title"></div>
+        <div id="story-en-title"></div>
+      </div>
+      <div id="story-body"></div>
+      <div class="trans-row">
+        <button class="trans-btn" onclick="toggleTrans()">🇬🇧 Show / Hide English Translation</button>
+      </div>
+      <div id="story-translation"></div>
+    </div>
+
+    <!-- Activities -->
+    <div class="panel">
+      <div class="tabs">
+        <button class="tab-btn active" onclick="showTab('vocab')">📖 Vocabulary</button>
+        <button class="tab-btn" onclick="showTab('quiz')">❓ Quiz</button>
+        <button class="tab-btn" onclick="showTab('cloze')">✏️ Fill In</button>
+      </div>
+
+      <div id="tab-vocab">
+        <div class="vocab-grid" id="vocab-grid"></div>
+      </div>
+
+      <div id="tab-quiz" style="display:none">
+        <div class="quiz-status" id="quiz-status"></div>
+        <div id="quiz-question"></div>
+        <div class="quiz-opts" id="quiz-opts"></div>
+        <div id="quiz-feedback"></div>
+        <button id="quiz-next" onclick="nextQ()">Next →</button>
+        <div id="quiz-score"></div>
+      </div>
+
+      <div id="tab-cloze" style="display:none">
+        <p class="cloze-hint">빈칸에 알맞은 단어를 쓰세요 — Fill each blank with the correct Korean word.</p>
+        <div id="cloze-text"></div>
+        <button id="cloze-check" onclick="checkCloze()">Check answers 정답 확인</button>
+        <div id="cloze-result"></div>
+      </div>
+    </div>
+
+    <div class="nav-row">
+      <button class="nav-btn" id="prev-btn" onclick="nav(-1)">← Previous</button>
+      <button class="nav-btn primary" id="next-btn" onclick="nav(1)">Next Story →</button>
+    </div>
+
+  </div>
+</div>
+
+<div id="tt"><div class="t-kr" id="tt-kr"></div><div class="t-rom" id="tt-rom"></div><div class="t-en" id="tt-en"></div></div>
+
+<script>
+const STORIES = [
+  // 1. Daily life
+  {
+    id:1, emoji:'🌅', level:'Beginner',
+    krTitle:'나의 아침 루틴',
+    enTitle:'My Morning Routine',
+    sentences:[
+      {kr:'나는 매일 아침 일찍 일어납니다.',en:'I wake up early every morning.'},
+      {kr:'먼저 세수를 하고 이를 닦습니다.',en:'First I wash my face and brush my teeth.'},
+      {kr:'그다음에 간단한 아침 식사를 합니다.',en:'Then I have a simple breakfast.'},
+      {kr:'오늘 아침은 달걀과 토스트를 먹습니다.',en:'This morning I eat eggs and toast.'},
+      {kr:'식사 후에 커피를 한 잔 마십니다.',en:'After the meal I drink a cup of coffee.'},
+      {kr:'옷을 입고 가방을 챙깁니다.',en:'I get dressed and pack my bag.'},
+      {kr:'집에서 나올 때 문을 꼭 잠급니다.',en:'When I leave the house I always lock the door.'},
+      {kr:'오늘도 좋은 하루가 될 것 같습니다.',en:'Today also seems like it will be a good day.'},
+    ],
+    vocab:[
+      {kr:'아침',rom:'achim',en:'morning / breakfast',emoji:'🌅'},
+      {kr:'일어납니다',rom:'ireomnamnida',en:'wake up',emoji:'⏰'},
+      {kr:'세수',rom:'sesu',en:'washing one\'s face',emoji:'🚿'},
+      {kr:'이를 닦습니다',rom:'ireul daksseumnida',en:'brush teeth',emoji:'🪥'},
+      {kr:'달걀',rom:'dalgyal',en:'egg',emoji:'🥚'},
+      {kr:'토스트',rom:'toseuteu',en:'toast',emoji:'🍞'},
+      {kr:'커피',rom:'keopi',en:'coffee',emoji:'☕'},
+      {kr:'가방',rom:'gabang',en:'bag',emoji:'🎒'},
+      {kr:'잠급니다',rom:'jamgumnida',en:'lock',emoji:'🔒'},
+      {kr:'좋은',rom:'joeun',en:'good',emoji:'✨'},
+    ],
+    quiz:[
+      {q:'아침에 가장 먼저 무엇을 합니까?\n(What does the narrator do first in the morning?)',opts:['커피를 마십니다 (drinks coffee)','세수를 합니다 (washes face)','아침을 먹습니다 (eats breakfast)','옷을 입습니다 (gets dressed)'],ans:1},
+      {q:'오늘 아침 식사는 무엇입니까?\n(What is today\'s breakfast?)',opts:['밥과 국 (rice & soup)','빵과 우유 (bread & milk)','달걀과 토스트 (egg & toast)','과일과 요거트 (fruit & yogurt)'],ans:2},
+      {q:'집을 나올 때 무엇을 합니까?\n(What does the narrator do when leaving?)',opts:['창문을 닫습니다 (closes window)','불을 끕니다 (turns off light)','문을 잠급니다 (locks door)','신발을 신습니다 (puts on shoes)'],ans:2},
+      {q:'아침 식사 후 무엇을 마십니까?\n(What does the narrator drink after breakfast?)',opts:['물 (water)','주스 (juice)','차 (tea)','커피 (coffee)'],ans:3},
+      {q:'오늘은 어떤 날이 될 것 같습니까?\n(What kind of day does today seem to be?)',opts:['힘든 날 (hard day)','좋은 날 (good day)','바쁜 날 (busy day)','슬픈 날 (sad day)'],ans:1},
+    ],
+    cloze:['아침','세수','달걀','커피','잠급니다'],
+  },
+  // 2. Travel
+  {
+    id:2, emoji:'🗼', level:'Beginner',
+    krTitle:'서울 여행',
+    enTitle:'Travelling to Seoul',
+    sentences:[
+      {kr:'나는 서울에 처음 왔습니다.',en:'I have come to Seoul for the first time.'},
+      {kr:'경복궁은 정말 크고 아름답습니다.',en:'Gyeongbokgung Palace is really big and beautiful.'},
+      {kr:'한복을 입고 사진을 찍었습니다.',en:'I wore a hanbok and took photos.'},
+      {kr:'명동에서 쇼핑을 했습니다.',en:'I went shopping in Myeongdong.'},
+      {kr:'길거리 음식이 맛있고 저렴합니다.',en:'Street food is delicious and cheap.'},
+      {kr:'지하철로 이동하면 편리합니다.',en:'Getting around by subway is convenient.'},
+      {kr:'한국 사람들이 친절하게 도와줬습니다.',en:'Korean people helped me kindly.'},
+      {kr:'서울은 꼭 다시 오고 싶은 도시입니다.',en:'Seoul is a city I definitely want to visit again.'},
+    ],
+    vocab:[
+      {kr:'서울',rom:'Seoul',en:'Seoul (South Korea\'s capital)',emoji:'🌆'},
+      {kr:'경복궁',rom:'Gyeongbokgung',en:'Gyeongbokgung Palace',emoji:'🏯'},
+      {kr:'아름답습니다',rom:'areumdapsseumnida',en:'is beautiful',emoji:'😍'},
+      {kr:'한복',rom:'hanbok',en:'traditional Korean clothing',emoji:'👘'},
+      {kr:'명동',rom:'Myeongdong',en:'Myeongdong (shopping district)',emoji:'🛍️'},
+      {kr:'길거리',rom:'gilgeori',en:'street, roadside',emoji:'🛤️'},
+      {kr:'저렴합니다',rom:'jeoryeomhamnida',en:'is cheap / affordable',emoji:'💸'},
+      {kr:'지하철',rom:'jihacheol',en:'subway, metro',emoji:'🚇'},
+      {kr:'편리합니다',rom:'pyeollihamnida',en:'is convenient',emoji:'👍'},
+      {kr:'도시',rom:'dosi',en:'city',emoji:'🌇'},
+    ],
+    quiz:[
+      {q:'나는 서울에 몇 번째 왔습니까?\n(How many times has the narrator visited Seoul?)',opts:['두 번째 (second time)','처음 (first time)','세 번째 (third time)','자주 (often)'],ans:1},
+      {q:'경복궁은 어떻습니까?\n(How is Gyeongbokgung?)',opts:['작고 오래됨 (small & old)','크고 아름다움 (big & beautiful)','조용하고 어두움 (quiet & dark)','새롭고 현대적 (new & modern)'],ans:1},
+      {q:'명동에서 무엇을 했습니까?\n(What did the narrator do in Myeongdong?)',opts:['음식을 먹었습니다 (ate food)','공연을 봤습니다 (saw a show)','쇼핑을 했습니다 (went shopping)','잠을 잤습니다 (slept)'],ans:2},
+      {q:'어떻게 이동하면 편리합니까?\n(What is convenient for getting around?)',opts:['버스 (bus)','택시 (taxi)','자전거 (bicycle)','지하철 (subway)'],ans:3},
+      {q:'한국 사람들은 어떻게 도와줬습니까?\n(How did Korean people help?)',opts:['무관심하게 (indifferently)','친절하게 (kindly)','천천히 (slowly)','빠르게 (quickly)'],ans:1},
+    ],
+    cloze:['서울','경복궁','한복','명동','지하철'],
+  },
+  // 3. Food & K-culture
+  {
+    id:3, emoji:'🍜', level:'Beginner',
+    krTitle:'라면 끓이기',
+    enTitle:'Making Ramen',
+    sentences:[
+      {kr:'오늘 저녁은 라면을 끓입니다.',en:'Tonight I am making ramen.'},
+      {kr:'냄비에 물을 붓고 불을 켭니다.',en:'I pour water in the pot and turn on the stove.'},
+      {kr:'물이 끓으면 면과 스프를 넣습니다.',en:'When the water boils I add the noodles and soup powder.'},
+      {kr:'달걀 하나를 넣으면 더 맛있습니다.',en:'Adding one egg makes it even more delicious.'},
+      {kr:'파와 김치를 곁들이면 완벽합니다.',en:'Adding green onion and kimchi makes it perfect.'},
+      {kr:'3분 후에 불을 끕니다.',en:'After 3 minutes I turn off the stove.'},
+      {kr:'라면은 한국인의 소울 푸드입니다.',en:'Ramen is Korean soul food.'},
+      {kr:'비 오는 날 라면은 최고입니다.',en:'Ramen on a rainy day is the best.'},
+    ],
+    vocab:[
+      {kr:'라면',rom:'ramyeon',en:'ramen (instant noodles)',emoji:'🍜'},
+      {kr:'냄비',rom:'naembi',en:'pot, saucepan',emoji:'🫕'},
+      {kr:'끓으면',rom:'kkeureuumyeon',en:'when it boils',emoji:'♨️'},
+      {kr:'면',rom:'myeon',en:'noodles',emoji:'🍝'},
+      {kr:'스프',rom:'seupeu',en:'soup powder / seasoning packet',emoji:'🧂'},
+      {kr:'달걀',rom:'dalgyal',en:'egg',emoji:'🥚'},
+      {kr:'파',rom:'pa',en:'green onion / scallion',emoji:'🌿'},
+      {kr:'김치',rom:'gimchi',en:'kimchi',emoji:'🥬'},
+      {kr:'소울 푸드',rom:'soul food',en:'soul food / comfort food',emoji:'❤️'},
+      {kr:'최고',rom:'choego',en:'the best / top',emoji:'🏆'},
+    ],
+    quiz:[
+      {q:'라면을 끓일 때 먼저 무엇을 합니까?\n(What is the first step in making ramen?)',opts:['면을 넣습니다 (add noodles)','달걀을 넣습니다 (add egg)','냄비에 물을 붓습니다 (pour water in pot)','파를 썹니다 (chop green onion)'],ans:2},
+      {q:'라면을 더 맛있게 하려면 무엇을 넣습니까?\n(What makes the ramen even more delicious?)',opts:['치즈 (cheese)','달걀 (egg)','고기 (meat)','버터 (butter)'],ans:1},
+      {q:'불을 언제 끕니까?\n(When is the stove turned off?)',opts:['1분 후 (after 1 min)','5분 후 (after 5 min)','3분 후 (after 3 min)','10분 후 (after 10 min)'],ans:2},
+      {q:'라면은 어떤 날 최고입니까?\n(On what day is ramen the best?)',opts:['눈 오는 날 (snowy day)','맑은 날 (clear day)','바람 부는 날 (windy day)','비 오는 날 (rainy day)'],ans:3},
+      {q:'라면은 한국인의 무엇입니까?\n(What is ramen to Koreans?)',opts:['국민 음료 (national drink)','소울 푸드 (soul food)','전통 음식 (traditional food)','고급 요리 (luxury dish)'],ans:1},
+    ],
+    cloze:['라면','냄비','면','달걀','김치'],
+  },
+  // 4. Nature / Seasons
+  {
+    id:4, emoji:'🍂', level:'Beginner',
+    krTitle:'가을 단풍',
+    enTitle:'Autumn Leaves',
+    sentences:[
+      {kr:'가을이 되면 나뭇잎이 빨갛고 노랗게 변합니다.',en:'When autumn comes the leaves turn red and yellow.'},
+      {kr:'산에 가면 단풍이 매우 아름답습니다.',en:'If you go to the mountains the autumn foliage is very beautiful.'},
+      {kr:'사람들은 단풍 구경을 하러 산에 갑니다.',en:'People go to the mountains to see the autumn leaves.'},
+      {kr:'공기가 시원하고 신선합니다.',en:'The air is cool and fresh.'},
+      {kr:'낙엽이 바람에 날립니다.',en:'Fallen leaves fly in the wind.'},
+      {kr:'가을은 독서하기 좋은 계절입니다.',en:'Autumn is a good season for reading.'},
+      {kr:'한국에서 가을은 9월부터 11월까지입니다.',en:'In Korea autumn lasts from September to November.'},
+      {kr:'가을 하늘은 높고 파랗습니다.',en:'The autumn sky is high and blue.'},
+    ],
+    vocab:[
+      {kr:'가을',rom:'gaeul',en:'autumn, fall',emoji:'🍂'},
+      {kr:'나뭇잎',rom:'namunnip',en:'leaf, leaves',emoji:'🍃'},
+      {kr:'단풍',rom:'danpung',en:'autumn foliage / maple leaves',emoji:'🍁'},
+      {kr:'산',rom:'san',en:'mountain',emoji:'⛰️'},
+      {kr:'공기',rom:'gonggi',en:'air',emoji:'💨'},
+      {kr:'시원하고',rom:'siwonhago',en:'cool (and)',emoji:'🌬️'},
+      {kr:'낙엽',rom:'nagyeop',en:'fallen leaves',emoji:'🍂'},
+      {kr:'바람',rom:'baram',en:'wind',emoji:'🌬️'},
+      {kr:'독서',rom:'dokseo',en:'reading (books)',emoji:'📚'},
+      {kr:'하늘',rom:'haneul',en:'sky',emoji:'🌤️'},
+    ],
+    quiz:[
+      {q:'가을이 되면 나뭇잎은 어떻게 변합니까?\n(How do leaves change in autumn?)',opts:['초록색으로 변합니다 (turn green)','빨갛고 노랗게 변합니다 (turn red & yellow)','검게 변합니다 (turn black)','하얗게 변합니다 (turn white)'],ans:1},
+      {q:'사람들은 왜 산에 갑니까?\n(Why do people go to the mountains?)',opts:['운동하러 (to exercise)','캠핑하러 (to camp)','단풍 구경하러 (to see autumn leaves)','수영하러 (to swim)'],ans:2},
+      {q:'가을 공기는 어떻습니까?\n(How is the autumn air?)',opts:['덥고 습합니다 (hot & humid)','차갑고 건조합니다 (cold & dry)','시원하고 신선합니다 (cool & fresh)','따뜻하고 맑습니다 (warm & clear)'],ans:2},
+      {q:'가을은 어떤 활동에 좋습니까?\n(What activity is autumn good for?)',opts:['수영 (swimming)','독서 (reading)','스키 (skiing)','낚시 (fishing)'],ans:1},
+      {q:'한국에서 가을은 언제입니까?\n(When is autumn in Korea?)',opts:['3월~5월 (Mar–May)','6월~8월 (Jun–Aug)','9월~11월 (Sep–Nov)','12월~2월 (Dec–Feb)'],ans:2},
+    ],
+    cloze:['가을','단풍','산','낙엽','하늘'],
+  },
+  // 5. K-culture / Kpop
+  {
+    id:5, emoji:'🎤', level:'Beginner',
+    krTitle:'케이팝을 좋아해요',
+    enTitle:'I Love K-pop',
+    sentences:[
+      {kr:'저는 케이팝을 정말 좋아합니다.',en:'I really love K-pop.'},
+      {kr:'케이팝은 전 세계에서 인기가 많습니다.',en:'K-pop is popular all over the world.'},
+      {kr:'저는 매일 케이팝 노래를 듣습니다.',en:'I listen to K-pop songs every day.'},
+      {kr:'좋아하는 그룹의 안무를 따라 배웁니다.',en:'I learn the choreography of my favourite group.'},
+      {kr:'한국어 가사를 이해하고 싶어서 공부합니다.',en:'I study because I want to understand the Korean lyrics.'},
+      {kr:'팬 미팅에 꼭 가보고 싶습니다.',en:'I really want to attend a fan meeting.'},
+      {kr:'케이팝 덕분에 한국 문화를 더 좋아하게 됐습니다.',en:'Thanks to K-pop I came to love Korean culture more.'},
+      {kr:'언젠가 한국에 가서 콘서트를 볼 것입니다.',en:'Someday I will go to Korea and watch a concert.'},
+    ],
+    vocab:[
+      {kr:'케이팝',rom:'K-pop',en:'K-pop (Korean pop music)',emoji:'🎤'},
+      {kr:'인기',rom:'ingi',en:'popularity',emoji:'⭐'},
+      {kr:'노래',rom:'norae',en:'song',emoji:'🎵'},
+      {kr:'안무',rom:'anmu',en:'choreography / dance moves',emoji:'💃'},
+      {kr:'가사',rom:'gasa',en:'lyrics',emoji:'📝'},
+      {kr:'이해',rom:'ihae',en:'understanding',emoji:'💡'},
+      {kr:'팬 미팅',rom:'paen miting',en:'fan meeting',emoji:'🤝'},
+      {kr:'문화',rom:'munhwa',en:'culture',emoji:'🏮'},
+      {kr:'콘서트',rom:'konseoтeu',en:'concert',emoji:'🎶'},
+      {kr:'언젠가',rom:'eonjenga',en:'someday',emoji:'🔮'},
+    ],
+    quiz:[
+      {q:'케이팝은 어디에서 인기가 많습니까?\n(Where is K-pop popular?)',opts:['한국에서만 (only in Korea)','아시아에서만 (only in Asia)','전 세계에서 (all over the world)','유럽에서만 (only in Europe)'],ans:2},
+      {q:'화자는 왜 한국어를 공부합니까?\n(Why does the narrator study Korean?)',opts:['한국에 살고 싶어서 (wants to live in Korea)','가사를 이해하고 싶어서 (wants to understand lyrics)','한국 음식을 좋아해서 (likes Korean food)','한국 드라마를 보고 싶어서 (wants to watch K-dramas)'],ans:1},
+      {q:'화자가 꼭 해보고 싶은 것은?\n(What does the narrator really want to do?)',opts:['케이팝 가수가 되기 (become a K-pop singer)','팬 미팅에 가기 (attend a fan meeting)','앨범 내기 (release an album)','음악 학교 다니기 (attend music school)'],ans:1},
+      {q:'케이팝 덕분에 어떻게 됐습니까?\n(What happened thanks to K-pop?)',opts:['한국어를 배웠습니다 (learned Korean)','한국 문화를 더 좋아하게 됐습니다 (came to love Korean culture more)','한국에 이사했습니다 (moved to Korea)','가수가 됐습니다 (became a singer)'],ans:1},
+      {q:'언젠가 한국에서 무엇을 볼 것입니까?\n(What will the narrator see in Korea someday?)',opts:['뮤지컬 (musical)','콘서트 (concert)','영화 (movie)','전시회 (exhibition)'],ans:1},
+    ],
+    cloze:['케이팝','노래','안무','가사','콘서트'],
+  },
+  // 6. Daily life (health)
+  {
+    id:6, emoji:'🏃', level:'Beginner',
+    krTitle:'운동하는 습관',
+    enTitle:'The Habit of Exercising',
+    sentences:[
+      {kr:'저는 건강을 위해 매일 운동합니다.',en:'I exercise every day for my health.'},
+      {kr:'아침에 공원을 30분 동안 달립니다.',en:'In the morning I run in the park for 30 minutes.'},
+      {kr:'달리기는 스트레스 해소에 좋습니다.',en:'Running is good for relieving stress.'},
+      {kr:'운동 후에 스트레칭을 합니다.',en:'After exercising I do stretching.'},
+      {kr:'물을 충분히 마시는 것이 중요합니다.',en:'It is important to drink enough water.'},
+      {kr:'주말에는 친구들과 등산을 합니다.',en:'On weekends I go hiking with friends.'},
+      {kr:'운동을 꾸준히 하면 몸이 건강해집니다.',en:'If you exercise consistently your body becomes healthy.'},
+      {kr:'건강한 몸에 건강한 정신이 깃듭니다.',en:'A healthy mind lives in a healthy body.'},
+    ],
+    vocab:[
+      {kr:'건강',rom:'geongang',en:'health',emoji:'💪'},
+      {kr:'운동',rom:'undong',en:'exercise',emoji:'🏃'},
+      {kr:'공원',rom:'gongwon',en:'park',emoji:'🌳'},
+      {kr:'달립니다',rom:'dallibmnida',en:'run',emoji:'🏃'},
+      {kr:'스트레스',rom:'seuteuleseu',en:'stress',emoji:'😤'},
+      {kr:'스트레칭',rom:'seuteurecheong',en:'stretching',emoji:'🧘'},
+      {kr:'충분히',rom:'chungbunhi',en:'sufficiently, enough',emoji:'💧'},
+      {kr:'등산',rom:'deungsan',en:'hiking (mountain climbing)',emoji:'⛰️'},
+      {kr:'꾸준히',rom:'kkujunhi',en:'consistently, steadily',emoji:'📈'},
+      {kr:'정신',rom:'jeongsin',en:'mind, spirit',emoji:'🧠'},
+    ],
+    quiz:[
+      {q:'화자는 왜 매일 운동합니까?\n(Why does the narrator exercise every day?)',opts:['살을 빼려고 (to lose weight)','건강을 위해 (for health)','친구를 만나려고 (to meet friends)','경쟁하려고 (to compete)'],ans:1},
+      {q:'아침에 얼마 동안 달립니까?\n(How long does the narrator run in the morning?)',opts:['10분 (10 min)','1시간 (1 hour)','30분 (30 min)','15분 (15 min)'],ans:2},
+      {q:'달리기는 무엇에 좋습니까?\n(What is running good for?)',opts:['수면 (sleep)','스트레스 해소 (stress relief)','근육 강화 (muscle building)','집중력 (concentration)'],ans:1},
+      {q:'주말에 누구와 등산합니까?\n(Who does the narrator hike with on weekends?)',opts:['혼자 (alone)','가족과 (with family)','동료와 (with colleagues)','친구들과 (with friends)'],ans:3},
+      {q:'운동을 꾸준히 하면 어떻게 됩니까?\n(What happens if you exercise consistently?)',opts:['돈을 많이 법니다 (earn more money)','몸이 건강해집니다 (body becomes healthy)','친구가 많아집니다 (gain more friends)','공부를 잘합니다 (study well)'],ans:1},
+    ],
+    cloze:['건강','공원','스트레스','등산','꾸준히'],
+  },
+  // 7. K-drama / culture
+  {
+    id:7, emoji:'📺', level:'Beginner',
+    krTitle:'한국 드라마',
+    enTitle:'Korean Dramas',
+    sentences:[
+      {kr:'한국 드라마는 전 세계에서 인기입니다.',en:'Korean dramas are popular worldwide.'},
+      {kr:'저는 주말마다 드라마를 봅니다.',en:'I watch dramas every weekend.'},
+      {kr:'드라마를 보면 한국어 실력이 늡니다.',en:'Watching dramas helps improve Korean skills.'},
+      {kr:'자막 없이 이해하는 것이 목표입니다.',en:'My goal is to understand without subtitles.'},
+      {kr:'드라마에서 일상 표현을 많이 배웁니다.',en:'I learn many everyday expressions from dramas.'},
+      {kr:'좋아하는 배우의 연기를 보는 것이 즐겁습니다.',en:'It is enjoyable to watch the acting of my favourite actor.'},
+      {kr:'한국 드라마는 감동적인 이야기가 많습니다.',en:'Korean dramas have many touching stories.'},
+      {kr:'넷플릭스에서 쉽게 볼 수 있습니다.',en:'You can easily watch them on Netflix.'},
+    ],
+    vocab:[
+      {kr:'드라마',rom:'deurama',en:'drama, TV series',emoji:'📺'},
+      {kr:'실력',rom:'sillyeok',en:'skill, ability',emoji:'📈'},
+      {kr:'자막',rom:'jamak',en:'subtitles',emoji:'💬'},
+      {kr:'목표',rom:'mokpyo',en:'goal, objective',emoji:'🎯'},
+      {kr:'일상',rom:'ilsang',en:'everyday, daily life',emoji:'📅'},
+      {kr:'표현',rom:'pyohyeon',en:'expression (language)',emoji:'💬'},
+      {kr:'배우',rom:'baeu',en:'actor / actress',emoji:'🎭'},
+      {kr:'연기',rom:'yeongi',en:'acting',emoji:'🎬'},
+      {kr:'감동적인',rom:'gamdongjeok-in',en:'touching, moving',emoji:'🥺'},
+      {kr:'넷플릭스',rom:'Netflix',en:'Netflix',emoji:'🎬'},
+    ],
+    quiz:[
+      {q:'드라마를 보면 무엇이 늡니까?\n(What improves when you watch dramas?)',opts:['영어 실력 (English skills)','한국어 실력 (Korean skills)','기억력 (memory)','체력 (physical strength)'],ans:1},
+      {q:'화자의 목표는 무엇입니까?\n(What is the narrator\'s goal?)',opts:['한국에서 살기 (live in Korea)','자막 없이 이해하기 (understand without subtitles)','배우 되기 (become an actor)','드라마 만들기 (make a drama)'],ans:1},
+      {q:'드라마에서 무엇을 배웁니까?\n(What does the narrator learn from dramas?)',opts:['역사 (history)','요리법 (recipes)','일상 표현 (everyday expressions)','한국 노래 (Korean songs)'],ans:2},
+      {q:'한국 드라마는 어떤 이야기가 많습니까?\n(What kinds of stories do Korean dramas have?)',opts:['무서운 이야기 (scary stories)','재미없는 이야기 (boring stories)','감동적인 이야기 (touching stories)','어려운 이야기 (difficult stories)'],ans:2},
+      {q:'어디에서 드라마를 볼 수 있습니까?\n(Where can you watch dramas easily?)',opts:['유튜브 (YouTube)','인스타그램 (Instagram)','넷플릭스 (Netflix)','트위터 (Twitter)'],ans:2},
+    ],
+    cloze:['드라마','자막','목표','표현','감동적인'],
+  },
+  // 8. Shopping
+  {
+    id:8, emoji:'🛍️', level:'Beginner',
+    krTitle:'편의점에서',
+    enTitle:'At the Convenience Store',
+    sentences:[
+      {kr:'한국 편의점은 24시간 열려 있습니다.',en:'Korean convenience stores are open 24 hours.'},
+      {kr:'음식, 음료, 생활용품 등을 살 수 있습니다.',en:'You can buy food, drinks, daily necessities, and more.'},
+      {kr:'삼각김밥과 컵라면이 인기 메뉴입니다.',en:'Triangle gimbap and cup ramen are popular menu items.'},
+      {kr:'편의점 안에 먹을 수 있는 공간이 있습니다.',en:'Inside the convenience store there is a space to eat.'},
+      {kr:'뜨거운 물을 무료로 사용할 수 있습니다.',en:'You can use hot water for free.'},
+      {kr:'계산은 카드나 현금으로 합니다.',en:'Payment is made by card or cash.'},
+      {kr:'요즘은 셀프 계산대도 있습니다.',en:'These days there are also self-checkout machines.'},
+      {kr:'한국 여행 중에 꼭 편의점에 가보세요.',en:'When travelling in Korea be sure to visit a convenience store.'},
+    ],
+    vocab:[
+      {kr:'편의점',rom:'pyeonuijeom',en:'convenience store',emoji:'🏪'},
+      {kr:'24시간',rom:'isipsa sigan',en:'24 hours',emoji:'🕐'},
+      {kr:'삼각김밥',rom:'samgak gimbap',en:'triangle gimbap',emoji:'🍙'},
+      {kr:'컵라면',rom:'keop ramyeon',en:'cup ramen',emoji:'🍜'},
+      {kr:'공간',rom:'gonggan',en:'space, area',emoji:'🪑'},
+      {kr:'무료',rom:'muryo',en:'free (of charge)',emoji:'🆓'},
+      {kr:'계산',rom:'gyesan',en:'payment, checkout',emoji:'💳'},
+      {kr:'현금',rom:'hyeongeum',en:'cash',emoji:'💴'},
+      {kr:'셀프 계산대',rom:'selpu gyesandae',en:'self-checkout machine',emoji:'🤖'},
+      {kr:'여행',rom:'yeohaeng',en:'travel, trip',emoji:'✈️'},
+    ],
+    quiz:[
+      {q:'한국 편의점은 언제 열려 있습니까?\n(When are Korean convenience stores open?)',opts:['오전 9시~오후 9시 (9am–9pm)','24시간 (24 hours)','오전 8시~자정 (8am–midnight)','주말만 (weekends only)'],ans:1},
+      {q:'편의점의 인기 메뉴는 무엇입니까?\n(What are popular menu items at the convenience store?)',opts:['피자와 햄버거 (pizza & burger)','삼각김밥과 컵라면 (triangle gimbap & cup ramen)','초밥과 우동 (sushi & udon)','샌드위치와 커피 (sandwich & coffee)'],ans:1},
+      {q:'편의점에서 무료로 사용할 수 있는 것은?\n(What can you use for free at the convenience store?)',opts:['전자레인지 (microwave)','뜨거운 물 (hot water)','인터넷 (internet)','충전기 (charger)'],ans:1},
+      {q:'어떻게 계산할 수 있습니까?\n(How can you pay?)',opts:['현금만 (cash only)','카드만 (card only)','카드나 현금 (card or cash)','포인트만 (points only)'],ans:2},
+      {q:'요즘 편의점에 새로 생긴 것은?\n(What has recently appeared at convenience stores?)',opts:['도서관 (library)','셀프 계산대 (self-checkout)','카페 (café)','헬스장 (gym)'],ans:1},
+    ],
+    cloze:['편의점','삼각김밥','공간','무료','현금'],
+  },
+];
+
+// ── state
+let idx=0, qIdx=0, qScore=0, qAnswered=false, transOpen=false;
+
+// ── boot
+function boot(){
+  const g=document.getElementById('story-grid');
+  STORIES.forEach((s,i)=>{
+    const c=document.createElement('div');
+    c.className='story-card';
+    c.innerHTML=`<span class="s-emoji">${s.emoji}</span><div class="s-kr">${s.krTitle}</div><div class="s-en">${s.enTitle}</div><span class="s-badge">${s.level}</span>`;
+    c.onclick=()=>open(i);
+    g.appendChild(c);
+  });
+}
+
+function open(i){
+  idx=i; transOpen=false;
+  document.getElementById('selector-page').style.display='none';
+  document.getElementById('reader-page').style.display='block';
+  document.getElementById('reader').classList.add('visible');
+  load(i); showTab('vocab');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function backToMenu(){
+  document.getElementById('reader-page').style.display='none';
+  document.getElementById('selector-page').style.display='block';
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function load(i){
+  const s=STORIES[i];
+  document.getElementById('story-counter').textContent=`${s.id} / ${STORIES.length}`;
+  document.getElementById('story-kr-title').textContent=`${s.emoji} ${s.krTitle}`;
+  document.getElementById('story-en-title').textContent=s.enTitle;
+
+  // build story
+  const body=document.getElementById('story-body');
+  let html='';
+  s.sentences.forEach(sent=>{
+    sent.kr.split(/\s+/).forEach(w=>{
+      const clean=w.replace(/[.,!?。]/g,'');
+      const m=s.vocab.find(v=>v.kr===clean);
+      if(m) html+=`<span class="word" data-kr="${m.kr}" data-rom="${m.rom}" data-en="${m.en}" onclick="clickWord(this)">${w}</span> `;
+      else html+=w+' ';
+    });
+  });
+  body.innerHTML=html;
+
+  document.getElementById('story-translation').innerHTML=s.sentences.map(s=>s.en).join(' ');
+  document.getElementById('story-translation').classList.remove('show');
+  transOpen=false;
+
+  // vocab
+  document.getElementById('vocab-grid').innerHTML=s.vocab.map(v=>
+    `<div class="vocab-card" onclick="clickVocab('${v.kr}',this)">
+      <div class="vc-top"><div></div><span class="vc-emoji">${v.emoji}</span></div>
+      <div class="vc-kr">${v.kr}</div>
+      <div class="vc-rom">${v.rom}</div>
+      <div class="vc-en">${v.en}</div>
+    </div>`).join('');
+
+  qIdx=0; qScore=0; renderQ();
+  renderCloze();
+
+  document.getElementById('prev-btn').style.visibility=i===0?'hidden':'visible';
+  document.getElementById('next-btn').style.visibility=i===STORIES.length-1?'hidden':'visible';
+}
+
+function toggleTrans(){
+  transOpen=!transOpen;
+  document.getElementById('story-translation').classList.toggle('show',transOpen);
+}
+
+// tooltip
+const tt=document.getElementById('tt');
+document.getElementById('story-body').addEventListener('mouseover',e=>{
+  const w=e.target.closest('.word'); if(!w){tt.classList.remove('on');return;}
+  document.getElementById('tt-kr').textContent=w.dataset.kr;
+  document.getElementById('tt-rom').textContent=w.dataset.rom;
+  document.getElementById('tt-en').textContent=w.dataset.en;
+  tt.classList.add('on');
+});
+document.getElementById('story-body').addEventListener('mousemove',e=>{
+  tt.style.left=(e.clientX-tt.offsetWidth/2)+'px';
+  tt.style.top=(e.clientY-tt.offsetHeight-16)+'px';
+});
+document.getElementById('story-body').addEventListener('mouseout',()=>tt.classList.remove('on'));
+
+function clickWord(el){
+  document.querySelectorAll('.word.hi').forEach(w=>w.classList.remove('hi'));
+  el.classList.add('hi');
+  document.querySelectorAll('.vocab-card').forEach(c=>c.classList.remove('active'));
+  const kr=el.dataset.kr;
+  document.querySelectorAll('.vocab-card').forEach(c=>{
+    if(c.querySelector('.vc-kr')?.textContent===kr) c.classList.add('active');
+  });
+  showTab('vocab');
+}
+
+function clickVocab(kr,el){
+  document.querySelectorAll('.word.hi').forEach(w=>w.classList.remove('hi'));
+  document.querySelectorAll('.vocab-card').forEach(c=>c.classList.remove('active'));
+  const w=document.querySelector(`[data-kr="${kr}"]`);
+  if(w){w.classList.add('hi');w.scrollIntoView({behavior:'smooth',block:'center'});}
+  el.classList.add('active');
+}
+
+function showTab(t){
+  ['vocab','quiz','cloze'].forEach((n,i)=>{
+    document.getElementById('tab-'+n).style.display=n===t?'block':'none';
+    document.querySelectorAll('.tab-btn')[i].classList.toggle('active',n===t);
+  });
+}
+
+// quiz
+function renderQ(){
+  const s=STORIES[idx];
+  if(qIdx>=s.quiz.length){
+    document.getElementById('quiz-question').innerHTML='🎉 퀴즈 완료! Quiz complete!';
+    document.getElementById('quiz-opts').innerHTML='';
+    document.getElementById('quiz-feedback').innerHTML='';
+    document.getElementById('quiz-score').textContent=`Score: ${qScore} / ${s.quiz.length}`;
+    document.getElementById('quiz-next').style.display='none';
+    document.getElementById('quiz-status').textContent='';
+    return;
+  }
+  const q=s.quiz[qIdx]; qAnswered=false;
+  document.getElementById('quiz-status').textContent=`Question ${qIdx+1} / ${s.quiz.length}`;
+  document.getElementById('quiz-question').innerHTML=q.q.replace('\n','<br>');
+  document.getElementById('quiz-feedback').innerHTML='';
+  document.getElementById('quiz-score').textContent=`Score: ${qScore}`;
+  document.getElementById('quiz-next').style.display='none';
+  document.getElementById('quiz-opts').innerHTML=q.opts.map((o,i)=>
+    `<button class="qopt" onclick="answerQ(${i})">${o}</button>`).join('');
+}
+
+function answerQ(i){
+  if(qAnswered)return; qAnswered=true;
+  const q=STORIES[idx].quiz[qIdx];
+  document.querySelectorAll('.qopt').forEach((b,j)=>{
+    if(j===q.ans)b.classList.add('correct');
+    else if(j===i)b.classList.add('wrong');
+    b.disabled=true;
+  });
+  const fb=document.getElementById('quiz-feedback');
+  if(i===q.ans){qScore++;fb.innerHTML='<span class="fb-ok">✓ 정답! Correct!</span>';}
+  else fb.innerHTML=`<span class="fb-no">✗ 정답 / Answer: <b>${q.opts[q.ans]}</b></span>`;
+  document.getElementById('quiz-score').textContent=`Score: ${qScore}`;
+  document.getElementById('quiz-next').style.display='inline-block';
+}
+function nextQ(){qIdx++;renderQ();}
+
+// cloze
+function renderCloze(){
+  const s=STORIES[idx];
+  let html=s.sentences.map(x=>x.kr).join(' ');
+  s.cloze.forEach((w,i)=>{
+    html=html.replace(w,`<input class="blank" data-ans="${w}" id="b${i}" type="text" autocomplete="off" spellcheck="false" placeholder="___"/>`);
+  });
+  document.getElementById('cloze-text').innerHTML=html;
+  document.getElementById('cloze-result').textContent='';
+}
+
+function checkCloze(){
+  const inputs=document.querySelectorAll('.blank'); let ok=0;
+  inputs.forEach(b=>{
+    b.classList.remove('correct','wrong');
+    if(b.value.trim()===b.dataset.ans){b.classList.add('correct');ok++;}
+    else b.classList.add('wrong');
+  });
+  const r=document.getElementById('cloze-result');
+  if(ok===inputs.length) r.innerHTML=`<span style="color:var(--sage-d)">🎉 완벽해요! All ${ok} correct!</span>`;
+  else r.innerHTML=`<span style="color:var(--gold)">${ok} / ${inputs.length} — 다시 해보세요! Try again.</span>`;
+}
+
+function nav(d){
+  const n=idx+d;
+  if(n<0||n>=STORIES.length)return;
+  open(n);
+}
+
+boot();
+</script>
+</body>
+</html>
