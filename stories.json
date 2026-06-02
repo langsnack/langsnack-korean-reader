@@ -154,7 +154,7 @@
       { "kr": "분위기", "en": "atmosphere" },
       { "kr": "이야기", "en": "story / conversation" },
       { "kr": "사진", "en": "photo" },
-      { "kr": "케이크", "en": "cake" }
+      { "kr": "케이크", "en": "cake" },
       { "kr": "재미있었어요", "en": "fun" }
     ],
     "quiz": [
@@ -322,7 +322,6 @@
     ],
     "cloze": ["한국", "여행 계획", "비행기 표", "지하철", "지도"]
   },
-  ,
 {
   "id": 4,
   "level": "Starter",
