@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Short Stories – Langsnack Korean</title>
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<title>Reading Library – Langsnack Korean</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
 <style>
   :root {
     --cream:    #f9f6f1;
@@ -26,7 +26,7 @@
   }
   * { box-sizing:border-box; margin:0; padding:0; }
   body {
-    font-family: 'DM Sans', 'Nanum Gothic', sans-serif;
+    font-family: 'DM Sans', 'Noto Sans KR', sans-serif;
     background: var(--cream);
     color: var(--text);
     min-height: 100vh;
@@ -79,7 +79,6 @@
     margin-bottom: 4px;
   }
   .page-sub {
-    display: none;
     font-size: .9rem;
     color: var(--muted);
     margin-bottom: 26px;
@@ -166,7 +165,6 @@
     flex-wrap: wrap;
   }
   #story-kr-title {
-    font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.7rem;
     font-weight: 700;
     color: var(--text);
@@ -177,9 +175,8 @@
     color: var(--muted);
   }
   #story-body {
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 1.18rem;
-    line-height: 2.4;
+    font-size: 1.15rem;
+    line-height: 2.3;
     color: var(--text);
     word-break: keep-all;
   }
@@ -253,8 +250,8 @@
   }
   .vocab-card .vc-top { display: flex; justify-content: space-between; align-items: flex-start; }
   .vocab-card .vc-emoji { font-size: 1.3rem; }
-  .vocab-card .vc-kr { font-family: 'Nanum Gothic', sans-serif; font-size: 1.05rem; font-weight: 700; color: var(--sage-d); margin-top: 6px; }
-  .vocab-card .vc-rom { font-size: .75rem; color: var(--muted); font-style: italic; margin-top: 2px; }
+  .vocab-card .vc-kr { font-size: 1.05rem; font-weight: 700; color: var(--sage-d); margin-top: 6px; }
+  .vocab-card .vc-rom { display:none; }
   .vocab-card .vc-en { font-size: .8rem; color: #555; margin-top: 6px; line-height: 1.3; }
 
   /* ── QUIZ ── */
@@ -306,14 +303,14 @@
 
   /* ── CLOZE ── */
   .cloze-hint { font-size: .82rem; color: var(--muted); margin-bottom: 14px; }
-  #cloze-text { font-family: 'Nanum Gothic', sans-serif; font-size: 1.1rem; line-height: 2.8; color: var(--text); word-break: keep-all; }
+  #cloze-text { font-size: 1.1rem; line-height: 2.8; color: var(--text); word-break: keep-all; }
   .blank {
     display: inline-block;
     border: none;
     border-bottom: 2px solid var(--sage);
     width: 76px;
     font-size: .98rem;
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
     color: var(--sage-d);
     background: transparent;
     outline: none;
@@ -379,7 +376,7 @@
   }
   #tt.on { opacity: 1; }
   #tt .t-kr { font-size: .98rem; font-weight: 700; color: #f5d37a; }
-  #tt .t-rom { font-size: .72rem; color: #bbb; font-style: italic; }
+  #tt .t-rom { display:none; }
   #tt .t-en { font-size: .8rem; margin-top: 3px; color: #eee; }
 
   @media(max-width:580px){
@@ -394,18 +391,26 @@
 <header>
   <div class="header-inner">
     <div class="logo">LANGSNACK<span class="dot">.</span></div>
-    <div class="header-tag">Short Stories · 단편 이야기</div>
+    <div class="header-tag">Reading Practice · 읽기 연습</div>
   </div>
 </header>
 
 <!-- SELECTOR -->
 <div class="page" id="selector-page">
-  <div class="page-title">Reading Library</div>
-  <div class="page-sub"></div>
+  <div class="page-title">Short Stories</div>
+  <div class="page-sub">Click a story to start reading </div>
   <div class="filter-row">
-    <input class="filter-input" id="story-search" type="search" placeholder="Search readings... 제목이나 내용으로 검색" />
+    <input class="filter-input" id="story-search" type="search" placeholder="Search stories... 제목이나 주제로 검색" />
     <select class="filter-select" id="level-filter">
-      <option value="all">All levels</option>
+      <option value="all">All difficulties</option>
+    </select>
+    <select class="filter-select" id="topik-filter">
+      <option value="all">All TOPIK</option>
+      <option value="none">No TOPIK Level</option>
+      <option value="3">TOPIK 3</option>
+      <option value="4">TOPIK 4</option>
+      <option value="5">TOPIK 5</option>
+      <option value="6">TOPIK 6</option>
     </select>
   </div>
   <div class="story-grid" id="story-grid"></div>
@@ -416,7 +421,7 @@
   <div id="reader">
 
     <div class="nav-row">
-      <button class="nav-btn" onclick="backToMenu()">← All Readings</button>
+      <button class="nav-btn" onclick="backToMenu()">← All Stories</button>
       <span id="story-counter"></span>
     </div>
 
@@ -428,7 +433,7 @@
       </div>
       <div id="story-body"></div>
       <div class="trans-row">
-        <button class="trans-btn" onclick="toggleTrans()">🇬🇧 Show / Hide English Translation</button>
+        <button class="trans-btn" onclick="toggleTrans()"> Show / Hide English Translation</button>
       </div>
       <div id="story-translation"></div>
     </div>
@@ -464,7 +469,7 @@
 
     <div class="nav-row">
       <button class="nav-btn" id="prev-btn" onclick="nav(-1)">← Previous</button>
-      <button class="nav-btn primary" id="next-btn" onclick="nav(1)">Next Reading →</button>
+      <button class="nav-btn primary" id="next-btn" onclick="nav(1)">Next Story →</button>
     </div>
 
   </div>
@@ -498,26 +503,44 @@ async function boot(){
 
 function setupFilters(){
   const levelFilter=document.getElementById('level-filter');
+  const topikFilter=document.getElementById('topik-filter');
   const search=document.getElementById('story-search');
-  const levels=[...new Set(STORIES.map(s=>s.level).filter(Boolean))].sort();
-  levels.forEach(level=>{
+
+  const preferredLevels=['Starter','Beginner','High Beginner','Low Intermediate','Intermediate','Advanced'];
+  const existingLevels=[...new Set(STORIES.map(s=>s.level).filter(Boolean))];
+  preferredLevels.filter(level=>existingLevels.includes(level)).forEach(level=>{
     const opt=document.createElement('option');
     opt.value=level;
     opt.textContent=level;
     levelFilter.appendChild(opt);
   });
+  existingLevels
+    .filter(level=>!preferredLevels.includes(level))
+    .sort()
+    .forEach(level=>{
+      const opt=document.createElement('option');
+      opt.value=level;
+      opt.textContent=level;
+      levelFilter.appendChild(opt);
+    });
+
   levelFilter.addEventListener('change', applyFilters);
+  topikFilter.addEventListener('change', applyFilters);
   search.addEventListener('input', applyFilters);
 }
 
 function applyFilters(){
   const level=document.getElementById('level-filter').value;
+  const topik=document.getElementById('topik-filter').value;
   const term=document.getElementById('story-search').value.trim().toLowerCase();
+
   filteredStories = STORIES.filter(s=>{
     const matchesLevel = level==='all' || s.level===level;
-    const searchable = [s.krTitle, s.enTitle, s.level, ...(s.sentences||[]).map(x=>x.kr), ...(s.sentences||[]).map(x=>x.en)].join(' ').toLowerCase();
+    const storyTopik = s.topikLevel ? String(s.topikLevel) : 'none';
+    const matchesTopik = topik==='all' || storyTopik===topik;
+    const searchable = [s.krTitle, s.enTitle, s.level, s.topikLevel ? `TOPIK ${s.topikLevel}` : 'No TOPIK Level', ...(s.sentences||[]).map(x=>x.kr), ...(s.sentences||[]).map(x=>x.en)].join(' ').toLowerCase();
     const matchesSearch = !term || searchable.includes(term);
-    return matchesLevel && matchesSearch;
+    return matchesLevel && matchesTopik && matchesSearch;
   });
   renderStoryGrid(filteredStories);
 }
@@ -526,17 +549,50 @@ function renderStoryGrid(list){
   const g=document.getElementById('story-grid');
   g.innerHTML='';
   if(!list.length){
-    g.innerHTML='<div class="empty-state">No readings found. Try another difficulty or search term.</div>';
+    g.innerHTML='<div class="empty-state">No stories found. Try another level or search term.</div>';
     return;
   }
   list.forEach(s=>{
     const storyIndex=STORIES.findIndex(item=>item.id===s.id);
     const c=document.createElement('div');
     c.className='story-card';
-    c.innerHTML=`<span class="s-emoji">${s.emoji}</span><div class="s-kr">${s.krTitle}</div><div class="s-en">${s.enTitle}</div><span class="s-badge">${s.level}</span>`;
+    const badge = s.topikLevel ? `${s.level} · TOPIK ${s.topikLevel}` : s.level;
+    c.innerHTML=`<div class="s-kr">${s.krTitle}</div><div class="s-en">${s.enTitle}</div><span class="s-badge">${badge}</span>`;
     c.onclick=()=>open(storyIndex);
     g.appendChild(c);
   });
+}
+
+
+function escapeHTML(str){
+  return String(str ?? '').replace(/[&<>"']/g, ch => ({
+    '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
+  }[ch]));
+}
+
+function escapeAttr(str){
+  return String(str ?? '').replace(/\\/g,'\\\\').replace(/'/g,"\\'").replace(/"/g,'&quot;');
+}
+
+function makeStoryHtml(text, vocab){
+  const items=[...(vocab||[])].map(v=>({kr:v.kr,en:v.en})).sort((a,b)=>b.kr.length-a.kr.length);
+  let out='';
+  let i=0;
+  while(i<text.length){
+    const match=items.find(v=>text.startsWith(v.kr, i));
+    if(match){
+      out += `<span class="word" data-kr="${escapeHTML(match.kr)}" data-en="${escapeHTML(match.en)}" onclick="clickWord(this)">${escapeHTML(match.kr)}</span>`;
+      i += match.kr.length;
+    }else{
+      out += escapeHTML(text[i]);
+      i++;
+    }
+  }
+  return out;
+}
+
+function getBadge(s){
+  return s.topikLevel ? `${s.level} · TOPIK ${s.topikLevel}` : s.level;
 }
 
 function open(i){
@@ -557,21 +613,12 @@ function backToMenu(){
 function load(i){
   const s=STORIES[i];
   document.getElementById('story-counter').textContent=`${s.id} / ${STORIES.length}`;
-  document.getElementById('story-kr-title').textContent=`${s.emoji} ${s.krTitle}`;
+  document.getElementById('story-kr-title').textContent=s.krTitle;
   document.getElementById('story-en-title').textContent=s.enTitle;
 
   // build story
   const body=document.getElementById('story-body');
-  let html='';
-  s.sentences.forEach(sent=>{
-    sent.kr.split(/\s+/).forEach(w=>{
-      const clean=w.replace(/[.,!?。]/g,'');
-      const m=s.vocab.find(v=>v.kr===clean);
-      if(m) html+=`<span class="word" data-kr="${m.kr}" data-rom="${m.rom}" data-en="${m.en}" onclick="clickWord(this)">${w}</span> `;
-      else html+=w+' ';
-    });
-  });
-  body.innerHTML=html;
+  body.innerHTML=s.sentences.map(sent=>makeStoryHtml(sent.kr, s.vocab)).join(' ');
 
   document.getElementById('story-translation').innerHTML=s.sentences.map(s=>s.en).join(' ');
   document.getElementById('story-translation').classList.remove('show');
@@ -579,11 +626,9 @@ function load(i){
 
   // vocab
   document.getElementById('vocab-grid').innerHTML=s.vocab.map(v=>
-    `<div class="vocab-card" onclick="clickVocab('${v.kr}',this)">
-      <div class="vc-top"><div></div><span class="vc-emoji">${v.emoji}</span></div>
-      <div class="vc-kr">${v.kr}</div>
-      <div class="vc-rom">${v.rom}</div>
-      <div class="vc-en">${v.en}</div>
+    `<div class="vocab-card" onclick="clickVocab('${escapeAttr(v.kr)}',this)">
+      <div class="vc-kr">${escapeHTML(v.kr)}</div>
+      <div class="vc-en">${escapeHTML(v.en)}</div>
     </div>`).join('');
 
   qIdx=0; qScore=0; renderQ();
@@ -605,7 +650,7 @@ const tt=document.getElementById('tt');
 document.getElementById('story-body').addEventListener('mouseover',e=>{
   const w=e.target.closest('.word'); if(!w){tt.classList.remove('on');return;}
   document.getElementById('tt-kr').textContent=w.dataset.kr;
-  document.getElementById('tt-rom').textContent=w.dataset.rom;
+
   document.getElementById('tt-en').textContent=w.dataset.en;
   tt.classList.add('on');
 });
@@ -629,7 +674,7 @@ function clickWord(el){
 function clickVocab(kr,el){
   document.querySelectorAll('.word.hi').forEach(w=>w.classList.remove('hi'));
   document.querySelectorAll('.vocab-card').forEach(c=>c.classList.remove('active'));
-  const w=document.querySelector(`[data-kr="${kr}"]`);
+  const w=document.querySelector(`[data-kr="${CSS.escape(kr)}"]`);
   if(w){w.classList.add('hi');w.scrollIntoView({behavior:'smooth',block:'center'});}
   el.classList.add('active');
 }
