@@ -83,6 +83,33 @@
     color: var(--muted);
     margin-bottom: 26px;
   }
+
+  .filter-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 22px;
+    flex-wrap: wrap;
+  }
+  .filter-input, .filter-select {
+    font-family: inherit;
+    font-size: .9rem;
+    background: var(--white);
+    border: 1.5px solid var(--warm);
+    border-radius: 14px;
+    padding: 11px 14px;
+    color: var(--text);
+    box-shadow: var(--shadow);
+  }
+  .filter-input { flex: 1 1 240px; }
+  .filter-select { flex: 0 1 180px; cursor: pointer; }
+  .empty-state {
+    background: var(--white);
+    border: 1.5px solid var(--warm);
+    border-radius: var(--radius);
+    padding: 24px;
+    color: var(--muted);
+    box-shadow: var(--shadow);
+  }
   .story-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -372,6 +399,12 @@
 <div class="page" id="selector-page">
   <div class="page-title">Short Stories</div>
   <div class="page-sub">Click a story to start reading • 이야기를 선택해서 시작하세요</div>
+  <div class="filter-row">
+    <input class="filter-input" id="story-search" type="search" placeholder="Search stories... 제목이나 주제로 검색" />
+    <select class="filter-select" id="level-filter">
+      <option value="all">All levels</option>
+    </select>
+  </div>
   <div class="story-grid" id="story-grid"></div>
 </div>
 
@@ -437,308 +470,68 @@
 <div id="tt"><div class="t-kr" id="tt-kr"></div><div class="t-rom" id="tt-rom"></div><div class="t-en" id="tt-en"></div></div>
 
 <script>
-const STORIES = [
-  // 1. Daily life
-  {
-    id:1, emoji:'🌅', level:'Beginner',
-    krTitle:'나의 아침 루틴',
-    enTitle:'My Morning Routine',
-    sentences:[
-      {kr:'나는 매일 아침 일찍 일어납니다.',en:'I wake up early every morning.'},
-      {kr:'먼저 세수를 하고 이를 닦습니다.',en:'First I wash my face and brush my teeth.'},
-      {kr:'그다음에 간단한 아침 식사를 합니다.',en:'Then I have a simple breakfast.'},
-      {kr:'오늘 아침은 달걀과 토스트를 먹습니다.',en:'This morning I eat eggs and toast.'},
-      {kr:'식사 후에 커피를 한 잔 마십니다.',en:'After the meal I drink a cup of coffee.'},
-      {kr:'옷을 입고 가방을 챙깁니다.',en:'I get dressed and pack my bag.'},
-      {kr:'집에서 나올 때 문을 꼭 잠급니다.',en:'When I leave the house I always lock the door.'},
-      {kr:'오늘도 좋은 하루가 될 것 같습니다.',en:'Today also seems like it will be a good day.'},
-    ],
-    vocab:[
-      {kr:'아침',rom:'achim',en:'morning / breakfast',emoji:'🌅'},
-      {kr:'일어납니다',rom:'ireomnamnida',en:'wake up',emoji:'⏰'},
-      {kr:'세수',rom:'sesu',en:'washing one\'s face',emoji:'🚿'},
-      {kr:'이를 닦습니다',rom:'ireul daksseumnida',en:'brush teeth',emoji:'🪥'},
-      {kr:'달걀',rom:'dalgyal',en:'egg',emoji:'🥚'},
-      {kr:'토스트',rom:'toseuteu',en:'toast',emoji:'🍞'},
-      {kr:'커피',rom:'keopi',en:'coffee',emoji:'☕'},
-      {kr:'가방',rom:'gabang',en:'bag',emoji:'🎒'},
-      {kr:'잠급니다',rom:'jamgumnida',en:'lock',emoji:'🔒'},
-      {kr:'좋은',rom:'joeun',en:'good',emoji:'✨'},
-    ],
-    quiz:[
-      {q:'아침에 가장 먼저 무엇을 합니까?\n(What does the narrator do first in the morning?)',opts:['커피를 마십니다 (drinks coffee)','세수를 합니다 (washes face)','아침을 먹습니다 (eats breakfast)','옷을 입습니다 (gets dressed)'],ans:1},
-      {q:'오늘 아침 식사는 무엇입니까?\n(What is today\'s breakfast?)',opts:['밥과 국 (rice & soup)','빵과 우유 (bread & milk)','달걀과 토스트 (egg & toast)','과일과 요거트 (fruit & yogurt)'],ans:2},
-      {q:'집을 나올 때 무엇을 합니까?\n(What does the narrator do when leaving?)',opts:['창문을 닫습니다 (closes window)','불을 끕니다 (turns off light)','문을 잠급니다 (locks door)','신발을 신습니다 (puts on shoes)'],ans:2},
-      {q:'아침 식사 후 무엇을 마십니까?\n(What does the narrator drink after breakfast?)',opts:['물 (water)','주스 (juice)','차 (tea)','커피 (coffee)'],ans:3},
-      {q:'오늘은 어떤 날이 될 것 같습니까?\n(What kind of day does today seem to be?)',opts:['힘든 날 (hard day)','좋은 날 (good day)','바쁜 날 (busy day)','슬픈 날 (sad day)'],ans:1},
-    ],
-    cloze:['아침','세수','달걀','커피','잠급니다'],
-  },
-  // 2. Travel
-  {
-    id:2, emoji:'🗼', level:'Beginner',
-    krTitle:'서울 여행',
-    enTitle:'Travelling to Seoul',
-    sentences:[
-      {kr:'나는 서울에 처음 왔습니다.',en:'I have come to Seoul for the first time.'},
-      {kr:'경복궁은 정말 크고 아름답습니다.',en:'Gyeongbokgung Palace is really big and beautiful.'},
-      {kr:'한복을 입고 사진을 찍었습니다.',en:'I wore a hanbok and took photos.'},
-      {kr:'명동에서 쇼핑을 했습니다.',en:'I went shopping in Myeongdong.'},
-      {kr:'길거리 음식이 맛있고 저렴합니다.',en:'Street food is delicious and cheap.'},
-      {kr:'지하철로 이동하면 편리합니다.',en:'Getting around by subway is convenient.'},
-      {kr:'한국 사람들이 친절하게 도와줬습니다.',en:'Korean people helped me kindly.'},
-      {kr:'서울은 꼭 다시 오고 싶은 도시입니다.',en:'Seoul is a city I definitely want to visit again.'},
-    ],
-    vocab:[
-      {kr:'서울',rom:'Seoul',en:'Seoul (South Korea\'s capital)',emoji:'🌆'},
-      {kr:'경복궁',rom:'Gyeongbokgung',en:'Gyeongbokgung Palace',emoji:'🏯'},
-      {kr:'아름답습니다',rom:'areumdapsseumnida',en:'is beautiful',emoji:'😍'},
-      {kr:'한복',rom:'hanbok',en:'traditional Korean clothing',emoji:'👘'},
-      {kr:'명동',rom:'Myeongdong',en:'Myeongdong (shopping district)',emoji:'🛍️'},
-      {kr:'길거리',rom:'gilgeori',en:'street, roadside',emoji:'🛤️'},
-      {kr:'저렴합니다',rom:'jeoryeomhamnida',en:'is cheap / affordable',emoji:'💸'},
-      {kr:'지하철',rom:'jihacheol',en:'subway, metro',emoji:'🚇'},
-      {kr:'편리합니다',rom:'pyeollihamnida',en:'is convenient',emoji:'👍'},
-      {kr:'도시',rom:'dosi',en:'city',emoji:'🌇'},
-    ],
-    quiz:[
-      {q:'나는 서울에 몇 번째 왔습니까?\n(How many times has the narrator visited Seoul?)',opts:['두 번째 (second time)','처음 (first time)','세 번째 (third time)','자주 (often)'],ans:1},
-      {q:'경복궁은 어떻습니까?\n(How is Gyeongbokgung?)',opts:['작고 오래됨 (small & old)','크고 아름다움 (big & beautiful)','조용하고 어두움 (quiet & dark)','새롭고 현대적 (new & modern)'],ans:1},
-      {q:'명동에서 무엇을 했습니까?\n(What did the narrator do in Myeongdong?)',opts:['음식을 먹었습니다 (ate food)','공연을 봤습니다 (saw a show)','쇼핑을 했습니다 (went shopping)','잠을 잤습니다 (slept)'],ans:2},
-      {q:'어떻게 이동하면 편리합니까?\n(What is convenient for getting around?)',opts:['버스 (bus)','택시 (taxi)','자전거 (bicycle)','지하철 (subway)'],ans:3},
-      {q:'한국 사람들은 어떻게 도와줬습니까?\n(How did Korean people help?)',opts:['무관심하게 (indifferently)','친절하게 (kindly)','천천히 (slowly)','빠르게 (quickly)'],ans:1},
-    ],
-    cloze:['서울','경복궁','한복','명동','지하철'],
-  },
-  // 3. Food & K-culture
-  {
-    id:3, emoji:'🍜', level:'Beginner',
-    krTitle:'라면 끓이기',
-    enTitle:'Making Ramen',
-    sentences:[
-      {kr:'오늘 저녁은 라면을 끓입니다.',en:'Tonight I am making ramen.'},
-      {kr:'냄비에 물을 붓고 불을 켭니다.',en:'I pour water in the pot and turn on the stove.'},
-      {kr:'물이 끓으면 면과 스프를 넣습니다.',en:'When the water boils I add the noodles and soup powder.'},
-      {kr:'달걀 하나를 넣으면 더 맛있습니다.',en:'Adding one egg makes it even more delicious.'},
-      {kr:'파와 김치를 곁들이면 완벽합니다.',en:'Adding green onion and kimchi makes it perfect.'},
-      {kr:'3분 후에 불을 끕니다.',en:'After 3 minutes I turn off the stove.'},
-      {kr:'라면은 한국인의 소울 푸드입니다.',en:'Ramen is Korean soul food.'},
-      {kr:'비 오는 날 라면은 최고입니다.',en:'Ramen on a rainy day is the best.'},
-    ],
-    vocab:[
-      {kr:'라면',rom:'ramyeon',en:'ramen (instant noodles)',emoji:'🍜'},
-      {kr:'냄비',rom:'naembi',en:'pot, saucepan',emoji:'🫕'},
-      {kr:'끓으면',rom:'kkeureuumyeon',en:'when it boils',emoji:'♨️'},
-      {kr:'면',rom:'myeon',en:'noodles',emoji:'🍝'},
-      {kr:'스프',rom:'seupeu',en:'soup powder / seasoning packet',emoji:'🧂'},
-      {kr:'달걀',rom:'dalgyal',en:'egg',emoji:'🥚'},
-      {kr:'파',rom:'pa',en:'green onion / scallion',emoji:'🌿'},
-      {kr:'김치',rom:'gimchi',en:'kimchi',emoji:'🥬'},
-      {kr:'소울 푸드',rom:'soul food',en:'soul food / comfort food',emoji:'❤️'},
-      {kr:'최고',rom:'choego',en:'the best / top',emoji:'🏆'},
-    ],
-    quiz:[
-      {q:'라면을 끓일 때 먼저 무엇을 합니까?\n(What is the first step in making ramen?)',opts:['면을 넣습니다 (add noodles)','달걀을 넣습니다 (add egg)','냄비에 물을 붓습니다 (pour water in pot)','파를 썹니다 (chop green onion)'],ans:2},
-      {q:'라면을 더 맛있게 하려면 무엇을 넣습니까?\n(What makes the ramen even more delicious?)',opts:['치즈 (cheese)','달걀 (egg)','고기 (meat)','버터 (butter)'],ans:1},
-      {q:'불을 언제 끕니까?\n(When is the stove turned off?)',opts:['1분 후 (after 1 min)','5분 후 (after 5 min)','3분 후 (after 3 min)','10분 후 (after 10 min)'],ans:2},
-      {q:'라면은 어떤 날 최고입니까?\n(On what day is ramen the best?)',opts:['눈 오는 날 (snowy day)','맑은 날 (clear day)','바람 부는 날 (windy day)','비 오는 날 (rainy day)'],ans:3},
-      {q:'라면은 한국인의 무엇입니까?\n(What is ramen to Koreans?)',opts:['국민 음료 (national drink)','소울 푸드 (soul food)','전통 음식 (traditional food)','고급 요리 (luxury dish)'],ans:1},
-    ],
-    cloze:['라면','냄비','면','달걀','김치'],
-  },
-  // 4. Nature / Seasons
-  {
-    id:4, emoji:'🍂', level:'Beginner',
-    krTitle:'가을 단풍',
-    enTitle:'Autumn Leaves',
-    sentences:[
-      {kr:'가을이 되면 나뭇잎이 빨갛고 노랗게 변합니다.',en:'When autumn comes the leaves turn red and yellow.'},
-      {kr:'산에 가면 단풍이 매우 아름답습니다.',en:'If you go to the mountains the autumn foliage is very beautiful.'},
-      {kr:'사람들은 단풍 구경을 하러 산에 갑니다.',en:'People go to the mountains to see the autumn leaves.'},
-      {kr:'공기가 시원하고 신선합니다.',en:'The air is cool and fresh.'},
-      {kr:'낙엽이 바람에 날립니다.',en:'Fallen leaves fly in the wind.'},
-      {kr:'가을은 독서하기 좋은 계절입니다.',en:'Autumn is a good season for reading.'},
-      {kr:'한국에서 가을은 9월부터 11월까지입니다.',en:'In Korea autumn lasts from September to November.'},
-      {kr:'가을 하늘은 높고 파랗습니다.',en:'The autumn sky is high and blue.'},
-    ],
-    vocab:[
-      {kr:'가을',rom:'gaeul',en:'autumn, fall',emoji:'🍂'},
-      {kr:'나뭇잎',rom:'namunnip',en:'leaf, leaves',emoji:'🍃'},
-      {kr:'단풍',rom:'danpung',en:'autumn foliage / maple leaves',emoji:'🍁'},
-      {kr:'산',rom:'san',en:'mountain',emoji:'⛰️'},
-      {kr:'공기',rom:'gonggi',en:'air',emoji:'💨'},
-      {kr:'시원하고',rom:'siwonhago',en:'cool (and)',emoji:'🌬️'},
-      {kr:'낙엽',rom:'nagyeop',en:'fallen leaves',emoji:'🍂'},
-      {kr:'바람',rom:'baram',en:'wind',emoji:'🌬️'},
-      {kr:'독서',rom:'dokseo',en:'reading (books)',emoji:'📚'},
-      {kr:'하늘',rom:'haneul',en:'sky',emoji:'🌤️'},
-    ],
-    quiz:[
-      {q:'가을이 되면 나뭇잎은 어떻게 변합니까?\n(How do leaves change in autumn?)',opts:['초록색으로 변합니다 (turn green)','빨갛고 노랗게 변합니다 (turn red & yellow)','검게 변합니다 (turn black)','하얗게 변합니다 (turn white)'],ans:1},
-      {q:'사람들은 왜 산에 갑니까?\n(Why do people go to the mountains?)',opts:['운동하러 (to exercise)','캠핑하러 (to camp)','단풍 구경하러 (to see autumn leaves)','수영하러 (to swim)'],ans:2},
-      {q:'가을 공기는 어떻습니까?\n(How is the autumn air?)',opts:['덥고 습합니다 (hot & humid)','차갑고 건조합니다 (cold & dry)','시원하고 신선합니다 (cool & fresh)','따뜻하고 맑습니다 (warm & clear)'],ans:2},
-      {q:'가을은 어떤 활동에 좋습니까?\n(What activity is autumn good for?)',opts:['수영 (swimming)','독서 (reading)','스키 (skiing)','낚시 (fishing)'],ans:1},
-      {q:'한국에서 가을은 언제입니까?\n(When is autumn in Korea?)',opts:['3월~5월 (Mar–May)','6월~8월 (Jun–Aug)','9월~11월 (Sep–Nov)','12월~2월 (Dec–Feb)'],ans:2},
-    ],
-    cloze:['가을','단풍','산','낙엽','하늘'],
-  },
-  // 5. K-culture / Kpop
-  {
-    id:5, emoji:'🎤', level:'Beginner',
-    krTitle:'케이팝을 좋아해요',
-    enTitle:'I Love K-pop',
-    sentences:[
-      {kr:'저는 케이팝을 정말 좋아합니다.',en:'I really love K-pop.'},
-      {kr:'케이팝은 전 세계에서 인기가 많습니다.',en:'K-pop is popular all over the world.'},
-      {kr:'저는 매일 케이팝 노래를 듣습니다.',en:'I listen to K-pop songs every day.'},
-      {kr:'좋아하는 그룹의 안무를 따라 배웁니다.',en:'I learn the choreography of my favourite group.'},
-      {kr:'한국어 가사를 이해하고 싶어서 공부합니다.',en:'I study because I want to understand the Korean lyrics.'},
-      {kr:'팬 미팅에 꼭 가보고 싶습니다.',en:'I really want to attend a fan meeting.'},
-      {kr:'케이팝 덕분에 한국 문화를 더 좋아하게 됐습니다.',en:'Thanks to K-pop I came to love Korean culture more.'},
-      {kr:'언젠가 한국에 가서 콘서트를 볼 것입니다.',en:'Someday I will go to Korea and watch a concert.'},
-    ],
-    vocab:[
-      {kr:'케이팝',rom:'K-pop',en:'K-pop (Korean pop music)',emoji:'🎤'},
-      {kr:'인기',rom:'ingi',en:'popularity',emoji:'⭐'},
-      {kr:'노래',rom:'norae',en:'song',emoji:'🎵'},
-      {kr:'안무',rom:'anmu',en:'choreography / dance moves',emoji:'💃'},
-      {kr:'가사',rom:'gasa',en:'lyrics',emoji:'📝'},
-      {kr:'이해',rom:'ihae',en:'understanding',emoji:'💡'},
-      {kr:'팬 미팅',rom:'paen miting',en:'fan meeting',emoji:'🤝'},
-      {kr:'문화',rom:'munhwa',en:'culture',emoji:'🏮'},
-      {kr:'콘서트',rom:'konseoтeu',en:'concert',emoji:'🎶'},
-      {kr:'언젠가',rom:'eonjenga',en:'someday',emoji:'🔮'},
-    ],
-    quiz:[
-      {q:'케이팝은 어디에서 인기가 많습니까?\n(Where is K-pop popular?)',opts:['한국에서만 (only in Korea)','아시아에서만 (only in Asia)','전 세계에서 (all over the world)','유럽에서만 (only in Europe)'],ans:2},
-      {q:'화자는 왜 한국어를 공부합니까?\n(Why does the narrator study Korean?)',opts:['한국에 살고 싶어서 (wants to live in Korea)','가사를 이해하고 싶어서 (wants to understand lyrics)','한국 음식을 좋아해서 (likes Korean food)','한국 드라마를 보고 싶어서 (wants to watch K-dramas)'],ans:1},
-      {q:'화자가 꼭 해보고 싶은 것은?\n(What does the narrator really want to do?)',opts:['케이팝 가수가 되기 (become a K-pop singer)','팬 미팅에 가기 (attend a fan meeting)','앨범 내기 (release an album)','음악 학교 다니기 (attend music school)'],ans:1},
-      {q:'케이팝 덕분에 어떻게 됐습니까?\n(What happened thanks to K-pop?)',opts:['한국어를 배웠습니다 (learned Korean)','한국 문화를 더 좋아하게 됐습니다 (came to love Korean culture more)','한국에 이사했습니다 (moved to Korea)','가수가 됐습니다 (became a singer)'],ans:1},
-      {q:'언젠가 한국에서 무엇을 볼 것입니까?\n(What will the narrator see in Korea someday?)',opts:['뮤지컬 (musical)','콘서트 (concert)','영화 (movie)','전시회 (exhibition)'],ans:1},
-    ],
-    cloze:['케이팝','노래','안무','가사','콘서트'],
-  },
-  // 6. Daily life (health)
-  {
-    id:6, emoji:'🏃', level:'Beginner',
-    krTitle:'운동하는 습관',
-    enTitle:'The Habit of Exercising',
-    sentences:[
-      {kr:'저는 건강을 위해 매일 운동합니다.',en:'I exercise every day for my health.'},
-      {kr:'아침에 공원을 30분 동안 달립니다.',en:'In the morning I run in the park for 30 minutes.'},
-      {kr:'달리기는 스트레스 해소에 좋습니다.',en:'Running is good for relieving stress.'},
-      {kr:'운동 후에 스트레칭을 합니다.',en:'After exercising I do stretching.'},
-      {kr:'물을 충분히 마시는 것이 중요합니다.',en:'It is important to drink enough water.'},
-      {kr:'주말에는 친구들과 등산을 합니다.',en:'On weekends I go hiking with friends.'},
-      {kr:'운동을 꾸준히 하면 몸이 건강해집니다.',en:'If you exercise consistently your body becomes healthy.'},
-      {kr:'건강한 몸에 건강한 정신이 깃듭니다.',en:'A healthy mind lives in a healthy body.'},
-    ],
-    vocab:[
-      {kr:'건강',rom:'geongang',en:'health',emoji:'💪'},
-      {kr:'운동',rom:'undong',en:'exercise',emoji:'🏃'},
-      {kr:'공원',rom:'gongwon',en:'park',emoji:'🌳'},
-      {kr:'달립니다',rom:'dallibmnida',en:'run',emoji:'🏃'},
-      {kr:'스트레스',rom:'seuteuleseu',en:'stress',emoji:'😤'},
-      {kr:'스트레칭',rom:'seuteurecheong',en:'stretching',emoji:'🧘'},
-      {kr:'충분히',rom:'chungbunhi',en:'sufficiently, enough',emoji:'💧'},
-      {kr:'등산',rom:'deungsan',en:'hiking (mountain climbing)',emoji:'⛰️'},
-      {kr:'꾸준히',rom:'kkujunhi',en:'consistently, steadily',emoji:'📈'},
-      {kr:'정신',rom:'jeongsin',en:'mind, spirit',emoji:'🧠'},
-    ],
-    quiz:[
-      {q:'화자는 왜 매일 운동합니까?\n(Why does the narrator exercise every day?)',opts:['살을 빼려고 (to lose weight)','건강을 위해 (for health)','친구를 만나려고 (to meet friends)','경쟁하려고 (to compete)'],ans:1},
-      {q:'아침에 얼마 동안 달립니까?\n(How long does the narrator run in the morning?)',opts:['10분 (10 min)','1시간 (1 hour)','30분 (30 min)','15분 (15 min)'],ans:2},
-      {q:'달리기는 무엇에 좋습니까?\n(What is running good for?)',opts:['수면 (sleep)','스트레스 해소 (stress relief)','근육 강화 (muscle building)','집중력 (concentration)'],ans:1},
-      {q:'주말에 누구와 등산합니까?\n(Who does the narrator hike with on weekends?)',opts:['혼자 (alone)','가족과 (with family)','동료와 (with colleagues)','친구들과 (with friends)'],ans:3},
-      {q:'운동을 꾸준히 하면 어떻게 됩니까?\n(What happens if you exercise consistently?)',opts:['돈을 많이 법니다 (earn more money)','몸이 건강해집니다 (body becomes healthy)','친구가 많아집니다 (gain more friends)','공부를 잘합니다 (study well)'],ans:1},
-    ],
-    cloze:['건강','공원','스트레스','등산','꾸준히'],
-  },
-  // 7. K-drama / culture
-  {
-    id:7, emoji:'📺', level:'Beginner',
-    krTitle:'한국 드라마',
-    enTitle:'Korean Dramas',
-    sentences:[
-      {kr:'한국 드라마는 전 세계에서 인기입니다.',en:'Korean dramas are popular worldwide.'},
-      {kr:'저는 주말마다 드라마를 봅니다.',en:'I watch dramas every weekend.'},
-      {kr:'드라마를 보면 한국어 실력이 늡니다.',en:'Watching dramas helps improve Korean skills.'},
-      {kr:'자막 없이 이해하는 것이 목표입니다.',en:'My goal is to understand without subtitles.'},
-      {kr:'드라마에서 일상 표현을 많이 배웁니다.',en:'I learn many everyday expressions from dramas.'},
-      {kr:'좋아하는 배우의 연기를 보는 것이 즐겁습니다.',en:'It is enjoyable to watch the acting of my favourite actor.'},
-      {kr:'한국 드라마는 감동적인 이야기가 많습니다.',en:'Korean dramas have many touching stories.'},
-      {kr:'넷플릭스에서 쉽게 볼 수 있습니다.',en:'You can easily watch them on Netflix.'},
-    ],
-    vocab:[
-      {kr:'드라마',rom:'deurama',en:'drama, TV series',emoji:'📺'},
-      {kr:'실력',rom:'sillyeok',en:'skill, ability',emoji:'📈'},
-      {kr:'자막',rom:'jamak',en:'subtitles',emoji:'💬'},
-      {kr:'목표',rom:'mokpyo',en:'goal, objective',emoji:'🎯'},
-      {kr:'일상',rom:'ilsang',en:'everyday, daily life',emoji:'📅'},
-      {kr:'표현',rom:'pyohyeon',en:'expression (language)',emoji:'💬'},
-      {kr:'배우',rom:'baeu',en:'actor / actress',emoji:'🎭'},
-      {kr:'연기',rom:'yeongi',en:'acting',emoji:'🎬'},
-      {kr:'감동적인',rom:'gamdongjeok-in',en:'touching, moving',emoji:'🥺'},
-      {kr:'넷플릭스',rom:'Netflix',en:'Netflix',emoji:'🎬'},
-    ],
-    quiz:[
-      {q:'드라마를 보면 무엇이 늡니까?\n(What improves when you watch dramas?)',opts:['영어 실력 (English skills)','한국어 실력 (Korean skills)','기억력 (memory)','체력 (physical strength)'],ans:1},
-      {q:'화자의 목표는 무엇입니까?\n(What is the narrator\'s goal?)',opts:['한국에서 살기 (live in Korea)','자막 없이 이해하기 (understand without subtitles)','배우 되기 (become an actor)','드라마 만들기 (make a drama)'],ans:1},
-      {q:'드라마에서 무엇을 배웁니까?\n(What does the narrator learn from dramas?)',opts:['역사 (history)','요리법 (recipes)','일상 표현 (everyday expressions)','한국 노래 (Korean songs)'],ans:2},
-      {q:'한국 드라마는 어떤 이야기가 많습니까?\n(What kinds of stories do Korean dramas have?)',opts:['무서운 이야기 (scary stories)','재미없는 이야기 (boring stories)','감동적인 이야기 (touching stories)','어려운 이야기 (difficult stories)'],ans:2},
-      {q:'어디에서 드라마를 볼 수 있습니까?\n(Where can you watch dramas easily?)',opts:['유튜브 (YouTube)','인스타그램 (Instagram)','넷플릭스 (Netflix)','트위터 (Twitter)'],ans:2},
-    ],
-    cloze:['드라마','자막','목표','표현','감동적인'],
-  },
-  // 8. Shopping
-  {
-    id:8, emoji:'🛍️', level:'Beginner',
-    krTitle:'편의점에서',
-    enTitle:'At the Convenience Store',
-    sentences:[
-      {kr:'한국 편의점은 24시간 열려 있습니다.',en:'Korean convenience stores are open 24 hours.'},
-      {kr:'음식, 음료, 생활용품 등을 살 수 있습니다.',en:'You can buy food, drinks, daily necessities, and more.'},
-      {kr:'삼각김밥과 컵라면이 인기 메뉴입니다.',en:'Triangle gimbap and cup ramen are popular menu items.'},
-      {kr:'편의점 안에 먹을 수 있는 공간이 있습니다.',en:'Inside the convenience store there is a space to eat.'},
-      {kr:'뜨거운 물을 무료로 사용할 수 있습니다.',en:'You can use hot water for free.'},
-      {kr:'계산은 카드나 현금으로 합니다.',en:'Payment is made by card or cash.'},
-      {kr:'요즘은 셀프 계산대도 있습니다.',en:'These days there are also self-checkout machines.'},
-      {kr:'한국 여행 중에 꼭 편의점에 가보세요.',en:'When travelling in Korea be sure to visit a convenience store.'},
-    ],
-    vocab:[
-      {kr:'편의점',rom:'pyeonuijeom',en:'convenience store',emoji:'🏪'},
-      {kr:'24시간',rom:'isipsa sigan',en:'24 hours',emoji:'🕐'},
-      {kr:'삼각김밥',rom:'samgak gimbap',en:'triangle gimbap',emoji:'🍙'},
-      {kr:'컵라면',rom:'keop ramyeon',en:'cup ramen',emoji:'🍜'},
-      {kr:'공간',rom:'gonggan',en:'space, area',emoji:'🪑'},
-      {kr:'무료',rom:'muryo',en:'free (of charge)',emoji:'🆓'},
-      {kr:'계산',rom:'gyesan',en:'payment, checkout',emoji:'💳'},
-      {kr:'현금',rom:'hyeongeum',en:'cash',emoji:'💴'},
-      {kr:'셀프 계산대',rom:'selpu gyesandae',en:'self-checkout machine',emoji:'🤖'},
-      {kr:'여행',rom:'yeohaeng',en:'travel, trip',emoji:'✈️'},
-    ],
-    quiz:[
-      {q:'한국 편의점은 언제 열려 있습니까?\n(When are Korean convenience stores open?)',opts:['오전 9시~오후 9시 (9am–9pm)','24시간 (24 hours)','오전 8시~자정 (8am–midnight)','주말만 (weekends only)'],ans:1},
-      {q:'편의점의 인기 메뉴는 무엇입니까?\n(What are popular menu items at the convenience store?)',opts:['피자와 햄버거 (pizza & burger)','삼각김밥과 컵라면 (triangle gimbap & cup ramen)','초밥과 우동 (sushi & udon)','샌드위치와 커피 (sandwich & coffee)'],ans:1},
-      {q:'편의점에서 무료로 사용할 수 있는 것은?\n(What can you use for free at the convenience store?)',opts:['전자레인지 (microwave)','뜨거운 물 (hot water)','인터넷 (internet)','충전기 (charger)'],ans:1},
-      {q:'어떻게 계산할 수 있습니까?\n(How can you pay?)',opts:['현금만 (cash only)','카드만 (card only)','카드나 현금 (card or cash)','포인트만 (points only)'],ans:2},
-      {q:'요즘 편의점에 새로 생긴 것은?\n(What has recently appeared at convenience stores?)',opts:['도서관 (library)','셀프 계산대 (self-checkout)','카페 (café)','헬스장 (gym)'],ans:1},
-    ],
-    cloze:['편의점','삼각김밥','공간','무료','현금'],
-  },
-];
+let STORIES = [];
+let filteredStories = [];
+
 
 // ── state
 let idx=0, qIdx=0, qScore=0, qAnswered=false, transOpen=false;
 
 // ── boot
-function boot(){
+async function boot(){
   const g=document.getElementById('story-grid');
-  STORIES.forEach((s,i)=>{
+  try{
+    const response = await fetch('stories.json');
+    if(!response.ok) throw new Error('Could not load stories.json');
+    STORIES = await response.json();
+    filteredStories = [...STORIES];
+    setupFilters();
+    applyFilters();
+  }catch(err){
+    g.innerHTML = `<div class="empty-state">Could not load stories. Make sure <b>stories.json</b> is uploaded in the same GitHub folder as <b>index.html</b>.</div>`;
+    console.error(err);
+  }
+}
+
+function setupFilters(){
+  const levelFilter=document.getElementById('level-filter');
+  const search=document.getElementById('story-search');
+  const levels=[...new Set(STORIES.map(s=>s.level).filter(Boolean))].sort();
+  levels.forEach(level=>{
+    const opt=document.createElement('option');
+    opt.value=level;
+    opt.textContent=level;
+    levelFilter.appendChild(opt);
+  });
+  levelFilter.addEventListener('change', applyFilters);
+  search.addEventListener('input', applyFilters);
+}
+
+function applyFilters(){
+  const level=document.getElementById('level-filter').value;
+  const term=document.getElementById('story-search').value.trim().toLowerCase();
+  filteredStories = STORIES.filter(s=>{
+    const matchesLevel = level==='all' || s.level===level;
+    const searchable = [s.krTitle, s.enTitle, s.level, ...(s.sentences||[]).map(x=>x.kr), ...(s.sentences||[]).map(x=>x.en)].join(' ').toLowerCase();
+    const matchesSearch = !term || searchable.includes(term);
+    return matchesLevel && matchesSearch;
+  });
+  renderStoryGrid(filteredStories);
+}
+
+function renderStoryGrid(list){
+  const g=document.getElementById('story-grid');
+  g.innerHTML='';
+  if(!list.length){
+    g.innerHTML='<div class="empty-state">No stories found. Try another level or search term.</div>';
+    return;
+  }
+  list.forEach(s=>{
+    const storyIndex=STORIES.findIndex(item=>item.id===s.id);
     const c=document.createElement('div');
     c.className='story-card';
     c.innerHTML=`<span class="s-emoji">${s.emoji}</span><div class="s-kr">${s.krTitle}</div><div class="s-en">${s.enTitle}</div><span class="s-badge">${s.level}</span>`;
-    c.onclick=()=>open(i);
+    c.onclick=()=>open(storyIndex);
     g.appendChild(c);
   });
 }
@@ -793,8 +586,10 @@ function load(i){
   qIdx=0; qScore=0; renderQ();
   renderCloze();
 
-  document.getElementById('prev-btn').style.visibility=i===0?'hidden':'visible';
-  document.getElementById('next-btn').style.visibility=i===STORIES.length-1?'hidden':'visible';
+  const visibleList = filteredStories.length ? filteredStories : STORIES;
+  const visiblePos = visibleList.findIndex(item=>item.id===s.id);
+  document.getElementById('prev-btn').style.visibility=visiblePos<=0?'hidden':'visible';
+  document.getElementById('next-btn').style.visibility=visiblePos===visibleList.length-1?'hidden':'visible';
 }
 
 function toggleTrans(){
@@ -905,8 +700,12 @@ function checkCloze(){
 }
 
 function nav(d){
-  const n=idx+d;
-  if(n<0||n>=STORIES.length)return;
+  const visibleList = filteredStories.length ? filteredStories : STORIES;
+  const currentId = STORIES[idx]?.id;
+  const pos = visibleList.findIndex(item=>item.id===currentId);
+  const target = visibleList[pos+d];
+  if(!target)return;
+  const n = STORIES.findIndex(item=>item.id===target.id);
   open(n);
 }
 
