@@ -403,7 +403,7 @@
 
 <!-- SELECTOR -->
 <div class="page" id="selector-page">
-  <div class="page-title">Short Stories</div>
+  <div class="page-title">Reading Library</div>
   <div class="page-sub">Click a story to start reading </div>
   <div class="filter-row">
     <input class="filter-input" id="story-search" type="search" placeholder="Search stories... 제목이나 주제로 검색" />
@@ -749,8 +749,8 @@ function checkCloze(){
     else b.classList.add('wrong');
   });
   const r=document.getElementById('cloze-result');
-  if(ok===inputs.length) r.innerHTML=`<span style="color:var(--sage-d)">🎉 완벽해요! All ${ok} correct!</span>`;
-  else r.innerHTML=`<span style="color:var(--gold)">${ok} / ${inputs.length} — 다시 해보세요! Try again.</span>`;
+  if(ok===inputs.length) r.innerHTML=`<span style="color:var(--sage-d)">🎉 오~ 잘 했어요! All ${ok} correct!</span>`;
+  else r.innerHTML=`<span style="color:var(--gold)">${ok} / ${inputs.length} — 아이고..다시 해보세요! Try again.</span>`;
 }
 
 function nav(d){
