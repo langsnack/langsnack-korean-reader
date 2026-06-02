@@ -139,8 +139,8 @@
         "en": "They take pictures and eat cake."
       },
       {
-        "kr": "민수는 주말 카페 시간을 좋아해요.",
-        "en": "Minsu likes weekend cafe time."
+        "kr": "정말 재미있었어요.",
+        "en": "They had a great time."
       }
     ],
     "vocab": [
@@ -155,6 +155,7 @@
       { "kr": "이야기", "en": "story / conversation" },
       { "kr": "사진", "en": "photo" },
       { "kr": "케이크", "en": "cake" }
+      { "kr": "재미있었어요", "en": "fun" }
     ],
     "quiz": [
       {
@@ -213,7 +214,6 @@
   {
     "id": 3,
     "level": "Low Intermediate",
-    "topikLevel": 3,
     "krTitle": "한국 여행 준비",
     "enTitle": "Preparing for a Trip to Korea",
     "sentences": [
