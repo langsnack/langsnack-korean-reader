@@ -264,8 +264,10 @@
       { "kr": "위치", "en": "location" },
       { "kr": "지하철", "en": "subway" },
       { "kr": "지도", "en": "map" },
+      { "kr": "한국어", "en": "Korean language" },
       { "kr": "주문", "en": "order" },
       { "kr": "길", "en": "road / directions" },
+      { "kr": "긴장되", "en": "to be nervous" },
       { "kr": "기대돼요", "en": "feel excited / look forward to" }
     ],
     "quiz": [
@@ -816,5 +818,312 @@
     }
   ],
   "cloze": ["강아지", "뭉치", "비눗방울", "목욕", "귀여워요"]
+},
+  ,
+{
+  "id": 9,
+  "level": "Beginner",
+  "krTitle": "비 오는 날",
+  "enTitle": "A Rainy Day",
+  "sentences": [
+    {
+      "kr": "오늘은 비가 와요.",
+      "en": "It is raining today."
+    },
+    {
+      "kr": "저는 우산을 가지고 나가요.",
+      "en": "I go out with an umbrella."
+    },
+    {
+      "kr": "비가 오면 날씨가 시원해요.",
+      "en": "When it rains, the weather is cool."
+    },
+    {
+      "kr": "카페에 가서 커피를 마셔요.",
+      "en": "I go to a cafe and drink coffee."
+    },
+    {
+      "kr": "창밖을 보면서 쉬어요.",
+      "en": "I relax while looking outside."
+    },
+    {
+      "kr": "친구는 비를 안 좋아해요.",
+      "en": "My friend does not like rain."
+    },
+    {
+      "kr": "그래서 여름도 안 좋아해요.",
+      "en": "So my friend does not like summer either."
+    },
+    {
+      "kr": "저는 비 오는 날이 좋아요.",
+      "en": "I like rainy days."
+    }
+  ],
+  "vocab": [
+    { "kr": "비", "en": "rain" },
+    { "kr": "우산", "en": "umbrella" },
+    { "kr": "날씨", "en": "weather" },
+    { "kr": "시원해요", "en": "cool" },
+    { "kr": "카페", "en": "cafe" },
+    { "kr": "커피", "en": "coffee" },
+    { "kr": "창밖", "en": "outside the window" },
+    { "kr": "쉬어요", "en": "rest" },
+    { "kr": "여름", "en": "summer" },
+    { "kr": "좋아해요", "en": "like" }
+  ],
+  "quiz": [
+    {
+      "q": "오늘 날씨는 어때요?\n(How is the weather today?)",
+      "opts": [
+        "눈이 와요",
+        "비가 와요",
+        "맑아요",
+        "바람이 불어요"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "저는 무엇을 가지고 나가요?\n(What do I take with me?)",
+      "opts": [
+        "가방",
+        "모자",
+        "우산",
+        "책"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "저는 어디에서 커피를 마셔요?\n(Where do I drink coffee?)",
+      "opts": [
+        "집",
+        "학교",
+        "회사",
+        "카페"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "친구는 무엇을 안 좋아해요?\n(What does my friend dislike?)",
+      "opts": [
+        "비",
+        "겨울",
+        "봄",
+        "커피"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "저는 비 오는 날을 어떻게 생각해요?\n(How do I feel about rainy days?)",
+      "opts": [
+        "좋아해요",
+        "싫어해요",
+        "무서워해요",
+        "몰라요"
+      ],
+      "ans": 0
+    }
+  ],
+  "cloze": ["비", "우산", "카페", "커피", "여름"]
+},
+{
+  "id": 10,
+  "level": "Low Intermediate",
+  "topikLevel": 3,
+  "krTitle": "한국 친구를 찾고 있어요",
+  "enTitle": "Looking for a Korean Friend",
+  "sentences": [
+    {
+      "kr": "안녕하세요.",
+      "en": "Hello."
+    },
+    {
+      "kr": "제 이름은 김수지예요.",
+      "en": "My name is Kim Suji."
+    },
+    {
+      "kr": "저는 인천에 살고 있어요.",
+      "en": "I live in Incheon."
+    },
+    {
+      "kr": "저는 열일곱 살이에요.",
+      "en": "I am seventeen years old."
+    },
+    {
+      "kr": "저는 만화 그리는 것을 좋아해요.",
+      "en": "I like drawing comics."
+    },
+    {
+      "kr": "나중에 웹툰 작가가 되고 싶어요.",
+      "en": "I want to become a webtoon artist in the future."
+    },
+    {
+      "kr": "한국 친구를 찾고 있어요.",
+      "en": "I am looking for a Korean friend."
+    },
+    {
+      "kr": "같이 이야기하면 좋겠어요.",
+      "en": "It would be nice to talk together."
+    },
+    {
+      "kr": "답장을 기다릴게요.",
+      "en": "I will wait for your reply."
+    }
+  ],
+  "vocab": [
+    { "kr": "인천", "en": "Incheon" },
+    { "kr": "열일곱 살", "en": "seventeen years old" },
+    { "kr": "만화", "en": "comic" },
+    { "kr": "그리다", "en": "to draw" },
+    { "kr": "웹툰", "en": "webtoon" },
+    { "kr": "작가", "en": "writer / artist" },
+    { "kr": "친구", "en": "friend" },
+    { "kr": "이야기하다", "en": "to talk" },
+    { "kr": "답장", "en": "reply" },
+    { "kr": "기다리다", "en": "to wait" }
+  ],
+  "quiz": [
+    {
+      "q": "수지는 어디에 살고 있어요?\n(Where does Suji live?)",
+      "opts": ["서울", "부산", "인천", "대전"],
+      "ans": 2
+    },
+    {
+      "q": "수지는 몇 살이에요?\n(How old is Suji?)",
+      "opts": ["15살", "16살", "17살", "18살"],
+      "ans": 2
+    },
+    {
+      "q": "수지는 무엇을 좋아해요?\n(What does Suji like?)",
+      "opts": [
+        "운동하기",
+        "만화 그리기",
+        "요리하기",
+        "사진 찍기"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "수지는 나중에 무엇이 되고 싶어요?\n(What does Suji want to become?)",
+      "opts": [
+        "선생님",
+        "의사",
+        "회사원",
+        "웹툰 작가"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "수지는 지금 무엇을 찾고 있어요?\n(What is Suji looking for?)",
+      "opts": [
+        "직장",
+        "한국 친구",
+        "학교",
+        "강아지"
+      ],
+      "ans": 1
+    }
+  ],
+  "cloze": ["인천", "만화", "웹툰", "친구", "답장"]
+},
+{
+  "id": 11,
+  "level": "Low Intermediate",
+  "topikLevel": 3,
+  "krTitle": "태국 여행",
+  "enTitle": "A Trip to Thailand",
+  "sentences": [
+    {
+      "kr": "저는 지금 태국에 여행을 왔어요.",
+      "en": "I came to Thailand for a trip."
+    },
+    {
+      "kr": "지금은 방콕에 있어요.",
+      "en": "I am in Bangkok now."
+    },
+    {
+      "kr": "날씨가 따뜻해서 여행하기 좋아요.",
+      "en": "The weather is warm, so it is nice for traveling."
+    },
+    {
+      "kr": "사람들도 아주 친절해요.",
+      "en": "The people are also very kind."
+    },
+    {
+      "kr": "한 번은 길을 잃어버렸어요.",
+      "en": "One time, I got lost."
+    },
+    {
+      "kr": "하지만 한 아주머니가 도와줬어요.",
+      "en": "But a woman helped me."
+    },
+    {
+      "kr": "저는 여행하면서 친구를 사귀는 것을 좋아해요.",
+      "en": "I like making friends while traveling."
+    },
+    {
+      "kr": "새로운 사람을 만나는 것이 재미있어요.",
+      "en": "Meeting new people is fun."
+    }
+  ],
+  "vocab": [
+    { "kr": "태국", "en": "Thailand" },
+    { "kr": "방콕", "en": "Bangkok" },
+    { "kr": "따뜻하다", "en": "to be warm" },
+    { "kr": "친절하다", "en": "to be kind" },
+    { "kr": "길을 잃어버리다", "en": "to get lost" },
+    { "kr": "아주머니", "en": "middle-aged woman" },
+    { "kr": "도와주다", "en": "to help" },
+    { "kr": "여행하다", "en": "to travel" },
+    { "kr": "사귀다", "en": "to make friends" },
+    { "kr": "새로운", "en": "new" }
+  ],
+  "quiz": [
+    {
+      "q": "지금 어디에 있어요?\n(Where am I now?)",
+      "opts": ["서울", "도쿄", "방콕", "하노이"],
+      "ans": 2
+    },
+    {
+      "q": "방콕 날씨는 어때요?\n(How is the weather in Bangkok?)",
+      "opts": [
+        "추워요",
+        "따뜻해요",
+        "눈이 와요",
+        "건조해요"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "한 번은 무슨 일이 있었어요?\n(What happened one time?)",
+      "opts": [
+        "비행기를 놓쳤어요",
+        "지갑을 잃어버렸어요",
+        "길을 잃어버렸어요",
+        "호텔을 못 찾았어요"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "누가 도와줬어요?\n(Who helped me?)",
+      "opts": [
+        "친구",
+        "경찰",
+        "기사",
+        "아주머니"
+      ],
+      "ans": 3
+    },
+    {
+      "q": "저는 여행하면서 무엇을 좋아해요?\n(What do I like while traveling?)",
+      "opts": [
+        "쇼핑하기",
+        "운동하기",
+        "친구 사귀기",
+        "게임하기"
+      ],
+      "ans": 2
+    }
+  ],
+  "cloze": ["태국", "방콕", "친절해요", "아주머니", "여행"]
 }
 ]
