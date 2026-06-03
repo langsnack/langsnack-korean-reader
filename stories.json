@@ -652,12 +652,12 @@
       "en": "People go to the beach."
     },
     {
-      "kr": "가을은 선선해서 지내기 좋아요.",
-      "en": "Autumn is cool and comfortable."
+      "kr": "가을은 선선해서 사람들이 야외활동을 많이 해요.",
+      "en": "Fall is cool and people go out a lot for outdoor activities ."
     },
     {
       "kr": "단풍도 아주 예뻐요.",
-      "en": "The autumn leaves are very beautiful too."
+      "en": "The fall leaves are very beautiful too."
     },
     {
       "kr": "겨울은 춥고 눈이 와요.",
@@ -665,7 +665,7 @@
     },
     {
       "kr": "저는 가을을 가장 좋아해요.",
-      "en": "Autumn is my favorite season."
+      "en": "Fall is my favorite season."
     }
   ],
   "vocab": [
@@ -741,7 +741,7 @@
   "enTitle": "My Dog",
   "sentences": [
     {
-      "kr": "우리 집에는 강아지가 한 마리 있어요.",
+      "kr": "우리 집에는 강아지 한 마리가 있어요.",
       "en": "There is one dog in my house."
     },
     {
@@ -783,6 +783,7 @@
     { "kr": "사람", "en": "person" },
     { "kr": "목욕", "en": "bath" },
     { "kr": "싫어해요", "en": "dislike" },
+    { "kr": "목욕을 시키", "en": "bathe the dog" },
     { "kr": "어려워요", "en": "difficult" }
   ],
   "quiz": [
