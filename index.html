@@ -555,7 +555,7 @@ function renderStoryGrid(list){
     const storyIndex=STORIES.findIndex(item=>item.id===s.id);
     const c=document.createElement('div');
     c.className='story-card';
-    c.innerHTML=`<div class="s-kr">${s.krTitle}</div><div class="s-en">${s.enTitle}</div><span class="s-badge">${getBadge(s)}</span>`;
+    c.innerHTML=`<div class="s-kr">${s.krTitle}</div><div class="s-en">${s.enTitle}</div><span class="s-badge">${s.level}</span>`;
     c.onclick=()=>open(storyIndex);
     g.appendChild(c);
   });
@@ -587,13 +587,6 @@ function makeStoryHtml(text, vocab){
     }
   }
   return out;
-}
-
-c.innerHTML=`
-<div class="s-kr">${s.krTitle}</div>
-<div class="s-en">${s.enTitle}</div>
-<span class="s-badge">${getBadge(s)}</span>
-`;
 }
 
 function open(i){
