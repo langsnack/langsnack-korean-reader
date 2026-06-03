@@ -321,8 +321,7 @@
       }
     ],
     "cloze": ["한국", "여행 계획", "비행기 표", "지하철", "지도"]
-  }
-  ,
+  },
 {
   "id": 4,
   "level": "Starter",
@@ -627,5 +626,195 @@
     }
   ],
   "cloze": ["편의점", "물건", "음식", "삼각김밥", "편리해요"]
+},
+  {
+  "id": 7,
+  "level": "Beginner",
+  "krTitle": "한국의 사계절",
+  "enTitle": "The Four Seasons in Korea",
+  "sentences": [
+    {
+      "kr": "한국은 사계절이 있어요.",
+      "en": "Korea has four seasons."
+    },
+    {
+      "kr": "봄은 따뜻하고 꽃이 많이 펴요.",
+      "en": "Spring is warm and many flowers bloom."
+    },
+    {
+      "kr": "여름은 덥고 비가 많이 와요.",
+      "en": "Summer is hot and it rains a lot."
+    },
+    {
+      "kr": "사람들은 바다에 놀러 가요.",
+      "en": "People go to the beach."
+    },
+    {
+      "kr": "가을은 선선해서 지내기 좋아요.",
+      "en": "Autumn is cool and comfortable."
+    },
+    {
+      "kr": "단풍도 아주 예뻐요.",
+      "en": "The autumn leaves are very beautiful too."
+    },
+    {
+      "kr": "겨울은 춥고 눈이 와요.",
+      "en": "Winter is cold and it snows."
+    },
+    {
+      "kr": "저는 가을을 가장 좋아해요.",
+      "en": "Autumn is my favorite season."
+    }
+  ],
+  "vocab": [
+    { "kr": "사계절", "en": "four seasons" },
+    { "kr": "봄", "en": "spring" },
+    { "kr": "꽃", "en": "flower" },
+    { "kr": "여름", "en": "summer" },
+    { "kr": "비", "en": "rain" },
+    { "kr": "바다", "en": "sea" },
+    { "kr": "가을", "en": "autumn" },
+    { "kr": "단풍", "en": "autumn leaves" },
+    { "kr": "겨울", "en": "winter" },
+    { "kr": "눈", "en": "snow" }
+  ],
+  "quiz": [
+    {
+      "q": "한국에는 무엇이 있어요?\n(What does Korea have?)",
+      "opts": [
+        "두 계절 (two seasons)",
+        "세 계절 (three seasons)",
+        "사계절 (four seasons)",
+        "다섯 계절 (five seasons)"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "봄에는 무엇이 많이 펴요?\n(What blooms a lot in spring?)",
+      "opts": [
+        "꽃 (flowers)",
+        "눈 (snow)",
+        "비 (rain)",
+        "구름 (clouds)"
+      ],
+      "ans": 0
+    },
+    {
+      "q": "여름 날씨는 어때요?\n(How is summer?)",
+      "opts": [
+        "춥고 눈이 와요",
+        "덥고 비가 와요",
+        "선선하고 건조해요",
+        "바람이 많이 불어요"
+      ],
+      "ans": 1
+    },
+    {
+      "q": "가을에는 무엇이 예뻐요?\n(What is beautiful in autumn?)",
+      "opts": [
+        "벚꽃",
+        "해변",
+        "단풍",
+        "눈사람"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "제가 가장 좋아하는 계절은 무엇이에요?\n(What is my favorite season?)",
+      "opts": [
+        "봄",
+        "여름",
+        "가을",
+        "겨울"
+      ],
+      "ans": 2
+    }
+  ],
+  "cloze": ["사계절", "봄", "여름", "가을", "겨울"]
+},
+{
+  "id": 8,
+  "level": "Beginner",
+  "krTitle": "우리 강아지",
+  "enTitle": "My Dog",
+  "sentences": [
+    {
+      "kr": "우리 집에는 강아지가 한 마리 있어요.",
+      "en": "There is one dog in my house."
+    },
+    {
+      "kr": "이름은 뭉치예요.",
+      "en": "Its name is Mungchi."
+    },
+    {
+      "kr": "뭉치는 올해 네 살이에요.",
+      "en": "Mungchi is four years old this year."
+    },
+    {
+      "kr": "몸이 크지만 아주 귀여워요.",
+      "en": "It is big, but very cute."
+    },
+    {
+      "kr": "비눗방울 놀이를 좋아해요.",
+      "en": "It likes playing with bubbles."
+    },
+    {
+      "kr": "낯선 사람을 보면 가까이 가요.",
+      "en": "It goes close to strangers."
+    },
+    {
+      "kr": "하지만 목욕은 싫어해요.",
+      "en": "But it dislikes baths."
+    },
+    {
+      "kr": "그래서 목욕을 시키기 어려워요.",
+      "en": "So it is difficult to give it a bath."
+    }
+  ],
+  "vocab": [
+    { "kr": "강아지", "en": "dog" },
+    { "kr": "이름", "en": "name" },
+    { "kr": "귀여워요", "en": "cute" },
+    { "kr": "비눗방울", "en": "bubble" },
+    { "kr": "놀이", "en": "play" },
+    { "kr": "낯선", "en": "unfamiliar" },
+    { "kr": "사람", "en": "person" },
+    { "kr": "목욕", "en": "bath" },
+    { "kr": "싫어해요", "en": "dislike" },
+    { "kr": "어려워요", "en": "difficult" }
+  ],
+  "quiz": [
+    {
+      "q": "강아지 이름은 무엇이에요?\n(What is the dog's name?)",
+      "opts": ["초코", "나나", "뭉치", "보리"],
+      "ans": 2
+    },
+    {
+      "q": "뭉치는 몇 살이에요?\n(How old is Mungchi?)",
+      "opts": ["두 살", "세 살", "네 살", "다섯 살"],
+      "ans": 2
+    },
+    {
+      "q": "뭉치는 무엇을 좋아해요?\n(What does Mungchi like?)",
+      "opts": ["산책", "비눗방울 놀이", "목욕", "잠"],
+      "ans": 1
+    },
+    {
+      "q": "뭉치는 낯선 사람을 보면 어떻게 해요?\n(What does Mungchi do when seeing strangers?)",
+      "opts": [
+        "도망가요",
+        "짖어요",
+        "가까이 가요",
+        "숨어요"
+      ],
+      "ans": 2
+    },
+    {
+      "q": "뭉치는 무엇을 싫어해요?\n(What does Mungchi dislike?)",
+      "opts": ["산책", "목욕", "음식", "장난감"],
+      "ans": 1
+    }
+  ],
+  "cloze": ["강아지", "뭉치", "비눗방울", "목욕", "귀여워요"]
 }
 ]
