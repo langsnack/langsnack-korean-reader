@@ -820,7 +820,6 @@
   ],
   "cloze": ["강아지", "뭉치", "비눗방울", "목욕", "귀여워요"]
 },
-  ,
 {
   "id": 9,
   "level": "Beginner",
@@ -929,7 +928,6 @@
 {
   "id": 10,
   "level": "Low Intermediate",
-  "topikLevel": 3,
   "krTitle": "한국 친구를 찾고 있어요",
   "enTitle": "Looking for a Korean Friend",
   "sentences": [
@@ -1029,7 +1027,6 @@
 {
   "id": 11,
   "level": "Low Intermediate",
-  "topikLevel": 3,
   "krTitle": "태국 여행",
   "enTitle": "A Trip to Thailand",
   "sentences": [
