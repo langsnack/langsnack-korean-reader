@@ -415,14 +415,7 @@
     <select class="filter-select" id="level-filter">
       <option value="all">All difficulties</option>
     </select>
-    <select class="filter-select" id="topik-filter">
-      <option value="all">All TOPIK</option>
-      <option value="none">No TOPIK Level</option>
-      <option value="3">TOPIK 3</option>
-      <option value="4">TOPIK 4</option>
-      <option value="5">TOPIK 5</option>
-      <option value="6">TOPIK 6</option>
-    </select>
+
   </div>
   <div class="story-grid" id="story-grid"></div>
 </div>
@@ -514,7 +507,6 @@ async function boot(){
 
 function setupFilters(){
   const levelFilter=document.getElementById('level-filter');
-  const topikFilter=document.getElementById('topik-filter');
   const search=document.getElementById('story-search');
 
   const preferredLevels=['Starter','Beginner','High Beginner','Low Intermediate','Intermediate','Advanced'];
@@ -536,22 +528,18 @@ function setupFilters(){
     });
 
   levelFilter.addEventListener('change', applyFilters);
-  topikFilter.addEventListener('change', applyFilters);
   search.addEventListener('input', applyFilters);
 }
 
 function applyFilters(){
   const level=document.getElementById('level-filter').value;
-  const topik=document.getElementById('topik-filter').value;
   const term=document.getElementById('story-search').value.trim().toLowerCase();
 
   filteredStories = STORIES.filter(s=>{
     const matchesLevel = level==='all' || s.level===level;
-    const storyTopik = s.topikLevel ? String(s.topikLevel) : 'none';
-    const matchesTopik = topik==='all' || storyTopik===topik;
-    const searchable = [s.krTitle, s.enTitle, s.level, s.topikLevel ? `TOPIK ${s.topikLevel}` : 'No TOPIK Level', ...(s.sentences||[]).map(x=>x.kr), ...(s.sentences||[]).map(x=>x.en)].join(' ').toLowerCase();
+    const searchable = [s.krTitle, s.enTitle, s.level, ...(s.sentences||[]).map(x=>x.kr), ...(s.sentences||[]).map(x=>x.en)].join(' ').toLowerCase();
     const matchesSearch = !term || searchable.includes(term);
-    return matchesLevel && matchesTopik && matchesSearch;
+    return matchesLevel && matchesSearch;
   });
   renderStoryGrid(filteredStories);
 }
@@ -567,8 +555,7 @@ function renderStoryGrid(list){
     const storyIndex=STORIES.findIndex(item=>item.id===s.id);
     const c=document.createElement('div');
     c.className='story-card';
-    const badge = s.topikLevel ? `${s.level} · TOPIK ${s.topikLevel}` : s.level;
-    c.innerHTML=`<div class="s-kr">${s.krTitle}</div><div class="s-en">${s.enTitle}</div><span class="s-badge">${badge}</span>`;
+    c.innerHTML=`<div class="s-kr">${s.krTitle}</div><div class="s-en">${s.enTitle}</div><span class="s-badge">${getBadge(s)}</span>`;
     c.onclick=()=>open(storyIndex);
     g.appendChild(c);
   });
@@ -602,8 +589,11 @@ function makeStoryHtml(text, vocab){
   return out;
 }
 
-function getBadge(s){
-  return s.topikLevel ? `${s.level} · TOPIK ${s.topikLevel}` : s.level;
+c.innerHTML=`
+<div class="s-kr">${s.krTitle}</div>
+<div class="s-en">${s.enTitle}</div>
+<span class="s-badge">${getBadge(s)}</span>
+`;
 }
 
 function open(i){
