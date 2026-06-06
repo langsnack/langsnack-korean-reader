@@ -1759,5 +1759,177 @@
     { "q": "언어 학습은 무엇과 함께 이루어져야 해요?\n(What should language learning happen together with?)", "opts": ["문화 학습", "운동", "시험", "번역기"], "ans": 0 }
   ],
   "cloze": ["문화", "표현", "배경", "소통", "언어 학습"]
+},
+{
+  "id": 27,
+  "level": "Starter",
+  "krTitle": "늦잠 잔 아침",
+  "enTitle": "A Morning I Overslept",
+  "sentences": [
+    { "kr": "오늘 아침에 늦게 일어났어요.", "en": "I woke up late this morning." },
+    { "kr": "시간이 별로 없어요.", "en": "I do not have much time." },
+    { "kr": "저는 빨리 세수를 해요.", "en": "I quickly wash my face." },
+    { "kr": "그리고 옷을 입어요.", "en": "And then I get dressed." },
+    { "kr": "아침은 못 먹어요.", "en": "I cannot eat breakfast." },
+    { "kr": "가방을 들고 집을 나가요.", "en": "I take my bag and leave home." },
+    { "kr": "오늘은 조금 바빠요.", "en": "Today is a little busy." }
+  ],
+  "vocab": [
+    { "kr": "늦게", "en": "late" },
+    { "kr": "일어났어요", "en": "woke up" },
+    { "kr": "시간", "en": "time" },
+    { "kr": "별로", "en": "not much / not really" },
+    { "kr": "빨리", "en": "quickly" },
+    { "kr": "세수", "en": "washing face" },
+    { "kr": "옷", "en": "clothes" },
+    { "kr": "못 먹어요", "en": "cannot eat" },
+    { "kr": "가방", "en": "bag" },
+    { "kr": "바빠요", "en": "busy" }
+  ],
+  "quiz": [
+    { "q": "오늘 아침에 어떻게 일어났어요?\n(How did I wake up this morning?)", "opts": ["일찍 일어났어요", "늦게 일어났어요", "천천히 일어났어요", "못 일어났어요"], "ans": 1 },
+    { "q": "시간이 어때요?\n(How much time do I have?)", "opts": ["많아요", "별로 없어요", "아주 많아요", "충분해요"], "ans": 1 },
+    { "q": "저는 빨리 무엇을 해요?\n(What do I do quickly?)", "opts": ["세수를 해요", "운동을 해요", "책을 읽어요", "밥을 먹어요"], "ans": 0 },
+    { "q": "저는 아침을 먹어요?\n(Do I eat breakfast?)", "opts": ["네, 먹어요", "아니요, 못 먹어요", "많이 먹어요", "천천히 먹어요"], "ans": 1 },
+    { "q": "오늘은 어때요?\n(How is today?)", "opts": ["조금 바빠요", "조용해요", "쉬워요", "재미없어요"], "ans": 0 }
+  ],
+  "cloze": ["늦게", "시간", "세수", "가방", "바빠요"]
+},
+{
+  "id": 28,
+  "level": "Beginner",
+  "krTitle": "시장 구경",
+  "enTitle": "Looking Around the Market",
+  "sentences": [
+    { "kr": "주말에 친구와 시장에 가요.", "en": "On the weekend, I go to the market with a friend." },
+    { "kr": "시장에는 사람이 많아요.", "en": "There are many people at the market." },
+    { "kr": "과일, 반찬, 옷을 팔아요.", "en": "They sell fruit, side dishes, and clothes." },
+    { "kr": "저는 딸기를 사고 싶어요.", "en": "I want to buy strawberries." },
+    { "kr": "친구는 떡볶이를 먹고 싶어해요.", "en": "My friend wants to eat tteokbokki." },
+    { "kr": "우리는 시장에서 간식을 먹어요.", "en": "We eat snacks at the market." },
+    { "kr": "시장 구경은 재미있어요.", "en": "Looking around the market is fun." }
+  ],
+  "vocab": [
+    { "kr": "주말", "en": "weekend" },
+    { "kr": "친구", "en": "friend" },
+    { "kr": "시장", "en": "market" },
+    { "kr": "과일", "en": "fruit" },
+    { "kr": "반찬", "en": "side dish" },
+    { "kr": "옷", "en": "clothes" },
+    { "kr": "딸기", "en": "strawberry" },
+    { "kr": "떡볶이", "en": "tteokbokki" },
+    { "kr": "간식", "en": "snack" },
+    { "kr": "구경", "en": "looking around / sightseeing" }
+  ],
+  "quiz": [
+    { "q": "저는 주말에 어디에 가요?\n(Where do I go on the weekend?)", "opts": ["학교", "시장", "회사", "도서관"], "ans": 1 },
+    { "q": "시장에는 누가 많아요?\n(Who are there many of at the market?)", "opts": ["사람", "학생", "선생님", "아이돌"], "ans": 0 },
+    { "q": "저는 무엇을 사고 싶어요?\n(What do I want to buy?)", "opts": ["사과", "딸기", "옷", "김밥"], "ans": 1 },
+    { "q": "친구는 무엇을 먹고 싶어해요?\n(What does my friend want to eat?)", "opts": ["라면", "떡볶이", "김치찌개", "케이크"], "ans": 1 },
+    { "q": "시장 구경은 어때요?\n(How is looking around the market?)", "opts": ["어려워요", "재미있어요", "조용해요", "비싸요"], "ans": 1 }
+  ],
+  "cloze": ["시장", "과일", "딸기", "떡볶이", "간식"]
+},
+{
+  "id": 29,
+  "level": "Intermediate",
+  "krTitle": "한국어 말하기 연습",
+  "enTitle": "Practicing Korean Speaking",
+  "sentences": [
+    { "kr": "한국어를 오래 공부해도 말하기가 어려울 때가 있어요.", "en": "Even after studying Korean for a long time, speaking can still be difficult." },
+    { "kr": "머릿속에서는 문장이 생각나지만 입으로 바로 나오지 않아요.", "en": "Sentences come to mind, but they do not come out of my mouth right away." },
+    { "kr": "그래서 저는 매일 짧게라도 말하기 연습을 하려고 해요.", "en": "So I try to practice speaking every day, even briefly." },
+    { "kr": "혼자 있을 때는 오늘 한 일을 한국어로 말해 봐요.", "en": "When I am alone, I try talking about what I did today in Korean." },
+    { "kr": "처음에는 어색했지만 점점 익숙해지고 있어요.", "en": "At first it felt awkward, but I am gradually getting used to it." },
+    { "kr": "실수를 하더라도 계속 말하는 것이 중요하다고 생각해요.", "en": "I think it is important to keep speaking even if I make mistakes." }
+  ],
+  "vocab": [
+    { "kr": "오래", "en": "for a long time" },
+    { "kr": "말하기", "en": "speaking" },
+    { "kr": "머릿속", "en": "inside one's head" },
+    { "kr": "문장", "en": "sentence" },
+    { "kr": "입", "en": "mouth" },
+    { "kr": "바로", "en": "right away" },
+    { "kr": "연습", "en": "practice" },
+    { "kr": "어색했지만", "en": "it was awkward, but" },
+    { "kr": "익숙해지고 있어요", "en": "is becoming familiar" },
+    { "kr": "실수", "en": "mistake" }
+  ],
+  "quiz": [
+    { "q": "한국어를 오래 공부해도 무엇이 어려울 때가 있어요?\n(What can be difficult even after studying Korean for a long time?)", "opts": ["읽기", "쓰기", "말하기", "듣기"], "ans": 2 },
+    { "q": "문장은 어디에서 생각나요?\n(Where do sentences come to mind?)", "opts": ["책 속", "머릿속", "전화 속", "교실"], "ans": 1 },
+    { "q": "저는 매일 무엇을 하려고 해요?\n(What do I try to do every day?)", "opts": ["쓰기 연습", "말하기 연습", "듣기 시험", "책 읽기"], "ans": 1 },
+    { "q": "혼자 있을 때 무엇을 한국어로 말해 봐요?\n(What do I try saying in Korean when alone?)", "opts": ["오늘 한 일", "내일 날씨", "친구 이름", "음식 메뉴"], "ans": 0 },
+    { "q": "실수를 하더라도 무엇이 중요해요?\n(What is important even if I make mistakes?)", "opts": ["계속 말하는 것", "조용히 있는 것", "바로 멈추는 것", "다시 쓰는 것"], "ans": 0 }
+  ],
+  "cloze": ["말하기", "문장", "연습", "실수", "중요하다고"]
+},
+{
+  "id": 30,
+  "level": "High Intermediate",
+  "krTitle": "도시 생활과 시골 생활",
+  "enTitle": "City Life and Country Life",
+  "sentences": [
+    { "kr": "도시 생활은 편리한 반면에 바쁘고 복잡해요.", "en": "City life is convenient, but busy and complicated." },
+    { "kr": "대중교통이 잘 되어 있고 다양한 시설을 쉽게 이용할 수 있어요.", "en": "Public transportation is well developed, and various facilities are easy to use." },
+    { "kr": "하지만 사람도 많고 생활비도 많이 드는 편이에요.", "en": "However, there are many people, and the cost of living tends to be high." },
+    { "kr": "반대로 시골은 조용하고 자연을 가까이에서 느낄 수 있어요.", "en": "On the other hand, the countryside is quiet, and you can feel nature up close." },
+    { "kr": "다만 병원이나 문화 시설이 부족해서 불편할 때도 있어요.", "en": "However, it can be inconvenient because hospitals or cultural facilities are lacking." },
+    { "kr": "어느 쪽이 더 좋다고 말하기보다 자신의 생활 방식에 맞는 곳을 선택하는 것이 중요해요.", "en": "Rather than saying which one is better, it is important to choose a place that fits one's lifestyle." }
+  ],
+  "vocab": [
+    { "kr": "도시 생활", "en": "city life" },
+    { "kr": "시골 생활", "en": "country life" },
+    { "kr": "반면에", "en": "on the other hand" },
+    { "kr": "대중교통", "en": "public transportation" },
+    { "kr": "시설", "en": "facility" },
+    { "kr": "생활비", "en": "cost of living" },
+    { "kr": "자연", "en": "nature" },
+    { "kr": "부족해서", "en": "because it is lacking" },
+    { "kr": "생활 방식", "en": "lifestyle" },
+    { "kr": "선택하는 것", "en": "choosing" }
+  ],
+  "quiz": [
+    { "q": "도시 생활은 편리한 반면에 어때요?\n(How is city life besides being convenient?)", "opts": ["조용해요", "바쁘고 복잡해요", "자연이 많아요", "사람이 없어요"], "ans": 1 },
+    { "q": "도시에서는 무엇을 쉽게 이용할 수 있어요?\n(What can be used easily in the city?)", "opts": ["다양한 시설", "농장", "산길", "바다"], "ans": 0 },
+    { "q": "도시 생활은 무엇이 많이 드는 편이에요?\n(What tends to cost a lot in city life?)", "opts": ["시간", "생활비", "물", "공기"], "ans": 1 },
+    { "q": "시골에서는 무엇을 가까이에서 느낄 수 있어요?\n(What can you feel up close in the countryside?)", "opts": ["자연", "교통", "소음", "건물"], "ans": 0 },
+    { "q": "중요한 것은 무엇이에요?\n(What is important?)", "opts": ["유명한 곳을 고르는 것", "생활 방식에 맞는 곳을 선택하는 것", "큰 도시로 가는 것", "시골을 피하는 것"], "ans": 1 }
+  ],
+  "cloze": ["도시 생활", "대중교통", "생활비", "자연", "선택하는 것"]
+},
+{
+  "id": 31,
+  "level": "Advanced",
+  "krTitle": "빠른 변화 속에서 살아가기",
+  "enTitle": "Living in a Rapidly Changing World",
+  "sentences": [
+    { "kr": "현대 사회는 매우 빠른 속도로 변화하고 있어요.", "en": "Modern society is changing at a very fast pace." },
+    { "kr": "새로운 기술이 등장할 때마다 사람들의 생활 방식도 함께 달라져요.", "en": "Every time new technology appears, people's lifestyles also change." },
+    { "kr": "이러한 변화는 편리함을 가져다주는 동시에 불안감을 만들기도 해요.", "en": "These changes bring convenience, but at the same time they also create anxiety." },
+    { "kr": "특히 변화에 적응하지 못하면 뒤처질지도 모른다는 압박을 느끼는 사람이 많아요.", "en": "Many people feel pressure that they may fall behind if they cannot adapt to change." },
+    { "kr": "그러나 모든 변화를 무조건 따라갈 필요는 없어요.", "en": "However, there is no need to follow every change unconditionally." },
+    { "kr": "중요한 것은 자신에게 필요한 변화를 선택하고 천천히 받아들이는 태도라고 할 수 있어요.", "en": "What matters is the attitude of choosing the changes that are necessary for oneself and accepting them slowly." }
+  ],
+  "vocab": [
+    { "kr": "현대 사회", "en": "modern society" },
+    { "kr": "속도", "en": "speed / pace" },
+    { "kr": "변화", "en": "change" },
+    { "kr": "기술", "en": "technology" },
+    { "kr": "생활 방식", "en": "lifestyle" },
+    { "kr": "동시에", "en": "at the same time" },
+    { "kr": "불안감", "en": "anxiety" },
+    { "kr": "적응하다", "en": "adapt" },
+    { "kr": "뒤처지다", "en": "fall behind" },
+    { "kr": "받아들이다", "en": "accept" }
+  ],
+  "quiz": [
+    { "q": "현대 사회는 어떤 속도로 변화하고 있어요?\n(At what pace is modern society changing?)", "opts": ["느린 속도", "빠른 속도", "같은 속도", "멈춘 속도"], "ans": 1 },
+    { "q": "새로운 기술이 등장할 때마다 무엇도 달라져요?\n(What also changes whenever new technology appears?)", "opts": ["생활 방식", "날씨", "음식 맛", "언어 이름"], "ans": 0 },
+    { "q": "변화는 편리함과 함께 무엇을 만들기도 해요?\n(Along with convenience, what can change create?)", "opts": ["불안감", "돈", "휴식", "여행"], "ans": 0 },
+    { "q": "변화에 적응하지 못하면 무엇을 느끼는 사람이 많아요?\n(What do many people feel if they cannot adapt to change?)", "opts": ["압박", "행복", "자유", "재미"], "ans": 0 },
+    { "q": "모든 변화를 어떻게 따라갈 필요는 없어요?\n(How is it unnecessary to follow every change?)", "opts": ["천천히", "무조건", "즐겁게", "조용히"], "ans": 1 }
+  ],
+  "cloze": ["현대 사회", "변화", "기술", "불안감", "적응"]
 }
 ]
