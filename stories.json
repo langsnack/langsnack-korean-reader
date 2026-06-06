@@ -1392,5 +1392,167 @@
     }
   ],
   "cloze": ["카페", "집중", "소음", "시험", "조용한"]
+},
+{
+  "id": 18,
+  "level": "High Intermediate",
+  "krTitle": "온라인 쇼핑의 장단점",
+  "enTitle": "The Pros and Cons of Online Shopping",
+  "sentences": [
+    { "kr": "온라인 쇼핑은 이제 많은 사람들의 일상이 되었어요.", "en": "Online shopping has become part of everyday life for many people." },
+    { "kr": "집에서 편하게 물건을 주문할 수 있다는 점은 큰 장점이에요.", "en": "Being able to order products comfortably from home is a major advantage." },
+    { "kr": "반면에 직접 상품을 확인할 수 없다는 단점도 있어요.", "en": "On the other hand, there is also the disadvantage of not being able to inspect products directly." },
+    { "kr": "실제로 사진과 실제 제품이 다른 경우도 종종 있다고 해요.", "en": "In fact, people say that the actual product is sometimes different from the photos." },
+    { "kr": "그럼에도 불구하고 편리함 때문에 온라인 쇼핑을 이용하는 사람은 계속 늘어나고 있어요.", "en": "Nevertheless, more and more people continue to use online shopping because of its convenience." },
+    { "kr": "소비자들은 상품 정보를 꼼꼼하게 확인할 필요가 있어요.", "en": "Consumers need to carefully check product information." }
+  ],
+  "vocab": [
+    { "kr": "온라인 쇼핑", "en": "online shopping" },
+    { "kr": "일상", "en": "daily life" },
+    { "kr": "장점", "en": "advantage" },
+    { "kr": "반면에", "en": "on the other hand" },
+    { "kr": "단점", "en": "disadvantage" },
+    { "kr": "실제", "en": "actual" },
+    { "kr": "그럼에도 불구하고", "en": "nevertheless" },
+    { "kr": "편리함", "en": "convenience" },
+    { "kr": "소비자", "en": "consumer" },
+    { "kr": "꼼꼼하게", "en": "carefully" }
+  ],
+  "quiz": [
+    {
+      "q": "온라인 쇼핑의 큰 장점은 무엇이에요?\n(What is a major advantage of online shopping?)",
+      "opts": ["가격이 항상 싸요", "집에서 주문할 수 있어요", "배송이 항상 빨라요", "상품이 항상 좋아요"],
+      "ans": 1
+    },
+    {
+      "q": "온라인 쇼핑의 단점은 무엇이에요?\n(What is a disadvantage of online shopping?)",
+      "opts": ["상품이 없어요", "직접 확인할 수 없어요", "주문이 어려워요", "인터넷이 필요 없어요"],
+      "ans": 1
+    },
+    {
+      "q": "사진과 실제 제품이 어떻게 될 때가 있어요?\n(What can happen with photos and actual products?)",
+      "opts": ["같아요", "없어져요", "달라요", "비싸요"],
+      "ans": 2
+    },
+    {
+      "q": "사람들은 왜 계속 온라인 쇼핑을 이용해요?\n(Why do people continue using online shopping?)",
+      "opts": ["유행이라서", "편리해서", "광고 때문에", "친구 때문에"],
+      "ans": 1
+    },
+    {
+      "q": "소비자들은 무엇을 확인할 필요가 있어요?\n(What should consumers check?)",
+      "opts": ["상품 정보", "뉴스", "광고", "지도"],
+      "ans": 0
+    }
+  ],
+  "cloze": ["온라인 쇼핑", "장점", "단점", "소비자", "편리함"]
+},
+{
+  "id": 19,
+  "level": "High Intermediate",
+  "krTitle": "한국어 실수 경험",
+  "enTitle": "A Korean Mistake I Made",
+  "sentences": [
+    { "kr": "외국어를 배우는 과정에서 실수는 피할 수 없는 일이에요.", "en": "Mistakes are unavoidable when learning a foreign language." },
+    { "kr": "저도 한국어를 배우면서 여러 번 실수를 했어요.", "en": "I also made many mistakes while learning Korean." },
+    { "kr": "한 번은 전혀 다른 뜻의 단어를 사용해서 친구들을 웃게 만든 적이 있어요.", "en": "Once, I used a word with a completely different meaning and made my friends laugh." },
+    { "kr": "그 당시에는 많이 부끄러웠어요.", "en": "At that time, I felt very embarrassed." },
+    { "kr": "하지만 그런 경험 덕분에 같은 실수를 반복하지 않게 되었어요.", "en": "However, thanks to that experience, I stopped repeating the same mistakes." },
+    { "kr": "실수는 부끄러운 일이 아니라 성장 과정의 일부라고 생각해요.", "en": "I think mistakes are not something to be ashamed of but part of the learning process." }
+  ],
+  "vocab": [
+    { "kr": "실수", "en": "mistake" },
+    { "kr": "과정", "en": "process" },
+    { "kr": "피할 수 없다", "en": "cannot avoid" },
+    { "kr": "뜻", "en": "meaning" },
+    { "kr": "웃게 만들다", "en": "make someone laugh" },
+    { "kr": "부끄럽다", "en": "embarrassed" },
+    { "kr": "경험", "en": "experience" },
+    { "kr": "반복하다", "en": "repeat" },
+    { "kr": "성장", "en": "growth" },
+    { "kr": "일부", "en": "part" }
+  ],
+  "quiz": [
+    {
+      "q": "외국어를 배우는 과정에서 실수는 어때요?\n(What are mistakes like in language learning?)",
+      "opts": ["드문 일이에요", "피할 수 없는 일이에요", "중요하지 않아요", "이상한 일이에요"],
+      "ans": 1
+    },
+    {
+      "q": "친구들을 웃게 만든 이유는 무엇이에요?\n(Why did the friends laugh?)",
+      "opts": ["재미있는 이야기를 해서", "노래를 불러서", "다른 뜻의 단어를 사용해서", "선물을 줘서"],
+      "ans": 2
+    },
+    {
+      "q": "그 당시에는 어떤 기분이었어요?\n(How did I feel at that time?)",
+      "opts": ["행복했어요", "화가 났어요", "부끄러웠어요", "지루했어요"],
+      "ans": 2
+    },
+    {
+      "q": "그 경험 덕분에 무엇을 하지 않게 되었어요?\n(What did I stop doing?)",
+      "opts": ["공부하기", "말하기", "같은 실수 반복하기", "친구 만나기"],
+      "ans": 2
+    },
+    {
+      "q": "실수는 무엇의 일부라고 생각해요?\n(What are mistakes part of?)",
+      "opts": ["시험", "문제", "성장 과정", "규칙"],
+      "ans": 2
+    }
+  ],
+  "cloze": ["실수", "뜻", "부끄러웠어요", "경험", "성장"]
+},
+{
+  "id": 20,
+  "level": "High Intermediate",
+  "krTitle": "해외 유학 생활",
+  "enTitle": "Studying Abroad",
+  "sentences": [
+    { "kr": "해외에서 유학하는 것은 기대되는 일이기도 하지만 쉽지 않은 일이기도 해요.", "en": "Studying abroad is exciting, but it is not always easy." },
+    { "kr": "새로운 환경에 적응해야 하고 모든 일을 스스로 해결해야 하기 때문이에요.", "en": "Because you have to adapt to a new environment and solve everything yourself." },
+    { "kr": "특히 처음에는 언어 때문에 어려움을 겪는 경우가 많아요.", "en": "Especially at first, many people struggle because of the language." },
+    { "kr": "하지만 시간이 지나면서 점차 익숙해지게 돼요.", "en": "However, as time passes, you gradually become accustomed to it." },
+    { "kr": "또한 다양한 나라의 사람들을 만나면서 시야를 넓힐 수 있어요.", "en": "You can also broaden your perspective by meeting people from different countries." },
+    { "kr": "유학 생활은 힘들기도 하지만 많은 것을 배울 수 있는 소중한 경험이에요.", "en": "Studying abroad can be difficult, but it is a valuable experience from which you can learn a lot." }
+  ],
+  "vocab": [
+    { "kr": "유학", "en": "study abroad" },
+    { "kr": "기대되다", "en": "look forward to" },
+    { "kr": "적응하다", "en": "adapt" },
+    { "kr": "해결하다", "en": "solve" },
+    { "kr": "어려움", "en": "difficulty" },
+    { "kr": "익숙해지다", "en": "become familiar with" },
+    { "kr": "점차", "en": "gradually" },
+    { "kr": "시야", "en": "perspective" },
+    { "kr": "넓히다", "en": "broaden" },
+    { "kr": "소중한", "en": "valuable" }
+  ],
+  "quiz": [
+    {
+      "q": "유학 생활은 어떤 일이에요?\n(What kind of experience is studying abroad?)",
+      "opts": ["쉬운 일", "기대되지만 쉽지 않은 일", "지루한 일", "필요 없는 일"],
+      "ans": 1
+    },
+    {
+      "q": "왜 쉽지 않은 일이에요?\n(Why is it not easy?)",
+      "opts": ["돈이 많아서", "친구가 많아서", "새 환경에 적응해야 해서", "시간이 많아서"],
+      "ans": 2
+    },
+    {
+      "q": "처음에는 무엇 때문에 어려움을 겪어요?\n(What causes difficulties at first?)",
+      "opts": ["음식", "언어", "날씨", "교통"],
+      "ans": 1
+    },
+    {
+      "q": "시간이 지나면서 어떻게 돼요?\n(What happens as time passes?)",
+      "opts": ["더 어려워져요", "익숙해져요", "포기해요", "돌아가요"],
+      "ans": 1
+    },
+    {
+      "q": "유학 생활은 어떤 경험이에요?\n(What kind of experience is studying abroad?)",
+      "opts": ["위험한 경험", "불필요한 경험", "소중한 경험", "짧은 경험"],
+      "ans": 2
+    }
+  ],
+  "cloze": ["유학", "적응", "언어", "시야", "소중한"]
 }
 ]
