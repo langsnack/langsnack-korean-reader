@@ -1229,5 +1229,168 @@
     { "q": "저는 중요한 이야기를 할 때 무엇을 하는 편이에요?\n(What do I tend to do for important conversations?)", "opts": ["문자를 보내요", "전화를 해요", "기다려요", "메모해요"], "ans": 1 }
   ],
   "cloze": ["메시지", "전화", "감정", "반면에", "상황"]
+},
+{
+  "id": 15,
+  "level": "Intermediate",
+  "krTitle": "한국 드라마로 공부하기",
+  "enTitle": "Studying with Korean Dramas",
+  "sentences": [
+    { "kr": "저는 한국 드라마를 보면서 한국어를 공부해요.", "en": "I study Korean while watching Korean dramas." },
+    { "kr": "처음에는 자막이 없으면 거의 이해하지 못했어요.", "en": "At first, I could hardly understand anything without subtitles." },
+    { "kr": "하지만 같은 장면을 여러 번 보면서 표현을 익히게 되었어요.", "en": "But by watching the same scenes many times, I became familiar with many expressions." },
+    { "kr": "특히 일상생활에서 자주 사용하는 표현을 많이 배울 수 있었어요.", "en": "I was able to learn many expressions used in daily life." },
+    { "kr": "모르는 단어가 나와도 바로 찾지 않고 끝까지 보려고 해요.", "en": "Even when I encounter unknown words, I try to keep watching instead of looking them up immediately." },
+    { "kr": "그러면 문맥 속에서 의미를 추측하는 연습이 돼요.", "en": "That becomes practice for guessing meanings from context." },
+    { "kr": "요즘은 예전보다 자막 없이도 더 많이 이해할 수 있게 되었어요.", "en": "These days, I can understand much more even without subtitles." }
+  ],
+  "vocab": [
+    { "kr": "드라마", "en": "drama" },
+    { "kr": "자막", "en": "subtitle" },
+    { "kr": "이해하다", "en": "understand" },
+    { "kr": "장면", "en": "scene" },
+    { "kr": "표현", "en": "expression" },
+    { "kr": "일상생활", "en": "daily life" },
+    { "kr": "문맥", "en": "context" },
+    { "kr": "의미", "en": "meaning" },
+    { "kr": "추측하다", "en": "guess" },
+    { "kr": "익히다", "en": "become familiar with" }
+  ],
+  "quiz": [
+    {
+      "q": "저는 무엇을 보면서 한국어를 공부해요?\n(What do I watch while studying Korean?)",
+      "opts": ["뉴스", "드라마", "영화", "유튜브"],
+      "ans": 1
+    },
+    {
+      "q": "처음에는 무엇이 없으면 이해하기 어려웠어요?\n(What made understanding difficult at first?)",
+      "opts": ["친구", "사전", "자막", "교과서"],
+      "ans": 2
+    },
+    {
+      "q": "같은 장면을 여러 번 보면서 무엇을 익히게 되었어요?\n(What did I become familiar with?)",
+      "opts": ["문법", "표현", "시험", "발음"],
+      "ans": 1
+    },
+    {
+      "q": "모르는 단어가 나오면 어떻게 해요?\n(What do I do when I see unknown words?)",
+      "opts": ["바로 찾아요", "무시해요", "끝까지 보려고 해요", "메모만 해요"],
+      "ans": 2
+    },
+    {
+      "q": "요즘은 무엇 없이도 더 많이 이해할 수 있어요?\n(What can I understand more without now?)",
+      "opts": ["사전", "교과서", "친구", "자막"],
+      "ans": 3
+    }
+  ],
+  "cloze": ["드라마", "자막", "장면", "문맥", "의미"]
+},
+{
+  "id": 16,
+  "level": "Intermediate",
+  "krTitle": "한국 친구 만들기",
+  "enTitle": "Making Korean Friends",
+  "sentences": [
+    { "kr": "외국어를 배우면서 친구를 만드는 것은 매우 중요해요.", "en": "Making friends while learning a language is very important." },
+    { "kr": "교과서에서는 배울 수 없는 표현을 들을 수 있기 때문이에요.", "en": "Because you can hear expressions that cannot be learned from textbooks." },
+    { "kr": "처음에는 실수할까 봐 말하기가 조금 부담스러웠어요.", "en": "At first, I was nervous about speaking because I was afraid of making mistakes." },
+    { "kr": "하지만 친구들은 제 실수를 이해해 주고 자연스럽게 고쳐 줬어요.", "en": "But my friends understood my mistakes and corrected them naturally." },
+    { "kr": "덕분에 자신감을 얻을 수 있었어요.", "en": "Thanks to that, I was able to gain confidence." },
+    { "kr": "지금은 새로운 사람을 만나는 것이 훨씬 편해졌어요.", "en": "Now meeting new people has become much easier." }
+  ],
+  "vocab": [
+    { "kr": "외국어", "en": "foreign language" },
+    { "kr": "교과서", "en": "textbook" },
+    { "kr": "실수", "en": "mistake" },
+    { "kr": "부담스럽다", "en": "feel pressured" },
+    { "kr": "자연스럽게", "en": "naturally" },
+    { "kr": "고쳐 주다", "en": "correct for someone" },
+    { "kr": "덕분에", "en": "thanks to" },
+    { "kr": "자신감", "en": "confidence" },
+    { "kr": "새로운", "en": "new" },
+    { "kr": "편해지다", "en": "become comfortable" }
+  ],
+  "quiz": [
+    {
+      "q": "무엇을 배우면서 친구를 만드는 것이 중요해요?\n(While learning what is making friends important?)",
+      "opts": ["운동", "외국어", "음악", "요리"],
+      "ans": 1
+    },
+    {
+      "q": "교과서에서는 배울 수 없는 것은 무엇이에요?\n(What can't be learned from textbooks?)",
+      "opts": ["표현", "단어", "문법", "숙제"],
+      "ans": 0
+    },
+    {
+      "q": "처음에는 왜 말하기가 부담스러웠어요?\n(Why was speaking difficult at first?)",
+      "opts": ["시간이 없어서", "실수할까 봐", "친구가 없어서", "피곤해서"],
+      "ans": 1
+    },
+    {
+      "q": "친구들은 실수를 어떻게 했어요?\n(What did friends do about mistakes?)",
+      "opts": ["무시했어요", "웃었어요", "고쳐 줬어요", "기록했어요"],
+      "ans": 2
+    },
+    {
+      "q": "덕분에 무엇을 얻었어요?\n(What did I gain?)",
+      "opts": ["돈", "시간", "친구", "자신감"],
+      "ans": 3
+    }
+  ],
+  "cloze": ["외국어", "교과서", "실수", "덕분에", "자신감"]
+},
+{
+  "id": 17,
+  "level": "Intermediate",
+  "krTitle": "카페에서 공부하는 이유",
+  "enTitle": "Why People Study at Cafes",
+  "sentences": [
+    { "kr": "요즘은 카페에서 공부하는 사람이 많아요.", "en": "These days many people study at cafes." },
+    { "kr": "집보다 집중이 더 잘된다고 생각하는 사람도 있어요.", "en": "Some people think they can concentrate better than at home." },
+    { "kr": "적당한 소음이 오히려 공부에 도움이 된다고 느끼기 때문이에요.", "en": "Because they feel a moderate amount of noise actually helps them study." },
+    { "kr": "저도 중요한 시험이 있을 때는 카페를 자주 이용해요.", "en": "I also often use cafes when I have an important exam." },
+    { "kr": "하지만 사람이 너무 많으면 집중하기 어려울 때도 있어요.", "en": "However, it can be difficult to concentrate when there are too many people." },
+    { "kr": "그래서 저는 비교적 조용한 카페를 찾는 편이에요.", "en": "So I tend to look for relatively quiet cafes." }
+  ],
+  "vocab": [
+    { "kr": "카페", "en": "cafe" },
+    { "kr": "집중", "en": "concentration" },
+    { "kr": "소음", "en": "noise" },
+    { "kr": "도움", "en": "help" },
+    { "kr": "시험", "en": "exam" },
+    { "kr": "이용하다", "en": "use" },
+    { "kr": "비교적", "en": "relatively" },
+    { "kr": "조용한", "en": "quiet" },
+    { "kr": "찾다", "en": "look for" },
+    { "kr": "오히려", "en": "rather" }
+  ],
+  "quiz": [
+    {
+      "q": "요즘은 어디에서 공부하는 사람이 많아요?\n(Where do many people study these days?)",
+      "opts": ["도서관", "학교", "카페", "공원"],
+      "ans": 2
+    },
+    {
+      "q": "어떤 사람들은 카페에서 무엇이 더 잘된다고 생각해요?\n(What do some people think is better at cafes?)",
+      "opts": ["잠", "집중", "식사", "운동"],
+      "ans": 1
+    },
+    {
+      "q": "무엇이 공부에 도움이 된다고 느껴요?\n(What is felt to help studying?)",
+      "opts": ["음악", "소음", "친구", "휴대전화"],
+      "ans": 1
+    },
+    {
+      "q": "저는 언제 카페를 자주 이용해요?\n(When do I often use cafes?)",
+      "opts": ["휴가 때", "시험이 있을 때", "주말마다", "비 오는 날"],
+      "ans": 1
+    },
+    {
+      "q": "저는 어떤 카페를 찾는 편이에요?\n(What kind of cafe do I tend to look for?)",
+      "opts": ["큰 카페", "유명한 카페", "조용한 카페", "새로운 카페"],
+      "ans": 2
+    }
+  ],
+  "cloze": ["카페", "집중", "소음", "시험", "조용한"]
 }
 ]
