@@ -509,7 +509,7 @@ function setupFilters(){
   const levelFilter=document.getElementById('level-filter');
   const search=document.getElementById('story-search');
 
-  const preferredLevels=['Starter','Beginner','High Beginner','Low Intermediate','Intermediate','Advanced'];
+  const preferredLevels=['Starter','Beginner','High Beginner','Intermediate','High Intermediate','Advanced'];
   const existingLevels=[...new Set(STORIES.map(s=>s.level).filter(Boolean))];
   preferredLevels.filter(level=>existingLevels.includes(level)).forEach(level=>{
     const opt=document.createElement('option');
