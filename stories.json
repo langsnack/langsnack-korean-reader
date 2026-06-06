@@ -1681,6 +1681,7 @@
     { "kr": "여행 계획", "en": "travel plan" },
     { "kr": "장소", "en": "place" },
     { "kr": "기본적인 표현", "en": "basic expressions" },
+    { "kr": "더욱", "en": "more" },
     { "kr": "기대돼요", "en": "look forward to" }
   ],
   "quiz": [
@@ -1746,6 +1747,7 @@
     { "kr": "해석되다", "en": "be interpreted" },
     { "kr": "생활 방식", "en": "way of life" },
     { "kr": "깊어질수록", "en": "the deeper it becomes" },
+    { "kr": "더욱", "en": "more" },
     { "kr": "소통하다", "en": "communicate" },
     { "kr": "이루어지다", "en": "be carried out / take place" }
   ],
