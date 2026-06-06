@@ -1932,5 +1932,273 @@
     { "q": "모든 변화를 어떻게 따라갈 필요는 없어요?\n(How is it unnecessary to follow every change?)", "opts": ["천천히", "무조건", "즐겁게", "조용히"], "ans": 1 }
   ],
   "cloze": ["현대 사회", "변화", "기술", "불안감", "적응"]
+},
+{
+  "id": 32,
+  "level": "Starter",
+  "krTitle": "새 연필",
+  "enTitle": "A New Pencil",
+  "sentences": [
+    { "kr": "오늘 새 연필을 샀어요.", "en": "I bought a new pencil today." },
+    { "kr": "색이 노란색이에요.", "en": "It is yellow." },
+    { "kr": "아주 가볍고 예뻐요.", "en": "It is very light and pretty." },
+    { "kr": "저는 연필로 한국어를 써요.", "en": "I write Korean with the pencil." },
+    { "kr": "가방 안에 항상 넣어 다녀요.", "en": "I always carry it in my bag." },
+    { "kr": "새 연필이라서 기분이 좋아요.", "en": "I feel happy because it is a new pencil." }
+  ],
+  "vocab": [
+    { "kr": "연필", "en": "pencil" },
+    { "kr": "노란색", "en": "yellow" },
+    { "kr": "가볍다", "en": "light" },
+    { "kr": "예쁘다", "en": "pretty" },
+    { "kr": "한국어", "en": "Korean language" },
+    { "kr": "가방", "en": "bag" },
+    { "kr": "항상", "en": "always" },
+    { "kr": "넣다", "en": "put in" },
+    { "kr": "기분", "en": "feeling" },
+    { "kr": "좋아요", "en": "good" }
+  ],
+  "quiz": [
+    {
+      "q": "오늘 무엇을 샀어요?\n(What did I buy today?)",
+      "opts": ["책", "연필", "가방", "공책"],
+      "ans": 1
+    },
+    {
+      "q": "연필 색은 무엇이에요?\n(What color is the pencil?)",
+      "opts": ["파란색", "빨간색", "노란색", "초록색"],
+      "ans": 2
+    },
+    {
+      "q": "저는 연필로 무엇을 써요?\n(What do I write with the pencil?)",
+      "opts": ["영어", "중국어", "일본어", "한국어"],
+      "ans": 3
+    },
+    {
+      "q": "연필은 어디에 넣어 다녀요?\n(Where do I carry the pencil?)",
+      "opts": ["주머니", "책상", "가방", "상자"],
+      "ans": 2
+    },
+    {
+      "q": "왜 기분이 좋아요?\n(Why do I feel good?)",
+      "opts": ["새 연필이라서", "날씨가 좋아서", "친구를 만나서", "시험이 없어서"],
+      "ans": 0
+    }
+  ],
+  "cloze": ["연필", "노란색", "한국어", "가방", "기분"]
+},
+{
+  "id": 33,
+  "level": "Beginner",
+  "krTitle": "비 오는 날",
+  "enTitle": "A Rainy Day",
+  "sentences": [
+    { "kr": "오늘은 아침부터 비가 와요.", "en": "It has been raining since morning." },
+    { "kr": "그래서 우산을 가지고 나왔어요.", "en": "So I brought an umbrella." },
+    { "kr": "길이 조금 미끄러워요.", "en": "The road is a little slippery." },
+    { "kr": "사람들은 우산을 쓰고 걸어가요.", "en": "People walk while holding umbrellas." },
+    { "kr": "저는 카페에 가서 따뜻한 커피를 마셔요.", "en": "I go to a cafe and drink a warm coffee." },
+    { "kr": "비 오는 날도 나쁘지 않아요.", "en": "Rainy days are not bad either." }
+  ],
+  "vocab": [
+    { "kr": "비", "en": "rain" },
+    { "kr": "우산", "en": "umbrella" },
+    { "kr": "길", "en": "road" },
+    { "kr": "미끄럽다", "en": "slippery" },
+    { "kr": "걸어가다", "en": "walk" },
+    { "kr": "카페", "en": "cafe" },
+    { "kr": "따뜻한", "en": "warm" },
+    { "kr": "커피", "en": "coffee" },
+    { "kr": "날", "en": "day" },
+    { "kr": "나쁘지 않다", "en": "not bad" }
+  ],
+  "quiz": [
+    {
+      "q": "오늘 날씨는 어때요?\n(How is the weather today?)",
+      "opts": ["눈이 와요", "비가 와요", "맑아요", "더워요"],
+      "ans": 1
+    },
+    {
+      "q": "무엇을 가지고 나왔어요?\n(What did I bring?)",
+      "opts": ["가방", "책", "우산", "모자"],
+      "ans": 2
+    },
+    {
+      "q": "무엇이 조금 미끄러워요?\n(What is slippery?)",
+      "opts": ["계단", "길", "의자", "문"],
+      "ans": 1
+    },
+    {
+      "q": "저는 어디에 가요?\n(Where do I go?)",
+      "opts": ["학교", "공원", "카페", "도서관"],
+      "ans": 2
+    },
+    {
+      "q": "비 오는 날은 어때요?\n(How are rainy days?)",
+      "opts": ["아주 싫어요", "나쁘지 않아요", "무서워요", "지루해요"],
+      "ans": 1
+    }
+  ],
+  "cloze": ["비", "우산", "길", "카페", "커피"]
+},
+{
+  "id": 34,
+  "level": "Intermediate",
+  "krTitle": "새로운 취미 찾기",
+  "enTitle": "Finding a New Hobby",
+  "sentences": [
+    { "kr": "저는 최근에 새로운 취미를 찾고 있었어요.", "en": "Recently, I was looking for a new hobby." },
+    { "kr": "예전에는 운동만 했지만 다른 활동도 해 보고 싶었어요.", "en": "I used to only exercise, but I wanted to try other activities too." },
+    { "kr": "그래서 사진 찍기를 시작하게 되었어요.", "en": "So I ended up starting photography." },
+    { "kr": "처음에는 사진을 잘 찍지 못했어요.", "en": "At first, I was not good at taking photos." },
+    { "kr": "하지만 계속 연습하면서 조금씩 실력이 늘고 있어요.", "en": "But by continuing to practice, my skills are gradually improving." },
+    { "kr": "새로운 취미를 통해 즐거움뿐만 아니라 성취감도 얻고 있어요.", "en": "Through my new hobby, I am gaining not only enjoyment but also a sense of achievement." }
+  ],
+  "vocab": [
+    { "kr": "최근", "en": "recently" },
+    { "kr": "취미", "en": "hobby" },
+    { "kr": "운동", "en": "exercise" },
+    { "kr": "활동", "en": "activity" },
+    { "kr": "사진 찍기", "en": "photography" },
+    { "kr": "시작하게 되다", "en": "come to start" },
+    { "kr": "연습하다", "en": "practice" },
+    { "kr": "실력", "en": "skill" },
+    { "kr": "즐거움", "en": "enjoyment" },
+    { "kr": "성취감", "en": "sense of achievement" }
+  ],
+  "quiz": [
+    {
+      "q": "저는 최근에 무엇을 찾고 있었어요?\n(What was I looking for recently?)",
+      "opts": ["직장", "친구", "취미", "집"],
+      "ans": 2
+    },
+    {
+      "q": "예전에는 무엇만 했어요?\n(What did I only do before?)",
+      "opts": ["독서", "운동", "요리", "여행"],
+      "ans": 1
+    },
+    {
+      "q": "무엇을 시작하게 되었어요?\n(What did I start?)",
+      "opts": ["그림 그리기", "요리", "사진 찍기", "수영"],
+      "ans": 2
+    },
+    {
+      "q": "실력은 어떻게 되고 있어요?\n(What is happening to my skill?)",
+      "opts": ["줄고 있어요", "변하지 않아요", "늘고 있어요", "사라지고 있어요"],
+      "ans": 2
+    },
+    {
+      "q": "새로운 취미를 통해 무엇도 얻고 있어요?\n(What am I also gaining through my hobby?)",
+      "opts": ["스트레스", "걱정", "성취감", "숙제"],
+      "ans": 2
+    }
+  ],
+  "cloze": ["취미", "운동", "사진", "실력", "성취감"]
+},
+{
+  "id": 35,
+  "level": "High Intermediate",
+  "krTitle": "책을 읽는 습관",
+  "enTitle": "The Habit of Reading",
+  "sentences": [
+    { "kr": "많은 사람들이 독서의 중요성을 알고 있지만 꾸준히 실천하기는 쉽지 않아요.", "en": "Many people know the importance of reading, but practicing it consistently is not easy." },
+    { "kr": "바쁜 일상 때문에 책을 읽을 시간이 부족하다고 느끼는 경우가 많아요.", "en": "Many people feel they do not have enough time to read because of their busy lives." },
+    { "kr": "하지만 하루에 10분이라도 꾸준히 읽으면 큰 차이를 만들 수 있어요.", "en": "However, reading consistently for even ten minutes a day can make a big difference." },
+    { "kr": "독서는 새로운 지식을 얻는 데 도움이 될 뿐만 아니라 사고력을 키우는 데에도 도움이 돼요.", "en": "Reading not only helps people gain knowledge but also develop critical thinking." },
+    { "kr": "그래서 저는 짧은 시간이라도 매일 책을 읽으려고 노력하고 있어요.", "en": "That is why I try to read every day, even for a short time." }
+  ],
+  "vocab": [
+    { "kr": "독서", "en": "reading" },
+    { "kr": "중요성", "en": "importance" },
+    { "kr": "꾸준히", "en": "consistently" },
+    { "kr": "실천하다", "en": "put into practice" },
+    { "kr": "부족하다", "en": "lack" },
+    { "kr": "차이", "en": "difference" },
+    { "kr": "지식", "en": "knowledge" },
+    { "kr": "사고력", "en": "critical thinking ability" },
+    { "kr": "뿐만 아니라", "en": "not only... but also" },
+    { "kr": "노력하다", "en": "make an effort" }
+  ],
+  "quiz": [
+    {
+      "q": "많은 사람들이 무엇의 중요성을 알고 있어요?\n(What importance do many people know?)",
+      "opts": ["운동", "독서", "여행", "게임"],
+      "ans": 1
+    },
+    {
+      "q": "왜 책을 읽을 시간이 부족하다고 느껴요?\n(Why do people feel they lack time to read?)",
+      "opts": ["학교 때문에", "날씨 때문에", "바쁜 일상 때문에", "친구 때문에"],
+      "ans": 2
+    },
+    {
+      "q": "하루에 얼마라도 읽으면 큰 차이를 만들 수 있어요?\n(How much reading can make a big difference?)",
+      "opts": ["1분", "5분", "10분", "30분"],
+      "ans": 2
+    },
+    {
+      "q": "독서는 무엇을 키우는 데에도 도움이 돼요?\n(What else does reading help develop?)",
+      "opts": ["근육", "사고력", "속도", "키"],
+      "ans": 1
+    },
+    {
+      "q": "저는 무엇을 읽으려고 노력하고 있어요?\n(What am I trying to read?)",
+      "opts": ["신문", "만화", "책", "광고"],
+      "ans": 2
+    }
+  ],
+  "cloze": ["독서", "중요성", "꾸준히", "지식", "사고력"]
+},
+{
+  "id": 36,
+  "level": "Advanced",
+  "krTitle": "성공의 의미",
+  "enTitle": "The Meaning of Success",
+  "sentences": [
+    { "kr": "사람마다 성공의 의미는 다를 수 있어요.", "en": "The meaning of success can differ from person to person." },
+    { "kr": "어떤 사람은 높은 수입을 성공의 기준으로 생각하고 어떤 사람은 행복한 삶을 더 중요하게 여겨요.", "en": "Some people consider a high income to be success, while others value a happy life more." },
+    { "kr": "사회가 정한 기준만을 따라가기보다 자신만의 목표를 찾는 것이 중요해요.", "en": "Rather than following standards set by society, it is important to find one's own goals." },
+    { "kr": "또한 성공은 한순간에 이루어지는 것이 아니라 오랜 노력의 결과라고 볼 수 있어요.", "en": "Success is not achieved instantly but can be seen as the result of long-term effort." },
+    { "kr": "결국 중요한 것은 다른 사람과 비교하는 것이 아니라 자신이 원하는 방향으로 성장하고 있는지 확인하는 것이라고 생각해요.", "en": "Ultimately, what matters is not comparing yourself to others but checking whether you are growing in the direction you want." }
+  ],
+  "vocab": [
+    { "kr": "성공", "en": "success" },
+    { "kr": "의미", "en": "meaning" },
+    { "kr": "수입", "en": "income" },
+    { "kr": "기준", "en": "standard" },
+    { "kr": "여기다", "en": "consider / regard" },
+    { "kr": "목표", "en": "goal" },
+    { "kr": "한순간", "en": "an instant" },
+    { "kr": "노력", "en": "effort" },
+    { "kr": "비교하다", "en": "compare" },
+    { "kr": "방향", "en": "direction" }
+  ],
+  "quiz": [
+    {
+      "q": "사람마다 무엇의 의미가 다를 수 있어요?\n(What meaning can differ from person to person?)",
+      "opts": ["행복", "성공", "여행", "공부"],
+      "ans": 1
+    },
+    {
+      "q": "어떤 사람은 무엇을 성공의 기준으로 생각해요?\n(What do some people consider a standard of success?)",
+      "opts": ["높은 수입", "큰 집", "좋은 날씨", "많은 친구"],
+      "ans": 0
+    },
+    {
+      "q": "무엇을 찾는 것이 중요해요?\n(What is important to find?)",
+      "opts": ["새로운 직장", "자신만의 목표", "새로운 집", "새로운 취미"],
+      "ans": 1
+    },
+    {
+      "q": "성공은 무엇의 결과라고 볼 수 있어요?\n(What can success be seen as the result of?)",
+      "opts": ["운", "재능", "오랜 노력", "기회"],
+      "ans": 2
+    },
+    {
+      "q": "결국 중요한 것은 무엇을 확인하는 것이에요?\n(Ultimately, what is important to check?)",
+      "opts": ["돈이 많은지", "유명한지", "원하는 방향으로 성장하고 있는지", "친구가 많은지"],
+      "ans": 2
+    }
+  ],
+  "cloze": ["성공", "수입", "목표", "노력", "방향"]
 }
 ]
