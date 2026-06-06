@@ -1523,7 +1523,7 @@
     { "kr": "익숙해지다", "en": "become familiar with" },
     { "kr": "점차", "en": "gradually" },
     { "kr": "시야", "en": "perspective" },
-    { "kr": "넓히다", "en": "broaden" },
+    { "kr": "넓힐", "en": "broaden" },
     { "kr": "소중한", "en": "valuable" }
   ],
   "quiz": [
@@ -1554,5 +1554,208 @@
     }
   ],
   "cloze": ["유학", "적응", "언어", "시야", "소중한"]
+},
+{
+  "id": 21,
+  "level": "Starter",
+  "krTitle": "아침 산책",
+  "enTitle": "Morning Walk",
+  "sentences": [
+    { "kr": "저는 아침에 산책을 해요.", "en": "I take a walk in the morning." },
+    { "kr": "집 근처 공원에 가요.", "en": "I go to a park near my house." },
+    { "kr": "공기가 시원해서 기분이 좋아요.", "en": "The air is cool, so I feel good." },
+    { "kr": "강아지를 데리고 오는 사람도 많아요.", "en": "There are also many people who bring dogs." },
+    { "kr": "산책을 한 후에 집에 돌아가요.", "en": "After taking a walk, I return home." },
+    { "kr": "그리고 아침을 먹어요.", "en": "And then I eat breakfast." }
+  ],
+  "vocab": [
+    { "kr": "아침", "en": "morning" },
+    { "kr": "산책", "en": "walk" },
+    { "kr": "집 근처", "en": "near home" },
+    { "kr": "공원", "en": "park" },
+    { "kr": "공기", "en": "air" },
+    { "kr": "시원해서", "en": "because it is cool" },
+    { "kr": "기분", "en": "feeling / mood" },
+    { "kr": "강아지", "en": "dog" },
+    { "kr": "돌아가요", "en": "return" },
+    { "kr": "아침을 먹어요", "en": "eat breakfast" }
+  ],
+  "quiz": [
+    { "q": "저는 언제 산책을 해요?\n(When do I take a walk?)", "opts": ["아침", "점심", "저녁", "밤"], "ans": 0 },
+    { "q": "저는 어디에 가요?\n(Where do I go?)", "opts": ["학교", "공원", "회사", "식당"], "ans": 1 },
+    { "q": "공기가 어때요?\n(How is the air?)", "opts": ["더워요", "추워요", "시원해요", "나빠요"], "ans": 2 },
+    { "q": "사람들은 무엇을 데리고 와요?\n(What do people bring?)", "opts": ["고양이", "강아지", "책", "가방"], "ans": 1 },
+    { "q": "산책 후에 무엇을 먹어요?\n(What do I eat after the walk?)", "opts": ["점심", "저녁", "아침", "간식"], "ans": 2 }
+  ],
+  "cloze": ["아침", "산책", "공원", "강아지", "아침을 먹어요"]
+},
+{
+  "id": 22,
+  "level": "Beginner",
+  "krTitle": "한국 음식",
+  "enTitle": "Korean Food",
+  "sentences": [
+    { "kr": "저는 한국 음식을 좋아해요.", "en": "I like Korean food." },
+    { "kr": "특히 김치찌개를 자주 먹어요.", "en": "I especially eat kimchi stew often." },
+    { "kr": "김치찌개는 조금 매워요.", "en": "Kimchi stew is a little spicy." },
+    { "kr": "하지만 정말 맛있어요.", "en": "But it is really delicious." },
+    { "kr": "친구도 김치찌개를 좋아해요.", "en": "My friend likes kimchi stew too." },
+    { "kr": "그래서 같이 식당에 가요.", "en": "So we go to a restaurant together." },
+    { "kr": "식당에는 손님이 많아요.", "en": "There are many customers at the restaurant." }
+  ],
+  "vocab": [
+    { "kr": "한국 음식", "en": "Korean food" },
+    { "kr": "특히", "en": "especially" },
+    { "kr": "김치찌개", "en": "kimchi stew" },
+    { "kr": "자주", "en": "often" },
+    { "kr": "조금", "en": "a little" },
+    { "kr": "매워요", "en": "spicy" },
+    { "kr": "맛있어요", "en": "delicious" },
+    { "kr": "친구", "en": "friend" },
+    { "kr": "식당", "en": "restaurant" },
+    { "kr": "손님", "en": "customer" }
+  ],
+  "quiz": [
+    { "q": "저는 무엇을 좋아해요?\n(What do I like?)", "opts": ["한국 음식", "중국 음식", "일본 음식", "태국 음식"], "ans": 0 },
+    { "q": "저는 무엇을 자주 먹어요?\n(What do I eat often?)", "opts": ["비빔밥", "김치찌개", "라면", "떡볶이"], "ans": 1 },
+    { "q": "김치찌개는 어때요?\n(How is kimchi stew?)", "opts": ["달아요", "차가워요", "매워요", "싱거워요"], "ans": 2 },
+    { "q": "저는 누구와 식당에 가요?\n(Who do I go to the restaurant with?)", "opts": ["선생님", "가족", "친구", "혼자"], "ans": 2 },
+    { "q": "식당에는 누가 많아요?\n(Who are there many of at the restaurant?)", "opts": ["학생", "손님", "직원", "아이"], "ans": 1 }
+  ],
+  "cloze": ["한국 음식", "김치찌개", "매워요", "식당", "손님"]
+},
+{
+  "id": 23,
+  "level": "Beginner",
+  "krTitle": "지하철 타기",
+  "enTitle": "Taking the Subway",
+  "sentences": [
+    { "kr": "저는 지하철을 자주 이용해요.", "en": "I use the subway often." },
+    { "kr": "지하철은 빠르고 편리해요.", "en": "The subway is fast and convenient." },
+    { "kr": "출근 시간에는 사람이 많아요.", "en": "There are many people during rush hour." },
+    { "kr": "그래서 앉기 어려울 때도 있어요.", "en": "So sometimes it is hard to sit down." },
+    { "kr": "하지만 버스보다 시간이 정확해요.", "en": "But it is more punctual than the bus." },
+    { "kr": "저는 지하철에서 음악을 들어요.", "en": "I listen to music on the subway." }
+  ],
+  "vocab": [
+    { "kr": "지하철", "en": "subway" },
+    { "kr": "자주", "en": "often" },
+    { "kr": "이용해요", "en": "use" },
+    { "kr": "빠르고", "en": "fast and" },
+    { "kr": "편리해요", "en": "convenient" },
+    { "kr": "출근 시간", "en": "rush hour / commute time" },
+    { "kr": "사람", "en": "people" },
+    { "kr": "앉기", "en": "sitting" },
+    { "kr": "정확해요", "en": "accurate / punctual" },
+    { "kr": "음악", "en": "music" }
+  ],
+  "quiz": [
+    { "q": "저는 무엇을 자주 이용해요?\n(What do I use often?)", "opts": ["버스", "택시", "지하철", "자전거"], "ans": 2 },
+    { "q": "지하철은 어때요?\n(How is the subway?)", "opts": ["느리고 불편해요", "빠르고 편리해요", "비싸고 어려워요", "조용하고 작아요"], "ans": 1 },
+    { "q": "언제 사람이 많아요?\n(When are there many people?)", "opts": ["출근 시간", "밤", "새벽", "주말 아침"], "ans": 0 },
+    { "q": "출근 시간에는 무엇이 어려울 때도 있어요?\n(What can be hard during rush hour?)", "opts": ["먹기", "앉기", "걷기", "말하기"], "ans": 1 },
+    { "q": "저는 지하철에서 무엇을 들어요?\n(What do I listen to on the subway?)", "opts": ["뉴스", "음악", "수업", "라디오"], "ans": 1 }
+  ],
+  "cloze": ["지하철", "편리해요", "출근 시간", "앉기", "음악"]
+},
+{
+  "id": 24,
+  "level": "Intermediate",
+  "krTitle": "한국 여행 준비",
+  "enTitle": "Preparing for a Trip to Korea",
+  "sentences": [
+    { "kr": "저는 다음 달에 한국으로 여행을 갈 예정이에요.", "en": "I am planning to travel to Korea next month." },
+    { "kr": "그래서 비행기 표와 숙소를 미리 예약했어요.", "en": "So I booked my flight ticket and accommodation in advance." },
+    { "kr": "여행 계획을 세우면서 가 보고 싶은 장소를 찾아보고 있어요.", "en": "While making my travel plan, I am looking up places I want to visit." },
+    { "kr": "특히 경복궁과 한강공원에 꼭 가 보고 싶어요.", "en": "I especially want to visit Gyeongbokgung Palace and Hangang Park." },
+    { "kr": "여행 전에 기본적인 표현도 다시 복습하려고 해요.", "en": "Before the trip, I plan to review basic expressions again." },
+    { "kr": "준비를 할수록 여행이 더욱 기대돼요.", "en": "The more I prepare, the more I look forward to the trip." }
+  ],
+  "vocab": [
+    { "kr": "다음 달", "en": "next month" },
+    { "kr": "여행", "en": "trip / travel" },
+    { "kr": "예정", "en": "plan / schedule" },
+    { "kr": "비행기 표", "en": "flight ticket" },
+    { "kr": "숙소", "en": "accommodation" },
+    { "kr": "예약했어요", "en": "booked / reserved" },
+    { "kr": "여행 계획", "en": "travel plan" },
+    { "kr": "장소", "en": "place" },
+    { "kr": "기본적인 표현", "en": "basic expressions" },
+    { "kr": "기대돼요", "en": "look forward to" }
+  ],
+  "quiz": [
+    { "q": "저는 언제 한국으로 여행을 갈 예정이에요?\n(When am I planning to travel to Korea?)", "opts": ["이번 주", "다음 달", "내년", "오늘"], "ans": 1 },
+    { "q": "무엇을 미리 예약했어요?\n(What did I book in advance?)", "opts": ["식당과 택시", "비행기 표와 숙소", "공연과 옷", "학교와 수업"], "ans": 1 },
+    { "q": "가 보고 싶은 장소를 어떻게 하고 있어요?\n(What am I doing with places I want to visit?)", "opts": ["찾아보고 있어요", "잊고 있어요", "취소하고 있어요", "기다리고 있어요"], "ans": 0 },
+    { "q": "어디에 꼭 가 보고 싶어요?\n(Where do I really want to go?)", "opts": ["경복궁과 한강공원", "부산과 제주도", "학교와 도서관", "식당과 카페"], "ans": 0 },
+    { "q": "여행 전에 무엇을 복습하려고 해요?\n(What do I plan to review before the trip?)", "opts": ["어려운 문법", "기본적인 표현", "역사 책", "노래 가사"], "ans": 1 }
+  ],
+  "cloze": ["다음 달", "비행기 표", "숙소", "장소", "기대돼요"]
+},
+{
+  "id": 25,
+  "level": "High Intermediate",
+  "krTitle": "번역기의 장단점",
+  "enTitle": "The Pros and Cons of Translation Apps",
+  "sentences": [
+    { "kr": "요즘은 번역기를 사용하는 사람이 많아요.", "en": "These days, many people use translation apps." },
+    { "kr": "번역기는 모르는 단어를 빠르게 이해하는 데 도움이 돼요.", "en": "Translation apps help people quickly understand unknown words." },
+    { "kr": "반면에 문맥에 따라 의미가 달라지는 표현은 정확하게 번역하지 못할 때도 있어요.", "en": "On the other hand, expressions whose meanings change depending on context are sometimes not translated accurately." },
+    { "kr": "그래서 번역기에만 의존하는 것은 좋은 방법이 아니라고 생각해요.", "en": "So I think relying only on translation apps is not a good method." },
+    { "kr": "외국어 실력을 향상시키기 위해서는 직접 이해하려는 노력도 필요해요.", "en": "To improve foreign language skills, effort to understand directly is also necessary." }
+  ],
+  "vocab": [
+    { "kr": "번역기", "en": "translation app / translator" },
+    { "kr": "단어", "en": "word" },
+    { "kr": "이해", "en": "understanding" },
+    { "kr": "문맥", "en": "context" },
+    { "kr": "의미", "en": "meaning" },
+    { "kr": "정확하게", "en": "accurately" },
+    { "kr": "의존하다", "en": "depend on" },
+    { "kr": "외국어", "en": "foreign language" },
+    { "kr": "향상시키다", "en": "improve" },
+    { "kr": "노력", "en": "effort" }
+  ],
+  "quiz": [
+    { "q": "요즘 많은 사람들이 무엇을 사용해요?\n(What do many people use these days?)", "opts": ["번역기", "지도", "카메라", "계산기"], "ans": 0 },
+    { "q": "번역기는 무엇에 도움이 돼요?\n(What do translation apps help with?)", "opts": ["운동하기", "단어 이해하기", "요리하기", "잠자기"], "ans": 1 },
+    { "q": "무엇에 따라 의미가 달라질 수 있어요?\n(What can meanings change depending on?)", "opts": ["가격", "문맥", "날씨", "시간"], "ans": 1 },
+    { "q": "번역기에만 의존하는 것은 어때요?\n(How is relying only on translation apps?)", "opts": ["좋은 방법이에요", "쉬운 방법이에요", "좋은 방법이 아니에요", "필요 없어요"], "ans": 2 },
+    { "q": "외국어 실력을 향상시키기 위해 무엇이 필요해요?\n(What is needed to improve language skills?)", "opts": ["직접 이해하려는 노력", "비싼 책", "빠른 인터넷", "새로운 휴대폰"], "ans": 0 }
+  ],
+  "cloze": ["번역기", "문맥", "의존", "외국어", "노력"]
+},
+{
+  "id": 26,
+  "level": "Advanced",
+  "krTitle": "문화 차이를 이해하는 방법",
+  "enTitle": "Understanding Cultural Differences",
+  "sentences": [
+    { "kr": "다른 문화를 이해하는 것은 단순히 언어를 배우는 것만으로는 충분하지 않아요.", "en": "Understanding another culture is not achieved simply by learning the language." },
+    { "kr": "같은 표현이라도 문화적 배경에 따라 다르게 해석될 수 있기 때문이에요.", "en": "This is because even the same expression can be interpreted differently depending on cultural background." },
+    { "kr": "따라서 외국어를 공부할 때는 역사와 생활 방식에도 관심을 가질 필요가 있어요.", "en": "Therefore, when studying a foreign language, it is necessary to pay attention to history and ways of life as well." },
+    { "kr": "문화에 대한 이해가 깊어질수록 사람들과 더욱 자연스럽게 소통할 수 있어요.", "en": "The deeper your understanding of culture becomes, the more naturally you can communicate with people." },
+    { "kr": "결국 언어 학습은 문화 학습과 함께 이루어져야 한다고 할 수 있어요.", "en": "In the end, language learning should take place together with cultural learning." }
+  ],
+  "vocab": [
+    { "kr": "문화", "en": "culture" },
+    { "kr": "단순히", "en": "simply" },
+    { "kr": "충분하지 않아요", "en": "not enough" },
+    { "kr": "표현", "en": "expression" },
+    { "kr": "문화적 배경", "en": "cultural background" },
+    { "kr": "해석되다", "en": "be interpreted" },
+    { "kr": "생활 방식", "en": "way of life" },
+    { "kr": "깊어질수록", "en": "the deeper it becomes" },
+    { "kr": "소통하다", "en": "communicate" },
+    { "kr": "이루어지다", "en": "be carried out / take place" }
+  ],
+  "quiz": [
+    { "q": "문화를 이해하는 것은 무엇만으로 충분하지 않아요?\n(What alone is not enough to understand culture?)", "opts": ["음식 먹기", "언어 배우기", "여행 가기", "친구 만나기"], "ans": 1 },
+    { "q": "같은 표현도 무엇에 따라 다르게 해석될 수 있어요?\n(What can the same expression be interpreted differently depending on?)", "opts": ["문화적 배경", "날씨", "가격", "장소"], "ans": 0 },
+    { "q": "외국어를 공부할 때 무엇에도 관심을 가질 필요가 있어요?\n(What should we also pay attention to when studying a foreign language?)", "opts": ["역사와 생활 방식", "쇼핑과 음식", "운동과 음악", "시험과 점수"], "ans": 0 },
+    { "q": "문화 이해가 깊어질수록 어떻게 소통할 수 있어요?\n(As cultural understanding deepens, how can we communicate?)", "opts": ["더 빠르게", "더 자연스럽게", "더 조용하게", "더 짧게"], "ans": 1 },
+    { "q": "언어 학습은 무엇과 함께 이루어져야 해요?\n(What should language learning happen together with?)", "opts": ["문화 학습", "운동", "시험", "번역기"], "ans": 0 }
+  ],
+  "cloze": ["문화", "표현", "배경", "소통", "언어 학습"]
 }
 ]
