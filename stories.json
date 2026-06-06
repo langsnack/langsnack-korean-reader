@@ -1805,7 +1805,7 @@
     { "kr": "시장에는 사람이 많아요.", "en": "There are many people at the market." },
     { "kr": "과일, 반찬, 옷을 팔아요.", "en": "They sell fruit, side dishes, and clothes." },
     { "kr": "저는 딸기를 사고 싶어요.", "en": "I want to buy strawberries." },
-    { "kr": "친구는 떡볶이를 먹고 싶어해요.", "en": "My friend wants to eat tteokbokki." },
+    { "kr": "친구는 떡볶이를 먹고 싶어 해요.", "en": "My friend wants to eat tteokbokki." },
     { "kr": "우리는 시장에서 간식을 먹어요.", "en": "We eat snacks at the market." },
     { "kr": "시장 구경은 재미있어요.", "en": "Looking around the market is fun." }
   ],
@@ -1886,6 +1886,7 @@
     { "kr": "생활비", "en": "cost of living" },
     { "kr": "자연", "en": "nature" },
     { "kr": "부족해서", "en": "because it is lacking" },
+    { "kr": "다만", "en": "however" },
     { "kr": "생활 방식", "en": "lifestyle" },
     { "kr": "선택하는 것", "en": "choosing" }
   ],
