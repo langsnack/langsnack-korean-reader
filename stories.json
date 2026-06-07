@@ -2369,5 +2369,106 @@
     { "q": "결국 중요한 것은 무엇이에요?\n(What is ultimately important?)", "opts": ["기술을 피하는 것", "기술을 두려워하는 것", "기술을 적절하게 활용하는 능력", "기술을 전혀 쓰지 않는 것"], "ans": 2 }
   ],
   "cloze": ["기술", "업무", "자동화", "역할", "활용"]
+},
+{
+  "id": 42,
+  "level": "Starter",
+  "krTitle": "카페에서 만난 친구",
+  "enTitle": "A Friend at the Cafe",
+  "sentences": [
+    { "kr": "민수: 안녕하세요?", "en": "Minsu: Hello." },
+    { "kr": "지수: 안녕하세요!", "en": "Jisu: Hello!" },
+    { "kr": "민수: 여기 앉아도 돼요?", "en": "Minsu: Can I sit here?" },
+    { "kr": "지수: 네, 괜찮아요.", "en": "Jisu: Yes, it is okay." },
+    { "kr": "민수: 커피를 좋아해요?", "en": "Minsu: Do you like coffee?" },
+    { "kr": "지수: 네, 정말 좋아해요.", "en": "Jisu: Yes, I really like it." },
+    { "kr": "민수: 저도 좋아해요.", "en": "Minsu: I like it too." }
+  ],
+  "vocab": [
+    { "kr": "안녕하세요", "en": "hello" },
+    { "kr": "여기", "en": "here" },
+    { "kr": "앉아도 돼요", "en": "may sit / can sit" },
+    { "kr": "괜찮아요", "en": "it is okay" },
+    { "kr": "커피", "en": "coffee" },
+    { "kr": "좋아해요", "en": "like" },
+    { "kr": "정말", "en": "really" },
+    { "kr": "저도", "en": "me too" }
+  ],
+  "quiz": [
+    { "q": "민수는 어디에 앉고 싶어해요?\n(Where does Minsu want to sit?)", "opts": ["여기", "집", "학교", "공원"], "ans": 0 },
+    { "q": "지수는 앉아도 된다고 해요?\n(Does Jisu say Minsu can sit?)", "opts": ["네", "아니요", "몰라요", "나중에요"], "ans": 0 },
+    { "q": "민수는 무엇을 좋아하는지 물어봐요?\n(What does Minsu ask if Jisu likes?)", "opts": ["차", "커피", "케이크", "우유"], "ans": 1 },
+    { "q": "지수는 커피를 좋아해요?\n(Does Jisu like coffee?)", "opts": ["네, 좋아해요", "아니요, 싫어해요", "조금 몰라요", "안 마셔요"], "ans": 0 },
+    { "q": "민수도 커피를 좋아해요?\n(Does Minsu also like coffee?)", "opts": ["네", "아니요", "가끔", "몰라요"], "ans": 0 }
+  ],
+  "cloze": ["안녕하세요", "여기", "커피", "좋아해요", "저도"]
+},
+{
+  "id": 43,
+  "level": "Beginner",
+  "krTitle": "점심 메뉴",
+  "enTitle": "Lunch Menu",
+  "sentences": [
+    { "kr": "수진: 오늘 점심에 뭐 먹을까요?", "en": "Sujin: What should we eat for lunch today?" },
+    { "kr": "유진: 김치찌개 어때요?", "en": "Yujin: How about kimchi stew?" },
+    { "kr": "수진: 좋아요. 김치찌개를 좋아해요.", "en": "Sujin: Sounds good. I like kimchi stew." },
+    { "kr": "유진: 저는 비빔밥도 좋아해요.", "en": "Yujin: I like bibimbap too." },
+    { "kr": "수진: 그럼 식당에 가서 결정해요.", "en": "Sujin: Then let's go to the restaurant and decide." },
+    { "kr": "유진: 좋아요!", "en": "Yujin: Sounds good!" }
+  ],
+  "vocab": [
+    { "kr": "오늘", "en": "today" },
+    { "kr": "점심", "en": "lunch" },
+    { "kr": "뭐", "en": "what" },
+    { "kr": "먹을까요", "en": "shall we eat" },
+    { "kr": "김치찌개", "en": "kimchi stew" },
+    { "kr": "어때요", "en": "how about" },
+    { "kr": "비빔밥", "en": "bibimbap" },
+    { "kr": "식당", "en": "restaurant" },
+    { "kr": "결정해요", "en": "decide" }
+  ],
+  "quiz": [
+    { "q": "수진은 무엇을 물어봐요?\n(What does Sujin ask?)", "opts": ["점심에 뭐 먹을까요?", "어디에 살아요?", "몇 시예요?", "무슨 일을 해요?"], "ans": 0 },
+    { "q": "유진은 무엇을 제안해요?\n(What does Yujin suggest?)", "opts": ["김치찌개", "라면", "커피", "떡볶이"], "ans": 0 },
+    { "q": "수진은 김치찌개를 좋아해요?\n(Does Sujin like kimchi stew?)", "opts": ["네", "아니요", "몰라요", "조금 싫어해요"], "ans": 0 },
+    { "q": "유진은 무엇도 좋아해요?\n(What else does Yujin like?)", "opts": ["비빔밥", "김밥", "피자", "빵"], "ans": 0 },
+    { "q": "두 사람은 어디에 가서 결정해요?\n(Where do they go to decide?)", "opts": ["학교", "식당", "카페", "집"], "ans": 1 }
+  ],
+  "cloze": ["점심", "김치찌개", "비빔밥", "식당", "결정해요"]
+},
+{
+  "id": 44,
+  "level": "High Intermediate",
+  "krTitle": "여행 계획 이야기",
+  "enTitle": "Talking About Travel Plans",
+  "sentences": [
+    { "kr": "민지: 이번 여름에 여행 갈 계획이 있어요?", "en": "Minji: Do you have plans to travel this summer?" },
+    { "kr": "준호: 네, 일본에 가려고 해요.", "en": "Junho: Yes, I am planning to go to Japan." },
+    { "kr": "민지: 혼자 가는 거예요?", "en": "Minji: Are you going alone?" },
+    { "kr": "준호: 아니요. 친구와 함께 갈 예정이에요.", "en": "Junho: No. I am planning to go with a friend." },
+    { "kr": "민지: 어떤 곳을 방문하고 싶어요?", "en": "Minji: What kind of places do you want to visit?" },
+    { "kr": "준호: 역사적인 장소도 보고 맛있는 음식도 먹어 보고 싶어요.", "en": "Junho: I want to see historical places and try delicious food." },
+    { "kr": "민지: 좋은 여행이 될 것 같아요.", "en": "Minji: I think it will be a good trip." }
+  ],
+  "vocab": [
+    { "kr": "이번 여름", "en": "this summer" },
+    { "kr": "여행", "en": "travel / trip" },
+    { "kr": "계획", "en": "plan" },
+    { "kr": "일본", "en": "Japan" },
+    { "kr": "혼자", "en": "alone" },
+    { "kr": "함께", "en": "together" },
+    { "kr": "예정", "en": "plan / schedule" },
+    { "kr": "방문하다", "en": "visit" },
+    { "kr": "역사적인", "en": "historical" },
+    { "kr": "장소", "en": "place" }
+  ],
+  "quiz": [
+    { "q": "준호는 어디에 가려고 해요?\n(Where is Junho planning to go?)", "opts": ["한국", "일본", "중국", "태국"], "ans": 1 },
+    { "q": "준호는 혼자 가요?\n(Is Junho going alone?)", "opts": ["네", "아니요", "아마요", "몰라요"], "ans": 1 },
+    { "q": "준호는 누구와 함께 갈 예정이에요?\n(Who is Junho planning to go with?)", "opts": ["가족", "친구", "선생님", "혼자"], "ans": 1 },
+    { "q": "준호는 어떤 장소를 보고 싶어요?\n(What kind of places does Junho want to see?)", "opts": ["역사적인 장소", "학교", "회사", "병원"], "ans": 0 },
+    { "q": "민지는 여행이 어떻게 될 것 같다고 해요?\n(What does Minji think the trip will be like?)", "opts": ["좋은 여행", "힘든 여행", "짧은 여행", "비싼 여행"], "ans": 0 }
+  ],
+  "cloze": ["여행", "일본", "혼자", "예정", "장소"]
 }
 ]
