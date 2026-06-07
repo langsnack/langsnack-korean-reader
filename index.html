@@ -612,8 +612,11 @@ function load(i){
 
   // build story
   const body=document.getElementById('story-body');
-  body.innerHTML=s.sentences.map(sent=>makeStoryHtml(sent.kr, s.vocab)).join('<br><br>');
+const isDialogue = s.sentences.some(sent => sent.kr.includes(':'));
 
+body.innerHTML = s.sentences
+  .map(sent => makeStoryHtml(sent.kr, s.vocab))
+  .join(isDialogue ? '<br><br>' : ' ');
   document.getElementById('story-translation').innerHTML=s.sentences.map(s=>s.en).join(' ');
   document.getElementById('story-translation').classList.remove('show');
   transOpen=false;
