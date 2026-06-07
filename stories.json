@@ -2445,8 +2445,8 @@
     { "kr": "민지: 이번 여름에 여행 갈 계획이 있어요?", "en": "Minji: Do you have plans to travel this summer?" },
     { "kr": "준호: 네, 일본에 가려고 해요.", "en": "Junho: Yes, I am planning to go to Japan." },
     { "kr": "민지: 혼자 가는 거예요?", "en": "Minji: Are you going alone?" },
-    { "kr": "준호: 아니요. 친구와 함께 갈 예정이에요.", "en": "Junho: No. I am planning to go with a friend." },
-    { "kr": "민지: 어떤 곳을 방문하고 싶어요?", "en": "Minji: What kind of places do you want to visit?" },
+    { "kr": "준호: 아니요. 친구랑 같이 갈 예정이에요.", "en": "Junho: No. I am planning to go with a friend." },
+    { "kr": "민지: 어디에 갈 거예요?", "en": "Minji: Where are you planning to visit?" },
     { "kr": "준호: 역사적인 장소도 보고 맛있는 음식도 먹어 보고 싶어요.", "en": "Junho: I want to see historical places and try delicious food." },
     { "kr": "민지: 좋은 여행이 될 것 같아요.", "en": "Minji: I think it will be a good trip." }
   ],
@@ -2456,9 +2456,8 @@
     { "kr": "계획", "en": "plan" },
     { "kr": "일본", "en": "Japan" },
     { "kr": "혼자", "en": "alone" },
-    { "kr": "함께", "en": "together" },
+    { "kr": "같이", "en": "together" },
     { "kr": "예정", "en": "plan / schedule" },
-    { "kr": "방문하다", "en": "visit" },
     { "kr": "역사적인", "en": "historical" },
     { "kr": "장소", "en": "place" }
   ],
