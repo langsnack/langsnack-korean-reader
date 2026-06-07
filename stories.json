@@ -2639,11 +2639,11 @@
   "sentences": [
     { "kr": "퇴근 후 집으로 돌아가는 길이었어요.", "en": "I was on my way home after work." },
     { "kr": "엘리베이터를 기다리고 있는데 옆집에 사는 할머니를 만났어요.", "en": "While waiting for the elevator, I met the elderly woman who lives next door." },
-    { "kr": "할머니: 오늘도 늦게 왔네요.", "en": "Grandmother: You're home late again today." },
+    { "kr": "할머니: 오늘도 늦게 왔네.", "en": "Grandmother: You're home late again today." },
     { "kr": "미나: 네. 회사 일이 조금 많았어요.", "en": "Mina: Yes. I had a lot of work today." },
-    { "kr": "할머니: 저녁은 먹었어요?", "en": "Grandmother: Did you eat dinner?" },
+    { "kr": "할머니: 저녁은 먹었어?", "en": "Grandmother: Did you eat dinner?" },
     { "kr": "미나: 아직 못 먹었어요.", "en": "Mina: Not yet." },
-    { "kr": "할머니: 건강이 제일 중요해요. 꼭 챙겨 먹어요.", "en": "Grandmother: Health is the most important thing. Make sure you eat." },
+    { "kr": "할머니: 건강이 제일 중요해. 꼭 챙겨 먹어.", "en": "Grandmother: Health is the most important thing. Make sure you eat." },
     { "kr": "미나: 네. 감사합니다.", "en": "Mina: Yes. Thank you." },
     { "kr": "짧은 대화였지만 집에 가는 길이 조금 더 따뜻하게 느껴졌어요.", "en": "It was a short conversation, but the walk home felt a little warmer afterward." }
   ],
