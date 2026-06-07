@@ -3270,7 +3270,8 @@
   "krTitle": "택배를 기다리며",
   "enTitle": "Waiting for a Delivery",
   "sentences": [
-    { "kr": "이번 주에 인터넷으로 책을 주문했어요.", "en": "This week, I ordered a book online." },
+    { "kr": "읽고 싶은 책이 있어요.", "en": "I have a book I really want to read." },
+    { "kr": "그래서 이번 주에 인터넷으로 책을 주문했어요.", "en": "That's why I ordered a book online this week." },
     { "kr": "배송 조회를 해 보니 오늘 도착한다고 나왔어요.", "en": "When I checked the delivery status, it said it would arrive today." },
     { "kr": "그래서 하루 종일 택배 알림을 기다렸어요.", "en": "So I waited for a delivery notification all day." },
     { "kr": "오후가 되어도 연락이 없어서 조금 걱정됐어요.", "en": "Even in the afternoon, there was no message, so I became a little worried." },
