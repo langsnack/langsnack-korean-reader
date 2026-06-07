@@ -2824,10 +2824,12 @@
     {"kr":"점심시간","en":"lunchtime"},
     {"kr":"불안하다","en":"be anxious"},
     {"kr":"연락","en":"contact"},
-    {"kr":"오히려","en":"rather"},
+    {"kr":"오히려","en":"on the contrary/instead"},
     {"kr":"풍경","en":"scenery"},
     {"kr":"편리하다","en":"convenient"},
-    {"kr":"도구","en":"tool"}
+    {"kr":"도구","en":"tool"},
+    {"kr":"때로","en":"occasionally/sometimes"}
+
   ],
   "quiz": [
     {"q":"휴대전화를 어디에 두고 왔어요?","opts":["회사","학교","집","카페"],"ans":2},
@@ -2887,14 +2889,24 @@
     { "kr": "실수를 전혀 하지 않는 사람보다 실수로부터 배우는 사람이 더 크게 성장할 수 있다는 점을 기억할 필요가 있다.", "en": "We should remember that people who learn from mistakes may grow more than those who never make any." }
   ],
   "vocab": [
+    {"kr":"종종","en":"occasionally/ from time to time"},
     {"kr":"실수","en":"mistake"},
     {"kr":"부정적","en":"negative"},
+    {"kr":"창피함","en":"embarrassment/shame"},
     {"kr":"능력","en":"ability"},
+    {"kr":"의심","en":"doubt"},
     {"kr":"현상","en":"phenomenon"},
     {"kr":"전문가","en":"expert"},
     {"kr":"교훈","en":"lesson"},
+    {"kr":"자체","en":"itself"},
+    {"kr":"태도","en":"attitude"},
     {"kr":"원인","en":"cause"},
-    {"kr":"개선","en":"improvement"}
+    {"kr":"반복","en":"repeat"},
+    {"kr":"기 위해","en":"in order to"},
+    {"kr":"분석","en":"analyze"},
+    {"kr":"개선","en":"improvement"},
+    {"kr":"성장","en":"grow"},
+    {"kr":"기억","en":"remember"}
   ],
   "quiz": [
     {"q":"사람들은 실수를 어떻게 생각하는 경우가 많아요?","opts":["긍정적","부정적","재미있는 것","중요한 것"],"ans":1},
@@ -2942,7 +2954,7 @@
   "enTitle": "A New Water Bottle",
   "sentences": [
     { "kr": "민지는 새 물병을 샀어요.", "en": "Minji bought a new water bottle." },
-    { "kr": "색은 초록색이에요.", "en": "It is green." },
+    { "kr": "물병은 초록색이에요.", "en": "It is green." },
     { "kr": "매일 학교에 가지고 가요.", "en": "She takes it to school every day." },
     { "kr": "물을 많이 마시려고 해요.", "en": "She wants to drink more water." },
     { "kr": "친구도 물병이 예쁘다고 했어요.", "en": "Her friend said the bottle was pretty too." },
@@ -2974,7 +2986,7 @@
     { "kr": "아버지는 아침마다 산책을 해요.", "en": "My father takes a walk every morning." },
     { "kr": "집 근처 공원에 가요.", "en": "He goes to a park near home." },
     { "kr": "공기가 좋아요.", "en": "The air is nice." },
-    { "kr": "가끔 강아지도 봐요.", "en": "Sometimes he sees dogs too." },
+    { "kr": "가끔 강아지도 보여요.", "en": "Sometimes he can see dogs there too." },
     { "kr": "산책을 하면 기분이 좋아져요.", "en": "Walking makes him feel good." },
     { "kr": "그래서 매일 아침에 나가요.", "en": "That's why he goes out every morning." }
   ],
@@ -3031,28 +3043,27 @@
   "krTitle": "저녁 메뉴",
   "enTitle": "Dinner Menu",
   "sentences": [
-    { "kr": "엄마: 저녁에 뭐 먹고 싶어요?", "en": "Mom: What would you like to eat for dinner?" },
-    { "kr": "지우: 김치볶음밥이 먹고 싶어요.", "en": "Jiwoo: I'd like kimchi fried rice." },
-    { "kr": "엄마: 국도 만들까요?", "en": "Mom: Shall we make soup too?" },
+    { "kr": "엄마: 저녁에 뭐 먹고 싶어?", "en": "Mom: What would you like to eat for dinner?" },
+    { "kr": "지우: 저 김치볶음밥이 먹고 싶어요.", "en": "Jiwoo: I'd like kimchi fried rice." },
+    { "kr": "엄마: 계란말이도 같이 해줄까?", "en": "Mom: Do you want rolled omelette too?" },
     { "kr": "지우: 네, 좋아요.", "en": "Jiwoo: Yes, sounds good." },
-    { "kr": "엄마: 그럼 같이 만들어요.", "en": "Mom: Then let's make it together." },
-    { "kr": "지우: 좋아요!", "en": "Jiwoo: Great!" }
+    { "kr": "엄마: 알겠어.", "en": "Mom: Alright." },
+    { "kr": "지우: 고마워요!", "en": "Jiwoo: Thanks mom!" }
   ],
   "vocab": [
     {"kr":"저녁","en":"dinner"},
     {"kr":"김치볶음밥","en":"kimchi fried rice"},
-    {"kr":"국","en":"soup"},
-    {"kr":"만들다","en":"make"},
+    {"kr":"계란말이","en":"rolled omelette"},
+    {"kr":"해주다","en":"make for you"},
     {"kr":"같이","en":"together"},
-    {"kr":"좋아요","en":"good"}
+    {"kr":"알겠어","en":"OK/alright"}
   ],
   "quiz": [
     {"q":"지우는 무엇을 먹고 싶어 해요?","opts":["라면","김치볶음밥","피자","햄버거"],"ans":1},
-    {"q":"엄마는 무엇도 만들자고 했어요?","opts":["국","샐러드","빵","과일"],"ans":0},
-    {"q":"누가 이야기해요?","opts":["엄마와 지우","친구들","선생님","학생"],"ans":0},
-    {"q":"같이 무엇을 해요?","opts":["먹어요","공부해요","만들어요","가요"],"ans":2},
+    {"q":"엄마는 무엇도 만들자고 했어요?","opts":["계란말이","샐러드","빵","과일"],"ans":0},
+    {"q":"누가 이야기해요?","opts":["엄마와 지우","친구와 지우","선생님과 지우","학생과 지우"],"ans":0},
     {"q":"마지막에 지우는 뭐라고 해요?","opts":["싫어요","몰라요","좋아요","배고파요"],"ans":2}
   ],
-  "cloze":["저녁","김치볶음밥","국","같이","좋아요"]
+  "cloze":["저녁","김치볶음밥","계란말이","같이","알겠어"]
 }
 ]
