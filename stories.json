@@ -3293,12 +3293,21 @@
   ],
   "vocab": [
     {"kr":"기억","en":"memory"},
+    {"kr":"그대로","en":"as it is"},
+    {"kr":"저장","en":"save"},
     {"kr":"사실","en":"fact"},
+    {"kr":"그러나","en":"however"},
     {"kr":"연구","en":"research"},
     {"kr":"불완전하다","en":"be imperfect"},
+    {"kr":"기억","en":"memory"},
+    {"kr":"내용","en":"contents"},
     {"kr":"사건","en":"event"},
+    {"kr":"조금씩","en":"bit by bit/little by little"},
     {"kr":"변형되다","en":"be altered"},
+    {"kr":"쓸모없다","en":"useless"},
     {"kr":"해석하다","en":"interpret"},
+    {"kr":"오히려","en":"on the contrary/instead"},
+    {"kr":"삶","en":"life"},
     {"kr":"기록","en":"record"}
   ],
   "cloze":["기억","연구","불완전","사건","해석"]
@@ -3318,18 +3327,13 @@
     { "kr": "서연: 정말요?", "en": "Seoyeon: Really?" },
     { "kr": "민준: 사실은 집에 가기 싫어서요.", "en": "Minjun: Actually, I just don't want to go home yet." },
     { "kr": "서연: 그럴 때도 있죠.", "en": "Seoyeon: There are days like that." },
-    { "kr": "카페는 단순히 커피를 마시는 공간이 아니라 잠시 머물며 생각을 정리하는 장소가 되기도 한다.", "en": "A cafe can be more than a place to drink coffee; it can also be a place to pause and organize one's thoughts." }
   ],
   "vocab": [
     {"kr":"벌써","en":"already"},
     {"kr":"창밖","en":"outside the window"},
     {"kr":"정리하다","en":"organize"},
     {"kr":"사실","en":"actually"},
-    {"kr":"머물다","en":"stay"},
-    {"kr":"공간","en":"space"},
-    {"kr":"장소","en":"place"},
-    {"kr":"생각","en":"thought"}
   ],
-  "cloze":["벌써","창밖","정리","사실","머물며"]
+  "cloze":["벌써","창밖","정리","사실"]
 }
 ]
