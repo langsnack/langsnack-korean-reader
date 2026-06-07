@@ -3197,5 +3197,139 @@
     {"q":"대화 후 어떤 느낌이 들었어요?","opts":["더 멀어진 느낌","조금 가까워진 느낌","화난 느낌","졸린 느낌"],"ans":1}
   ],
   "cloze":["엘리베이터","이웃","날씨","땀","가까워진"]
+},
+{
+  "id": 71,
+  "level": "Advanced",
+  "krTitle": "익숙한 길을 걷는 이유",
+  "enTitle": "Why We Walk Familiar Roads",
+  "sentences": [
+    { "kr": "사람들은 종종 같은 길만 걷는 습관이 있다.", "en": "People often have a habit of walking the same routes." },
+    { "kr": "새로운 길이 더 빠르거나 편리할 수도 있지만 익숙한 길을 선택하는 경우가 많다.", "en": "A new route may be faster or more convenient, but many people choose familiar ones." },
+    { "kr": "이는 단순히 게으르기 때문만은 아니다.", "en": "This is not simply because people are lazy." },
+    { "kr": "이미 알고 있는 환경은 예측 가능하다는 안정감을 제공한다.", "en": "A familiar environment provides the comfort of predictability." },
+    { "kr": "반면 새로운 길은 예상하지 못한 변수를 동반할 수 있다.", "en": "In contrast, a new route may come with unexpected variables." },
+    { "kr": "하지만 때로는 작은 변화가 새로운 경험으로 이어지기도 한다.", "en": "However, small changes can sometimes lead to new experiences." },
+    { "kr": "평소와 다른 길을 선택했을 뿐인데 우연히 좋은 카페를 발견하거나 아름다운 풍경을 만나게 되는 경우도 있다.", "en": "Simply taking a different route can lead to discovering a nice cafe or a beautiful view." },
+    { "kr": "결국 변화는 거창한 결심이 아니라 사소한 선택에서 시작될지도 모른다.", "en": "Ultimately, change may begin not with grand decisions but with small choices." }
+  ],
+  "vocab": [
+    {"kr":"익숙한","en":"familiar"},
+    {"kr":"예측 가능하다","en":"be predictable"},
+    {"kr":"안정감","en":"sense of stability"},
+    {"kr":"변수","en":"variable"},
+    {"kr":"우연히","en":"by chance"},
+    {"kr":"풍경","en":"scenery"},
+    {"kr":"거창한","en":"grand"},
+    {"kr":"사소한","en":"small, trivial"}
+  ],
+  "cloze":["익숙한","안정감","변수","우연히","사소한"]
+},
+{
+  "id": 72,
+  "level": "Advanced",
+  "krTitle": "회의가 끝난 후",
+  "enTitle": "After the Meeting",
+  "sentences": [
+    { "kr": "팀장: 오늘 회의는 여기까지 하겠습니다.", "en": "Manager: We'll end today's meeting here." },
+    { "kr": "지훈: 한 가지 질문이 있는데 괜찮을까요?", "en": "Jihoon: I have one question. Would that be okay?" },
+    { "kr": "팀장: 네, 말씀하세요.", "en": "Manager: Yes, go ahead." },
+    { "kr": "지훈: 일정이 예상보다 늦어질 가능성도 고려하고 계신가요?", "en": "Jihoon: Are you also considering the possibility that the schedule may be delayed?" },
+    { "kr": "팀장: 물론입니다. 그래서 다음 주까지는 추가 계획을 검토할 예정입니다.", "en": "Manager: Of course. That's why we'll review additional plans by next week." },
+    { "kr": "지훈: 알겠습니다. 감사합니다.", "en": "Jihoon: Understood. Thank you." },
+    { "kr": "회의가 끝난 뒤에도 몇몇 직원들은 남아서 의견을 나누고 있었다.", "en": "Even after the meeting ended, several employees stayed behind to exchange ideas." },
+    { "kr": "공식적인 회의보다 그런 대화에서 더 좋은 아이디어가 나오는 경우도 종종 있었다.", "en": "Sometimes better ideas came from those conversations than from the formal meeting itself." }
+  ],
+  "vocab": [
+    {"kr":"회의","en":"meeting"},
+    {"kr":"일정","en":"schedule"},
+    {"kr":"가능성","en":"possibility"},
+    {"kr":"고려하다","en":"consider"},
+    {"kr":"검토하다","en":"review"},
+    {"kr":"직원","en":"employee"},
+    {"kr":"의견","en":"opinion"},
+    {"kr":"공식적","en":"formal"}
+  ],
+  "cloze":["회의","일정","가능성","검토","의견"]
+},
+{
+  "id": 73,
+  "level": "High Intermediate",
+  "krTitle": "조언을 구하는 사람들",
+  "enTitle": "People Who Seek Advice",
+  "sentences": [
+    { "kr": "민서: 고민이 있을 때 누구에게 가장 먼저 이야기해요?", "en": "Minseo: Who do you talk to first when you have a concern?" },
+    { "kr": "유진: 저는 친구에게 먼저 이야기하는 편이에요.", "en": "Yujin: I usually talk to my friends first." },
+    { "kr": "민서: 가족보다 친구가 더 편해요?", "en": "Minseo: Are friends more comfortable than family?" },
+    { "kr": "유진: 상황에 따라 달라요. 하지만 친구는 비슷한 경험을 한 경우가 많거든요.", "en": "Yujin: It depends on the situation. But friends often have had similar experiences." },
+    { "kr": "민서: 그 말도 맞네요.", "en": "Minseo: That's true too." },
+    { "kr": "유진: 물론 중요한 결정은 가족과도 상의해요.", "en": "Yujin: Of course, I discuss important decisions with my family as well." },
+    { "kr": "사람마다 고민을 나누는 대상은 다르지만 누군가의 이야기를 들어 주는 일은 생각보다 큰 힘이 될 수 있다.", "en": "People differ in whom they share their worries with, but listening to someone can be more powerful than we think." }
+  ],
+  "vocab": [
+    {"kr":"조언","en":"advice"},
+    {"kr":"고민","en":"worry"},
+    {"kr":"상황","en":"situation"},
+    {"kr":"경험","en":"experience"},
+    {"kr":"결정","en":"decision"},
+    {"kr":"상의하다","en":"consult"},
+    {"kr":"대상","en":"person / target"},
+    {"kr":"힘","en":"strength"}
+  ],
+  "cloze":["고민","상황","경험","결정","상의"]
+},
+{
+  "id": 74,
+  "level": "Advanced",
+  "krTitle": "기억은 얼마나 정확할까",
+  "enTitle": "How Accurate Is Memory?",
+  "sentences": [
+    { "kr": "사람들은 자신의 기억이 사실을 그대로 저장하고 있다고 생각하는 경우가 많다.", "en": "Many people believe that their memory stores facts exactly as they happened." },
+    { "kr": "그러나 연구에 따르면 기억은 생각보다 훨씬 불완전하다.", "en": "However, research suggests that memory is far more imperfect than we think." },
+    { "kr": "같은 사건을 경험한 사람들조차 서로 다른 내용을 기억하는 경우가 있으며 시간이 지날수록 기억은 조금씩 변형되기도 한다.", "en": "Even people who experienced the same event may remember different details, and memories can gradually change over time." },
+    { "kr": "그렇다고 해서 기억이 쓸모없다는 의미는 아니다.", "en": "That does not mean memory is useless." },
+    { "kr": "오히려 사람들은 기억을 통해 자신의 경험을 해석하고 삶의 의미를 만들어 간다.", "en": "Rather, people interpret their experiences and create meaning in life through memory." },
+    { "kr": "중요한 것은 기억이 완벽한 기록이 아니라는 사실을 이해하는 것이다.", "en": "What matters is understanding that memory is not a perfect record." }
+  ],
+  "vocab": [
+    {"kr":"기억","en":"memory"},
+    {"kr":"사실","en":"fact"},
+    {"kr":"연구","en":"research"},
+    {"kr":"불완전하다","en":"be imperfect"},
+    {"kr":"사건","en":"event"},
+    {"kr":"변형되다","en":"be altered"},
+    {"kr":"해석하다","en":"interpret"},
+    {"kr":"기록","en":"record"}
+  ],
+  "cloze":["기억","연구","불완전","사건","해석"]
+},
+{
+  "id": 75,
+  "level": "Advanced",
+  "krTitle": "늦은 저녁의 카페",
+  "enTitle": "The Late-Night Cafe",
+  "sentences": [
+    { "kr": "서연: 아직 안 갔어요?", "en": "Seoyeon: You haven't left yet?" },
+    { "kr": "민준: 조금만 더 있다가 가려고요.", "en": "Minjun: I'm going to stay a little longer." },
+    { "kr": "서연: 벌써 두 시간째 여기 있는 것 같은데요.", "en": "Seoyeon: I think you've already been here for two hours." },
+    { "kr": "민준: 해야 할 일이 남아 있어서요.", "en": "Minjun: I still have work to do." },
+    { "kr": "서연: 그런데 아까부터 일을 안 하고 창밖만 보고 있던데요?", "en": "Seoyeon: But you've only been staring out the window." },
+    { "kr": "민준: 그건... 생각을 정리하고 있었어요.", "en": "Minjun: Well... I was organizing my thoughts." },
+    { "kr": "서연: 정말요?", "en": "Seoyeon: Really?" },
+    { "kr": "민준: 사실은 집에 가기 싫어서요.", "en": "Minjun: Actually, I just don't want to go home yet." },
+    { "kr": "서연: 그럴 때도 있죠.", "en": "Seoyeon: There are days like that." },
+    { "kr": "카페는 단순히 커피를 마시는 공간이 아니라 잠시 머물며 생각을 정리하는 장소가 되기도 한다.", "en": "A cafe can be more than a place to drink coffee; it can also be a place to pause and organize one's thoughts." }
+  ],
+  "vocab": [
+    {"kr":"벌써","en":"already"},
+    {"kr":"창밖","en":"outside the window"},
+    {"kr":"정리하다","en":"organize"},
+    {"kr":"사실","en":"actually"},
+    {"kr":"머물다","en":"stay"},
+    {"kr":"공간","en":"space"},
+    {"kr":"장소","en":"place"},
+    {"kr":"생각","en":"thought"}
+  ],
+  "cloze":["벌써","창밖","정리","사실","머물며"]
 }
 ]
