@@ -2738,5 +2738,321 @@
     {"q":"가장 중요한 것은 무엇이라고 해요?\n(What does the writer say is most important?)","opts":["완벽함","재능","꾸준히 나아가는 태도","운"],"ans":2}
   ],
   "cloze":["준비","도전","현실","성장","태도"]
+},
+{
+  "id": 52,
+  "level": "Beginner",
+  "krTitle": "비 오는 날의 실수",
+  "enTitle": "A Rainy Day Mistake",
+  "sentences": [
+    { "kr": "오늘 아침에 비가 많이 왔어요.", "en": "It rained a lot this morning." },
+    { "kr": "그래서 우산을 가지고 집을 나왔어요.", "en": "So I left home with an umbrella." },
+    { "kr": "그런데 회사에 도착한 후 우산이 없다는 것을 알게 되었어요.", "en": "But after arriving at work, I realized my umbrella was missing." },
+    { "kr": "지하철에 두고 내린 것 같았어요.", "en": "I thought I had left it on the subway." },
+    { "kr": "퇴근할 때도 비가 오고 있었어요.", "en": "It was still raining when I got off work." },
+    { "kr": "결국 편의점에서 우산을 하나 더 샀어요.", "en": "In the end, I bought another umbrella at a convenience store." },
+    { "kr": "집에 와서 가방을 열어 보니 우산이 안에 있었어요.", "en": "When I got home and opened my bag, the umbrella was inside." },
+    { "kr": "조금 허무했지만 웃음이 나왔어요.", "en": "It felt a little silly, but I laughed." }
+  ],
+  "vocab": [
+    {"kr":"비","en":"rain"},
+    {"kr":"우산","en":"umbrella"},
+    {"kr":"회사","en":"company"},
+    {"kr":"지하철","en":"subway"},
+    {"kr":"퇴근","en":"leave work"},
+    {"kr":"편의점","en":"convenience store"},
+    {"kr":"가방","en":"bag"},
+    {"kr":"허무하다","en":"feel silly / empty"}
+  ],
+  "quiz": [
+    {"q":"오늘 날씨는 어땠어요?","opts":["맑았어요","비가 왔어요","눈이 왔어요","더웠어요"],"ans":1},
+    {"q":"글쓴이는 무엇을 가지고 나왔어요?","opts":["가방","책","우산","모자"],"ans":2},
+    {"q":"우산은 어디에 있었어요?","opts":["회사","지하철","편의점","가방 안"],"ans":3},
+    {"q":"글쓴이는 우산을 또 샀어요?","opts":["네","아니요","몰라요","가끔"],"ans":0},
+    {"q":"마지막에 글쓴이는 어땠어요?","opts":["화났어요","웃었어요","울었어요","잤어요"],"ans":1}
+  ],
+  "cloze":["비","우산","지하철","편의점","가방"]
+},
+{
+  "id": 53,
+  "level": "Intermediate",
+  "krTitle": "새로운 취미를 찾다",
+  "enTitle": "Finding a New Hobby",
+  "sentences": [
+    { "kr": "몇 달 전부터 새로운 취미를 찾고 있었어요.", "en": "I had been looking for a new hobby for several months." },
+    { "kr": "운동도 해 보고 그림도 그려 봤지만 오래 가지 않았어요.", "en": "I tried exercising and drawing, but neither lasted long." },
+    { "kr": "그러던 어느 날 친구의 추천으로 도예 수업에 참여하게 됐어요.", "en": "One day, I joined a pottery class because of a friend's recommendation." },
+    { "kr": "처음에는 단순히 그릇을 만드는 활동이라고 생각했어요.", "en": "At first, I thought it was simply making bowls." },
+    { "kr": "하지만 흙을 만지고 모양을 만드는 과정이 생각보다 재미있었어요.", "en": "But shaping clay was more enjoyable than I expected." },
+    { "kr": "작품이 마음에 들지 않더라도 다시 만들 수 있다는 점도 좋았어요.", "en": "I also liked that I could remake a piece if I didn't like it." },
+    { "kr": "요즘은 주말마다 수업에 가는 시간이 기다려질 정도예요.", "en": "These days, I even look forward to going to class every weekend." }
+  ],
+  "vocab": [
+    {"kr":"취미","en":"hobby"},
+    {"kr":"추천","en":"recommendation"},
+    {"kr":"도예","en":"pottery"},
+    {"kr":"수업","en":"class"},
+    {"kr":"흙","en":"clay"},
+    {"kr":"모양","en":"shape"},
+    {"kr":"작품","en":"work of art"},
+    {"kr":"기다려지다","en":"look forward to"}
+  ],
+  "quiz": [
+    {"q":"글쓴이는 무엇을 찾고 있었어요?","opts":["친구","취미","직업","학교"],"ans":1},
+    {"q":"친구는 무엇을 추천했어요?","opts":["운동","그림","도예 수업","음악"],"ans":2},
+    {"q":"도예 수업에서 무엇을 만들어요?","opts":["집","그릇","책","옷"],"ans":1},
+    {"q":"글쓴이는 도예를 재미있게 느꼈어요?","opts":["네","아니요","조금","몰라요"],"ans":0},
+    {"q":"요즘은 무엇이 기다려져요?","opts":["월요일","주말 수업","시험","휴가"],"ans":1}
+  ],
+  "cloze":["취미","도예","흙","작품","수업"]
+},
+{
+  "id": 54,
+  "level": "Intermediate",
+  "krTitle": "휴대전화 없이 보낸 하루",
+  "enTitle": "A Day Without My Phone",
+  "sentences": [
+    { "kr": "어느 날 아침에 휴대전화를 집에 두고 나왔다는 사실을 점심시간이 되어서야 알게 되었어요.", "en": "One day I realized at lunchtime that I had left my phone at home." },
+    { "kr": "처음에는 매우 불안했어요.", "en": "At first, I felt very anxious." },
+    { "kr": "연락이 오면 어떻게 하지 하는 생각이 계속 들었어요.", "en": "I kept wondering what would happen if someone contacted me." },
+    { "kr": "하지만 시간이 지나면서 오히려 편하다는 느낌도 받았어요.", "en": "But as time passed, it actually felt comfortable." },
+    { "kr": "식사를 하면서도 휴대전화를 보지 않았고 이동할 때는 주변 풍경을 더 자주 보게 되었어요.", "en": "I didn't check my phone while eating and paid more attention to my surroundings." },
+    { "kr": "하루가 끝났을 때 저는 휴대전화가 편리한 도구이기는 하지만 때로는 잠시 멀어질 필요도 있다는 생각을 했어요.", "en": "By the end of the day, I felt that phones are useful tools, but sometimes we need a break from them." }
+  ],
+  "vocab": [
+    {"kr":"휴대전화","en":"mobile phone"},
+    {"kr":"점심시간","en":"lunchtime"},
+    {"kr":"불안하다","en":"be anxious"},
+    {"kr":"연락","en":"contact"},
+    {"kr":"오히려","en":"rather"},
+    {"kr":"풍경","en":"scenery"},
+    {"kr":"편리하다","en":"convenient"},
+    {"kr":"도구","en":"tool"}
+  ],
+  "quiz": [
+    {"q":"휴대전화를 어디에 두고 왔어요?","opts":["회사","학교","집","카페"],"ans":2},
+    {"q":"언제 알게 되었어요?","opts":["아침","점심시간","저녁","밤"],"ans":1},
+    {"q":"처음에는 어떤 기분이었어요?","opts":["기뻤어요","불안했어요","졸렸어요","행복했어요"],"ans":1},
+    {"q":"나중에는 어떻게 느꼈어요?","opts":["더 불안했어요","편했어요","화났어요","심심했어요"],"ans":1},
+    {"q":"글쓴이는 무엇이 필요하다고 생각했어요?","opts":["새 전화","더 많은 연락","잠시 멀어지는 시간","휴가"],"ans":2}
+  ],
+  "cloze":["휴대전화","점심시간","불안","풍경","도구"]
+},
+{
+  "id": 55,
+  "level": "High Intermediate",
+  "krTitle": "줄을 서는 문화",
+  "enTitle": "The Culture of Waiting in Line",
+  "sentences": [
+    { "kr": "한국에서는 인기 있는 식당이나 카페 앞에서 긴 줄을 쉽게 볼 수 있어요.", "en": "In Korea, it's easy to see long lines in front of popular restaurants and cafes." },
+    { "kr": "어떤 곳은 한 시간 이상 기다려야 하는 경우도 있어요.", "en": "Some places require people to wait for more than an hour." },
+    { "kr": "외국인들은 이런 모습을 보고 놀라기도 해요.", "en": "Foreign visitors are sometimes surprised by this." },
+    { "kr": "맛있는 음식이라도 그렇게 오래 기다릴 필요가 있느냐고 묻는 사람도 있어요.", "en": "Some ask whether it's really necessary to wait that long even for good food." },
+    { "kr": "물론 모든 사람이 줄을 서는 것을 좋아하는 것은 아니에요.", "en": "Of course, not everyone enjoys waiting in line." },
+    { "kr": "하지만 많은 사람들은 유명한 장소를 직접 경험해 보고 싶어 해요.", "en": "However, many people want to experience famous places for themselves." },
+    { "kr": "또 친구나 가족과 함께 기다리는 시간을 하나의 경험으로 생각하기도 해요.", "en": "Some also see the waiting time with friends or family as part of the experience." },
+    { "kr": "결국 줄을 선다는 것은 단순히 음식을 먹기 위한 행동이 아니라 특별한 경험을 기대하는 마음과도 관련이 있는 것 같아요.", "en": "In the end, standing in line seems connected to anticipating a special experience, not just eating food." }
+  ],
+  "vocab": [
+    {"kr":"줄을 서다","en":"to wait in line"},
+    {"kr":"인기","en":"popularity"},
+    {"kr":"기다리다","en":"to wait"},
+    {"kr":"외국인","en":"foreigner"},
+    {"kr":"유명하다","en":"to be famous"},
+    {"kr":"경험","en":"experience"},
+    {"kr":"기대하다","en":"to anticipate"},
+    {"kr":"관련","en":"relation"}
+  ],
+  "quiz": [
+    {"q":"어디에서 긴 줄을 자주 볼 수 있어요?","opts":["학교","공원","인기 있는 식당","회사"],"ans":2},
+    {"q":"어떤 곳은 얼마나 기다려야 해요?","opts":["10분","30분","1시간 이상","하루"],"ans":2},
+    {"q":"누가 이런 모습을 보고 놀라기도 해요?","opts":["학생","외국인","가족","선생님"],"ans":1},
+    {"q":"많은 사람들은 무엇을 경험하고 싶어 해요?","opts":["유명한 장소","새 학교","새 직장","여행"],"ans":0},
+    {"q":"줄을 서는 것은 무엇과 관련이 있다고 해요?","opts":["공부","운동","특별한 경험","돈"],"ans":2}
+  ],
+  "cloze":["줄","인기","외국인","경험","기대"]
+},
+{
+  "id": 56,
+  "level": "Advanced",
+  "krTitle": "실수를 대하는 방법",
+  "enTitle": "How to Deal with Mistakes",
+  "sentences": [
+    { "kr": "사람들은 종종 실수를 부정적인 것으로만 생각한다.", "en": "People often think of mistakes as purely negative." },
+    { "kr": "실수를 하면 창피함을 느끼거나 자신의 능력을 의심하기도 한다.", "en": "When they make mistakes, they may feel embarrassed or doubt their abilities." },
+    { "kr": "그러나 실수는 새로운 것을 배우는 과정에서 자연스럽게 나타나는 현상이기도 하다.", "en": "However, mistakes are a natural part of the learning process." },
+    { "kr": "실제로 많은 전문가들은 실패와 실수를 통해 더 중요한 교훈을 얻었다고 말한다.", "en": "Many experts say they gained important lessons through mistakes and failures." },
+    { "kr": "문제는 실수 자체가 아니라 그 이후의 태도일 수 있다.", "en": "The problem may not be the mistake itself but the attitude afterward." },
+    { "kr": "같은 실수를 반복하지 않기 위해 원인을 분석하고 개선하려는 노력이 필요하다.", "en": "It is important to analyze the cause and try to improve." },
+    { "kr": "실수를 전혀 하지 않는 사람보다 실수로부터 배우는 사람이 더 크게 성장할 수 있다는 점을 기억할 필요가 있다.", "en": "We should remember that people who learn from mistakes may grow more than those who never make any." }
+  ],
+  "vocab": [
+    {"kr":"실수","en":"mistake"},
+    {"kr":"부정적","en":"negative"},
+    {"kr":"능력","en":"ability"},
+    {"kr":"현상","en":"phenomenon"},
+    {"kr":"전문가","en":"expert"},
+    {"kr":"교훈","en":"lesson"},
+    {"kr":"원인","en":"cause"},
+    {"kr":"개선","en":"improvement"}
+  ],
+  "quiz": [
+    {"q":"사람들은 실수를 어떻게 생각하는 경우가 많아요?","opts":["긍정적","부정적","재미있는 것","중요한 것"],"ans":1},
+    {"q":"실수는 어떤 과정에서 자연스럽게 나타나요?","opts":["운동","여행","학습","휴식"],"ans":2},
+    {"q":"전문가들은 무엇을 통해 교훈을 얻었다고 말해요?","opts":["성공","실수와 실패","돈","운"],"ans":1},
+    {"q":"중요한 것은 무엇이라고 해요?","opts":["실수 자체","태도","점수","재능"],"ans":1},
+    {"q":"우리는 무엇으로부터 배워야 해요?","opts":["실수","광고","뉴스","게임"],"ans":0}
+  ],
+  "cloze":["실수","능력","교훈","원인","개선"]
+},
+{
+  "id": 57,
+  "level": "Starter",
+  "krTitle": "버스를 기다려요",
+  "enTitle": "Waiting for the Bus",
+  "sentences": [
+    { "kr": "저는 버스를 기다려요.", "en": "I am waiting for the bus." },
+    { "kr": "오늘은 사람이 많아요.", "en": "There are many people today." },
+    { "kr": "버스가 아직 안 와요.", "en": "The bus hasn't come yet." },
+    { "kr": "옆에 학생도 기다려요.", "en": "A student next to me is waiting too." },
+    { "kr": "조금 후에 버스가 와요.", "en": "The bus arrives a little later." },
+    { "kr": "저는 버스를 타고 학교에 가요.", "en": "I take the bus to school." }
+  ],
+  "vocab": [
+    {"kr":"버스","en":"bus"},
+    {"kr":"기다리다","en":"wait"},
+    {"kr":"사람","en":"person"},
+    {"kr":"학생","en":"student"},
+    {"kr":"조금 후","en":"a little later"},
+    {"kr":"학교","en":"school"}
+  ],
+  "quiz": [
+    {"q":"무엇을 기다려요?","opts":["택시","버스","친구","기차"],"ans":1},
+    {"q":"오늘은 사람이 많아요?","opts":["네","아니요","조금","몰라요"],"ans":0},
+    {"q":"누가 옆에 있어요?","opts":["선생님","학생","친구","엄마"],"ans":1},
+    {"q":"버스는 와요?","opts":["네","아니요","몰라요","가끔"],"ans":0},
+    {"q":"어디에 가요?","opts":["집","시장","학교","공원"],"ans":2}
+  ],
+  "cloze":["버스","기다려요","학생","조금","학교"]
+},
+{
+  "id": 58,
+  "level": "Starter",
+  "krTitle": "새 물병",
+  "enTitle": "A New Water Bottle",
+  "sentences": [
+    { "kr": "민지는 새 물병을 샀어요.", "en": "Minji bought a new water bottle." },
+    { "kr": "색은 초록색이에요.", "en": "It is green." },
+    { "kr": "매일 학교에 가지고 가요.", "en": "She takes it to school every day." },
+    { "kr": "물을 많이 마시려고 해요.", "en": "She wants to drink more water." },
+    { "kr": "친구도 물병이 예쁘다고 했어요.", "en": "Her friend said the bottle was pretty too." },
+    { "kr": "민지는 물병이 마음에 들어요.", "en": "Minji likes the bottle." }
+  ],
+  "vocab": [
+    {"kr":"물병","en":"water bottle"},
+    {"kr":"초록색","en":"green"},
+    {"kr":"매일","en":"every day"},
+    {"kr":"학교","en":"school"},
+    {"kr":"예쁘다","en":"pretty"},
+    {"kr":"마음에 들다","en":"to like"}
+  ],
+  "quiz": [
+    {"q":"민지는 무엇을 샀어요?","opts":["책","가방","물병","신발"],"ans":2},
+    {"q":"물병 색은 뭐예요?","opts":["파란색","초록색","빨간색","검은색"],"ans":1},
+    {"q":"어디에 가지고 가요?","opts":["회사","시장","학교","공원"],"ans":2},
+    {"q":"친구는 물병이 어떻다고 했어요?","opts":["비싸다","예쁘다","크다","무겁다"],"ans":1},
+    {"q":"민지는 물병을 좋아해요?","opts":["네","아니요","몰라요","가끔"],"ans":0}
+  ],
+  "cloze":["물병","초록색","매일","예쁘다","마음"]
+},
+{
+  "id": 59,
+  "level": "Starter",
+  "krTitle": "아침 산책",
+  "enTitle": "Morning Walk",
+  "sentences": [
+    { "kr": "아버지는 아침마다 산책을 해요.", "en": "My father takes a walk every morning." },
+    { "kr": "집 근처 공원에 가요.", "en": "He goes to a park near home." },
+    { "kr": "공기가 좋아요.", "en": "The air is nice." },
+    { "kr": "가끔 강아지도 봐요.", "en": "Sometimes he sees dogs too." },
+    { "kr": "산책을 하면 기분이 좋아져요.", "en": "Walking makes him feel good." },
+    { "kr": "그래서 매일 아침에 나가요.", "en": "That's why he goes out every morning." }
+  ],
+  "vocab": [
+    {"kr":"산책","en":"walk"},
+    {"kr":"공원","en":"park"},
+    {"kr":"공기","en":"air"},
+    {"kr":"가끔","en":"sometimes"},
+    {"kr":"강아지","en":"puppy"},
+    {"kr":"기분","en":"feeling"}
+  ],
+  "quiz": [
+    {"q":"누가 산책을 해요?","opts":["아버지","어머니","학생","친구"],"ans":0},
+    {"q":"어디에 가요?","opts":["학교","시장","공원","회사"],"ans":2},
+    {"q":"무엇이 좋아요?","opts":["날씨","공기","음식","책"],"ans":1},
+    {"q":"가끔 무엇을 봐요?","opts":["고양이","새","강아지","버스"],"ans":2},
+    {"q":"산책을 하면 기분이 어때요?","opts":["좋아요","나빠요","이상해요","졸려요"],"ans":0}
+  ],
+  "cloze":["산책","공원","공기","강아지","기분"]
+},
+{
+  "id": 60,
+  "level": "Starter",
+  "krTitle": "도서관 자리",
+  "enTitle": "A Seat in the Library",
+  "sentences": [
+    { "kr": "수진은 도서관에 갔어요.", "en": "Sujin went to the library." },
+    { "kr": "사람이 많았어요.", "en": "There were many people." },
+    { "kr": "좋은 자리를 찾고 있었어요.", "en": "She was looking for a good seat." },
+    { "kr": "다행히 창문 옆 자리가 있었어요.", "en": "Fortunately, there was a seat by the window." },
+    { "kr": "수진은 그 자리에 앉았어요.", "en": "Sujin sat there." },
+    { "kr": "그리고 책을 읽었어요.", "en": "Then she read a book." }
+  ],
+  "vocab": [
+    {"kr":"도서관","en":"library"},
+    {"kr":"자리","en":"seat"},
+    {"kr":"찾다","en":"find"},
+    {"kr":"다행히","en":"fortunately"},
+    {"kr":"창문","en":"window"},
+    {"kr":"책","en":"book"}
+  ],
+  "quiz": [
+    {"q":"수진은 어디에 갔어요?","opts":["학교","카페","도서관","시장"],"ans":2},
+    {"q":"사람이 많았어요?","opts":["네","아니요","조금","몰라요"],"ans":0},
+    {"q":"무엇을 찾고 있었어요?","opts":["친구","책","자리","가방"],"ans":2},
+    {"q":"어디 자리가 있었어요?","opts":["문 옆","창문 옆","밖","복도"],"ans":1},
+    {"q":"수진은 무엇을 읽었어요?","opts":["신문","잡지","책","편지"],"ans":2}
+  ],
+  "cloze":["도서관","자리","찾고","창문","책"]
+},
+{
+  "id": 61,
+  "level": "Starter",
+  "krTitle": "저녁 메뉴",
+  "enTitle": "Dinner Menu",
+  "sentences": [
+    { "kr": "엄마: 저녁에 뭐 먹고 싶어요?", "en": "Mom: What would you like to eat for dinner?" },
+    { "kr": "지우: 김치볶음밥이 먹고 싶어요.", "en": "Jiwoo: I'd like kimchi fried rice." },
+    { "kr": "엄마: 국도 만들까요?", "en": "Mom: Shall we make soup too?" },
+    { "kr": "지우: 네, 좋아요.", "en": "Jiwoo: Yes, sounds good." },
+    { "kr": "엄마: 그럼 같이 만들어요.", "en": "Mom: Then let's make it together." },
+    { "kr": "지우: 좋아요!", "en": "Jiwoo: Great!" }
+  ],
+  "vocab": [
+    {"kr":"저녁","en":"dinner"},
+    {"kr":"김치볶음밥","en":"kimchi fried rice"},
+    {"kr":"국","en":"soup"},
+    {"kr":"만들다","en":"make"},
+    {"kr":"같이","en":"together"},
+    {"kr":"좋아요","en":"good"}
+  ],
+  "quiz": [
+    {"q":"지우는 무엇을 먹고 싶어 해요?","opts":["라면","김치볶음밥","피자","햄버거"],"ans":1},
+    {"q":"엄마는 무엇도 만들자고 했어요?","opts":["국","샐러드","빵","과일"],"ans":0},
+    {"q":"누가 이야기해요?","opts":["엄마와 지우","친구들","선생님","학생"],"ans":0},
+    {"q":"같이 무엇을 해요?","opts":["먹어요","공부해요","만들어요","가요"],"ans":2},
+    {"q":"마지막에 지우는 뭐라고 해요?","opts":["싫어요","몰라요","좋아요","배고파요"],"ans":2}
+  ],
+  "cloze":["저녁","김치볶음밥","국","같이","좋아요"]
 }
 ]
