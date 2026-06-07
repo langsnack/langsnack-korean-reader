@@ -3288,7 +3288,7 @@
     {"kr":"연락","en":"message / contact"},
     {"kr":"걱정되다","en":"to be worried"},
     {"kr":"상자","en":"box"},
-    {"kr":"열자마자","en":"as soon as opening"}
+    {"kr":"열자마자","en":"as soon as I open"}
   ],
   "quiz": [
     {"q":"글쓴이는 인터넷으로 무엇을 주문했어요?","opts":["옷","책","음식","가방"],"ans":1},
