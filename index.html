@@ -614,12 +614,24 @@ function load(i){
   const body=document.getElementById('story-body');
 const isDialogue = s.sentences.some(sent => sent.kr.includes(':'));
 
-body.innerHTML = s.sentences
-  .map(sent => makeStoryHtml(sent.kr, s.vocab))
-  .join(isDialogue ? '<br>' : ' ');
-  document.getElementById('story-translation').innerHTML=s.sentences.map(s=>s.en).join(' ');
-  document.getElementById('story-translation').classList.remove('show');
-  transOpen=false;
+body.innerHTML = s.sentences.map(sent => {
+  const text = makeStoryHtml(sent.kr, s.vocab);
+
+  if (
+    sent.kr.startsWith('학생 1:') ||
+    sent.kr.startsWith('학생 2:') ||
+    sent.kr.startsWith('민수:') ||
+    sent.kr.startsWith('지수:') ||
+    sent.kr.startsWith('수진:') ||
+    sent.kr.startsWith('유진:') ||
+    sent.kr.startsWith('민지:') ||
+    sent.kr.startsWith('준호:')
+  ) {
+    return `<br>${text}<br>`;
+  }
+
+  return text;
+}).join(' ');
 
   // vocab
   document.getElementById('vocab-grid').innerHTML=s.vocab.map(v=>
