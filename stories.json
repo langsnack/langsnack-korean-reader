@@ -2567,7 +2567,7 @@
     { "kr": "생각보다 빨리 연락이 와서 그날 저녁에 구매자를 만나기로 했어요.", "en": "I received a message sooner than expected, so I decided to meet the buyer that evening." },
     { "kr": "약속 장소에 도착했는데 상대방이 보이지 않았어요.", "en": "I arrived at the meeting place, but the buyer was nowhere to be seen." },
     { "kr": "혹시 길을 잃었나 싶어서 메시지를 보냈더니 조금 늦을 것 같다는 답장이 왔어요.", "en": "Thinking they might be lost, I sent a message and received a reply saying they would be a little late." },
-    { "kr": "다행히 근처에 카페가 있어서 기다리는 동안 커피를 마실 수 있었어요.", "en": "Fortunately, there was a cafe nearby, so I could drink coffee while waiting." },
+    { "kr": "다행히 근처에 카페가 있어서 기다리는 동안 음료를 마실 수 있었어요.", "en": "Fortunately, there was a cafe nearby, so I could get something to drink while waiting." },
     { "kr": "잠시 후 구매자가 도착했고 거래는 무사히 끝났어요.", "en": "A little later, the buyer arrived and the transaction ended smoothly." },
     { "kr": "그런데 헤어지기 전에 구매자가 책장을 정말 찾고 있었다며 고맙다고 말했어요.", "en": "Before leaving, the buyer thanked me and said they had really been looking for a bookshelf like this." },
     { "kr": "그 말을 듣고 기분이 좋아졌어요.", "en": "Hearing that made me feel good." },
@@ -2581,6 +2581,7 @@
     {"kr":"상대방","en":"the other person"},
     {"kr":"답장","en":"reply"},
     {"kr":"다행히","en":"fortunately"},
+    {"kr":"음료","en":"beverage/drink"},
     {"kr":"거래","en":"transaction"},
     {"kr":"무사히","en":"safely / successfully"},
     {"kr":"헤어지다","en":"to part ways"}
@@ -2602,9 +2603,9 @@
   "sentences": [
     { "kr": "지난주에 지하철역 근처를 걷고 있었어요.", "en": "Last week, I was walking near a subway station." },
     { "kr": "그때 한 외국인이 저에게 다가왔어요.", "en": "At that moment, a foreign tourist approached me." },
-    { "kr": "\"실례합니다. 경복궁에 어떻게 가요?\"", "en": "\"Excuse me. How do I get to Gyeongbokgung Palace?\"" },
+    { "kr": "\'실례합니다. 광화문역에 어떻게 가요?\'", "en": "\"Excuse me. How do I get to Gwanghwamun station?\"" },
     { "kr": "처음에는 조금 당황했지만 아는 길이라서 설명해 줬어요.", "en": "At first I was a little surprised, but I knew the way and explained it." },
-    { "kr": "\"저쪽으로 쭉 가세요. 그리고 두 번째 사거리에서 오른쪽으로 가면 돼요.\"", "en": "\"Go straight that way. Then turn right at the second intersection.\"" },
+    { "kr": "\'저쪽으로 쭉 가세요. 그리고 두 번째 사거리에서 오른쪽으로 가면 돼요.\'", "en": "\"Go straight that way. Then turn right at the second intersection.\"" },
     { "kr": "외국인은 웃으면서 고맙다고 말했어요.", "en": "The tourist smiled and thanked me." },
     { "kr": "저도 기분이 좋아졌어요.", "en": "I felt happy too." },
     { "kr": "짧은 대화였지만 기억에 남는 하루였어요.", "en": "It was a short conversation, but it became a memorable day." }
@@ -2614,7 +2615,7 @@
     {"kr":"외국인","en":"foreigner"},
     {"kr":"다가오다","en":"approach"},
     {"kr":"실례합니다","en":"excuse me"},
-    {"kr":"경복궁","en":"Gyeongbokgung Palace"},
+    {"kr":"역","en":"(subway) station"},
     {"kr":"당황하다","en":"be flustered"},
     {"kr":"설명하다","en":"explain"},
     {"kr":"사거리","en":"intersection"},
