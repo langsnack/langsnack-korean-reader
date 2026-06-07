@@ -2508,10 +2508,10 @@
   ],
   "quiz": [
     { "q": "요즘 카페에서 어떤 사람들을 쉽게 볼 수 있어요?\n(Who can you easily see at cafes these days?)", "opts": ["공부하는 사람들", "운동하는 사람들", "요리하는 사람들", "노래하는 사람들"], "ans": 0 },
-    { "q": "글쓴이는 예전에 카페에서 공부하는 사람들을 어떻게 생각했어요?\n(What did the writer think before?)", "opts": ["잘 이해했어요", "이해하지 못했어요", "부러워했어요", "따라 하고 싶었어요"], "ans": 1 },
-    { "q": "집에서 공부할 때 글쓴이는 무엇을 하게 되는 경우가 많았어요?\n(What did the writer often end up doing at home?)", "opts": ["운동하거나 청소했어요", "휴대전화를 보거나 간식을 먹었어요", "친구를 만났어요", "책을 샀어요"], "ans": 1 },
+    { "q": "글쓴이(author)는 예전에 카페에서 공부하는 사람들을 어떻게 생각했어요?\n(What did the writer think before?)", "opts": ["잘 이해했어요", "이해하지 못했어요", "부러워했어요", "따라 하고 싶었어요"], "ans": 1 },
+    { "q": "집에서 공부할 때 글쓴이(author)는 무엇을 하게 되는 경우가 많았어요?\n(What did the writer often end up doing at home?)", "opts": ["운동하거나 청소했어요", "휴대전화를 보거나 간식을 먹었어요", "친구를 만났어요", "책을 샀어요"], "ans": 1 },
     { "q": "카페에서 집중하게 된 이유는 무엇이에요?\n(Why did the writer focus at cafes?)", "opts": ["커피가 싸서", "주변 사람들이 공부하거나 일해서", "음악이 커서", "집보다 가까워서"], "ans": 1 },
-    { "q": "글쓴이가 생각하는 중요한 것은 무엇이에요?\n(What does the writer think is important?)", "opts": ["비싼 카페를 찾는 것", "자신에게 맞는 공부 방법을 찾는 것", "항상 도서관에 가는 것", "커피를 많이 마시는 것"], "ans": 1 }
+    { "q": "글쓴이(author)가 생각하는 중요한 것은 무엇이에요?\n(What does the writer think is important?)", "opts": ["비싼 카페를 찾는 것", "자신에게 맞는 공부 방법을 찾는 것", "항상 도서관에 가는 것", "커피를 많이 마시는 것"], "ans": 1 }
   ],
   "cloze": ["카페", "굳이", "집중", "부담", "공부 방법"]
 },
@@ -2549,11 +2549,11 @@
     { "kr": "정거장", "en": "station / stop" }
   ],
   "quiz": [
-    { "q": "글쓴이는 어디에서 학생들의 대화를 들었어요?\n(Where did the writer hear the students' conversation?)", "opts": ["카페", "학교", "지하철", "도서관"], "ans": 2 },
-    { "q": "글쓴이는 왜 자리에 앉지 못했어요?\n(Why couldn't the writer sit down?)", "opts": ["자리가 더러워서", "사람들이 많아서", "친구를 기다려서", "곧 내려야 해서"], "ans": 1 },
+    { "q": "글쓴이(author)는 어디에서 학생들의 대화를 들었어요?\n(Where did the writer hear the students' conversation?)", "opts": ["카페", "학교", "지하철", "도서관"], "ans": 2 },
+    { "q": "글쓴이(author)는 왜 자리에 앉지 못했어요?\n(Why couldn't the writer sit down?)", "opts": ["자리가 더러워서", "사람들이 많아서", "친구를 기다려서", "곧 내려야 해서"], "ans": 1 },
     { "q": "학생 2는 요즘 한국어 공부가 왜 어렵다고 느껴요?\n(Why does Student 2 feel Korean study is difficult these days?)", "opts": ["시간이 없어서", "선생님이 없어서", "실력이 늘지 않는 것 같아서", "책이 어려워서"], "ans": 2 },
-    { "q": "글쓴이는 왜 학생의 말에 공감했어요?\n(Why did the writer relate to the student?)", "opts": ["외국어를 공부하면 그런 시기를 겪기 때문에", "지하철을 자주 타기 때문에", "학생을 알고 있었기 때문에", "한국어를 가르치기 때문에"], "ans": 0 },
-    { "q": "글쓴이는 실력이 늘지 않는 것처럼 보여도 사실은 어떻게 될 수 있다고 생각해요?\n(What does the writer think may actually be happening?)", "opts": ["조금씩 발전하고 있을지도 몰라요", "완전히 멈췄을지도 몰라요", "공부를 그만둬야 해요", "다시 처음부터 해야 해요"], "ans": 0 }
+    { "q": "글쓴이(author)는 왜 학생의 말에 공감했어요?\n(Why did the writer relate to the student?)", "opts": ["외국어를 공부하면 그런 시기를 겪기 때문에", "지하철을 자주 타기 때문에", "학생을 알고 있었기 때문에", "한국어를 가르치기 때문에"], "ans": 0 },
+    { "q": "글쓴이(author)는 실력이 늘지 않는 것처럼 보여도 사실은 어떻게 될 수 있다고 생각해요?\n(What does the writer think may actually be happening?)", "opts": ["조금씩 발전하고 있을지도 몰라요", "완전히 멈췄을지도 몰라요", "공부를 그만둬야 해요", "다시 처음부터 해야 해요"], "ans": 0 }
   ],
   "cloze": ["지하철", "우연히", "실력", "공감", "정거장"]
 },
@@ -2587,11 +2587,11 @@
     {"kr":"헤어지다","en":"to part ways"}
   ],
   "quiz": [
-    {"q":"글쓴이는 무엇을 팔려고 했어요?\n(What was the writer selling?)","opts":["의자","책장","컴퓨터","가방"],"ans":1},
+    {"q":"글쓴이(author)는 무엇을 팔려고 했어요?\n(What was the writer selling?)","opts":["의자","책장","컴퓨터","가방"],"ans":1},
     {"q":"구매자는 언제 만나기로 했어요?\n(When did they decide to meet?)","opts":["다음 주","그날 저녁","아침","점심"],"ans":1},
     {"q":"구매자는 왜 늦었어요?\n(Why was the buyer late?)","opts":["몰라요","비가 와서","길을 잃어서","회사 때문에"],"ans":0},
-    {"q":"글쓴이는 기다리는 동안 무엇을 했어요?\n(What did the writer do while waiting?)","opts":["쇼핑했어요","산책했어요","커피를 마셨어요","집에 갔어요"],"ans":2},
-    {"q":"글쓴이는 중고 거래에 대해 어떤 생각을 했어요?\n(What did the writer realize about secondhand trading?)","opts":["시간 낭비예요","단순히 사고파는 것만이 아니에요","어려워요","위험해요"],"ans":1}
+    {"q":"글쓴이(author)는 기다리는 동안 무엇을 했어요?\n(What did the writer do while waiting?)","opts":["쇼핑했어요","산책했어요","커피를 마셨어요","집에 갔어요"],"ans":2},
+    {"q":"글쓴이(author)는 중고 거래에 대해 어떤 생각을 했어요?\n(What did the writer realize about secondhand trading?)","opts":["시간 낭비예요","단순히 사고파는 것만이 아니에요","어려워요","위험해요"],"ans":1}
   ],
   "cloze":["책장","구매자","답장","거래","고맙다고"]
 },
@@ -2623,11 +2623,11 @@
     {"kr":"기억에 남다","en":"be memorable"}
   ],
   "quiz": [
-    {"q":"글쓴이는 어디를 걷고 있었어요?\n(Where was the writer walking?)","opts":["공원","학교","지하철역 근처","시장"],"ans":2},
+    {"q":"글쓴이(author)는 어디를 걷고 있었어요?\n(Where was the writer walking?)","opts":["공원","학교","지하철역 근처","시장"],"ans":2},
     {"q":"누가 다가왔어요?\n(Who approached the writer?)","opts":["친구","외국인","선생님","가족"],"ans":1},
     {"q":"외국인은 어디에 가고 싶어 했어요?\n(Where did the tourist want to go?)","opts":["서울역","경복궁","시청","공항"],"ans":1},
-    {"q":"글쓴이는 길을 알고 있었어요?\n(Did the writer know the way?)","opts":["네","아니요","조금","몰라요"],"ans":0},
-    {"q":"대화 후 글쓴이의 기분은 어땠어요?\n(How did the writer feel afterward?)","opts":["슬펐어요","화났어요","좋아졌어요","피곤했어요"],"ans":2}
+    {"q":"글쓴이(author)는 길을 알고 있었어요?\n(Did the writer know the way?)","opts":["네","아니요","조금","몰라요"],"ans":0},
+    {"q":"대화 후 글쓴이(author)의 기분은 어땠어요?\n(How did the writer feel afterward?)","opts":["슬펐어요","화났어요","좋아졌어요","피곤했어요"],"ans":2}
   ],
   "cloze":["외국인","경복궁","설명","사거리","기억"]
 },
@@ -2660,11 +2660,11 @@
     {"kr":"따뜻하다","en":"warm"}
   ],
   "quiz": [
-    {"q":"글쓴이는 어디에서 할머니를 만났어요?\n(Where did the writer meet the grandmother?)","opts":["공원","엘리베이터 앞","카페","회사"],"ans":1},
+    {"q":"글쓴이(author)는 어디에서 할머니를 만났어요?\n(Where did the writer meet the grandmother?)","opts":["공원","엘리베이터 앞","카페","회사"],"ans":1},
     {"q":"왜 늦게 왔어요?\n(Why was Mina late?)","opts":["친구를 만나서","운동해서","회사 일이 많아서","길을 잃어서"],"ans":2},
     {"q":"미나는 저녁을 먹었어요?\n(Did Mina eat dinner?)","opts":["네","아니요","조금","몰라요"],"ans":1},
     {"q":"할머니는 무엇이 중요하다고 했어요?\n(What did the grandmother say was important?)","opts":["돈","공부","건강","운동"],"ans":2},
-    {"q":"대화 후 글쓴이는 어떻게 느꼈어요?\n(How did the writer feel afterward?)","opts":["더 따뜻하게 느껴졌어요","화가 났어요","슬펐어요","피곤했어요"],"ans":0}
+    {"q":"대화 후 글쓴이(author)는 어떻게 느꼈어요?\n(How did the writer feel afterward?)","opts":["더 따뜻하게 느껴졌어요","화가 났어요","슬펐어요","피곤했어요"],"ans":0}
   ],
   "cloze":["퇴근","할머니","저녁","건강","따뜻하게"]
 },
@@ -2734,7 +2734,7 @@
     {"q":"많은 사람들은 언제 새로운 일을 시작하려고 해요?\n(When do many people try to start something new?)","opts":["바로","준비가 끝난 뒤","친구가 말하면","운이 좋을 때"],"ans":1},
     {"q":"현실에서는 무엇이 드물다고 해요?\n(What is said to be rare?)","opts":["성공","실패","완벽하게 준비된 순간","기회"],"ans":2},
     {"q":"사람들은 언제 배우고 성장하는 경우가 많아요?\n(When do people often learn and grow?)","opts":["시작하기 전","포기한 후","시작한 뒤","어릴 때만"],"ans":2},
-    {"q":"글쓴이는 무작정 시작하라고 말해요?\n(Does the writer say to start recklessly?)","opts":["네","아니요","가끔","몰라요"],"ans":1},
+    {"q":"글쓴이(author)는 무작정 시작하라고 말해요?\n(Does the writer say to start recklessly?)","opts":["네","아니요","가끔","몰라요"],"ans":1},
     {"q":"가장 중요한 것은 무엇이라고 해요?\n(What does the writer say is most important?)","opts":["완벽함","재능","꾸준히 나아가는 태도","운"],"ans":2}
   ],
   "cloze":["준비","도전","현실","성장","태도"]
@@ -2766,10 +2766,10 @@
   ],
   "quiz": [
     {"q":"오늘 날씨는 어땠어요?","opts":["맑았어요","비가 왔어요","눈이 왔어요","더웠어요"],"ans":1},
-    {"q":"글쓴이는 무엇을 가지고 나왔어요?","opts":["가방","책","우산","모자"],"ans":2},
+    {"q":"글쓴이(author)는 무엇을 가지고 나왔어요?","opts":["가방","책","우산","모자"],"ans":2},
     {"q":"우산은 어디에 있었어요?","opts":["회사","지하철","편의점","가방 안"],"ans":3},
-    {"q":"글쓴이는 우산을 또 샀어요?","opts":["네","아니요","몰라요","가끔"],"ans":0},
-    {"q":"마지막에 글쓴이는 어땠어요?","opts":["화났어요","웃었어요","울었어요","잤어요"],"ans":1}
+    {"q":"글쓴이(author)는 우산을 또 샀어요?","opts":["네","아니요","몰라요","가끔"],"ans":0},
+    {"q":"마지막에 글쓴이(author)는 어땠어요?","opts":["화났어요","웃었어요","울었어요","잤어요"],"ans":1}
   ],
   "cloze":["비","우산","지하철","편의점","가방"]
 },
@@ -2798,10 +2798,10 @@
     {"kr":"기다려지다","en":"look forward to"}
   ],
   "quiz": [
-    {"q":"글쓴이는 무엇을 찾고 있었어요?","opts":["친구","취미","직업","학교"],"ans":1},
+    {"q":"글쓴이(author)는 무엇을 찾고 있었어요?","opts":["친구","취미","직업","학교"],"ans":1},
     {"q":"친구는 무엇을 추천했어요?","opts":["운동","그림","도예 수업","음악"],"ans":2},
     {"q":"도예 수업에서 무엇을 만들어요?","opts":["집","그릇","책","옷"],"ans":1},
-    {"q":"글쓴이는 도예를 재미있게 느꼈어요?","opts":["네","아니요","조금","몰라요"],"ans":0},
+    {"q":"글쓴이(author)는 도예를 재미있게 느꼈어요?","opts":["네","아니요","조금","몰라요"],"ans":0},
     {"q":"요즘은 무엇이 기다려져요?","opts":["월요일","주말 수업","시험","휴가"],"ans":1}
   ],
   "cloze":["취미","도예","흙","작품","수업"]
@@ -2836,7 +2836,7 @@
     {"q":"언제 알게 되었어요?","opts":["아침","점심시간","저녁","밤"],"ans":1},
     {"q":"처음에는 어떤 기분이었어요?","opts":["기뻤어요","불안했어요","졸렸어요","행복했어요"],"ans":1},
     {"q":"나중에는 어떻게 느꼈어요?","opts":["더 불안했어요","편했어요","화났어요","심심했어요"],"ans":1},
-    {"q":"글쓴이는 무엇이 필요하다고 생각했어요?","opts":["새 전화","더 많은 연락","잠시 멀어지는 시간","휴가"],"ans":2}
+    {"q":"글쓴이(author)는 무엇이 필요하다고 생각했어요?","opts":["새 전화","더 많은 연락","잠시 멀어지는 시간","휴가"],"ans":2}
   ],
   "cloze":["휴대전화","점심시간","불안","풍경","도구"]
 },
@@ -3065,5 +3065,137 @@
     {"q":"마지막에 지우는 뭐라고 해요?","opts":["싫어요","몰라요","좋아요","배고파요"],"ans":2}
   ],
   "cloze":["저녁","김치볶음밥","계란말이","같이","알겠어"]
+},
+{
+  "id": 62,
+  "level": "Starter",
+  "krTitle": "카페 자리 선택",
+  "enTitle": "Choosing a Cafe Seat",
+  "sentences": [
+    { "kr": "저는 카페에 가면 항상 창가 자리를 찾으려고 해요.", "en": "When I go to a cafe, I always try to find a window seat." },
+    { "kr": "창밖을 보면서 커피를 마시는 것을 좋아하기 때문이에요.", "en": "That is because I like drinking coffee while looking outside." },
+    { "kr": "하지만 인기 있는 카페는 창가 자리가 빨리 없어져요.", "en": "But at popular cafes, window seats disappear quickly." },
+    { "kr": "그래서 좋은 자리를 찾으면 기분이 좋아져요.", "en": "So when I find a good seat, I feel happy." },
+    { "kr": "오늘도 운 좋게 창가에 앉을 수 있었어요.", "en": "Today, luckily, I was able to sit by the window too." }
+  ],
+  "vocab": [
+    {"kr":"카페","en":"cafe"},
+    {"kr":"창가 자리","en":"window seat"},
+    {"kr":"창밖","en":"outside the window"},
+    {"kr":"커피","en":"coffee"},
+    {"kr":"인기","en":"popularity"},
+    {"kr":"기분","en":"feeling"},
+    {"kr":"운 좋게","en":"luckily"}
+  ],
+  "quiz": [
+    {"q":"글쓴이(author)는 카페에서 어떤 자리를 찾아요?","opts":["문 옆 자리","창가 자리","화장실 옆 자리","계단 자리"],"ans":1},
+    {"q":"글쓴이(author)는 무엇을 마셔요?","opts":["차","물","커피","주스"],"ans":2},
+    {"q":"인기 있는 카페에서는 창가 자리가 어떻게 돼요?","opts":["빨리 없어져요","항상 많아요","비싸요","없지 않아요"],"ans":0},
+    {"q":"좋은 자리를 찾으면 기분이 어때요?","opts":["좋아져요","나빠져요","졸려요","무서워요"],"ans":0},
+    {"q":"오늘은 어디에 앉았어요?","opts":["창가","밖","집","학교"],"ans":0}
+  ],
+  "cloze":["카페","창가 자리","커피","인기","기분"]
+},
+{
+  "id": 63,
+  "level": "Beginner",
+  "krTitle": "지갑을 찾은 날",
+  "enTitle": "The Day I Found My Wallet",
+  "sentences": [
+    { "kr": "어제 퇴근길에 지갑이 없다는 것을 알게 되었어요.", "en": "Yesterday on my way home from work, I realized my wallet was missing." },
+    { "kr": "주머니와 가방을 모두 확인했지만 보이지 않았어요.", "en": "I checked all my pockets and my bag, but I could not see it." },
+    { "kr": "어디에서 잃어버렸는지 기억도 나지 않았어요.", "en": "I could not even remember where I had lost it." },
+    { "kr": "걱정하면서 집에 왔는데 현관 옆 선반 위에 지갑이 있었어요.", "en": "I came home worried, but my wallet was on the shelf next to the entrance." },
+    { "kr": "아침에 급하게 나가면서 두고 간 것이었어요.", "en": "I had left it there while leaving in a hurry in the morning." },
+    { "kr": "괜히 하루 종일 걱정한 것 같아서 웃음이 나왔어요.", "en": "I laughed because I felt like I had worried for nothing all day." }
+  ],
+  "vocab": [
+    {"kr":"퇴근길","en":"way home from work"},
+    {"kr":"지갑","en":"wallet"},
+    {"kr":"주머니","en":"pocket"},
+    {"kr":"가방","en":"bag"},
+    {"kr":"확인하다","en":"check"},
+    {"kr":"잃어버리다","en":"lose"},
+    {"kr":"현관","en":"entrance"},
+    {"kr":"선반","en":"shelf"},
+    {"kr":"급하게","en":"hurriedly"},
+    {"kr":"괜히","en":"for nothing"}
+  ],
+  "quiz": [
+    {"q":"글쓴이(author)는 무엇이 없다는 것을 알게 되었어요?","opts":["휴대전화","지갑","가방","열쇠"],"ans":1},
+    {"q":"무엇을 확인했어요?","opts":["주머니와 가방","책상과 의자","버스와 지하철","카페와 식당"],"ans":0},
+    {"q":"지갑은 어디에 있었어요?","opts":["회사","지하철","현관 옆 선반","가방 안"],"ans":2},
+    {"q":"왜 지갑을 두고 갔어요?","opts":["급하게 나가서","비가 와서","친구를 만나서","잠을 자서"],"ans":0},
+    {"q":"마지막에 글쓴이(author)는 어떻게 했어요?","opts":["울었어요","웃었어요","화냈어요","잤어요"],"ans":1}
+  ],
+  "cloze":["지갑","주머니","가방","현관","급하게"]
+},
+{
+  "id": 64,
+  "level": "Intermediate",
+  "krTitle": "비밀 레시피",
+  "enTitle": "The Secret Recipe",
+  "sentences": [
+    { "kr": "친구가 직접 만든 쿠키를 가져왔어요.", "en": "My friend brought cookies they made themselves." },
+    { "kr": "생각보다 맛있어서 어떻게 만들었는지 물어봤어요.", "en": "They were better than I expected, so I asked how they made them." },
+    { "kr": "그런데 친구는 웃으면서 비밀이라고 했어요.", "en": "But my friend smiled and said it was a secret." },
+    { "kr": "장난인 줄 알았는데 정말 자세한 설명을 해 주지 않았어요.", "en": "I thought it was a joke, but they really did not explain it in detail." },
+    { "kr": "나중에 알고 보니 쿠키키트를 사용해서 만든 것이었어요.", "en": "Later, I found out they had simply used a cookie kit to make it." },
+    { "kr": "친구는 그냥 한 번 비밀이라고 말해 보고 싶었다고 했어요.", "en": "My friend said they had just wanted to call it a secret once." }
+  ],
+  "vocab": [
+    {"kr":"직접","en":"personally / by oneself"},
+    {"kr":"쿠키","en":"cookie"},
+    {"kr":"비밀","en":"secret"},
+    {"kr":"장난","en":"joke"},
+    {"kr":"자세한","en":"detailed"},
+    {"kr":"설명","en":"explanation"},
+    {"kr":"쿠키키트","en":"cookie kit"},
+    {"kr":"사용","en":"use"},
+    {"kr":"그냥","en":"just"}
+  ],
+  "quiz": [
+    {"q":"친구는 무엇을 가져왔어요?","opts":["케이크","쿠키","빵","커피"],"ans":1},
+    {"q":"글쓴이(author)는 왜 만드는 방법을 물어봤어요?","opts":["맛있어서","어려워서","비싸서","궁금하지 않아서"],"ans":0},
+    {"q":"친구는 뭐라고 했어요?","opts":["쉽다고 했어요","비밀이라고 했어요","모른다고 했어요","싫다고 했어요"],"ans":1},
+    {"q":"친구는 왜 비밀이라고 했어요?","opts":["정말 비밀이라서","그냥 말해 보고 싶어서","잊어버려서","화가 나서"],"ans":1}
+  ],
+  "cloze":["쿠키","비밀","장난","레시피","그대로"]
+},
+{
+  "id": 65,
+  "level": "Intermediate",
+  "krTitle": "엘리베이터 안에서",
+  "enTitle": "Inside the Elevator",
+  "sentences": [
+    { "kr": "퇴근 후 아파트 엘리베이터를 탔어요.", "en": "After work, I got into the apartment elevator." },
+    { "kr": "마침 같은 층에 사는 이웃도 같이 탔어요.", "en": "Just then, a neighbor who lives on the same floor got in too." },
+    { "kr": "이웃: 오늘 날씨가 정말 덥네요.", "en": "Neighbor: The weather is really hot today." },
+    { "kr": "서연: 맞아요. 밖에 조금만 있어도 땀이 나더라고요.", "en": "Seoyeon: Right. Even if I stay outside for just a little while, I start sweating." },
+    { "kr": "이웃: 올해 여름은 특히 더운 것 같아요.", "en": "Neighbor: This summer seems especially hot." },
+    { "kr": "서연: 그래서 요즘은 집에만 있고 싶어요.", "en": "Seoyeon: That's why I only want to stay home these days." },
+    { "kr": "이웃: 저도 그래요.", "en": "Neighbor: Me too." },
+    { "kr": "짧은 대화였지만 어색했던 이웃과 조금 가까워진 느낌이 들었어요.", "en": "It was a short conversation, but I felt a little closer to the neighbor I used to feel awkward around." }
+  ],
+  "vocab": [
+    {"kr":"퇴근 후","en":"after work"},
+    {"kr":"아파트","en":"apartment"},
+    {"kr":"엘리베이터","en":"elevator"},
+    {"kr":"마침","en":"just then"},
+    {"kr":"이웃","en":"neighbor"},
+    {"kr":"같은 층","en":"same floor"},
+    {"kr":"땀","en":"sweat"},
+    {"kr":"특히","en":"especially"},
+    {"kr":"어색하다","en":"awkward"},
+    {"kr":"가까워지다","en":"become closer"}
+  ],
+  "quiz": [
+    {"q":"글쓴이(author)는 어디에서 이웃을 만났어요?","opts":["카페","엘리베이터","회사","공원"],"ans":1},
+    {"q":"이웃은 어디에 살아요?","opts":["같은 층","다른 동네","옆 도시","회사 근처"],"ans":0},
+    {"q":"오늘 날씨는 어때요?","opts":["추워요","더워요","비가 와요","흐려요"],"ans":1},
+    {"q":"서연은 요즘 어디에 있고 싶어 해요?","opts":["밖","회사","집","학교"],"ans":2},
+    {"q":"대화 후 어떤 느낌이 들었어요?","opts":["더 멀어진 느낌","조금 가까워진 느낌","화난 느낌","졸린 느낌"],"ans":1}
+  ],
+  "cloze":["엘리베이터","이웃","날씨","땀","가까워진"]
 }
 ]
