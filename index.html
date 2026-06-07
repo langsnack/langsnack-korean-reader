@@ -627,7 +627,7 @@ body.innerHTML = s.sentences.map(sent => {
     sent.kr.startsWith('민지:') ||
     sent.kr.startsWith('준호:')
   ) {
-    return `<br><br>${text}<br><br>`;
+    return `<br><br><em>${text}</em><br><br>`;
   }
 
   return text;
