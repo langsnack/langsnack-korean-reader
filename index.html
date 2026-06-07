@@ -651,6 +651,12 @@ return `<div class="dialogue-line">${text}</div>`;
   return text;
 }).join(' ');
 
+ document.getElementById('story-translation').innerHTML =
+  s.sentences.map(sent => sent.en).join(' ');
+
+document.getElementById('story-translation').classList.remove('show');
+transOpen = false;
+
   // vocab
   document.getElementById('vocab-grid').innerHTML=s.vocab.map(v=>
     `<div class="vocab-card" onclick="clickVocab('${escapeAttr(v.kr)}',this)">
