@@ -2556,5 +2556,186 @@
     { "q": "글쓴이는 실력이 늘지 않는 것처럼 보여도 사실은 어떻게 될 수 있다고 생각해요?\n(What does the writer think may actually be happening?)", "opts": ["조금씩 발전하고 있을지도 몰라요", "완전히 멈췄을지도 몰라요", "공부를 그만둬야 해요", "다시 처음부터 해야 해요"], "ans": 0 }
   ],
   "cloze": ["지하철", "우연히", "실력", "공감", "정거장"]
+},
+{
+  "id": 47,
+  "level": "Intermediate",
+  "krTitle": "중고 거래를 하다가",
+  "enTitle": "While Using a Secondhand Marketplace",
+  "sentences": [
+    { "kr": "어느 주말에 사용하지 않는 책장을 중고 거래 앱에 올렸어요.", "en": "One weekend, I listed a bookshelf I no longer used on a secondhand marketplace app." },
+    { "kr": "생각보다 빨리 연락이 와서 그날 저녁에 구매자를 만나기로 했어요.", "en": "I received a message sooner than expected, so I decided to meet the buyer that evening." },
+    { "kr": "약속 장소에 도착했는데 상대방이 보이지 않았어요.", "en": "I arrived at the meeting place, but the buyer was nowhere to be seen." },
+    { "kr": "혹시 길을 잃었나 싶어서 메시지를 보냈더니 조금 늦을 것 같다는 답장이 왔어요.", "en": "Thinking they might be lost, I sent a message and received a reply saying they would be a little late." },
+    { "kr": "다행히 근처에 카페가 있어서 기다리는 동안 커피를 마실 수 있었어요.", "en": "Fortunately, there was a cafe nearby, so I could drink coffee while waiting." },
+    { "kr": "잠시 후 구매자가 도착했고 거래는 무사히 끝났어요.", "en": "A little later, the buyer arrived and the transaction ended smoothly." },
+    { "kr": "그런데 헤어지기 전에 구매자가 책장을 정말 찾고 있었다며 고맙다고 말했어요.", "en": "Before leaving, the buyer thanked me and said they had really been looking for a bookshelf like this." },
+    { "kr": "그 말을 듣고 기분이 좋아졌어요.", "en": "Hearing that made me feel good." },
+    { "kr": "그날 저는 중고 거래가 단순히 물건을 사고파는 일만은 아니라는 생각을 했어요.", "en": "That day, I realized that secondhand trading is not just about buying and selling things." }
+  ],
+  "vocab": [
+    {"kr":"중고 거래","en":"secondhand trading"},
+    {"kr":"책장","en":"bookshelf"},
+    {"kr":"구매자","en":"buyer"},
+    {"kr":"약속 장소","en":"meeting place"},
+    {"kr":"상대방","en":"the other person"},
+    {"kr":"답장","en":"reply"},
+    {"kr":"다행히","en":"fortunately"},
+    {"kr":"거래","en":"transaction"},
+    {"kr":"무사히","en":"safely / successfully"},
+    {"kr":"헤어지다","en":"to part ways"}
+  ],
+  "quiz": [
+    {"q":"글쓴이는 무엇을 팔려고 했어요?\n(What was the writer selling?)","opts":["의자","책장","컴퓨터","가방"],"ans":1},
+    {"q":"구매자는 언제 만나기로 했어요?\n(When did they decide to meet?)","opts":["다음 주","그날 저녁","아침","점심"],"ans":1},
+    {"q":"구매자는 왜 늦었어요?\n(Why was the buyer late?)","opts":["몰라요","비가 와서","길을 잃어서","회사 때문에"],"ans":0},
+    {"q":"글쓴이는 기다리는 동안 무엇을 했어요?\n(What did the writer do while waiting?)","opts":["쇼핑했어요","산책했어요","커피를 마셨어요","집에 갔어요"],"ans":2},
+    {"q":"글쓴이는 중고 거래에 대해 어떤 생각을 했어요?\n(What did the writer realize about secondhand trading?)","opts":["시간 낭비예요","단순히 사고파는 것만이 아니에요","어려워요","위험해요"],"ans":1}
+  ],
+  "cloze":["책장","구매자","답장","거래","고맙다고"]
+},
+{
+  "id": 48,
+  "level": "Beginner",
+  "krTitle": "길을 물어본 관광객",
+  "enTitle": "A Tourist Asking for Directions",
+  "sentences": [
+    { "kr": "지난주에 지하철역 근처를 걷고 있었어요.", "en": "Last week, I was walking near a subway station." },
+    { "kr": "그때 한 외국인이 저에게 다가왔어요.", "en": "At that moment, a foreign tourist approached me." },
+    { "kr": "\"실례합니다. 경복궁에 어떻게 가요?\"", "en": "\"Excuse me. How do I get to Gyeongbokgung Palace?\"" },
+    { "kr": "처음에는 조금 당황했지만 아는 길이라서 설명해 줬어요.", "en": "At first I was a little surprised, but I knew the way and explained it." },
+    { "kr": "\"저쪽으로 쭉 가세요. 그리고 두 번째 사거리에서 오른쪽으로 가면 돼요.\"", "en": "\"Go straight that way. Then turn right at the second intersection.\"" },
+    { "kr": "외국인은 웃으면서 고맙다고 말했어요.", "en": "The tourist smiled and thanked me." },
+    { "kr": "저도 기분이 좋아졌어요.", "en": "I felt happy too." },
+    { "kr": "짧은 대화였지만 기억에 남는 하루였어요.", "en": "It was a short conversation, but it became a memorable day." }
+  ],
+  "vocab": [
+    {"kr":"지하철역","en":"subway station"},
+    {"kr":"외국인","en":"foreigner"},
+    {"kr":"다가오다","en":"approach"},
+    {"kr":"실례합니다","en":"excuse me"},
+    {"kr":"경복궁","en":"Gyeongbokgung Palace"},
+    {"kr":"당황하다","en":"be flustered"},
+    {"kr":"설명하다","en":"explain"},
+    {"kr":"사거리","en":"intersection"},
+    {"kr":"오른쪽","en":"right side"},
+    {"kr":"기억에 남다","en":"be memorable"}
+  ],
+  "quiz": [
+    {"q":"글쓴이는 어디를 걷고 있었어요?\n(Where was the writer walking?)","opts":["공원","학교","지하철역 근처","시장"],"ans":2},
+    {"q":"누가 다가왔어요?\n(Who approached the writer?)","opts":["친구","외국인","선생님","가족"],"ans":1},
+    {"q":"외국인은 어디에 가고 싶어 했어요?\n(Where did the tourist want to go?)","opts":["서울역","경복궁","시청","공항"],"ans":1},
+    {"q":"글쓴이는 길을 알고 있었어요?\n(Did the writer know the way?)","opts":["네","아니요","조금","몰라요"],"ans":0},
+    {"q":"대화 후 글쓴이의 기분은 어땠어요?\n(How did the writer feel afterward?)","opts":["슬펐어요","화났어요","좋아졌어요","피곤했어요"],"ans":2}
+  ],
+  "cloze":["외국인","경복궁","설명","사거리","기억"]
+},
+{
+  "id": 49,
+  "level": "Intermediate",
+  "krTitle": "엘리베이터에서",
+  "enTitle": "In the Elevator",
+  "sentences": [
+    { "kr": "퇴근 후 집으로 돌아가는 길이었어요.", "en": "I was on my way home after work." },
+    { "kr": "엘리베이터를 기다리고 있는데 옆집에 사는 할머니를 만났어요.", "en": "While waiting for the elevator, I met the elderly woman who lives next door." },
+    { "kr": "할머니: 오늘도 늦게 왔네요.", "en": "Grandmother: You're home late again today." },
+    { "kr": "민아: 네. 회사 일이 조금 많았어요.", "en": "Mina: Yes. I had a lot of work today." },
+    { "kr": "할머니: 저녁은 먹었어요?", "en": "Grandmother: Did you eat dinner?" },
+    { "kr": "민아: 아직 못 먹었어요.", "en": "Mina: Not yet." },
+    { "kr": "할머니: 건강이 제일 중요해요. 꼭 챙겨 먹어요.", "en": "Grandmother: Health is the most important thing. Make sure you eat." },
+    { "kr": "민아: 네. 감사합니다.", "en": "Mina: Yes. Thank you." },
+    { "kr": "짧은 대화였지만 집에 가는 길이 조금 더 따뜻하게 느껴졌어요.", "en": "It was a short conversation, but the walk home felt a little warmer afterward." }
+  ],
+  "vocab": [
+    {"kr":"퇴근","en":"getting off work"},
+    {"kr":"엘리베이터","en":"elevator"},
+    {"kr":"옆집","en":"next door"},
+    {"kr":"할머니","en":"grandmother / elderly woman"},
+    {"kr":"회사","en":"company"},
+    {"kr":"저녁","en":"dinner"},
+    {"kr":"아직","en":"yet"},
+    {"kr":"건강","en":"health"},
+    {"kr":"챙겨 먹다","en":"make sure to eat"},
+    {"kr":"따뜻하다","en":"warm"}
+  ],
+  "quiz": [
+    {"q":"글쓴이는 어디에서 할머니를 만났어요?\n(Where did the writer meet the grandmother?)","opts":["공원","엘리베이터 앞","카페","회사"],"ans":1},
+    {"q":"왜 늦게 왔어요?\n(Why was Mina late?)","opts":["친구를 만나서","운동해서","회사 일이 많아서","길을 잃어서"],"ans":2},
+    {"q":"민아는 저녁을 먹었어요?\n(Did Mina eat dinner?)","opts":["네","아니요","조금","몰라요"],"ans":1},
+    {"q":"할머니는 무엇이 중요하다고 했어요?\n(What did the grandmother say was important?)","opts":["돈","공부","건강","운동"],"ans":2},
+    {"q":"대화 후 글쓴이는 어떻게 느꼈어요?\n(How did the writer feel afterward?)","opts":["더 따뜻하게 느껴졌어요","화가 났어요","슬펐어요","피곤했어요"],"ans":0}
+  ],
+  "cloze":["퇴근","할머니","저녁","건강","따뜻하게"]
+},
+{
+  "id": 50,
+  "level": "High Intermediate",
+  "krTitle": "한국 사람이 자주 하는 말",
+  "enTitle": "A Phrase Koreans Often Say",
+  "sentences": [
+    { "kr": "외국인들이 한국어를 배우면서 가장 신기하게 생각하는 표현 중 하나는 \"나중에 밥 한번 먹어요\"라는 말이에요.", "en": "One phrase that many foreigners find interesting is 'Let's have a meal sometime.'" },
+    { "kr": "처음 한국에 온 사람들은 이 말을 실제 약속으로 받아들이는 경우가 많아요.", "en": "People who are new to Korea often take it as a real promise." },
+    { "kr": "그래서 언제 만날 수 있는지 다시 물어보기도 해요.", "en": "So they sometimes ask exactly when they will meet." },
+    { "kr": "하지만 한국 사람들은 꼭 구체적인 약속을 의미하지 않아도 이런 표현을 사용해요.", "en": "However, Koreans often use this expression even when it is not a specific plan." },
+    { "kr": "상대방에게 호감을 표현하거나 좋은 관계를 유지하고 싶다는 뜻으로 말하는 경우도 많아요.", "en": "It can also mean that they like the person or want to maintain a good relationship." },
+    { "kr": "언어를 배우는 것은 단어와 문법을 배우는 것만이 아니에요.", "en": "Learning a language is not only about learning words and grammar." },
+    { "kr": "그 언어를 사용하는 사람들의 문화와 생각을 이해하는 것도 중요해요.", "en": "Understanding the culture and way of thinking of its speakers is important too." }
+  ],
+  "vocab": [
+    {"kr":"표현","en":"expression"},
+    {"kr":"실제","en":"actual"},
+    {"kr":"약속","en":"promise / appointment"},
+    {"kr":"구체적","en":"specific"},
+    {"kr":"의미하다","en":"mean"},
+    {"kr":"호감","en":"good feelings"},
+    {"kr":"유지하다","en":"maintain"},
+    {"kr":"문화","en":"culture"},
+    {"kr":"생각","en":"way of thinking"},
+    {"kr":"이해하다","en":"understand"}
+  ],
+  "quiz": [
+    {"q":"외국인들이 신기하게 생각하는 표현은 무엇이에요?\n(Which expression do foreigners find interesting?)","opts":["잘 가요","감사합니다","나중에 밥 한번 먹어요","안녕하세요"],"ans":2},
+    {"q":"처음 한국에 온 사람들은 이 말을 어떻게 생각해요?\n(How do newcomers often interpret it?)","opts":["농담","실제 약속","인사","광고"],"ans":1},
+    {"q":"한국 사람들은 꼭 무엇을 의미하지 않아도 이 표현을 사용해요?\n(What does it not always mean?)","opts":["친구","음식","구체적인 약속","여행"],"ans":2},
+    {"q":"이 표현은 무엇을 나타낼 수도 있어요?\n(What can this phrase show?)","opts":["호감","화","슬픔","실망"],"ans":0},
+    {"q":"언어를 배울 때 중요한 것은 무엇이에요?\n(What is important when learning a language?)","opts":["단어만","문법만","문화와 생각도","시험 점수만"],"ans":2}
+  ],
+  "cloze":["표현","약속","호감","문화","이해"]
+},
+{
+  "id": 51,
+  "level": "Advanced",
+  "krTitle": "완벽한 준비는 없다",
+  "enTitle": "There Is No Perfect Preparation",
+  "sentences": [
+    { "kr": "많은 사람들은 모든 준비가 끝난 뒤에 새로운 일을 시작하려고 한다.", "en": "Many people try to start something new only after all preparation is complete." },
+    { "kr": "충분한 실력이 생긴 후에 도전하겠다고 생각하기도 하고 실패할 가능성을 최대한 줄인 다음에 움직이려고 하기도 한다.", "en": "Some think they will challenge themselves after becoming skilled enough, while others try to reduce the possibility of failure as much as possible first." },
+    { "kr": "하지만 현실에서는 완벽하게 준비된 순간이 찾아오는 경우가 드물다.", "en": "In reality, moments of perfect preparation are rare." },
+    { "kr": "오히려 시작한 뒤에 배우고 성장하는 일이 더 많다.", "en": "More often, people learn and grow after they begin." },
+    { "kr": "물론 무작정 시작하라는 의미는 아니다.", "en": "Of course, this does not mean one should begin recklessly." },
+    { "kr": "기본적인 준비는 필요하다.", "en": "Basic preparation is necessary." },
+    { "kr": "다만 준비가 부족하다는 이유만으로 계속 미루기만 한다면 아무것도 달라지지 않을 수 있다.", "en": "However, if someone keeps delaying things simply because they feel unprepared, nothing may change." },
+    { "kr": "중요한 것은 완벽함이 아니라 꾸준히 앞으로 나아가는 태도일지도 모른다.", "en": "What matters may not be perfection, but the attitude of continuing to move forward." }
+  ],
+  "vocab": [
+    {"kr":"준비","en":"preparation"},
+    {"kr":"도전","en":"challenge"},
+    {"kr":"가능성","en":"possibility"},
+    {"kr":"현실","en":"reality"},
+    {"kr":"드물다","en":"be rare"},
+    {"kr":"성장","en":"growth"},
+    {"kr":"무작정","en":"recklessly"},
+    {"kr":"기본적","en":"basic"},
+    {"kr":"미루다","en":"postpone"},
+    {"kr":"태도","en":"attitude"}
+  ],
+  "quiz": [
+    {"q":"많은 사람들은 언제 새로운 일을 시작하려고 해요?\n(When do many people try to start something new?)","opts":["바로","준비가 끝난 뒤","친구가 말하면","운이 좋을 때"],"ans":1},
+    {"q":"현실에서는 무엇이 드물다고 해요?\n(What is said to be rare?)","opts":["성공","실패","완벽하게 준비된 순간","기회"],"ans":2},
+    {"q":"사람들은 언제 배우고 성장하는 경우가 많아요?\n(When do people often learn and grow?)","opts":["시작하기 전","포기한 후","시작한 뒤","어릴 때만"],"ans":2},
+    {"q":"글쓴이는 무작정 시작하라고 말해요?\n(Does the writer say to start recklessly?)","opts":["네","아니요","가끔","몰라요"],"ans":1},
+    {"q":"가장 중요한 것은 무엇이라고 해요?\n(What does the writer say is most important?)","opts":["완벽함","재능","꾸준히 나아가는 태도","운"],"ans":2}
+  ],
+  "cloze":["준비","도전","현실","성장","태도"]
 }
 ]
