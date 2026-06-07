@@ -42,7 +42,7 @@
 .dialogue-line{
     font-family:'Nanum Myeongjo', serif;
     color:#555;
-    font-style:normal;
+    margin:0.3em 0;
 }
 
   /* ── HEADER ── */
@@ -634,7 +634,7 @@ body.innerHTML = s.sentences.map(sent => {
     sent.kr.startsWith('민지:') ||
     sent.kr.startsWith('준호:')
   ) {
-return `<br><span class="dialogue-line">${text}</span><br>`;
+return `<div class="dialogue-line">${text}</div>`;
   }
 
   return text;
