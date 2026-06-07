@@ -3199,6 +3199,172 @@
   "cloze":["엘리베이터","이웃","날씨","땀","가까워진"]
 },
 {
+  "id": 66,
+  "level": "High Intermediate",
+  "krTitle": "기다리는 시간",
+  "enTitle": "Waiting Time",
+  "sentences": [
+    { "kr": "사람들은 보통 기다리는 시간을 좋아하지 않아요.", "en": "People usually do not like waiting time." },
+    { "kr": "버스를 기다리거나 병원 순서를 기다릴 때 지루함을 느끼는 경우가 많아요.", "en": "They often feel bored when waiting for a bus or their turn at the hospital." },
+    { "kr": "그래서 많은 사람들은 휴대전화를 보거나 음악을 들으면서 시간을 보내요.", "en": "So many people spend time looking at their phones or listening to music." },
+    { "kr": "하지만 어떤 사람들은 기다리는 시간을 생각을 정리하는 기회로 활용하기도 해요.", "en": "However, some people use waiting time as a chance to organize their thoughts." },
+    { "kr": "아무것도 하지 않고 잠시 주변을 바라보는 것만으로도 예상하지 못했던 아이디어가 떠오를 수 있기 때문이에요.", "en": "That is because simply doing nothing and looking around for a moment can bring unexpected ideas." }
+  ],
+  "vocab": [
+    {"kr":"기다리다","en":"to wait"},
+    {"kr":"순서","en":"turn / order"},
+    {"kr":"지루함","en":"boredom"},
+    {"kr":"휴대전화","en":"mobile phone"},
+    {"kr":"생각을 정리하다","en":"to organize one's thoughts"},
+    {"kr":"기회","en":"chance"},
+    {"kr":"활용하다","en":"to use / utilize"},
+    {"kr":"예상하지 못하다","en":"unexpected"},
+    {"kr":"아이디어","en":"idea"},
+    {"kr":"떠오르다","en":"to come to mind"}
+  ],
+  "quiz": [
+    {"q":"사람들은 보통 기다리는 시간을 어떻게 생각해요?","opts":["좋아해요","좋아하지 않아요","기다려요","잊어버려요"],"ans":1},
+    {"q":"기다릴 때 어떤 감정을 느끼는 경우가 많아요?","opts":["지루함","행복","화려함","놀라움"],"ans":0},
+    {"q":"많은 사람들은 기다리면서 무엇을 해요?","opts":["운동해요","휴대전화를 봐요","요리해요","청소해요"],"ans":1},
+    {"q":"어떤 사람들은 기다리는 시간을 무엇으로 활용해요?","opts":["생각을 정리하는 기회","쇼핑 시간","잠자는 시간","운동 시간"],"ans":0},
+    {"q":"잠시 주변을 바라보면 무엇이 떠오를 수 있어요?","opts":["아이디어","숙제","버스","음식"],"ans":0}
+  ],
+  "cloze":["기다리는","순서","휴대전화","기회","아이디어"]
+},
+{
+  "id": 67,
+  "level": "Advanced",
+  "krTitle": "익숙함의 힘",
+  "enTitle": "The Power of Familiarity",
+  "sentences": [
+    { "kr": "사람들은 종종 새로운 것에 관심을 보이면서도 익숙한 것을 쉽게 포기하지 못한다.", "en": "People often show interest in new things but cannot easily give up what is familiar." },
+    { "kr": "이는 단순히 변화를 싫어해서가 아니라 익숙한 환경이 안정감을 제공하기 때문이다.", "en": "This is not simply because they dislike change, but because familiar environments provide a sense of stability." },
+    { "kr": "실제로 많은 사람들은 더 나은 선택지가 있다는 것을 알면서도 기존의 습관이나 방식을 유지하려고 한다.", "en": "In fact, many people try to maintain existing habits or methods even when they know better options exist." },
+    { "kr": "물론 변화는 성장의 중요한 조건이 될 수 있다.", "en": "Of course, change can be an important condition for growth." },
+    { "kr": "하지만 변화가 성공하기 위해서는 새로운 것을 받아들이는 용기뿐 아니라 익숙한 것을 내려놓는 결심도 필요하다.", "en": "However, for change to succeed, one needs not only the courage to accept something new but also the decision to let go of what is familiar." }
+  ],
+  "vocab": [
+    {"kr":"익숙함","en":"familiarity"},
+    {"kr":"관심","en":"interest"},
+    {"kr":"포기하다","en":"to give up"},
+    {"kr":"변화","en":"change"},
+    {"kr":"안정감","en":"sense of stability"},
+    {"kr":"선택지","en":"option"},
+    {"kr":"기존의","en":"existing"},
+    {"kr":"유지하다","en":"to maintain"},
+    {"kr":"성장","en":"growth"},
+    {"kr":"내려놓다","en":"to let go"}
+  ],
+  "quiz": [
+    {"q":"사람들은 새로운 것에 관심을 보이면서도 무엇을 포기하지 못해요?","opts":["익숙한 것","비싼 것","어려운 것","낯선 것"],"ans":0},
+    {"q":"익숙한 환경은 무엇을 제공해요?","opts":["불안감","안정감","속도","기회"],"ans":1},
+    {"q":"많은 사람들은 더 나은 선택지가 있어도 무엇을 유지하려고 해요?","opts":["기존의 습관이나 방식","새로운 계획","여행 일정","친구 관계"],"ans":0},
+    {"q":"변화는 무엇의 중요한 조건이 될 수 있어요?","opts":["성장","실패","휴식","기억"],"ans":0},
+    {"q":"변화가 성공하려면 익숙한 것을 어떻게 해야 해요?","opts":["내려놓아야 해요","더 가져야 해요","숨겨야 해요","기억해야 해요"],"ans":0}
+  ],
+  "cloze":["익숙한","변화","안정감","선택지","성장"]
+},
+{
+  "id": 68,
+  "level": "Beginner",
+  "krTitle": "택배를 기다리며",
+  "enTitle": "Waiting for a Delivery",
+  "sentences": [
+    { "kr": "이번 주에 인터넷으로 책을 주문했어요.", "en": "This week, I ordered a book online." },
+    { "kr": "배송 조회를 해 보니 오늘 도착한다고 나왔어요.", "en": "When I checked the delivery status, it said it would arrive today." },
+    { "kr": "그래서 하루 종일 택배 알림을 기다렸어요.", "en": "So I waited for a delivery notification all day." },
+    { "kr": "오후가 되어도 연락이 없어서 조금 걱정됐어요.", "en": "Even in the afternoon, there was no message, so I became a little worried." },
+    { "kr": "다행히 저녁에 택배가 도착했어요.", "en": "Fortunately, the delivery arrived in the evening." },
+    { "kr": "상자를 열자마자 바로 책을 읽기 시작했어요.", "en": "As soon as I opened the box, I started reading the book." }
+  ],
+  "vocab": [
+    {"kr":"택배","en":"delivery / package"},
+    {"kr":"인터넷","en":"internet"},
+    {"kr":"주문하다","en":"to order"},
+    {"kr":"배송 조회","en":"delivery tracking"},
+    {"kr":"도착하다","en":"to arrive"},
+    {"kr":"알림","en":"notification"},
+    {"kr":"연락","en":"message / contact"},
+    {"kr":"걱정되다","en":"to be worried"},
+    {"kr":"상자","en":"box"},
+    {"kr":"열자마자","en":"as soon as opening"}
+  ],
+  "quiz": [
+    {"q":"글쓴이는 인터넷으로 무엇을 주문했어요?","opts":["옷","책","음식","가방"],"ans":1},
+    {"q":"배송 조회에는 언제 도착한다고 나왔어요?","opts":["내일","다음 주","오늘","어제"],"ans":2},
+    {"q":"글쓴이는 하루 종일 무엇을 기다렸어요?","opts":["친구","택배 알림","전화","버스"],"ans":1},
+    {"q":"택배는 언제 도착했어요?","opts":["아침","점심","저녁","밤늦게"],"ans":2},
+    {"q":"상자를 열자마자 무엇을 했어요?","opts":["책을 읽었어요","잠을 잤어요","밥을 먹었어요","전화를 했어요"],"ans":0}
+  ],
+  "cloze":["인터넷","책","택배","저녁","상자"]
+},
+{
+  "id": 69,
+  "level": "Intermediate",
+  "krTitle": "휴가 계획",
+  "enTitle": "Vacation Plans",
+  "sentences": [
+    { "kr": "올여름에는 꼭 여행을 가기로 했어요.", "en": "This summer, I decided to definitely go on a trip." },
+    { "kr": "하지만 어디로 갈지는 아직 정하지 못했어요.", "en": "But I still have not decided where to go." },
+    { "kr": "바다를 보러 갈지 산으로 갈지 계속 고민 중이에요.", "en": "I am still thinking about whether to go see the sea or go to the mountains." },
+    { "kr": "친구들은 해외여행을 추천하지만 저는 조용한 국내 여행도 좋아해요.", "en": "My friends recommend traveling abroad, but I also like quiet domestic trips." },
+    { "kr": "중요한 것은 장소보다 충분히 쉬는 것인 것 같아요.", "en": "I think the important thing is resting enough rather than the place itself." }
+  ],
+  "vocab": [
+    {"kr":"휴가","en":"vacation"},
+    {"kr":"계획","en":"plan"},
+    {"kr":"올여름","en":"this summer"},
+    {"kr":"정하다","en":"to decide"},
+    {"kr":"고민 중이다","en":"to be thinking / debating"},
+    {"kr":"해외여행","en":"overseas trip"},
+    {"kr":"추천하다","en":"to recommend"},
+    {"kr":"국내 여행","en":"domestic trip"},
+    {"kr":"장소","en":"place"},
+    {"kr":"충분히","en":"enough"}
+  ],
+  "quiz": [
+    {"q":"글쓴이는 올여름에 무엇을 하기로 했어요?","opts":["공부하기","여행 가기","일하기","운동하기"],"ans":1},
+    {"q":"아직 무엇을 정하지 못했어요?","opts":["어디로 갈지","누구를 만날지","무엇을 먹을지","언제 잘지"],"ans":0},
+    {"q":"글쓴이는 바다와 어디 사이에서 고민 중이에요?","opts":["도시","산","학교","시장"],"ans":1},
+    {"q":"친구들은 무엇을 추천해요?","opts":["국내 여행","해외여행","집에 있기","운동"],"ans":1},
+    {"q":"글쓴이는 무엇이 중요하다고 생각해요?","opts":["비싼 장소","충분히 쉬는 것","사진 찍기","유명한 곳"],"ans":1}
+  ],
+  "cloze":["올여름","여행","바다","해외여행","충분히"]
+},
+{
+  "id": 70,
+  "level": "High Intermediate",
+  "krTitle": "아버지의 습관",
+  "enTitle": "My Father's Habit",
+  "sentences": [
+    { "kr": "아버지는 새로운 물건을 사기 전에 반드시 여러 제품을 비교해 보세요.", "en": "Before buying something new, my father always compares several products." },
+    { "kr": "가격뿐만 아니라 품질과 후기까지 꼼꼼하게 확인하세요.", "en": "He carefully checks not only the price but also the quality and reviews." },
+    { "kr": "가끔은 너무 오래 고민하시는 것 같기도 해요.", "en": "Sometimes I feel like he thinks about it for too long." },
+    { "kr": "하지만 덕분에 충동적으로 물건을 사는 경우는 거의 없어요.", "en": "But thanks to that, he almost never buys things impulsively." },
+    { "kr": "저도 나이가 들면서 점점 아버지와 비슷해지는 것 같아요.", "en": "As I get older, I feel like I am becoming more and more like my father." }
+  ],
+  "vocab": [
+    {"kr":"습관","en":"habit"},
+    {"kr":"물건","en":"thing / item"},
+    {"kr":"반드시","en":"without fail"},
+    {"kr":"제품","en":"product"},
+    {"kr":"비교하다","en":"to compare"},
+    {"kr":"품질","en":"quality"},
+    {"kr":"후기","en":"review"},
+    {"kr":"꼼꼼하게","en":"carefully / thoroughly"},
+    {"kr":"충동적으로","en":"impulsively"},
+    {"kr":"비슷해지다","en":"to become similar"}
+  ],
+  "quiz": [
+    {"q":"아버지는 물건을 사기 전에 무엇을 해 보세요?","opts":["여러 제품을 비교해 보세요","바로 사세요","친구에게 주세요","사진을 찍으세요"],"ans":0},
+    {"q":"아버지는 가격뿐만 아니라 무엇도 확인하세요?","opts":["색깔과 크기","품질과 후기","날씨와 장소","시간과 날짜"],"ans":1},
+    {"q":"가끔 글쓴이는 아버지가 어떻게 한다고 느껴요?","opts":["너무 빨리 산다","너무 오래 고민한다","아무것도 안 본다","너무 많이 잔다"],"ans":1},
+    {"q":"아버지는 어떤 경우가 거의 없어요?","opts":["충동적으로 물건을 사는 경우","후기를 보는 경우","비교하는 경우","고민하는 경우"],"ans":0},
+    {"q":"글쓴이는 나이가 들면서 누구와 비슷해지는 것 같아요?","opts":["어머니","친구","아버지","선생님"],"ans":2}
+  ],
+  "cloze":["아버지","제품","품질","후기","충동적으로"]
+}
+{
   "id": 71,
   "level": "Advanced",
   "krTitle": "익숙한 길을 걷는 이유",
@@ -3223,6 +3389,13 @@
     {"kr":"거창한","en":"grand"},
     {"kr":"사소한","en":"small, trivial"}
   ],
+  "quiz": [
+  {"q":"사람들은 왜 익숙한 길을 선택하는 경우가 많아요?","opts":["더 비싸서","안정감을 주기 때문에","항상 더 빨라서","운동이 돼서"],"ans":1},
+  {"q":"새로운 길은 무엇을 동반할 수 있다고 해요?","opts":["안정감","기회","예상하지 못한 변수","지름길"],"ans":2},
+  {"q":"작은 변화는 무엇으로 이어질 수 있어요?","opts":["실패","새로운 경험","지루함","후회"],"ans":1},
+  {"q":"평소와 다른 길을 선택하면 무엇을 발견할 수도 있다고 해요?","opts":["좋은 카페","새로운 직장","친구","학교"],"ans":0},
+  {"q":"글쓴이는 변화가 어디에서 시작될 수 있다고 말해요?","opts":["큰 결심","사소한 선택","운","돈"],"ans":1}
+],
   "cloze":["익숙한","안정감","변수","우연히","사소한"]
 },
 {
@@ -3250,6 +3423,13 @@
     {"kr":"의견","en":"opinion"},
     {"kr":"공식적","en":"formal"}
   ],
+  "quiz": [
+  {"q":"회의를 마무리한 사람은 누구예요?","opts":["지훈","직원","팀장","고객"],"ans":2},
+  {"q":"지훈은 무엇에 대해 질문했어요?","opts":["예산","회의실","일정 지연 가능성","휴가"],"ans":2},
+  {"q":"팀장은 언제까지 추가 계획을 검토할 예정이라고 했어요?","opts":["오늘","내일","다음 주","다음 달"],"ans":2},
+  {"q":"회의 후 몇몇 직원들은 무엇을 했어요?","opts":["집에 갔어요","의견을 나눴어요","점심을 먹었어요","운동했어요"],"ans":1},
+  {"q":"더 좋은 아이디어는 어디에서 나오는 경우도 있었다고 해요?","opts":["보고서","공식 회의","비공식 대화","이메일"],"ans":2}
+],
   "cloze":["회의","일정","가능성","검토","의견"]
 },
 {
@@ -3276,6 +3456,13 @@
     {"kr":"대상","en":"person / target"},
     {"kr":"힘","en":"strength"}
   ],
+  "quiz": [
+  {"q":"민서는 무엇에 대해 질문했어요?","opts":["여행","고민 상담","직장","공부"],"ans":1},
+  {"q":"유진은 보통 누구에게 먼저 이야기해요?","opts":["가족","선생님","친구","동료"],"ans":2},
+  {"q":"유진은 친구가 왜 도움이 된다고 생각해요?","opts":["돈이 많아서","비슷한 경험이 있어서","가까이 살아서","시간이 많아서"],"ans":1},
+  {"q":"중요한 결정은 누구와도 상의한다고 했어요?","opts":["친구","동료","가족","이웃"],"ans":2},
+  {"q":"글의 마지막에서 강조하는 것은 무엇이에요?","opts":["돈","조언","이야기를 들어 주는 일","성적"],"ans":2}
+],
   "cloze":["고민","상황","경험","결정","상의"]
 },
 {
@@ -3310,6 +3497,13 @@
     {"kr":"삶","en":"life"},
     {"kr":"기록","en":"record"}
   ],
+  "quiz": [
+  {"q":"많은 사람들은 기억이 무엇을 그대로 저장한다고 생각해요?","opts":["감정","사실","꿈","사진"],"ans":1},
+  {"q":"연구에 따르면 기억은 어떻다고 해요?","opts":["완벽하다","변하지 않는다","불완전하다","항상 정확하다"],"ans":2},
+  {"q":"같은 사건을 경험한 사람들도 어떻게 기억할 수 있어요?","opts":["항상 똑같이","서로 다르게","전혀 기억 못 하게","사진처럼"],"ans":1},
+  {"q":"기억은 시간이 지나면서 어떻게 될 수 있어요?","opts":["사라진다","강해진다","변형된다","멈춘다"],"ans":2},
+  {"q":"글쓴이가 중요하다고 말하는 것은 무엇이에요?","opts":["기억은 완벽하다","기억은 기록이다","기억은 완벽한 기록이 아니다","기억은 필요 없다"],"ans":2}
+],
   "cloze":["기억","연구","불완전","사건","해석"]
 },
 {
@@ -3326,14 +3520,21 @@
     { "kr": "민준: 그건... 생각을 정리하고 있었어요.", "en": "Minjun: Well... I was organizing my thoughts." },
     { "kr": "서연: 정말요?", "en": "Seoyeon: Really?" },
     { "kr": "민준: 사실은 집에 가기 싫어서요.", "en": "Minjun: Actually, I just don't want to go home yet." },
-    { "kr": "서연: 그럴 때도 있죠.", "en": "Seoyeon: There are days like that." },
+    { "kr": "서연: 그럴 때도 있죠.", "en": "Seoyeon: There are days like that." }
   ],
   "vocab": [
     {"kr":"벌써","en":"already"},
     {"kr":"창밖","en":"outside the window"},
     {"kr":"정리하다","en":"organize"},
-    {"kr":"사실","en":"actually"},
+    {"kr":"사실","en":"actually"}
   ],
+  "quiz": [
+  {"q":"민준은 언제 집에 가려고 해요?","opts":["지금","조금 더 있다가","내일","아침에"],"ans":1},
+  {"q":"서연은 민준이 얼마나 오래 있었다고 말해요?","opts":["30분","1시간","2시간","3시간"],"ans":2},
+  {"q":"서연은 민준이 무엇만 보고 있었다고 했어요?","opts":["책","휴대전화","창밖","메뉴"],"ans":2},
+  {"q":"민준은 처음에 무엇을 하고 있었다고 말했어요?","opts":["공부","생각 정리","친구 기다리기","독서"],"ans":1},
+  {"q":"민준은 사실 왜 집에 가기 싫어했는지 구체적으로 설명했어요?","opts":["네","아니요","가족 때문이에요","일 때문이에요"],"ans":1}
+],
   "cloze":["벌써","창밖","정리","사실"]
 }
 ]
