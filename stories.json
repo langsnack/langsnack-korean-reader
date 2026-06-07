@@ -2640,11 +2640,11 @@
     { "kr": "퇴근 후 집으로 돌아가는 길이었어요.", "en": "I was on my way home after work." },
     { "kr": "엘리베이터를 기다리고 있는데 옆집에 사는 할머니를 만났어요.", "en": "While waiting for the elevator, I met the elderly woman who lives next door." },
     { "kr": "할머니: 오늘도 늦게 왔네요.", "en": "Grandmother: You're home late again today." },
-    { "kr": "민아: 네. 회사 일이 조금 많았어요.", "en": "Mina: Yes. I had a lot of work today." },
+    { "kr": "미나: 네. 회사 일이 조금 많았어요.", "en": "Mina: Yes. I had a lot of work today." },
     { "kr": "할머니: 저녁은 먹었어요?", "en": "Grandmother: Did you eat dinner?" },
-    { "kr": "민아: 아직 못 먹었어요.", "en": "Mina: Not yet." },
+    { "kr": "미나: 아직 못 먹었어요.", "en": "Mina: Not yet." },
     { "kr": "할머니: 건강이 제일 중요해요. 꼭 챙겨 먹어요.", "en": "Grandmother: Health is the most important thing. Make sure you eat." },
-    { "kr": "민아: 네. 감사합니다.", "en": "Mina: Yes. Thank you." },
+    { "kr": "미나: 네. 감사합니다.", "en": "Mina: Yes. Thank you." },
     { "kr": "짧은 대화였지만 집에 가는 길이 조금 더 따뜻하게 느껴졌어요.", "en": "It was a short conversation, but the walk home felt a little warmer afterward." }
   ],
   "vocab": [
@@ -2662,7 +2662,7 @@
   "quiz": [
     {"q":"글쓴이는 어디에서 할머니를 만났어요?\n(Where did the writer meet the grandmother?)","opts":["공원","엘리베이터 앞","카페","회사"],"ans":1},
     {"q":"왜 늦게 왔어요?\n(Why was Mina late?)","opts":["친구를 만나서","운동해서","회사 일이 많아서","길을 잃어서"],"ans":2},
-    {"q":"민아는 저녁을 먹었어요?\n(Did Mina eat dinner?)","opts":["네","아니요","조금","몰라요"],"ans":1},
+    {"q":"미나는 저녁을 먹었어요?\n(Did Mina eat dinner?)","opts":["네","아니요","조금","몰라요"],"ans":1},
     {"q":"할머니는 무엇이 중요하다고 했어요?\n(What did the grandmother say was important?)","opts":["돈","공부","건강","운동"],"ans":2},
     {"q":"대화 후 글쓴이는 어떻게 느꼈어요?\n(How did the writer feel afterward?)","opts":["더 따뜻하게 느껴졌어요","화가 났어요","슬펐어요","피곤했어요"],"ans":0}
   ],
