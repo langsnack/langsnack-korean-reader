@@ -612,7 +612,7 @@ function load(i){
 
   // build story
   const body=document.getElementById('story-body');
-  body.innerHTML=s.sentences.map(sent=>makeStoryHtml(sent.kr, s.vocab)).join(' ');
+  body.innerHTML=s.sentences.map(sent=>makeStoryHtml(sent.kr, s.vocab)).join('<br><br>');
 
   document.getElementById('story-translation').innerHTML=s.sentences.map(s=>s.en).join(' ');
   document.getElementById('story-translation').classList.remove('show');
