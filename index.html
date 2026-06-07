@@ -4,7 +4,8 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Reading Library – Langsnack Korean</title>
-<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"><style>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
+ <style> 
   :root {
     --cream:    #f9f6f1;
     --white:    #ffffff;
@@ -36,6 +37,12 @@
 .word,
 .blank {
     font-family: 'Nanum Gothic', sans-serif;
+}
+
+.dialogue-line{
+    font-family:'Nanum Myeongjo', serif;
+    color:#555;
+    font-style:normal;
 }
 
   /* ── HEADER ── */
@@ -627,7 +634,7 @@ body.innerHTML = s.sentences.map(sent => {
     sent.kr.startsWith('민지:') ||
     sent.kr.startsWith('준호:')
   ) {
-    return `<br><br><em>${text}</em><br><br>`;
+return `<br><span class="dialogue-line">${text}</span><br>`;
   }
 
   return text;
