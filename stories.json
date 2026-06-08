@@ -4026,5 +4026,174 @@
     {"q":"자신을 이해하기 위해 때때로 무엇이 필요해요?","opts":["혼자 있는 시간","많은 돈","긴 여행","새로운 집"],"ans":0}
   ],
   "cloze":["혼자","외로움","최근","시선","이해"]
+},
+{
+  "id": 91,
+  "level": "Beginner",
+  "krTitle": "처음 써 본 키오스크",
+  "enTitle": "Using a Kiosk for the First Time",
+  "sentences": [
+    { "kr": "어느 날 혼자 햄버거 가게에 갔어요.", "en": "One day, I went to a hamburger restaurant alone." },
+    { "kr": "주문하려고 했는데 직원이 보이지 않았어요.", "en": "I tried to order, but I could not see any staff." },
+    { "kr": "대신 큰 화면이 있었어요.", "en": "Instead, there was a big screen." },
+    { "kr": "처음에는 어떻게 사용하는지 몰라서 조금 당황했어요.", "en": "At first, I was a little flustered because I did not know how to use it." },
+    { "kr": "하지만 천천히 눌러 보니 생각보다 어렵지 않았어요.", "en": "But when I pressed the buttons slowly, it was not as difficult as I expected." },
+    { "kr": "주문을 마친 후에는 혼자서도 할 수 있다는 자신감이 생겼어요.", "en": "After finishing the order, I felt confident that I could do it by myself too." }
+  ],
+  "vocab": [
+    {"kr":"키오스크","en":"kiosk"},
+    {"kr":"햄버거 가게","en":"hamburger restaurant"},
+    {"kr":"주문하다","en":"to order"},
+    {"kr":"직원","en":"staff"},
+    {"kr":"대신","en":"instead"},
+    {"kr":"화면","en":"screen"},
+    {"kr":"당황하다","en":"to be flustered"},
+    {"kr":"누르다","en":"to press"},
+    {"kr":"자신감","en":"confidence"}
+  ],
+  "quiz": [
+    {"q":"글쓴이는 어디에 갔어요?","opts":["카페","햄버거 가게","도서관","편의점"],"ans":1},
+    {"q":"주문하려고 했을 때 누가 보이지 않았어요?","opts":["친구","직원","손님","가족"],"ans":1},
+    {"q":"대신 무엇이 있었어요?","opts":["큰 화면","작은 책","전화기","종이 메뉴"],"ans":0},
+    {"q":"처음에는 기분이 어땠어요?","opts":["당황했어요","기뻤어요","졸렸어요","화났어요"],"ans":0},
+    {"q":"주문을 마친 후 무엇이 생겼어요?","opts":["걱정","자신감","피로","배고픔"],"ans":1}
+  ],
+  "cloze":["키오스크","주문","직원","화면","자신감"]
+},
+{
+  "id": 92,
+  "level": "Intermediate",
+  "krTitle": "배달이 너무 빨라요",
+  "enTitle": "Delivery Is So Fast",
+  "sentences": [
+    { "kr": "한국에 처음 온 친구는 배달 음식에 놀랐어요.", "en": "A friend who first came to Korea was surprised by food delivery." },
+    { "kr": "음식을 주문한 지 40분도 되지 않았는데 도착했기 때문이에요.", "en": "That was because the food arrived in less than 40 minutes after ordering." },
+    { "kr": "친구는 원래 한 시간 넘게 기다려야 하는 줄 알았다고 했어요.", "en": "My friend said they thought they would have to wait more than an hour." },
+    { "kr": "저는 이제 익숙해서 특별하게 느끼지 않았지만 생각해 보니 정말 빠른 편이었어요.", "en": "I was used to it, so it did not feel special, but when I thought about it, it really was quite fast." },
+    { "kr": "한국에서는 다양한 음식을 집에서 편하게 주문할 수 있어요.", "en": "In Korea, people can conveniently order many kinds of food from home." },
+    { "kr": "그래서 바쁜 사람들에게 배달 서비스는 일상이 되었어요.", "en": "So for busy people, delivery services have become part of daily life." }
+  ],
+  "vocab": [
+    {"kr":"배달 음식","en":"delivery food"},
+    {"kr":"놀라다","en":"to be surprised"},
+    {"kr":"주문하다","en":"to order"},
+    {"kr":"도착하다","en":"to arrive"},
+    {"kr":"기다리다","en":"to wait"},
+    {"kr":"익숙하다","en":"to be used to"},
+    {"kr":"특별하다","en":"to be special"},
+    {"kr":"다양한","en":"various"},
+    {"kr":"편하게","en":"comfortably / conveniently"},
+    {"kr":"일상","en":"daily life"}
+  ],
+  "quiz": [
+    {"q":"친구는 무엇에 놀랐어요?","opts":["한국어","배달 음식","지하철","날씨"],"ans":1},
+    {"q":"음식은 얼마 만에 도착했어요?","opts":["10분도 안 돼서","20분도 되지 않아서","한 시간 후에","다음 날"],"ans":1},
+    {"q":"친구는 원래 얼마나 기다려야 한다고 생각했어요?","opts":["5분","20분","한 시간 정도","하루"],"ans":2},
+    {"q":"글쓴이는 왜 특별하게 느끼지 않았어요?","opts":["싫어해서","익숙해서","몰라서","바빠서"],"ans":1},
+    {"q":"배달 서비스는 바쁜 사람들에게 무엇이 되었어요?","opts":["취미","일상","문제","여행"],"ans":1}
+  ],
+  "cloze":["배달 음식","주문","도착","익숙해서","일상"]
+},
+{
+  "id": 93,
+  "level": "Intermediate",
+  "krTitle": "한강에서 달리기",
+  "enTitle": "Running by the Han River",
+  "sentences": [
+    { "kr": "몇 년 전부터 러닝이 취미인 사람들이 많이 늘어났어요.", "en": "In recent years, the number of people who have running as a hobby has increased a lot." },
+    { "kr": "특히 날씨가 좋은 저녁에는 한강 공원에서 달리는 사람들을 쉽게 볼 수 있어요.", "en": "Especially on evenings with nice weather, you can easily see people running in Han River parks." },
+    { "kr": "어떤 사람들은 기록을 목표로 달리고 어떤 사람들은 건강을 위해 운동해요.", "en": "Some people run with a record as their goal, while others exercise for their health." },
+    { "kr": "친구와 함께 뛰는 사람들도 있고 혼자 조용히 달리는 사람들도 있어요.", "en": "Some people run with friends, and others run quietly alone." },
+    { "kr": "저도 가끔 한강을 따라 걸을 때 러닝하는 사람들을 보면 운동을 시작하고 싶어져요.", "en": "When I sometimes walk along the Han River and see people running, I feel like starting exercise too." }
+  ],
+  "vocab": [
+    {"kr":"러닝","en":"running"},
+    {"kr":"취미","en":"hobby"},
+    {"kr":"늘어나다","en":"to increase"},
+    {"kr":"특히","en":"especially"},
+    {"kr":"한강 공원","en":"Han River park"},
+    {"kr":"기록","en":"record"},
+    {"kr":"목표","en":"goal"},
+    {"kr":"건강","en":"health"},
+    {"kr":"조용히","en":"quietly"},
+    {"kr":"시작하다","en":"to start"}
+  ],
+  "quiz": [
+    {"q":"몇 년 전부터 어떤 사람들이 많이 늘어났어요?","opts":["요리하는 사람들","러닝이 취미인 사람들","노래하는 사람들","쇼핑하는 사람들"],"ans":1},
+    {"q":"날씨가 좋은 저녁에는 어디에서 달리는 사람들을 볼 수 있어요?","opts":["한강 공원","학교","시장","도서관"],"ans":0},
+    {"q":"어떤 사람들은 무엇을 목표로 달려요?","opts":["기록","돈","여행","잠"],"ans":0},
+    {"q":"혼자 달리는 사람들도 있어요?","opts":["네","아니요","전혀 없어요","모두 친구와 뛰어요"],"ans":0},
+    {"q":"글쓴이는 러닝하는 사람들을 보면 무엇을 하고 싶어져요?","opts":["쉬고 싶어져요","운동을 시작하고 싶어져요","집에 가고 싶어져요","먹고 싶어져요"],"ans":1}
+  ],
+  "cloze":["러닝","한강 공원","기록","건강","운동"]
+},
+{
+  "id": 94,
+  "level": "Advanced",
+  "krTitle": "AI 번역이 있는데 외국어를 배워야 할까",
+  "enTitle": "Should We Learn Languages When AI Translation Exists?",
+  "sentences": [
+    { "kr": "최근에는 번역 기술이 빠르게 발전하고 있다.", "en": "Recently, translation technology has been developing rapidly." },
+    { "kr": "스마트폰만 있어도 여러 언어를 실시간으로 이해할 수 있는 시대가 되었다.", "en": "We have entered an age where people can understand many languages in real time with just a smartphone." },
+    { "kr": "그래서 어떤 사람들은 앞으로 외국어를 배울 필요가 없다고 말하기도 한다.", "en": "So some people say that there will be no need to learn foreign languages in the future." },
+    { "kr": "하지만 언어는 단순히 정보를 전달하는 수단만은 아니다.", "en": "However, language is not merely a tool for delivering information." },
+    { "kr": "같은 말을 이해하더라도 그 안에 담긴 문화와 감정을 이해하는 것은 또 다른 문제다.", "en": "Even if we understand the same words, understanding the culture and emotions contained within them is another matter." },
+    { "kr": "기술은 소통을 돕지만 사람 사이의 관계를 완전히 대신할 수는 없다.", "en": "Technology helps communication, but it cannot completely replace human relationships." },
+    { "kr": "그렇기 때문에 앞으로도 외국어 학습은 여전히 의미가 있을 것이다.", "en": "For that reason, learning foreign languages will still remain meaningful in the future." }
+  ],
+  "vocab": [
+    {"kr":"번역 기술","en":"translation technology"},
+    {"kr":"발전하다","en":"to develop"},
+    {"kr":"실시간","en":"real time"},
+    {"kr":"외국어","en":"foreign language"},
+    {"kr":"단순히","en":"simply / merely"},
+    {"kr":"전달하다","en":"to deliver"},
+    {"kr":"수단","en":"means / tool"},
+    {"kr":"감정","en":"emotion"},
+    {"kr":"소통","en":"communication"},
+    {"kr":"대신하다","en":"to replace"}
+  ],
+  "quiz": [
+    {"q":"최근에는 무엇이 빠르게 발전하고 있어요?","opts":["요리 기술","번역 기술","교통 기술","운동 기술"],"ans":1},
+    {"q":"스마트폰만 있어도 여러 언어를 어떻게 이해할 수 있는 시대가 되었어요?","opts":["실시간으로","천천히","어렵게","나중에"],"ans":0},
+    {"q":"어떤 사람들은 앞으로 무엇을 배울 필요가 없다고 말해요?","opts":["외국어","역사","음악","수학"],"ans":0},
+    {"q":"글쓴이에 따르면 언어는 단순히 무엇만은 아니에요?","opts":["정보를 전달하는 수단","공부 과목","시험 문제","취미"],"ans":0},
+    {"q":"기술은 사람 사이의 관계를 완전히 대신할 수 있어요?","opts":["네","아니요","항상 그래요","이미 했어요"],"ans":1}
+  ],
+  "cloze":["번역 기술","실시간","외국어","소통","의미"]
+},
+{
+  "id": 95,
+  "level": "Advanced",
+  "krTitle": "왜 사람들은 카페를 좋아할까",
+  "enTitle": "Why Do People Like Cafes?",
+  "sentences": [
+    { "kr": "한국에는 카페가 매우 많다.", "en": "There are many cafes in Korea." },
+    { "kr": "어떤 사람들은 공부를 하기 위해 카페에 가고 어떤 사람들은 일을 하기 위해 가기도 한다.", "en": "Some people go to cafes to study, and others also go there to work." },
+    { "kr": "또 친구를 만나거나 혼자 쉬기 위해 카페를 찾는 사람들도 있다.", "en": "There are also people who visit cafes to meet friends or rest alone." },
+    { "kr": "흥미로운 점은 커피를 마시지 않더라도 카페를 이용하는 사람들이 많다는 사실이다.", "en": "What is interesting is that many people use cafes even if they do not drink coffee." },
+    { "kr": "카페는 단순히 음료를 판매하는 공간이 아니라 시간을 보내는 공간으로 기능하고 있다.", "en": "Cafes function not simply as places that sell drinks, but as spaces where people spend time." },
+    { "kr": "그래서 새로운 카페가 생기면 많은 사람들이 직접 가 보고 싶어 한다.", "en": "So when a new cafe opens, many people want to visit it themselves." }
+  ],
+  "vocab": [
+    {"kr":"카페","en":"cafe"},
+    {"kr":"매우","en":"very/really"},
+    {"kr":"혼자","en":"alone"},
+    {"kr":"흥미로운","en":"interesting"},
+    {"kr":"커피","en":"coffee"},
+    {"kr":"이용하다","en":"to use"},
+    {"kr":"단순히","en":"simply"},
+    {"kr":"판매하다","en":"to sell"},
+    {"kr":"공간","en":"space"},
+    {"kr":"기능하다","en":"to function"}
+  ],
+  "quiz": [
+    {"q":"한국에는 무엇이 매우 많아요?","opts":["학교","카페","병원","공항"],"ans":1},
+    {"q":"어떤 사람들은 왜 카페에 가요?","opts":["공부하거나 일하기 위해","운동하기 위해","잠자기 위해","요리하기 위해"],"ans":0},
+    {"q":"카페를 찾는 사람들은 친구를 만나거나 무엇을 하기도 해요?","opts":["혼자 쉬기","수영하기","쇼핑하기","청소하기"],"ans":0},
+    {"q":"흥미로운 점은 무엇이에요?","opts":["커피를 안 마셔도 카페를 이용하는 사람이 많다","카페가 모두 비싸다","카페에는 사람이 없다","카페가 모두 조용하다"],"ans":0},
+    {"q":"카페는 무엇으로 기능하고 있어요?","opts":["시간을 보내는 공간","잠자는 공간","운동하는 공간","병원 같은 공간"],"ans":0}
+  ],
+  "cloze":["카페","공부","혼자","공간"]
 }
 ]
