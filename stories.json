@@ -3698,5 +3698,164 @@
     {"q":"좋은 사람들과 함께 있으면 어때요?","opts":["즐거워요","힘들어요","불편해요","조용해요"],"ans":0}
   ],
   "cloze":["식당","의견","선호","메뉴","즐거우니까요"]
+},
+{
+  "id": 81,
+  "level": "Beginner",
+  "krTitle": "도서관 자리",
+  "enTitle": "A Seat in the Library",
+  "sentences": [
+    { "kr": "시험 기간이 되면 도서관은 항상 사람이 많아요.", "en": "During exam season, the library is always crowded." },
+    { "kr": "좋은 자리는 금방 없어져요.", "en": "Good seats disappear quickly." },
+    { "kr": "그래서 저는 조금 일찍 도착하려고 해요.", "en": "So I try to arrive a little early." },
+    { "kr": "오늘도 원하는 자리에 앉을 수 있었어요.", "en": "Today, I was able to sit in the seat I wanted." },
+    { "kr": "덕분에 공부에 더 집중할 수 있었어요.", "en": "Thanks to that, I was able to focus better on studying." }
+  ],
+  "vocab": [
+    {"kr":"시험 기간","en":"exam period"},
+    {"kr":"도서관","en":"library"},
+    {"kr":"자리","en":"seat"},
+    {"kr":"금방","en":"quickly"},
+    {"kr":"도착하다","en":"arrive"},
+    {"kr":"원하는","en":"desired"},
+    {"kr":"덕분에","en":"thanks to"},
+    {"kr":"집중하다","en":"focus"}
+  ],
+  "quiz": [
+    {"q":"시험 기간이 되면 도서관은 어때요?","opts":["조용해요","사람이 많아요","문을 닫아요","비어요"],"ans":1},
+    {"q":"좋은 자리는 어떻게 돼요?","opts":["남아요","금방 없어져요","예약돼요","비싸요"],"ans":1},
+    {"q":"글쓴이는 왜 일찍 도착하려고 해요?","opts":["운동하려고","좋은 자리를 얻으려고","친구를 만나려고","집에 가려고"],"ans":1},
+    {"q":"오늘 원하는 자리에 앉을 수 있었어요?","opts":["네","아니요","몰라요","다음에"],"ans":0},
+    {"q":"덕분에 무엇을 더 잘할 수 있었어요?","opts":["운동","독서","공부","요리"],"ans":2}
+  ],
+  "cloze":["도서관","자리","도착","덕분에","집중"]
+},
+{
+  "id": 82,
+  "level": "Starter",
+  "krTitle": "공원 산책",
+  "enTitle": "A Walk in the Park",
+  "sentences": [
+    { "kr": "저녁을 먹고 공원에 갔어요.", "en": "After dinner, I went to the park." },
+    { "kr": "날씨가 시원해서 걷기 좋았어요.", "en": "The weather was cool, so it was nice for walking." },
+    { "kr": "강아지를 산책시키는 사람들도 많이 보였어요.", "en": "I also saw many people walking their dogs." },
+    { "kr": "한 바퀴를 돌고 집으로 돌아왔어요.", "en": "I walked around once and returned home." },
+    { "kr": "짧은 산책이었지만 기분이 좋아졌어요.", "en": "It was a short walk, but it made me feel better." }
+  ],
+  "vocab": [
+    {"kr":"공원","en":"park"},
+    {"kr":"저녁","en":"evening"},
+    {"kr":"날씨","en":"weather"},
+    {"kr":"시원하다","en":"cool"},
+    {"kr":"걷다","en":"walk"},
+    {"kr":"강아지","en":"puppy/dog"},
+    {"kr":"한 바퀴","en":"one lap"},
+    {"kr":"산책","en":"walk"},
+    {"kr":"기분","en":"mood"}
+  ],
+  "quiz": [
+    {"q":"글쓴이는 저녁을 먹고 어디에 갔어요?","opts":["학교","회사","공원","카페"],"ans":2},
+    {"q":"날씨는 어땠어요?","opts":["더웠어요","추웠어요","시원했어요","비가 왔어요"],"ans":2},
+    {"q":"무엇을 산책시키는 사람들이 있었어요?","opts":["고양이","강아지","새","토끼"],"ans":1},
+    {"q":"글쓴이는 무엇을 하고 집에 돌아왔어요?","opts":["한 바퀴 돌고","운동하고","쇼핑하고","공부하고"],"ans":0},
+    {"q":"산책 후 기분이 어땠어요?","opts":["나빴어요","이상했어요","좋아졌어요","무서웠어요"],"ans":2}
+  ],
+  "cloze":["공원","날씨","강아지","산책","기분"]
+},
+{
+  "id": 83,
+  "level": "Intermediate",
+  "krTitle": "카페에서 공부하기",
+  "enTitle": "Studying at a Cafe",
+  "sentences": [
+    { "kr": "지우: 여기 자리 있어요?", "en": "Jiwoo: Is this seat available?" },
+    { "kr": "서진: 네, 앉으세요.", "en": "Seojin: Yes, please sit." },
+    { "kr": "지우: 감사합니다. 공부하러 오셨어요?", "en": "Jiwoo: Thank you. Did you come to study?" },
+    { "kr": "서진: 네. 집에서는 집중이 잘 안 되더라고요.", "en": "Seojin: Yes. I can't focus very well at home." },
+    { "kr": "지우: 저도 그래요.", "en": "Jiwoo: Me too." },
+    { "kr": "서진: 그래서 시험 기간에는 카페를 자주 와요.", "en": "Seojin: That's why I come to cafes often during exam season." },
+    { "kr": "지우: 저도 오늘은 오래 있을 것 같아요.", "en": "Jiwoo: I think I'll stay for a long time today too." },
+    { "kr": "두 사람은 잠시 이야기를 나눈 뒤 각자의 공부를 시작했어요.", "en": "After chatting for a while, they each started studying." }
+  ],
+  "vocab": [
+    {"kr":"자리","en":"seat"},
+    {"kr":"공부하다","en":"study"},
+    {"kr":"집중","en":"focus"},
+    {"kr":"시험 기간","en":"exam period"},
+    {"kr":"자주","en":"often"},
+    {"kr":"오래","en":"for a long time"},
+    {"kr":"잠시","en":"for a while"},
+    {"kr":"각자","en":"each"}
+  ],
+  "quiz": [
+    {"q":"지우는 무엇을 물어봤어요?","opts":["시간","가격","자리","메뉴"],"ans":2},
+    {"q":"서진은 왜 카페에 와요?","opts":["친구를 만나려고","집중하려고","일하려고","쉬려고"],"ans":1},
+    {"q":"집에서는 무엇이 잘 안 된다고 했어요?","opts":["운동","독서","집중","요리"],"ans":2},
+    {"q":"서진은 시험 기간에 어디를 자주 와요?","opts":["도서관","공원","카페","학교"],"ans":2},
+    {"q":"마지막에 두 사람은 무엇을 시작했어요?","opts":["식사","운동","공부","쇼핑"],"ans":2}
+  ],
+  "cloze":["자리","집중","시험 기간","자주","공부"]
+},
+{
+  "id": 84,
+  "level": "Beginner",
+  "krTitle": "오래된 사진",
+  "enTitle": "An Old Photograph",
+  "sentences": [
+    { "kr": "방을 정리하다가 오래된 사진을 발견했어요.", "en": "While cleaning my room, I found an old photograph." },
+    { "kr": "초등학교 때 친구들과 찍은 사진이었어요.", "en": "It was a photo I took with friends in elementary school." },
+    { "kr": "사진 속 사람들은 모두 웃고 있었어요.", "en": "Everyone in the photo was smiling." },
+    { "kr": "그 시절 생각이 나서 한동안 사진을 바라봤어요.", "en": "It reminded me of those days, so I looked at the photo for a while." },
+    { "kr": "나중에 친구들에게 사진을 보내 주기로 했어요.", "en": "Later, I decided to send the photo to my friends." }
+  ],
+  "vocab": [
+    {"kr":"정리하다","en":"organize"},
+    {"kr":"발견하다","en":"discover"},
+    {"kr":"초등학교","en":"elementary school"},
+    {"kr":"사진","en":"photo"},
+    {"kr":"웃다","en":"smile"},
+    {"kr":"시절","en":"those days"},
+    {"kr":"한동안","en":"for a while"},
+    {"kr":"보내 주다","en":"send"}
+  ],
+  "quiz": [
+    {"q":"무엇을 발견했어요?","opts":["편지","사진","책","가방"],"ans":1},
+    {"q":"언제 찍은 사진이었어요?","opts":["중학교 때","고등학교 때","초등학교 때","대학교 때"],"ans":2},
+    {"q":"사진 속 사람들은 어땠어요?","opts":["울고 있었어요","웃고 있었어요","자고 있었어요","공부하고 있었어요"],"ans":1},
+    {"q":"글쓴이는 사진을 얼마나 바라봤어요?","opts":["잠깐","한동안","하루 종일","전혀"],"ans":1},
+    {"q":"나중에 무엇을 하기로 했어요?","opts":["사진을 버리기","사진을 인쇄하기","친구들에게 보내기","사진을 팔기"],"ans":2}
+  ],
+  "cloze":["사진","초등학교","웃고","한동안","보내"]
+},
+{
+  "id": 85,
+  "level": "Intermediate",
+  "krTitle": "작은 습관",
+  "enTitle": "Small Habits",
+  "sentences": [
+    { "kr": "사람들은 큰 목표를 세우는 것을 좋아해요.", "en": "People like setting big goals." },
+    { "kr": "하지만 목표를 이루는 것은 생각보다 쉽지 않아요.", "en": "However, achieving goals is not as easy as it seems." },
+    { "kr": "그래서 저는 작은 습관부터 만드는 것이 중요하다고 생각해요.", "en": "So I think it is important to build small habits first." },
+    { "kr": "하루에 10분이라도 꾸준히 하는 것이 아무것도 하지 않는 것보다 훨씬 나아요.", "en": "Even doing something consistently for 10 minutes a day is much better than doing nothing." },
+    { "kr": "작은 변화가 쌓이면 큰 결과로 이어질 수 있기 때문이에요.", "en": "That is because small changes can lead to big results when they accumulate." }
+  ],
+  "vocab": [
+    {"kr":"목표","en":"goal"},
+    {"kr":"이루다","en":"achieve"},
+    {"kr":"습관","en":"habit"},
+    {"kr":"꾸준히","en":"consistently"},
+    {"kr":"아무것도","en":"anything"},
+    {"kr":"훨씬","en":"much"},
+    {"kr":"변화","en":"change"},
+    {"kr":"결과","en":"result"}
+  ],
+  "quiz": [
+    {"q":"사람들은 무엇을 세우는 것을 좋아해요?","opts":["계획","목표","집","규칙"],"ans":1},
+    {"q":"목표를 이루는 것은 어때요?","opts":["쉬워요","재미없어요","쉽지 않아요","불가능해요"],"ans":2},
+    {"q":"글쓴이는 무엇이 중요하다고 생각해요?","opts":["큰 계획","작은 습관","운","돈"],"ans":1},
+    {"q":"하루에 얼마라도 꾸준히 하는 것이 좋다고 했어요?","opts":["1분","5분","10분","1시간"],"ans":2},
+    {"q":"작은 변화가 쌓이면 무엇으로 이어질 수 있어요?","opts":["실수","걱정","큰 결과","실패"],"ans":2}
+  ],
+  "cloze":["목표","습관","꾸준히","변화","결과"]
 }
 ]
