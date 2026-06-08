@@ -4016,7 +4016,9 @@
     {"kr":"의식하다","en":"to be conscious of"},
     {"kr":"집중하다","en":"to focus"},
     {"kr":"관계","en":"relationship"},
-    {"kr":"이해하다","en":"to understand"}
+    {"kr":"이해하다","en":"to understand"},
+    {"kr":"자신","en":"own self"},
+    {"kr":"때때로","en":"sometimes"}
   ],
   "quiz": [
     {"q":"과거에는 혼자 있는 시간을 무엇과 연결해서 생각했어요?","opts":["행복","외로움","성공","공부"],"ans":1},
