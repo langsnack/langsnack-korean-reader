@@ -3537,5 +3537,165 @@
   {"q":"민준은 사실 왜 집에 가기 싫어했는지 구체적으로 설명했어요?","opts":["네","아니요","가족 때문이에요","일 때문이에요"],"ans":1}
 ],
   "cloze":["벌써","창밖","정리","사실"]
+},
+{
+  "id": 76,
+  "level": "Starter",
+  "krTitle": "편의점에서",
+  "enTitle": "At the Convenience Store",
+  "sentences": [
+    { "kr": "민지는 집에 가는 길에 편의점에 들렀어요.", "en": "Minji stopped by a convenience store on her way home." },
+    { "kr": "물과 삼각김밥을 하나 샀어요.", "en": "She bought water and one triangle gimbap." },
+    { "kr": "계산을 하고 밖으로 나왔어요.", "en": "She paid and went outside." },
+    { "kr": "그런데 음료수를 사는 것을 잊어버렸어요.", "en": "But she forgot to buy a drink." },
+    { "kr": "결국 다시 편의점에 들어갔어요.", "en": "In the end, she went back into the convenience store." }
+  ],
+  "vocab": [
+    {"kr":"편의점","en":"convenience store"},
+    {"kr":"들르다","en":"stop by"},
+    {"kr":"물","en":"water"},
+    {"kr":"삼각김밥","en":"triangle gimbap"},
+    {"kr":"계산","en":"payment"},
+    {"kr":"밖","en":"outside"},
+    {"kr":"음료수","en":"drink"},
+    {"kr":"잊어버리다","en":"forget"},
+    {"kr":"결국","en":"in the end"}
+  ],
+  "quiz": [
+    {"q":"민지는 어디에 들렀어요?","opts":["카페","편의점","학교","도서관"],"ans":1},
+    {"q":"무엇을 샀어요?","opts":["물과 삼각김밥","커피와 빵","라면과 우유","과자와 주스"],"ans":0},
+    {"q":"무엇을 잊어버렸어요?","opts":["가방","음료수","지갑","책"],"ans":1},
+    {"q":"민지는 결국 어디에 다시 들어갔어요?","opts":["집","회사","편의점","식당"],"ans":2},
+    {"q":"이야기는 누구에 대한 이야기예요?","opts":["민지","수진","지우","서진"],"ans":0}
+  ],
+  "cloze":["편의점","삼각김밥","계산","음료수","결국"]
+},
+{
+  "id": 77,
+  "level": "Beginner",
+  "krTitle": "늦잠을 잔 아침",
+  "enTitle": "A Morning I Overslept",
+  "sentences": [
+    { "kr": "오늘 아침에 알람 소리를 듣지 못했어요.", "en": "This morning, I did not hear my alarm." },
+    { "kr": "눈을 떠 보니 평소보다 한 시간이나 늦었어요.", "en": "When I opened my eyes, I was an hour later than usual." },
+    { "kr": "급하게 옷을 입고 집을 나섰어요.", "en": "I quickly got dressed and left home." },
+    { "kr": "아침을 먹을 시간도 없었어요.", "en": "I did not even have time to eat breakfast." },
+    { "kr": "다행히 지각은 하지 않았지만 하루 종일 피곤했어요.", "en": "Fortunately, I was not late, but I was tired all day." }
+  ],
+  "vocab": [
+    {"kr":"늦잠","en":"oversleeping"},
+    {"kr":"알람 소리","en":"alarm sound"},
+    {"kr":"눈을 뜨다","en":"open one's eyes"},
+    {"kr":"평소보다","en":"than usual"},
+    {"kr":"급하게","en":"hurriedly"},
+    {"kr":"집을 나서다","en":"leave home"},
+    {"kr":"지각","en":"being late"},
+    {"kr":"하루 종일","en":"all day"},
+    {"kr":"피곤하다","en":"to be tired"}
+  ],
+  "quiz": [
+    {"q":"글쓴이는 오늘 아침에 무엇을 듣지 못했어요?","opts":["전화 소리","알람 소리","비 소리","문 소리"],"ans":1},
+    {"q":"평소보다 얼마나 늦었어요?","opts":["10분","30분","한 시간","두 시간"],"ans":2},
+    {"q":"글쓴이는 급하게 무엇을 했어요?","opts":["옷을 입고 집을 나섰어요","운동했어요","청소했어요","친구를 만났어요"],"ans":0},
+    {"q":"아침을 먹었어요?","opts":["네","아니요","조금","몰라요"],"ans":1},
+    {"q":"하루 종일 어땠어요?","opts":["기뻤어요","피곤했어요","화났어요","심심했어요"],"ans":1}
+  ],
+  "cloze":["알람 소리","평소보다","급하게","지각","피곤했어요"]
+},
+{
+  "id": 78,
+  "level": "Starter",
+  "krTitle": "새로운 우산",
+  "enTitle": "A New Umbrella",
+  "sentences": [
+    { "kr": "어제 새 우산을 샀어요.", "en": "Yesterday, I bought a new umbrella." },
+    { "kr": "색깔이 예뻐서 마음에 들었어요.", "en": "I liked it because the color was pretty." },
+    { "kr": "그런데 오늘은 비가 오지 않았어요.", "en": "But it did not rain today." },
+    { "kr": "조금 아쉬웠지만 우산을 잃어버리지 않아서 다행이었어요.", "en": "I was a little disappointed, but I was glad I did not lose the umbrella." }
+  ],
+  "vocab": [
+    {"kr":"우산","en":"umbrella"},
+    {"kr":"색깔","en":"color"},
+    {"kr":"예쁘다","en":"pretty"},
+    {"kr":"마음에 들다","en":"to like"},
+    {"kr":"비","en":"rain"},
+    {"kr":"아쉽다","en":"to feel disappointed"},
+    {"kr":"잃어버리다","en":"to lose"},
+    {"kr":"다행이다","en":"to be fortunate"}
+  ],
+  "quiz": [
+    {"q":"어제 무엇을 샀어요?","opts":["가방","우산","책","신발"],"ans":1},
+    {"q":"왜 마음에 들었어요?","opts":["싸서","색깔이 예뻐서","커서","작아서"],"ans":1},
+    {"q":"오늘 비가 왔어요?","opts":["네","아니요","조금","많이"],"ans":1},
+    {"q":"무엇을 잃어버리지 않았어요?","opts":["우산","지갑","휴대전화","가방"],"ans":0},
+    {"q":"글쓴이는 조금 어땠어요?","opts":["아쉬웠어요","무서웠어요","화났어요","졸렸어요"],"ans":0}
+  ],
+  "cloze":["우산","색깔","비","아쉬웠지만","다행"]
+},
+{
+  "id": 79,
+  "level": "Intermediate",
+  "krTitle": "버스에서 들은 이야기",
+  "enTitle": "A Story I Heard on the Bus",
+  "sentences": [
+    { "kr": "퇴근길 버스 안은 생각보다 조용했어요.", "en": "The bus on the way home from work was quieter than I expected." },
+    { "kr": "사람들은 대부분 휴대전화를 보거나 잠을 자고 있었어요.", "en": "Most people were looking at their phones or sleeping." },
+    { "kr": "그때 뒤쪽에서 두 사람이 여행 이야기를 하는 소리가 들렸어요.", "en": "Then I heard two people in the back talking about travel." },
+    { "kr": "저는 모르는 사람이었지만 이야기가 재미있어서 조금 듣게 되었어요.", "en": "They were strangers, but the story was interesting, so I ended up listening a little." },
+    { "kr": "덕분에 지루했던 버스 시간이 금방 지나갔어요.", "en": "Thanks to that, the boring bus ride passed quickly." }
+  ],
+  "vocab": [
+    {"kr":"퇴근길","en":"way home from work"},
+    {"kr":"버스 안","en":"inside the bus"},
+    {"kr":"생각보다","en":"more than expected"},
+    {"kr":"대부분","en":"most"},
+    {"kr":"휴대전화","en":"mobile phone"},
+    {"kr":"뒤쪽","en":"back side"},
+    {"kr":"여행 이야기","en":"travel story"},
+    {"kr":"모르는 사람","en":"stranger"},
+    {"kr":"지루하다","en":"boring"},
+    {"kr":"금방","en":"quickly"}
+  ],
+  "quiz": [
+    {"q":"버스 안은 어땠어요?","opts":["시끄러웠어요","조용했어요","복잡했어요","더웠어요"],"ans":1},
+    {"q":"사람들은 대부분 무엇을 하고 있었어요?","opts":["노래했어요","휴대전화를 보거나 잤어요","먹고 있었어요","운동했어요"],"ans":1},
+    {"q":"뒤쪽에서 어떤 이야기가 들렸어요?","opts":["회사 이야기","여행 이야기","학교 이야기","음식 이야기"],"ans":1},
+    {"q":"글쓴이는 그 사람들을 알고 있었어요?","opts":["네","아니요","조금","가족이었어요"],"ans":1},
+    {"q":"버스 시간이 어떻게 지나갔어요?","opts":["느리게","금방","힘들게","조용히"],"ans":1}
+  ],
+  "cloze":["퇴근길","휴대전화","여행 이야기","지루했던","금방"]
+},
+{
+  "id": 80,
+  "level": "Intermediate",
+  "krTitle": "식당을 고르는 방법",
+  "enTitle": "Choosing a Restaurant",
+  "sentences": [
+    { "kr": "친구들과 식당을 고를 때마다 의견이 달라요.", "en": "Whenever I choose a restaurant with friends, our opinions are different." },
+    { "kr": "어떤 친구는 새로운 식당을 좋아하고 어떤 친구는 익숙한 곳을 선호해요.", "en": "Some friends like new restaurants, while others prefer familiar places." },
+    { "kr": "그래서 메뉴를 정하는 데만 한참 걸릴 때도 있어요.", "en": "So sometimes it takes a long time just to decide on the menu." },
+    { "kr": "하지만 결국 함께 먹는 시간이 더 중요하다는 생각이 들어요.", "en": "But in the end, I think the time spent eating together is more important." },
+    { "kr": "어디에서 먹든 좋은 사람들과 함께 있으면 즐거우니까요.", "en": "Because wherever we eat, it is enjoyable when I am with good people." }
+  ],
+  "vocab": [
+    {"kr":"식당","en":"restaurant"},
+    {"kr":"고르다","en":"to choose"},
+    {"kr":"의견","en":"opinion"},
+    {"kr":"익숙한","en":"familiar"},
+    {"kr":"선호하다","en":"to prefer"},
+    {"kr":"메뉴","en":"menu"},
+    {"kr":"정하다","en":"to decide"},
+    {"kr":"한참","en":"for a long time"},
+    {"kr":"결국","en":"in the end"},
+    {"kr":"즐겁다","en":"to be enjoyable"}
+  ],
+  "quiz": [
+    {"q":"친구들과 식당을 고를 때마다 무엇이 달라요?","opts":["시간","의견","가격","날씨"],"ans":1},
+    {"q":"어떤 친구는 어떤 식당을 좋아해요?","opts":["새로운 식당","비싼 식당","조용한 식당","먼 식당"],"ans":0},
+    {"q":"메뉴를 정하는 데 얼마나 걸릴 때도 있어요?","opts":["금방","한참","1초","전혀 안"],"ans":1},
+    {"q":"글쓴이는 무엇이 더 중요하다고 생각해요?","opts":["식당 이름","함께 먹는 시간","음식 사진","가격"],"ans":1},
+    {"q":"좋은 사람들과 함께 있으면 어때요?","opts":["즐거워요","힘들어요","불편해요","조용해요"],"ans":0}
+  ],
+  "cloze":["식당","의견","선호","메뉴","즐거우니까요"]
 }
 ]
