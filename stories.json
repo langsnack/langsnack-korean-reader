@@ -4368,5 +4368,98 @@
     {"q":"중요한 것은 기술 자체보다 무엇일지도 몰라요?","opts":["그것을 어떻게 활용하느냐","그것의 색깔","그것의 이름","그것의 가격만"],"ans":0}
   ],
   "cloze":["인공지능","전문가","업무","전망","활용"]
+},
+{
+  "id": 101,
+  "level": "Starter",
+  "krTitle": "제 책상",
+  "enTitle": "My Desk",
+  "sentences": [
+    { "kr": "제 책상은 크지 않아요.", "en": "My desk is not big." },
+    { "kr": "책상 위에 컴퓨터가 있어요.", "en": "There is a computer on the desk." },
+    { "kr": "책도 있어요.", "en": "There are books too." },
+    { "kr": "물병도 있어요.", "en": "There is also a water bottle." },
+    { "kr": "저는 매일 여기에서 공부해요.", "en": "I study here every day." }
+  ],
+  "vocab": [
+    {"kr":"책상","en":"desk"},
+    {"kr":"크다","en":"to be big"},
+    {"kr":"위","en":"on / top"},
+    {"kr":"컴퓨터","en":"computer"},
+    {"kr":"책","en":"book"},
+    {"kr":"물병","en":"water bottle"},
+    {"kr":"매일","en":"every day"},
+    {"kr":"공부하다","en":"to study"}
+  ],
+  "quiz": [
+    {"q":"제 책상은 어때요?","opts":["커요","크지 않아요","없어요","더러워요"],"ans":1},
+    {"q":"책상 위에 무엇이 있어요?","opts":["컴퓨터","신발","우산","가방"],"ans":0},
+    {"q":"책도 있어요?","opts":["네","아니요","몰라요","없어요"],"ans":0},
+    {"q":"저는 어디에서 공부해요?","opts":["책상에서","공원에서","버스에서","식당에서"],"ans":0},
+    {"q":"저는 얼마나 자주 공부해요?","opts":["가끔","매일","주말만","안 해요"],"ans":1}
+  ],
+  "cloze":["책상","컴퓨터","책","물병","공부"]
+},
+{
+  "id": 102,
+  "level": "Starter",
+  "krTitle": "제가 좋아하는 음료",
+  "enTitle": "My Favorite Drink",
+  "sentences": [
+    { "kr": "저는 커피를 좋아해요.", "en": "I like coffee." },
+    { "kr": "아침에 자주 마셔요.", "en": "I often drink it in the morning." },
+    { "kr": "뜨거운 커피를 좋아해요.", "en": "I like hot coffee." },
+    { "kr": "달지 않은 커피를 좋아해요.", "en": "I like coffee that is not sweet." },
+    { "kr": "하루에 한두 잔 마셔요.", "en": "I drink one or two cups a day." }
+  ],
+  "vocab": [
+    {"kr":"커피","en":"coffee"},
+    {"kr":"좋아하다","en":"to like"},
+    {"kr":"아침","en":"morning"},
+    {"kr":"자주","en":"often"},
+    {"kr":"마시다","en":"to drink"},
+    {"kr":"뜨겁다","en":"to be hot"},
+    {"kr":"달다","en":"to be sweet"},
+    {"kr":"하루","en":"one day"}
+  ],
+  "quiz": [
+    {"q":"저는 무엇을 좋아해요?","opts":["커피","우유","주스","물"],"ans":0},
+    {"q":"언제 자주 마셔요?","opts":["아침","밤","점심","새벽"],"ans":0},
+    {"q":"어떤 커피를 좋아해요?","opts":["차가운 커피","뜨거운 커피","아주 단 커피","쓴 차"],"ans":1},
+    {"q":"달지 않은 커피를 좋아해요?","opts":["네","아니요","몰라요","가끔"],"ans":0},
+    {"q":"하루에 몇 잔 마셔요?","opts":["한두 잔","다섯 잔","열 잔","안 마셔요"],"ans":0}
+  ],
+  "cloze":["커피","아침","뜨거운","달지","하루"]
+},
+{
+  "id": 103,
+  "level": "Starter",
+  "krTitle": "우리 동네",
+  "enTitle": "My Neighborhood",
+  "sentences": [
+    { "kr": "우리 동네는 조용해요.", "en": "My neighborhood is quiet." },
+    { "kr": "공원이 있어요.", "en": "There is a park." },
+    { "kr": "편의점도 있어요.", "en": "There is also a convenience store." },
+    { "kr": "사람들이 많이 걸어요.", "en": "Many people walk." },
+    { "kr": "저는 우리 동네를 좋아해요.", "en": "I like my neighborhood." }
+  ],
+  "vocab": [
+    {"kr":"동네","en":"neighborhood"},
+    {"kr":"조용하다","en":"to be quiet"},
+    {"kr":"공원","en":"park"},
+    {"kr":"편의점","en":"convenience store"},
+    {"kr":"사람들","en":"people"},
+    {"kr":"걷다","en":"to walk"},
+    {"kr":"많이","en":"a lot"},
+    {"kr":"좋아하다","en":"to like"}
+  ],
+  "quiz": [
+    {"q":"우리 동네는 어때요?","opts":["조용해요","시끄러워요","작아요","추워요"],"ans":0},
+    {"q":"우리 동네에 무엇이 있어요?","opts":["공원","공항","학교만","바다"],"ans":0},
+    {"q":"편의점도 있어요?","opts":["네","아니요","몰라요","없어요"],"ans":0},
+    {"q":"사람들이 무엇을 많이 해요?","opts":["걸어요","자요","울어요","노래해요"],"ans":0},
+    {"q":"저는 우리 동네를 좋아해요?","opts":["네","아니요","몰라요","싫어해요"],"ans":0}
+  ],
+  "cloze":["동네","조용해요","공원","편의점","걸어요"]
 }
 ]
