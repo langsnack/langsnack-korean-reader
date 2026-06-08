@@ -4197,5 +4197,176 @@
     {"q":"카페는 무엇으로 기능하고 있어요?","opts":["시간을 보내는 공간","잠자는 공간","운동하는 공간","병원 같은 공간"],"ans":0}
   ],
   "cloze":["카페","공부","혼자","공간"]
+},
+{
+  "id": 96,
+  "level": "Intermediate",
+  "krTitle": "무인점포가 늘어나는 이유",
+  "enTitle": "Why Unmanned Stores Are Increasing",
+  "sentences": [
+    { "kr": "요즘에는 직원이 없는 무인점포를 쉽게 볼 수 있어요.", "en": "These days, you can easily see unmanned stores without staff." },
+    { "kr": "아이스크림 가게나 편의점뿐만 아니라 카페도 있어요.", "en": "There are not only ice cream shops and convenience stores, but also cafes." },
+    { "kr": "손님들은 필요한 물건을 고른 뒤 직접 계산해요.", "en": "Customers choose what they need and pay by themselves." },
+    { "kr": "처음에는 조금 어색하게 느껴졌지만 이제는 익숙해진 사람들도 많아요.", "en": "At first, it felt a little awkward, but now many people have gotten used to it." },
+    { "kr": "특히 늦은 시간에도 이용할 수 있어서 편리하다는 의견이 많아요.", "en": "Many people say it is convenient because they can use them even late at night." },
+    { "kr": "하지만 일부 사람들은 관리가 부족하면 문제가 생길 수 있다고 걱정하기도 해요.", "en": "However, some people worry that problems may occur if management is lacking." }
+  ],
+  "vocab": [
+    {"kr":"무인점포","en":"unmanned store"},
+    {"kr":"직원","en":"staff"},
+    {"kr":"편의점","en":"convenience store"},
+    {"kr":"손님","en":"customer"},
+    {"kr":"직접","en":"directly / by oneself"},
+    {"kr":"계산하다","en":"to pay"},
+    {"kr":"어색하다","en":"awkward"},
+    {"kr":"익숙해지다","en":"to get used to"},
+    {"kr":"관리","en":"management"},
+    {"kr":"부족하다","en":"to be lacking"}
+  ],
+  "quiz": [
+    {"q":"요즘 어떤 점포를 쉽게 볼 수 있어요?","opts":["직원이 많은 점포","무인점포","오래된 시장","큰 백화점"],"ans":1},
+    {"q":"무인점포에는 어떤 곳도 있어요?","opts":["아이스크림 가게와 카페","병원과 학교","공항과 기차역","극장과 도서관"],"ans":0},
+    {"q":"손님들은 물건을 고른 뒤 무엇을 해요?","opts":["직원에게 줘요","직접 계산해요","그냥 나가요","친구에게 물어봐요"],"ans":1},
+    {"q":"왜 편리하다는 의견이 많아요?","opts":["늦은 시간에도 이용할 수 있어서","항상 무료라서","사람이 많아서","음식이 많아서"],"ans":0},
+    {"q":"일부 사람들은 무엇을 걱정해요?","opts":["관리가 부족하면 문제가 생길 수 있다","너무 조용하다","항상 문이 닫힌다","물건이 너무 싸다"],"ans":0}
+  ],
+  "cloze":["무인점포","직원","직접","익숙해진","관리"]
+},
+{
+  "id": 97,
+  "level": "Intermediate",
+  "krTitle": "중고 거래의 인기",
+  "enTitle": "The Popularity of Secondhand Trading",
+  "sentences": [
+    { "kr": "예전에는 사용하던 물건을 버리는 경우가 많았어요.", "en": "In the past, people often threw away things they had used." },
+    { "kr": "하지만 최근에는 중고 거래를 이용하는 사람들이 크게 늘어났어요.", "en": "But recently, the number of people using secondhand trading has increased greatly." },
+    { "kr": "아직 사용할 수 있는 물건을 저렴하게 사고팔 수 있기 때문이에요.", "en": "That is because people can buy and sell usable items at low prices." },
+    { "kr": "특히 학생이나 사회초년생들에게 인기가 많아요.", "en": "It is especially popular among students and young workers just starting their careers." },
+    { "kr": "물건을 버리지 않고 다시 사용할 수 있다는 점도 장점으로 꼽혀요.", "en": "The fact that items can be reused instead of thrown away is also considered an advantage." },
+    { "kr": "그래서 중고 거래는 경제적이면서도 환경에 도움이 되는 소비 방식으로 알려지고 있어요.", "en": "So secondhand trading is becoming known as a consumption style that is both economical and helpful for the environment." }
+  ],
+  "vocab": [
+    {"kr":"중고 거래","en":"secondhand trading"},
+    {"kr":"물건","en":"item / thing"},
+    {"kr":"버리다","en":"to throw away"},
+    {"kr":"최근","en":"recently"},
+    {"kr":"저렴하게","en":"cheaply / at a low price"},
+    {"kr":"사고팔다","en":"to buy and sell"},
+    {"kr":"사회초년생","en":"young worker / beginner in society/ people who just came out to society (young adults)"},
+    {"kr":"장점","en":"advantage"},
+    {"kr":"경제적","en":"economical"},
+    {"kr":"환경","en":"environment"}
+  ],
+  "quiz": [
+    {"q":"예전에는 사용하던 물건을 어떻게 하는 경우가 많았어요?","opts":["버렸어요","팔았어요","빌렸어요","고쳤어요"],"ans":0},
+    {"q":"최근에는 무엇을 이용하는 사람들이 늘어났어요?","opts":["택시","중고 거래","도서관","운동장"],"ans":1},
+    {"q":"중고 거래는 누구에게 특히 인기가 많아요?","opts":["학생이나 사회초년생","의사와 변호사","어린아이들","관광객만"],"ans":0},
+    {"q":"물건을 버리지 않고 다시 사용할 수 있다는 점은 무엇으로 꼽혀요?","opts":["단점","문제","장점","실수"],"ans":2},
+    {"q":"중고 거래는 환경에 어떤 소비 방식으로 알려지고 있어요?","opts":["도움이 되는 방식","해로운 방식","상관없는 방식","복잡한 방식"],"ans":0}
+  ],
+  "cloze":["중고 거래","물건","저렴하게","사회초년생","환경"]
+},
+{
+  "id": 98,
+  "level": "Intermediate",
+  "krTitle": "카카오톡 단체방",
+  "enTitle": "KakaoTalk Group Chats",
+  "sentences": [
+    { "kr": "학교나 회사에서는 단체 대화방을 자주 사용해요.", "en": "At school or work, people often use group chat rooms." },
+    { "kr": "공지사항을 전달하거나 일정을 공유할 때 매우 편리하기 때문이에요.", "en": "That is because they are very convenient for delivering notices or sharing schedules." },
+    { "kr": "하지만 사람이 많아질수록 메시지가 너무 많이 오는 경우도 있어요.", "en": "However, as the number of people increases, sometimes too many messages come in." },
+    { "kr": "중요한 내용을 놓치는 사람들도 종종 있어요.", "en": "Some people sometimes miss important information." },
+    { "kr": "그래서 일부 사람들은 필요한 경우에만 알림을 켜 두기도 해요.", "en": "So some people keep notifications on only when necessary." },
+    { "kr": "단체방은 편리하지만 적절하게 사용하는 것이 중요해요.", "en": "Group chats are convenient, but it is important to use them appropriately." }
+  ],
+  "vocab": [
+    {"kr":"단체 대화방","en":"group chat room"},
+    {"kr":"공지사항","en":"notice / announcement"},
+    {"kr":"전달하다","en":"to deliver"},
+    {"kr":"일정","en":"schedule"},
+    {"kr":"공유하다","en":"to share"},
+    {"kr":"메시지","en":"message"},
+    {"kr":"종종","en":"from time to time"},
+    {"kr":"내용","en":"content"},
+    {"kr":"놓치다","en":"to miss"},
+    {"kr":"알림","en":"notification"},
+    {"kr":"적절하게","en":"appropriately"}
+  ],
+  "quiz": [
+    {"q":"학교나 회사에서는 무엇을 자주 사용해요?","opts":["단체 대화방","종이 편지","전화번호부","지도"],"ans":0},
+    {"q":"단체방은 무엇을 공유할 때 편리해요?","opts":["일정","음식","옷","사진기"],"ans":0},
+    {"q":"사람이 많아질수록 무엇이 너무 많이 올 수 있어요?","opts":["메시지","택배","손님","비"],"ans":0},
+    {"q":"중요한 내용을 어떻게 하는 사람들도 있어요?","opts":["놓쳐요","만들어요","팔아요","빌려요"],"ans":0},
+    {"q":"단체방은 어떻게 사용하는 것이 중요해요?","opts":["적절하게","무조건 많이","항상 조용히","전혀 안"],"ans":0}
+  ],
+  "cloze":["단체 대화방","공지사항","일정","메시지","알림"]
+},
+{
+  "id": 99,
+  "level": "Advanced",
+  "krTitle": "혼자 여행하는 사람들",
+  "enTitle": "People Who Travel Alone",
+  "sentences": [
+    { "kr": "과거에는 여행을 친구나 가족과 함께 가는 경우가 많았다.", "en": "In the past, people often traveled with friends or family." },
+    { "kr": "하지만 최근에는 혼자 여행을 선택하는 사람들도 꾸준히 늘어나고 있다.", "en": "However, recently the number of people choosing to travel alone has been steadily increasing." },
+    { "kr": "혼자 여행을 하면 자신의 일정에 맞춰 자유롭게 움직일 수 있다는 장점이 있다.", "en": "When traveling alone, there is the advantage of being able to move freely according to one's own schedule." },
+    { "kr": "또 새로운 장소에서 스스로 문제를 해결하면서 자신감을 얻는 경우도 많다.", "en": "Many people also gain confidence by solving problems on their own in new places." },
+    { "kr": "물론 외로움을 느끼거나 예상치 못한 상황을 혼자 해결해야 하는 어려움도 있다.", "en": "Of course, there are also difficulties, such as feeling lonely or having to handle unexpected situations alone." },
+    { "kr": "그럼에도 불구하고 많은 사람들은 혼자만의 여행에서 특별한 경험을 발견한다고 말한다.", "en": "Nevertheless, many people say they discover special experiences through solo travel." }
+  ],
+  "vocab": [
+    {"kr":"과거","en":"the past"},
+    {"kr":"혼자 여행","en":"solo travel"},
+    {"kr":"선택하다","en":"to choose"},
+    {"kr":"꾸준히","en":"steadily"},
+    {"kr":"일정","en":"schedule"},
+    {"kr":"자유롭게","en":"freely"},
+    {"kr":"자신감","en":"confidence"},
+    {"kr":"예상치 못한","en":"unexpected"},
+    {"kr":"상황","en":"situation"},
+    {"kr":"그럼에도 불구하고","en":"nevertheless"}
+  ],
+  "quiz": [
+    {"q":"과거에는 여행을 누구와 함께 가는 경우가 많았어요?","opts":["친구나 가족","낯선 사람","선생님만","항상 혼자"],"ans":0},
+    {"q":"최근에는 어떤 사람들이 늘어나고 있어요?","opts":["혼자 여행을 선택하는 사람들","여행을 안 가는 사람들","항상 단체 여행만 가는 사람들","집에만 있는 사람들"],"ans":0},
+    {"q":"혼자 여행의 장점은 무엇이에요?","opts":["자신의 일정에 맞춰 자유롭게 움직일 수 있다","항상 돈이 들지 않는다","절대 외롭지 않다","문제가 전혀 없다"],"ans":0},
+    {"q":"새로운 장소에서 스스로 문제를 해결하면 무엇을 얻는 경우가 많아요?","opts":["자신감","걱정","피로","숙제"],"ans":0},
+    {"q":"혼자 여행에는 어떤 어려움도 있어요?","opts":["예상치 못한 상황을 혼자 해결해야 한다","언제나 친구가 많다","길을 절대 잃지 않는다","항상 무료이다"],"ans":0}
+  ],
+  "cloze":["혼자 여행","일정","자신감","상황","특별한 경험"]
+},
+{
+  "id": 100,
+  "level": "Advanced",
+  "krTitle": "AI가 바꾸는 일상",
+  "enTitle": "How AI Is Changing Daily Life",
+  "sentences": [
+    { "kr": "최근 몇 년 사이 인공지능 기술은 빠르게 발전했다.", "en": "In recent years, artificial intelligence technology has developed rapidly." },
+    { "kr": "과거에는 전문가만 사용할 수 있었던 기술이 이제는 일반인들에게도 익숙해지고 있다.", "en": "Technology that only experts could use in the past is now becoming familiar to ordinary people as well." },
+    { "kr": "사람들은 AI를 이용해 글을 쓰거나 정보를 찾고 업무를 정리하기도 한다.", "en": "People use AI to write, find information, and organize work." },
+    { "kr": "일부 직업은 변화의 영향을 크게 받을 것이라는 전망도 나오고 있다.", "en": "There are also predictions that some jobs will be greatly affected by these changes." },
+    { "kr": "하지만 새로운 기술이 등장할 때마다 사회는 그에 맞게 적응해 왔다.", "en": "However, whenever new technologies have appeared, society has adapted accordingly." },
+    { "kr": "중요한 것은 기술 자체보다 그것을 어떻게 활용하느냐일지도 모른다.", "en": "What may matter more than the technology itself is how we use it." }
+  ],
+  "vocab": [
+    {"kr":"인공지능","en":"artificial intelligence"},
+    {"kr":"기술","en":"technology"},
+    {"kr":"발전하다","en":"to develop"},
+    {"kr":"전문가","en":"expert"},
+    {"kr":"일반인","en":"ordinary person"},
+    {"kr":"익숙해지다","en":"to become familiar"},
+    {"kr":"업무","en":"work / task"},
+    {"kr":"전망","en":"prediction / outlook"},
+    {"kr":"적응하다","en":"to adapt"},
+    {"kr":"활용하다","en":"to utilize / use"}
+  ],
+  "quiz": [
+    {"q":"최근 몇 년 사이 무엇이 빠르게 발전했어요?","opts":["인공지능 기술","요리 기술","전통 음악","운동 문화"],"ans":0},
+    {"q":"과거에는 누구만 사용할 수 있었던 기술이 이제 일반인들에게도 익숙해지고 있어요?","opts":["전문가","학생","어린이","관광객"],"ans":0},
+    {"q":"사람들은 AI를 이용해 무엇을 하기도 해요?","opts":["글을 쓰거나 정보를 찾아요","운동을 해요","요리를 직접 먹어요","잠을 자요"],"ans":0},
+    {"q":"일부 직업은 무엇의 영향을 크게 받을 수 있다고 해요?","opts":["변화","날씨","여행","음식"],"ans":0},
+    {"q":"중요한 것은 기술 자체보다 무엇일지도 몰라요?","opts":["그것을 어떻게 활용하느냐","그것의 색깔","그것의 이름","그것의 가격만"],"ans":0}
+  ],
+  "cloze":["인공지능","전문가","업무","전망","활용"]
 }
 ]
