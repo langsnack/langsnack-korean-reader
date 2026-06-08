@@ -3861,5 +3861,170 @@
     {"q":"작은 변화가 쌓이면 무엇으로 이어질 수 있어요?","opts":["실수","걱정","큰 결과","실패"],"ans":2}
   ],
   "cloze":["목표","습관","꾸준히","변화","결과"]
+},
+{
+  "id": 86,
+  "level": "Advanced",
+  "krTitle": "선택지가 많을수록",
+  "enTitle": "When There Are More Choices",
+  "sentences": [
+    { "kr": "사람들은 보통 선택지가 많으면 더 좋은 결정을 내릴 수 있다고 생각한다.", "en": "People usually think that having more choices allows them to make better decisions." },
+    { "kr": "하지만 실제로는 선택지가 너무 많을 때 오히려 결정을 어려워하는 경우도 있다.", "en": "However, in reality, people sometimes find decisions more difficult when there are too many choices." },
+    { "kr": "예를 들어 식당 메뉴가 지나치게 많으면 무엇을 먹어야 할지 오래 고민하게 된다.", "en": "For example, if a restaurant menu has too many options, people may spend a long time wondering what to eat." },
+    { "kr": "심지어 결정을 내린 후에도 다른 선택이 더 좋았을지 계속 생각하기도 한다.", "en": "Even after making a decision, they may keep wondering whether another choice would have been better." },
+    { "kr": "그래서 때로는 선택지가 적은 것이 오히려 만족도를 높이는 데 도움이 될 수 있다.", "en": "So sometimes having fewer choices can actually help increase satisfaction." }
+  ],
+  "vocab": [
+    {"kr":"선택지","en":"choice / option"},
+    {"kr":"결정","en":"decision"},
+    {"kr":"실제로","en":"in reality"},
+    {"kr":"오히려","en":"rather / instead"},
+    {"kr":"지나치게","en":"excessively"},
+    {"kr":"고민하다","en":"to think hard / worry"},
+    {"kr":"심지어","en":"even"},
+    {"kr":"때로","en":"ocassionally/sometimes"},
+    {"kr":"선택지","en":"choice"},
+    {"kr":"만족도","en":"satisfaction level"},
+    {"kr":"도움이 되다","en":"helpful"}
+  ],
+  "quiz": [
+    {"q":"사람들은 선택지가 많으면 무엇을 할 수 있다고 생각해요?","opts":["더 빨리 먹을 수 있다","더 좋은 결정을 내릴 수 있다","더 많이 쉴 수 있다","더 쉽게 잊을 수 있다"],"ans":1},
+    {"q":"선택지가 너무 많으면 어떤 경우도 있어요?","opts":["결정을 어려워한다","항상 만족한다","바로 선택한다","생각하지 않는다"],"ans":0},
+    {"q":"식당 메뉴가 지나치게 많으면 무엇을 하게 돼요?","opts":["바로 나가요","오래 고민해요","음식을 안 먹어요","친구를 불러요"],"ans":1},
+    {"q":"결정을 내린 후에도 무엇을 생각하기도 해요?","opts":["다른 선택이 더 좋았을지","가격이 올랐는지","날씨가 바뀌었는지","메뉴가 사라졌는지"],"ans":0},
+    {"q":"때로는 선택지가 적은 것이 무엇을 높이는 데 도움이 돼요?","opts":["피로","만족도","걱정","시간"],"ans":1}
+  ],
+  "cloze":["선택지","결정","오히려","고민","만족도"]
+},
+{
+  "id": 87,
+  "level": "Advanced",
+  "krTitle": "늦게 자는 이유",
+  "enTitle": "Why People Sleep Late",
+  "sentences": [
+    { "kr": "많은 사람들은 충분히 피곤하면서도 쉽게 잠자리에 들지 못한다.", "en": "Many people cannot easily go to bed even when they are tired enough." },
+    { "kr": "해야 할 일이 남아서가 아니라 하루가 끝나는 것이 아쉽기 때문인 경우도 있다.", "en": "Sometimes it is not because they still have work to do, but because they feel reluctant for the day to end." },
+    { "kr": "특히 바쁜 하루를 보낸 사람일수록 자신만의 시간을 더 갖고 싶어 한다.", "en": "People who have had especially busy days often want more time for themselves." },
+    { "kr": "그래서 내일 일찍 일어나야 한다는 사실을 알면서도 잠드는 시간을 미루곤 한다.", "en": "So even though they know they have to wake up early the next day, they often delay going to sleep." },
+    { "kr": "하지만 그런 습관이 반복되면 결국 더 큰 피로로 이어질 수 있다.", "en": "However, if that habit repeats, it can eventually lead to greater fatigue." }
+  ],
+  "vocab": [
+    {"kr":"충분히","en":"enough"},
+    {"kr":"피곤하다","en":"to be tired"},
+    {"kr":"잠자리","en":"bed / bedtime"},
+    {"kr":"아쉽다","en":"to feel regretful / reluctant"},
+    {"kr":"자신만의 시간","en":"time for oneself"},
+    {"kr":"미루다","en":"to delay / postpone"},
+    {"kr":"반복되다","en":"to be repeated"},
+    {"kr":"피로","en":"fatigue"}
+  ],
+  "quiz": [
+    {"q":"많은 사람들은 피곤해도 무엇을 쉽게 하지 못해요?","opts":["밥 먹기","잠자리에 들기","운동하기","말하기"],"ans":1},
+    {"q":"하루가 끝나는 것을 어떻게 느끼는 경우도 있어요?","opts":["아쉽게","무섭게","재미없게","쉽게"],"ans":0},
+    {"q":"바쁜 하루를 보낸 사람일수록 무엇을 더 갖고 싶어 해요?","opts":["돈","자신만의 시간","새로운 일","잠자리"],"ans":1},
+    {"q":"내일 일찍 일어나야 해도 무엇을 미루곤 해요?","opts":["식사 시간","잠드는 시간","출근 시간","공부 시간"],"ans":1},
+    {"q":"그런 습관이 반복되면 무엇으로 이어질 수 있어요?","opts":["더 큰 피로","좋은 기억","새로운 취미","빠른 성장"],"ans":0}
+  ],
+  "cloze":["피곤","잠자리","아쉽기","시간","피로"]
+},
+{
+  "id": 88,
+  "level": "Advanced",
+  "krTitle": "익숙한 노래",
+  "enTitle": "A Familiar Song",
+  "sentences": [
+    { "kr": "오랫동안 듣지 않았던 노래를 우연히 다시 듣게 되는 순간이 있다.", "en": "There are moments when you happen to hear a song again after not listening to it for a long time." },
+    { "kr": "노래 자체는 변하지 않았지만 듣는 사람은 예전과 달라져 있다.", "en": "The song itself has not changed, but the listener has become different from before." },
+    { "kr": "그래서 같은 노래라도 과거에는 느끼지 못했던 감정을 새롭게 발견하게 되기도 한다.", "en": "So even with the same song, one may newly discover emotions they did not feel in the past." },
+    { "kr": "어떤 노래는 특정한 장소나 사람을 떠올리게 만들기도 한다.", "en": "Some songs also make people recall certain places or people." },
+    { "kr": "이처럼 음악은 단순한 소리가 아니라 기억과 감정을 연결하는 역할을 하기도 한다.", "en": "In this way, music is not just sound; it also plays a role in connecting memories and emotions." }
+  ],
+  "vocab": [
+    {"kr":"오랫동안","en":"for a long time"},
+    {"kr":"우연히","en":"by chance"},
+    {"kr":"자체","en":"itself"},
+    {"kr":"과거","en":"the past"},
+    {"kr":"감정","en":"emotion"},
+    {"kr":"발견하다","en":"to discover"},
+    {"kr":"특정한","en":"specific"},
+    {"kr":"떠올리다","en":"to recall"},
+    {"kr":"이처럼","en":"like this"},
+    {"kr":"연결하다","en":"to connect"},
+    {"kr":"역할","en":"role"}
+  ],
+  "quiz": [
+    {"q":"오랫동안 듣지 않았던 노래를 어떻게 다시 듣게 되는 순간이 있어요?","opts":["우연히","계획적으로","매일","억지로"],"ans":0},
+    {"q":"노래 자체는 변하지 않았지만 무엇이 달라져 있어요?","opts":["가사","듣는 사람","멜로디","제목"],"ans":1},
+    {"q":"같은 노래라도 새롭게 발견하게 되는 것은 무엇이에요?","opts":["가격","감정","장소","시간"],"ans":1},
+    {"q":"어떤 노래는 무엇을 떠올리게 만들기도 해요?","opts":["특정한 장소나 사람","시험 문제","음식 메뉴","운동 방법"],"ans":0},
+    {"q":"음악은 기억과 감정을 어떻게 하는 역할을 해요?","opts":["연결하는 역할","지우는 역할","막는 역할","비교하는 역할"],"ans":0}
+  ],
+  "cloze":["노래","우연히","감정","떠올리게","역할"]
+},
+{
+  "id": 89,
+  "level": "Advanced",
+  "krTitle": "첫인상의 영향",
+  "enTitle": "The Influence of First Impressions",
+  "sentences": [
+    { "kr": "사람들은 처음 만난 상대에 대해 짧은 시간 안에 인상을 형성하는 경우가 많다.", "en": "People often form impressions of someone they first meet within a short time." },
+    { "kr": "문제는 그렇게 형성된 첫인상이 생각보다 오래 유지된다는 점이다.", "en": "The problem is that first impressions formed this way tend to last longer than expected." },
+    { "kr": "실제로 새로운 정보를 접한 뒤에도 기존의 인상을 쉽게 바꾸지 못하는 경우가 있다.", "en": "In fact, even after encountering new information, people sometimes cannot easily change their existing impressions." },
+    { "kr": "물론 첫인상이 항상 정확한 것은 아니다.", "en": "Of course, first impressions are not always accurate." },
+    { "kr": "따라서 사람을 판단할 때는 첫인상뿐 아니라 다양한 모습을 함께 살펴볼 필요가 있다.", "en": "Therefore, when judging someone, it is necessary to look at various sides of them, not just the first impression." }
+  ],
+  "vocab": [
+    {"kr":"첫인상","en":"first impression"},
+    {"kr":"상대","en":"the other person"},
+    {"kr":"인상","en":"impression"},
+    {"kr":"형성하다","en":"to form"},
+    {"kr":"유지되다","en":"to be maintained"},
+    {"kr":"정보","en":"information"},
+    {"kr":"접하다","en":"to encounter"},
+    {"kr":"기존의","en":"existing"},
+    {"kr":"판단하다","en":"to judge"},
+    {"kr":"살펴보다","en":"to examine / look at"}
+  ],
+  "quiz": [
+    {"q":"사람들은 처음 만난 상대에 대해 무엇을 형성해요?","opts":["계획","인상","약속","기록"],"ans":1},
+    {"q":"첫인상은 생각보다 어떻게 유지돼요?","opts":["오래","짧게","전혀","조용히"],"ans":0},
+    {"q":"새로운 정보를 접한 뒤에도 무엇을 쉽게 바꾸지 못하는 경우가 있어요?","opts":["기존의 인상","시간표","이름","장소"],"ans":0},
+    {"q":"첫인상은 항상 정확해요?","opts":["네","아니요","항상 그래요","모두 같아요"],"ans":1},
+    {"q":"사람을 판단할 때 무엇을 함께 살펴볼 필요가 있어요?","opts":["가격","다양한 모습","옷 색깔만","첫마디만"],"ans":1}
+  ],
+  "cloze":["첫인상","형성","유지","정보","판단"]
+},
+{
+  "id": 90,
+  "level": "Advanced",
+  "krTitle": "혼자 있는 시간",
+  "enTitle": "Time Alone",
+  "sentences": [
+    { "kr": "과거에는 혼자 있는 시간을 외로움과 연결해서 생각하는 경우가 많았다.", "en": "In the past, people often associated time alone with loneliness." },
+    { "kr": "하지만 최근에는 혼자만의 시간을 중요하게 여기는 사람들도 늘어나고 있다.", "en": "However, recently more people have come to value time alone." },
+    { "kr": "혼자 있는 동안에는 다른 사람의 시선을 의식하지 않고 자신의 생각에 집중할 수 있기 때문이다.", "en": "This is because when alone, people can focus on their own thoughts without being conscious of others' eyes." },
+    { "kr": "물론 사람들과의 관계도 중요하다.", "en": "Of course, relationships with others are also important." },
+    { "kr": "그러나 자신을 이해하기 위해서는 때때로 혼자 있는 시간 역시 필요하다.", "en": "However, in order to understand oneself, time alone is also sometimes necessary." }
+  ],
+  "vocab": [
+    {"kr":"과거","en":"the past"},
+    {"kr":"외로움","en":"loneliness"},
+    {"kr":"연결하다","en":"to connect / associate"},
+    {"kr":"최근","en":"recently"},
+    {"kr":"중요하게 여기다","en":"to value"},
+    {"kr":"시선","en":"gaze / eyes"},
+    {"kr":"의식하다","en":"to be conscious of"},
+    {"kr":"집중하다","en":"to focus"},
+    {"kr":"관계","en":"relationship"},
+    {"kr":"이해하다","en":"to understand"}
+  ],
+  "quiz": [
+    {"q":"과거에는 혼자 있는 시간을 무엇과 연결해서 생각했어요?","opts":["행복","외로움","성공","공부"],"ans":1},
+    {"q":"최근에는 혼자만의 시간을 어떻게 여기는 사람들이 늘어나고 있어요?","opts":["중요하게","이상하게","불편하게","무섭게"],"ans":0},
+    {"q":"혼자 있을 때 다른 사람의 무엇을 의식하지 않을 수 있어요?","opts":["시선","목소리","이름","시간"],"ans":0},
+    {"q":"혼자 있는 동안 자신의 무엇에 집중할 수 있어요?","opts":["생각","숙제","가방","음식"],"ans":0},
+    {"q":"자신을 이해하기 위해 때때로 무엇이 필요해요?","opts":["혼자 있는 시간","많은 돈","긴 여행","새로운 집"],"ans":0}
+  ],
+  "cloze":["혼자","외로움","최근","시선","이해"]
 }
 ]
