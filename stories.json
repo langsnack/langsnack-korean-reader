@@ -3605,32 +3605,32 @@
 {
   "id": 78,
   "level": "Starter",
-  "krTitle": "새로운 우산",
+  "krTitle": "새 우산",
   "enTitle": "A New Umbrella",
   "sentences": [
     { "kr": "어제 새 우산을 샀어요.", "en": "Yesterday, I bought a new umbrella." },
-    { "kr": "색깔이 예뻐서 마음에 들었어요.", "en": "I liked it because the color was pretty." },
-    { "kr": "그런데 오늘은 비가 오지 않았어요.", "en": "But it did not rain today." },
-    { "kr": "조금 아쉬웠지만 우산을 잃어버리지 않아서 다행이었어요.", "en": "I was a little disappointed, but I was glad I did not lose the umbrella." }
+    { "kr": "색깔이 마음에 들어서 바로 샀어요.", "en": "I bought it right away because I liked the color." },
+    { "kr": "오늘은 비가 올 줄 알았어요.", "en": "I thought it would rain today." },
+    { "kr": "그런데 하루 종일 비가 오지 않았어요.", "en": "But it didn't rain all day." },
+    { "kr": "그래서 조금 아쉬웠어요.", "en": "So I was a little disappointed." }
   ],
   "vocab": [
     {"kr":"우산","en":"umbrella"},
     {"kr":"색깔","en":"color"},
-    {"kr":"예쁘다","en":"pretty"},
     {"kr":"마음에 들다","en":"to like"},
+    {"kr":"바로","en":"right away"},
     {"kr":"비","en":"rain"},
-    {"kr":"아쉽다","en":"to feel disappointed"},
-    {"kr":"잃어버리다","en":"to lose"},
-    {"kr":"다행이다","en":"to be fortunate"}
+    {"kr":"하루 종일","en":"all day"},
+    {"kr":"아쉽다","en":"to be disappointed"}
   ],
   "quiz": [
     {"q":"어제 무엇을 샀어요?","opts":["가방","우산","책","신발"],"ans":1},
-    {"q":"왜 마음에 들었어요?","opts":["싸서","색깔이 예뻐서","커서","작아서"],"ans":1},
+    {"q":"왜 우산을 샀어요?","opts":["비가 와서","색깔이 마음에 들어서","친구가 줘서","필요 없어서"],"ans":1},
     {"q":"오늘 비가 왔어요?","opts":["네","아니요","조금","많이"],"ans":1},
-    {"q":"무엇을 잃어버리지 않았어요?","opts":["우산","지갑","휴대전화","가방"],"ans":0},
-    {"q":"글쓴이는 조금 어땠어요?","opts":["아쉬웠어요","무서웠어요","화났어요","졸렸어요"],"ans":0}
+    {"q":"글쓴이는 오늘 무엇을 예상했어요?","opts":["눈","비","바람","더운 날씨"],"ans":1},
+    {"q":"마지막에 글쓴이는 어떤 기분이었어요?","opts":["기뻤어요","무서웠어요","아쉬웠어요","화났어요"],"ans":2}
   ],
-  "cloze":["우산","색깔","비","아쉬웠지만","다행"]
+  "cloze":["우산","색깔","비","하루 종일","아쉬웠어요"]
 },
 {
   "id": 79,
@@ -3672,7 +3672,7 @@
   "enTitle": "Choosing a Restaurant",
   "sentences": [
     { "kr": "친구들과 식당을 고를 때마다 의견이 달라요.", "en": "Whenever I choose a restaurant with friends, our opinions are different." },
-    { "kr": "어떤 친구는 새로운 식당을 좋아하고 어떤 친구는 익숙한 곳을 선호해요.", "en": "Some friends like new restaurants, while others prefer familiar places." },
+    { "kr": "어떤 친구는 새로운 맛집을 좋아하고 어떤 친구는 익숙한 곳을 선호해요.", "en": "Some friends like new restaurants, while others prefer familiar places." },
     { "kr": "그래서 메뉴를 정하는 데만 한참 걸릴 때도 있어요.", "en": "So sometimes it takes a long time just to decide on the menu." },
     { "kr": "하지만 결국 함께 먹는 시간이 더 중요하다는 생각이 들어요.", "en": "But in the end, I think the time spent eating together is more important." },
     { "kr": "어디에서 먹든 좋은 사람들과 함께 있으면 즐거우니까요.", "en": "Because wherever we eat, it is enjoyable when I am with good people." }
@@ -3683,6 +3683,7 @@
     {"kr":"의견","en":"opinion"},
     {"kr":"익숙한","en":"familiar"},
     {"kr":"선호하다","en":"to prefer"},
+    {"kr":"맛집","en":"(delicious) restaurant"},
     {"kr":"메뉴","en":"menu"},
     {"kr":"정하다","en":"to decide"},
     {"kr":"한참","en":"for a long time"},
