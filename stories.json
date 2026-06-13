@@ -4492,5 +4492,165 @@
     {"q":"이번 주에 무엇을 빌려요?","opts":["영화","잡지","책 한 권","가방"],"ans":2}
   ],
   "cloze":["도서관","책","빌릴","조용해서","한 권"]
+},
+{
+  "id": 105,
+  "level": "Starter",
+  "krTitle": "기분이 좋아요",
+  "enTitle": "I Feel Good",
+  "sentences": [
+    { "kr": "오늘 기분이 좋아요.", "en": "I feel good today." },
+    { "kr": "아침에 날씨가 좋아요.", "en": "The weather is nice in the morning." },
+    { "kr": "좋아하는 노래도 들어요.", "en": "I also listen to my favorite song." },
+    { "kr": "친구에게 메시지도 와요.", "en": "I also get a message from my friend." },
+    { "kr": "그래서 많이 웃어요.", "en": "So I smile a lot." }
+  ],
+  "vocab": [
+    {"kr":"기분","en":"mood / feeling"},
+    {"kr":"좋다","en":"to be good"},
+    {"kr":"날씨","en":"weather"},
+    {"kr":"노래","en":"song"},
+    {"kr":"듣다","en":"to listen"},
+    {"kr":"친구","en":"friend"},
+    {"kr":"메시지","en":"message"},
+    {"kr":"웃다","en":"to smile / laugh"}
+  ],
+  "quiz": [
+    {"q":"오늘 기분이 어때요?","opts":["좋아요","나빠요","슬퍼요","화나요"],"ans":0},
+    {"q":"아침에 무엇이 좋아요?","opts":["날씨","음식","가방","책"],"ans":0},
+    {"q":"무엇을 들어요?","opts":["노래","뉴스","수업","전화"],"ans":0},
+    {"q":"누구에게 메시지가 와요?","opts":["친구","선생님","가족","의사"],"ans":0},
+    {"q":"그래서 많이 무엇을 해요?","opts":["웃어요","울어요","자요","걸어요"],"ans":0}
+  ],
+  "cloze":["기분","날씨","노래","친구","웃어요"]
+},
+{
+  "id": 106,
+  "level": "Beginner",
+  "krTitle": "스트레스를 받을 때",
+  "enTitle": "When I Feel Stressed",
+  "sentences": [
+    { "kr": "저는 스트레스를 받을 때 혼자 산책해요.", "en": "When I feel stressed, I take a walk alone." },
+    { "kr": "조용한 길을 걸으면 생각이 정리돼요.", "en": "When I walk on a quiet street, my thoughts become organized." },
+    { "kr": "가끔 음악도 들어요.", "en": "Sometimes I listen to music too." },
+    { "kr": "그러면 마음이 조금 편해져요.", "en": "Then my mind feels a little more comfortable." },
+    { "kr": "스트레스가 바로 없어지지는 않지만 기분은 나아져요.", "en": "The stress does not disappear right away, but my mood gets better." }
+  ],
+  "vocab": [
+    {"kr":"스트레스","en":"stress"},
+    {"kr":"혼자","en":"alone"},
+    {"kr":"산책하다","en":"to take a walk"},
+    {"kr":"조용한","en":"quiet"},
+    {"kr":"생각","en":"thought"},
+    {"kr":"정리되다","en":"to become organized"},
+    {"kr":"마음","en":"mind / heart"},
+    {"kr":"편해지다","en":"to become comfortable"},
+    {"kr":"없어지다","en":"to disappear"},
+    {"kr":"나아지다","en":"to get better"}
+  ],
+  "quiz": [
+    {"q":"글쓴이는 스트레스를 받을 때 무엇을 해요?","opts":["혼자 산책해요","영화를 봐요","친구를 만나요","잠만 자요"],"ans":0},
+    {"q":"조용한 길을 걸으면 무엇이 정리돼요?","opts":["생각","방","책상","가방"],"ans":0},
+    {"q":"가끔 무엇도 들어요?","opts":["음악","뉴스","수업","비 소리"],"ans":0},
+    {"q":"산책 후 마음이 어떻게 돼요?","opts":["편해져요","화나요","복잡해져요","슬퍼져요"],"ans":0},
+    {"q":"스트레스가 바로 없어져요?","opts":["아니요","네","항상 그래요","몰라요"],"ans":0}
+  ],
+  "cloze":["스트레스","산책","생각","마음","기분"]
+},
+{
+  "id": 107,
+  "level": "Intermediate",
+  "krTitle": "화가 난 이유",
+  "enTitle": "Why I Got Angry",
+  "sentences": [
+    { "kr": "민서: 오늘 표정이 안 좋아 보여요.", "en": "Minseo: You don't look very happy today." },
+    { "kr": "지우: 아침에 조금 화나는 일이 있었어요.", "en": "Jiwoo: Something a little upsetting happened this morning." },
+    { "kr": "민서: 무슨 일이 있었어요?", "en": "Minseo: What happened?" },
+    { "kr": "지우: 중요한 약속이 있었는데 버스가 너무 늦게 왔어요.", "en": "Jiwoo: I had an important appointment, but the bus came very late." },
+    { "kr": "민서: 많이 답답했겠어요.", "en": "Minseo: That must have been really frustrating." },
+    { "kr": "지우: 네. 그래도 지금은 괜찮아졌어요.", "en": "Jiwoo: Yes. But I'm okay now." }
+  ],
+  "vocab": [
+    {"kr":"표정","en":"facial expression"},
+    {"kr":"화나다","en":"to get angry"},
+    {"kr":"중요한","en":"important"},
+    {"kr":"약속","en":"appointment / plan"},
+    {"kr":"늦게","en":"late"},
+    {"kr":"답답하다","en":"to feel frustrated"},
+    {"kr":"괜찮아지다","en":"to become okay"}
+  ],
+  "quiz": [
+    {"q":"민서는 지우의 무엇이 안 좋아 보인다고 했어요?","opts":["표정","가방","옷","목소리"],"ans":0},
+    {"q":"지우는 언제 화나는 일이 있었어요?","opts":["아침에","점심에","저녁에","어제 밤에"],"ans":0},
+    {"q":"지우에게 무엇이 있었어요?","opts":["중요한 약속","시험","여행","회의"],"ans":0},
+    {"q":"무엇이 너무 늦게 왔어요?","opts":["버스","친구","택배","음식"],"ans":0},
+    {"q":"지우는 지금 괜찮아졌어요?","opts":["네","아니요","아직 화나요","몰라요"],"ans":0}
+  ],
+  "cloze":["표정","화나는","약속","버스","괜찮아졌어요"]
+},
+{
+  "id": 108,
+  "level": "Beginner",
+  "krTitle": "슬플 때 듣는 노래",
+  "enTitle": "Songs I Listen to When I Feel Sad",
+  "sentences": [
+    { "kr": "저는 슬플 때 조용한 노래를 들어요.", "en": "When I feel sad, I listen to quiet songs." },
+    { "kr": "너무 신나는 노래는 듣고 싶지 않아요.", "en": "I do not want to listen to songs that are too exciting." },
+    { "kr": "가사가 좋은 노래를 좋아해요.", "en": "I like songs with good lyrics." },
+    { "kr": "노래를 들으면 제 마음을 누가 이해해 주는 것 같아요.", "en": "When I listen to songs, it feels like someone understands my heart." },
+    { "kr": "그래서 슬픈 날에는 음악을 자주 들어요.", "en": "So on sad days, I often listen to music." }
+  ],
+  "vocab": [
+    {"kr":"슬프다","en":"to be sad"},
+    {"kr":"조용한","en":"quiet"},
+    {"kr":"노래","en":"song"},
+    {"kr":"신나다","en":"to be exciting"},
+    {"kr":"가사","en":"lyrics"},
+    {"kr":"마음","en":"heart / mind"},
+    {"kr":"이해하다","en":"to understand"},
+    {"kr":"음악","en":"music"},
+    {"kr":"자주","en":"often"}
+  ],
+  "quiz": [
+    {"q":"글쓴이는 슬플 때 어떤 노래를 들어요?","opts":["조용한 노래","빠른 노래","댄스 노래","생일 노래"],"ans":0},
+    {"q":"너무 신나는 노래를 듣고 싶어 해요?","opts":["아니요","네","항상 들어요","몰라요"],"ans":0},
+    {"q":"어떤 노래를 좋아해요?","opts":["가사가 좋은 노래","시끄러운 노래","짧은 노래","외국 노래만"],"ans":0},
+    {"q":"노래를 들으면 어떤 느낌이 들어요?","opts":["누가 마음을 이해해 주는 것 같아요","배가 고파요","잠이 안 와요","화가 나요"],"ans":0},
+    {"q":"슬픈 날에는 무엇을 자주 들어요?","opts":["음악","뉴스","수업","전화"],"ans":0}
+  ],
+  "cloze":["슬플","노래","가사","마음","음악"]
+},
+{
+  "id": 109,
+  "level": "High Intermediate",
+  "krTitle": "감정을 숨기는 사람",
+  "enTitle": "A Person Who Hides Their Feelings",
+  "sentences": [
+    { "kr": "사람마다 감정을 표현하는 방법이 달라요.", "en": "Everyone has a different way of expressing emotions." },
+    { "kr": "어떤 사람은 기분이 좋거나 나쁠 때 바로 얼굴에 드러나요.", "en": "Some people show it on their faces right away when they feel good or bad." },
+    { "kr": "하지만 어떤 사람은 힘들어도 아무렇지 않은 척해요.", "en": "But some people act like nothing is wrong even when they are having a hard time." },
+    { "kr": "감정을 숨기는 것이 항상 나쁜 것은 아니에요.", "en": "Hiding emotions is not always a bad thing." },
+    { "kr": "하지만 너무 오래 참으면 마음이 더 힘들어질 수 있어요.", "en": "But if you hold it in for too long, your heart can become even more tired." },
+    { "kr": "가끔은 믿을 수 있는 사람에게 솔직하게 말하는 것도 필요해요.", "en": "Sometimes it is necessary to speak honestly to someone you can trust." }
+  ],
+  "vocab": [
+    {"kr":"감정","en":"emotion"},
+    {"kr":"표현하다","en":"to express"},
+    {"kr":"드러나다","en":"to show / be revealed"},
+    {"kr":"아무렇지 않은 척하다","en":"to pretend nothing is wrong"},
+    {"kr":"숨기다","en":"to hide"},
+    {"kr":"참다","en":"to hold back / endure"},
+    {"kr":"믿을 수 있는","en":"trustworthy"},
+    {"kr":"솔직하게","en":"honestly"},
+    {"kr":"필요하다","en":"to be necessary"}
+  ],
+  "quiz": [
+    {"q":"사람마다 무엇이 달라요?","opts":["감정을 표현하는 방법","먹는 시간","자는 장소","공부하는 책"],"ans":0},
+    {"q":"어떤 사람은 감정이 어디에 바로 드러나요?","opts":["얼굴","손","가방","옷"],"ans":0},
+    {"q":"어떤 사람은 힘들어도 어떻게 해요?","opts":["아무렇지 않은 척해요","계속 웃기만 해요","바로 울어요","항상 말해요"],"ans":0},
+    {"q":"감정을 숨기는 것은 항상 나빠요?","opts":["아니요","네","항상 그래요","몰라요"],"ans":0},
+    {"q":"가끔은 누구에게 솔직하게 말하는 것도 필요해요?","opts":["믿을 수 있는 사람","모르는 사람","택시 기사","가게 직원"],"ans":0}
+  ],
+  "cloze":["감정","표현","드러나요","숨기는","솔직하게"]
 }
 ]
