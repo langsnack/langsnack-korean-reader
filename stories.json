@@ -4461,5 +4461,36 @@
     {"q":"저는 우리 동네를 좋아해요?","opts":["네","아니요","몰라요","싫어해요"],"ans":0}
   ],
   "cloze":["동네","조용해요","공원","편의점","걸어요"]
+},
+  {
+  "id": 104,
+  "level": "Starter",
+  "krTitle": "도서관 카드",
+  "enTitle": "A Library Card",
+  "sentences": [
+    { "kr": "저는 도서관 카드를 만들어요.", "en": "I get a library card." },
+    { "kr": "도서관에 책이 많아요.", "en": "There are many books in the library." },
+    { "kr": "책을 빌릴 수 있어요.", "en": "I can borrow books." },
+    { "kr": "조용해서 좋아요.", "en": "I like it because it is quiet." },
+    { "kr": "이번 주에 책을 한 권 빌려요.", "en": "This week, I borrow one book." }
+  ],
+  "vocab": [
+    {"kr":"도서관","en":"library"},
+    {"kr":"카드","en":"card"},
+    {"kr":"책","en":"book"},
+    {"kr":"많다","en":"to be many"},
+    {"kr":"빌리다","en":"to borrow"},
+    {"kr":"조용하다","en":"to be quiet"},
+    {"kr":"좋다","en":"to be good / to like"},
+    {"kr":"한 권","en":"one book"}
+  ],
+  "quiz": [
+    {"q":"무엇을 만들어요?","opts":["학생증","도서관 카드","신용카드","명함"],"ans":1},
+    {"q":"도서관에 무엇이 많아요?","opts":["사람","컴퓨터","책","자동차"],"ans":2},
+    {"q":"책을 어떻게 할 수 있어요?","opts":["사다","팔다","빌리다","버리다"],"ans":2},
+    {"q":"왜 좋아해요?","opts":["커서","조용해서","가까워서","새로워서"],"ans":1},
+    {"q":"이번 주에 무엇을 빌려요?","opts":["영화","잡지","책 한 권","가방"],"ans":2}
+  ],
+  "cloze":["도서관","책","빌릴","조용해서","한 권"]
 }
 ]
