@@ -4652,5 +4652,169 @@
     {"q":"가끔은 누구에게 솔직하게 말하는 것도 필요해요?","opts":["믿을 수 있는 사람","모르는 사람","택시 기사","가게 직원"],"ans":0}
   ],
   "cloze":["감정","표현","드러나요","숨기는","솔직하게"]
+},
+{
+  "id": 110,
+  "level": "Starter",
+  "krTitle": "제가 자주 먹는 음식",
+  "enTitle": "Food I Eat Often",
+  "sentences": [
+    { "kr": "저는 밥을 자주 먹어요.", "en": "I often eat rice." },
+    { "kr": "아침에는 간단하게 먹어요.", "en": "In the morning, I eat simply." },
+    { "kr": "점심에는 보통 밥을 먹어요.", "en": "For lunch, I usually eat rice." },
+    { "kr": "저녁에는 국도 먹어요.", "en": "For dinner, I also eat soup." },
+    { "kr": "저는 따뜻한 음식을 좋아해요.", "en": "I like warm food." }
+  ],
+  "vocab": [
+    {"kr":"밥","en":"rice / meal"},
+    {"kr":"자주","en":"often"},
+    {"kr":"아침","en":"morning / breakfast"},
+    {"kr":"간단하게","en":"simply"},
+    {"kr":"점심","en":"lunch"},
+    {"kr":"보통","en":"usually"},
+    {"kr":"저녁","en":"dinner / evening"},
+    {"kr":"국","en":"soup"},
+    {"kr":"따뜻한","en":"warm"},
+    {"kr":"음식","en":"food"}
+  ],
+  "quiz": [
+    {"q":"저는 무엇을 자주 먹어요?","opts":["밥","빵","과자","고기"],"ans":0},
+    {"q":"아침에는 어떻게 먹어요?","opts":["간단하게","많이","천천히","맵게"],"ans":0},
+    {"q":"점심에는 보통 무엇을 먹어요?","opts":["밥","케이크","아이스크림","과일만"],"ans":0},
+    {"q":"저녁에는 무엇도 먹어요?","opts":["국","커피","빵","초콜릿"],"ans":0},
+    {"q":"저는 어떤 음식을 좋아해요?","opts":["따뜻한 음식","차가운 음식","쓴 음식","단 음식만"],"ans":0}
+  ],
+  "cloze":["밥","아침","점심","국","음식"]
+},
+{
+  "id": 111,
+  "level": "Beginner",
+  "krTitle": "혼자 먹는 밥",
+  "enTitle": "Eating Alone",
+  "sentences": [
+    { "kr": "저는 가끔 혼자 밥을 먹어요.", "en": "I sometimes eat alone." },
+    { "kr": "처음에는 조금 어색했어요.", "en": "At first, it felt a little awkward." },
+    { "kr": "하지만 지금은 괜찮아요.", "en": "But now it is okay." },
+    { "kr": "혼자 먹으면 천천히 먹을 수 있어요.", "en": "When I eat alone, I can eat slowly." },
+    { "kr": "휴대폰을 보지 않고 음식 맛에 집중해요.", "en": "I focus on the taste of the food without looking at my phone." },
+    { "kr": "그래서 혼자 먹는 시간도 나쁘지 않아요.", "en": "So eating alone is not bad either." }
+  ],
+  "vocab": [
+    {"kr":"혼자","en":"alone"},
+    {"kr":"밥을 먹다","en":"to eat a meal"},
+    {"kr":"가끔","en":"sometimes"},
+    {"kr":"처음","en":"first / beginning"},
+    {"kr":"어색하다","en":"awkward"},
+    {"kr":"괜찮다","en":"to be okay"},
+    {"kr":"천천히","en":"slowly"},
+    {"kr":"휴대폰","en":"phone"},
+    {"kr":"맛","en":"taste"},
+    {"kr":"집중하다","en":"to focus"}
+  ],
+  "quiz": [
+    {"q":"글쓴이는 가끔 어떻게 밥을 먹어요?","opts":["혼자 먹어요","친구와 먹어요","가족과 먹어요","밖에서만 먹어요"],"ans":0},
+    {"q":"처음에는 어땠어요?","opts":["조금 어색했어요","아주 편했어요","너무 시끄러웠어요","배가 안 고팠어요"],"ans":0},
+    {"q":"지금은 어때요?","opts":["괜찮아요","힘들어요","무서워요","싫어요"],"ans":0},
+    {"q":"혼자 먹으면 어떻게 먹을 수 있어요?","opts":["천천히","빨리","맵게","많이만"],"ans":0},
+    {"q":"무엇에 집중해요?","opts":["음식 맛","휴대폰","친구","가격"],"ans":0}
+  ],
+  "cloze":["혼자","어색","괜찮아요","천천히","맛"]
+},
+{
+  "id": 112,
+  "level": "Beginner",
+  "krTitle": "매운 음식",
+  "enTitle": "Spicy Food",
+  "sentences": [
+    { "kr": "저는 매운 음식을 잘 못 먹어요.", "en": "I cannot eat spicy food very well." },
+    { "kr": "떡볶이는 맛있지만 너무 매울 때가 있어요.", "en": "Tteokbokki is delicious, but sometimes it is too spicy." },
+    { "kr": "그럴 때는 물을 많이 마셔요.", "en": "At those times, I drink a lot of water." },
+    { "kr": "친구는 매운 음식을 아주 좋아해요.", "en": "My friend really likes spicy food." },
+    { "kr": "그래서 같이 먹을 때는 안 매운 메뉴도 주문해요.", "en": "So when we eat together, we also order a non-spicy menu." }
+  ],
+  "vocab": [
+    {"kr":"맵다","en":"to be spicy"},
+    {"kr":"음식","en":"food"},
+    {"kr":"잘 못 먹다","en":"cannot eat well"},
+    {"kr":"떡볶이","en":"tteokbokki"},
+    {"kr":"맛있다","en":"delicious"},
+    {"kr":"물을 마시다","en":"to drink water"},
+    {"kr":"친구","en":"friend"},
+    {"kr":"메뉴","en":"menu"},
+    {"kr":"주문하다","en":"to order"}
+  ],
+  "quiz": [
+    {"q":"글쓴이는 매운 음식을 잘 먹어요?","opts":["아니요","네","아주 잘 먹어요","매일 먹어요"],"ans":0},
+    {"q":"떡볶이는 맛있지만 어떨 때가 있어요?","opts":["너무 매울 때","너무 달 때","너무 차가울 때","너무 작을 때"],"ans":0},
+    {"q":"매울 때 무엇을 많이 마셔요?","opts":["물","커피","우유만","주스"],"ans":0},
+    {"q":"친구는 어떤 음식을 좋아해요?","opts":["매운 음식","싱거운 음식","찬 음식","쓴 음식"],"ans":0},
+    {"q":"같이 먹을 때는 어떤 메뉴도 주문해요?","opts":["안 매운 메뉴","제일 매운 메뉴","디저트만","음료수만"],"ans":0}
+  ],
+  "cloze":["매운","떡볶이","물","친구","메뉴"]
+},
+{
+  "id": 113,
+  "level": "Intermediate",
+  "krTitle": "처음 먹어 본 음식",
+  "enTitle": "A Food I Tried for the First Time",
+  "sentences": [
+    { "kr": "지난주에 친구와 작은 식당에 갔어요.", "en": "Last week, I went to a small restaurant with a friend." },
+    { "kr": "친구가 제가 한 번도 먹어 보지 않은 음식을 추천했어요.", "en": "My friend recommended a food I had never tried before." },
+    { "kr": "처음에는 맛이 상상되지 않아서 조금 걱정됐어요.", "en": "At first, I was a little worried because I could not imagine the taste." },
+    { "kr": "그런데 한 입 먹어 보니 생각보다 맛있었어요.", "en": "But when I took one bite, it was tastier than I expected." },
+    { "kr": "새로운 음식을 먹어 보는 것도 좋은 경험이라는 생각이 들었어요.", "en": "I thought that trying new food is also a good experience." }
+  ],
+  "vocab": [
+    {"kr":"지난주","en":"last week"},
+    {"kr":"식당","en":"restaurant"},
+    {"kr":"추천하다","en":"to recommend"},
+    {"kr":"한 번도","en":"not even once"},
+    {"kr":"상상되다","en":"to be imagined"},
+    {"kr":"걱정되다","en":"to be worried"},
+    {"kr":"한 입","en":"one bite"},
+    {"kr":"생각보다","en":"more than expected"},
+    {"kr":"경험","en":"experience"}
+  ],
+  "quiz": [
+    {"q":"글쓴이는 지난주에 누구와 식당에 갔어요?","opts":["친구","가족","선생님","혼자"],"ans":0},
+    {"q":"친구는 어떤 음식을 추천했어요?","opts":["한 번도 먹어 보지 않은 음식","항상 먹는 음식","아주 싼 음식","매일 먹는 음식"],"ans":0},
+    {"q":"처음에는 왜 걱정됐어요?","opts":["맛이 상상되지 않아서","가격이 비싸서","시간이 없어서","식당이 멀어서"],"ans":0},
+    {"q":"한 입 먹어 보니 어땠어요?","opts":["생각보다 맛있었어요","너무 짰어요","맛없었어요","너무 차가웠어요"],"ans":0},
+    {"q":"새로운 음식을 먹어 보는 것은 어떤 경험이라고 했어요?","opts":["좋은 경험","나쁜 경험","이상한 경험","힘든 경험"],"ans":0}
+  ],
+  "cloze":["식당","추천","상상","한 입","경험"]
+},
+{
+  "id": 114,
+  "level": "Intermediate",
+  "krTitle": "같이 먹을 때의 예절",
+  "enTitle": "Manners When Eating Together",
+  "sentences": [
+    { "kr": "사람들과 같이 식사할 때는 음식 맛만 중요한 것이 아니에요.", "en": "When eating with others, the taste of the food is not the only important thing." },
+    { "kr": "서로 편하게 먹을 수 있는 분위기도 중요해요.", "en": "An atmosphere where everyone can eat comfortably is also important." },
+    { "kr": "예를 들어 음식을 너무 빨리 먹거나 큰 소리로 말하면 다른 사람이 불편할 수 있어요.", "en": "For example, if you eat too fast or speak loudly, others may feel uncomfortable." },
+    { "kr": "또 같이 먹는 사람의 취향을 생각하는 것도 필요해요.", "en": "It is also necessary to think about the preferences of the people eating with you." },
+    { "kr": "작은 배려가 식사 시간을 더 즐겁게 만들어요.", "en": "Small consideration makes mealtime more enjoyable." }
+  ],
+  "vocab": [
+    {"kr":"식사하다","en":"to eat a meal"},
+    {"kr":"음식 맛","en":"taste of food"},
+    {"kr":"분위기","en":"atmosphere"},
+    {"kr":"편하게","en":"comfortably"},
+    {"kr":"예를 들어","en":"for example"},
+    {"kr":"큰 소리","en":"loud voice"},
+    {"kr":"불편하다","en":"to be uncomfortable"},
+    {"kr":"취향","en":"preference / taste"},
+    {"kr":"배려","en":"consideration"},
+    {"kr":"즐겁게","en":"enjoyably"}
+  ],
+  "quiz": [
+    {"q":"같이 식사할 때 음식 맛만 중요해요?","opts":["아니요","네","항상 그래요","음식 맛만 중요해요"],"ans":0},
+    {"q":"서로 편하게 먹을 수 있는 무엇도 중요해요?","opts":["분위기","가격","사진","음료"],"ans":0},
+    {"q":"큰 소리로 말하면 다른 사람이 어떻게 느낄 수 있어요?","opts":["불편할 수 있어요","행복할 수 있어요","배고플 수 있어요","졸릴 수 있어요"],"ans":0},
+    {"q":"같이 먹는 사람의 무엇을 생각하는 것도 필요해요?","opts":["취향","옷","주소","나이"],"ans":0},
+    {"q":"작은 배려는 식사 시간을 어떻게 만들어요?","opts":["더 즐겁게","더 어렵게","더 조용하게만","더 짧게만"],"ans":0}
+  ],
+  "cloze":["식사","분위기","불편","취향","배려"]
 }
 ]
