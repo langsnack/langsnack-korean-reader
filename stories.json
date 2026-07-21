@@ -4818,3 +4818,167 @@
   "cloze":["식사","분위기","불편","취향","배려"]
 }
 ]
+,
+{
+  "id": 115,
+  "level": "Starter",
+  "krTitle": "좋아하는 과일",
+  "enTitle": "My Favorite Fruit",
+  "sentences": [
+    { "kr": "저는 과일을 좋아해요.", "en": "I like fruit." },
+    { "kr": "사과를 자주 먹어요.", "en": "I often eat apples." },
+    { "kr": "바나나도 좋아해요.", "en": "I also like bananas." },
+    { "kr": "여름에는 수박을 먹어요.", "en": "I eat watermelon in summer." },
+    { "kr": "과일은 맛있고 건강해요.", "en": "Fruit is delicious and healthy." }
+  ],
+  "vocab": [
+    {"kr":"과일","en":"fruit"},
+    {"kr":"사과","en":"apple"},
+    {"kr":"바나나","en":"banana"},
+    {"kr":"수박","en":"watermelon"},
+    {"kr":"여름","en":"summer"},
+    {"kr":"맛있다","en":"delicious"},
+    {"kr":"건강하다","en":"healthy"},
+    {"kr":"자주","en":"often"},
+    {"kr":"먹다","en":"to eat"},
+    {"kr":"좋아하다","en":"to like"}
+  ],
+  "quiz": [
+    {"q":"저는 무엇을 좋아해요?","opts":["과일","고기","빵","생선"],"ans":0},
+    {"q":"자주 먹는 과일은 뭐예요?","opts":["사과","포도","딸기","오렌지"],"ans":0},
+    {"q":"또 좋아하는 과일은 뭐예요?","opts":["바나나","복숭아","귤","망고"],"ans":0},
+    {"q":"여름에는 무엇을 먹어요?","opts":["수박","감","배","사과"],"ans":0},
+    {"q":"과일은 어때요?","opts":["맛있고 건강해요","비싸고 매워요","차갑고 짜요","뜨겁고 달라요"],"ans":0}
+  ],
+  "cloze":["과일","사과","바나나","수박","건강"]
+},
+{
+  "id": 116,
+  "level": "Beginner",
+  "krTitle": "배달 음식을 시킬 때",
+  "enTitle": "Ordering Delivery",
+  "sentences": [
+    { "kr": "저는 바쁠 때 배달 음식을 시켜요.", "en": "I order delivery when I'm busy." },
+    { "kr": "보통 한식을 주문해요.", "en": "I usually order Korean food." },
+    { "kr": "배달은 정말 편리해요.", "en": "Delivery is really convenient." },
+    { "kr": "하지만 너무 자주 시키지는 않아요.", "en": "But I don't order it too often." },
+    { "kr": "가끔은 직접 요리하는 것이 더 좋아요.", "en": "Sometimes cooking myself is better." }
+  ],
+  "vocab": [
+    {"kr":"배달","en":"delivery"},
+    {"kr":"시키다","en":"to order"},
+    {"kr":"바쁘다","en":"to be busy"},
+    {"kr":"주문하다","en":"to order"},
+    {"kr":"편리하다","en":"convenient"},
+    {"kr":"직접","en":"personally"},
+    {"kr":"요리하다","en":"to cook"},
+    {"kr":"가끔","en":"sometimes"},
+    {"kr":"한식","en":"Korean food"},
+    {"kr":"자주","en":"often"}
+  ],
+  "quiz": [
+    {"q":"언제 배달 음식을 시켜요?","opts":["바쁠 때","심심할 때","운동할 때","잘 때"],"ans":0},
+    {"q":"보통 무엇을 주문해요?","opts":["한식","중식","양식","일식"],"ans":0},
+    {"q":"배달은 어때요?","opts":["편리해요","어려워요","느려요","시끄러워요"],"ans":0},
+    {"q":"배달을 너무 자주 시켜요?","opts":["아니요","네","매일 시켜요","하루 세 번 시켜요"],"ans":0},
+    {"q":"가끔은 무엇이 더 좋아요?","opts":["직접 요리하기","외식하기","굶기","간식 먹기"],"ans":0}
+  ],
+  "cloze":["배달","한식","편리","자주","요리"]
+},
+{
+  "id": 117,
+  "level": "Beginner",
+  "krTitle": "친구와 외식",
+  "enTitle": "Eating Out with Friends",
+  "sentences": [
+    { "kr": "친구를 만나면 자주 외식해요.", "en": "When I meet my friends, we often eat out." },
+    { "kr": "보통 식당에서 같이 밥을 먹어요.", "en": "We usually eat together at a restaurant." },
+    { "kr": "메뉴를 고르는 시간이 재미있어요.", "en": "Choosing the menu is fun." },
+    { "kr": "새로운 음식을 먹는 것도 좋아해요.", "en": "I also enjoy trying new food." },
+    { "kr": "맛있는 음식을 먹으면 기분이 좋아져요.", "en": "Eating delicious food makes me feel good." }
+  ],
+  "vocab": [
+    {"kr":"외식하다","en":"to eat out"},
+    {"kr":"식당","en":"restaurant"},
+    {"kr":"메뉴","en":"menu"},
+    {"kr":"고르다","en":"to choose"},
+    {"kr":"새로운","en":"new"},
+    {"kr":"기분","en":"mood"},
+    {"kr":"좋아지다","en":"to become better"},
+    {"kr":"같이","en":"together"},
+    {"kr":"만나다","en":"to meet"},
+    {"kr":"재미있다","en":"fun"}
+  ],
+  "quiz": [
+    {"q":"친구를 만나면 무엇을 해요?","opts":["외식해요","운동해요","공부해요","쇼핑만 해요"],"ans":0},
+    {"q":"어디에서 밥을 먹어요?","opts":["식당","집","학교","회사"],"ans":0},
+    {"q":"무엇을 고르는 시간이 재미있어요?","opts":["메뉴","옷","가방","책"],"ans":0},
+    {"q":"무슨 음식을 먹는 것도 좋아해요?","opts":["새로운 음식","매운 음식만","단 음식만","비싼 음식만"],"ans":0},
+    {"q":"맛있는 음식을 먹으면 어떻게 돼요?","opts":["기분이 좋아져요","졸려요","화가 나요","배가 아파요"],"ans":0}
+  ],
+  "cloze":["외식","식당","메뉴","새로운","기분"]
+},
+{
+  "id": 118,
+  "level": "Intermediate",
+  "krTitle": "요리를 배우는 이유",
+  "enTitle": "Why I Learned to Cook",
+  "sentences": [
+    { "kr": "예전에는 거의 요리를 하지 않았어요.", "en": "I hardly cooked in the past." },
+    { "kr": "하지만 혼자 살기 시작하면서 직접 요리를 배우게 되었어요.", "en": "But after I started living alone, I began learning how to cook." },
+    { "kr": "처음에는 어려웠지만 조금씩 익숙해졌어요.", "en": "It was difficult at first, but I gradually got used to it." },
+    { "kr": "직접 만든 음식은 더 건강하다는 느낌이 들어요.", "en": "Food I make myself feels healthier." },
+    { "kr": "이제는 새로운 요리에도 도전해 보고 싶어요.", "en": "Now I want to try making new dishes too." }
+  ],
+  "vocab": [
+    {"kr":"예전","en":"the past"},
+    {"kr":"혼자 살다","en":"to live alone"},
+    {"kr":"배우다","en":"to learn"},
+    {"kr":"익숙해지다","en":"to get used to"},
+    {"kr":"직접","en":"personally"},
+    {"kr":"건강하다","en":"healthy"},
+    {"kr":"느낌","en":"feeling"},
+    {"kr":"도전하다","en":"to challenge / try"},
+    {"kr":"요리","en":"dish / cooking"}
+  ],
+  "quiz": [
+    {"q":"예전에는 요리를 많이 했어요?","opts":["아니요","네","매일 했어요","직업이 요리사였어요"],"ans":0},
+    {"q":"왜 요리를 배우게 되었어요?","opts":["혼자 살기 시작해서","학교 숙제 때문에","친구가 시켜서","시험 때문에"],"ans":0},
+    {"q":"처음에는 어땠어요?","opts":["어려웠어요","쉬웠어요","재미없었어요","지루했어요"],"ans":0},
+    {"q":"직접 만든 음식은 어떤 느낌이에요?","opts":["더 건강한 느낌","더 짠 느낌","더 비싼 느낌","더 매운 느낌"],"ans":0},
+    {"q":"이제 무엇을 해 보고 싶어요?","opts":["새로운 요리에 도전하기","식당 열기","요리를 그만두기","배달만 시키기"],"ans":0}
+  ],
+  "cloze":["혼자","배우","익숙","건강","도전"]
+},
+{
+  "id": 119,
+  "level": "Intermediate",
+  "krTitle": "음식으로 남은 추억",
+  "enTitle": "A Memory Connected to Food",
+  "sentences": [
+    { "kr": "저에게는 잊지 못하는 음식이 하나 있어요.", "en": "There is one food I can never forget." },
+    { "kr": "어릴 때 할머니가 자주 만들어 주셨던 음식이에요.", "en": "It is a dish my grandmother often made when I was young." },
+    { "kr": "오랜만에 그 음식을 먹으면 어린 시절이 떠올라요.", "en": "When I eat it after a long time, it reminds me of my childhood." },
+    { "kr": "맛도 중요하지만 함께했던 시간이 더 소중하게 느껴져요.", "en": "The taste is important, but the time we spent together feels even more precious." },
+    { "kr": "그래서 그 음식은 저에게 특별한 의미가 있어요.", "en": "That is why the food has a special meaning to me." }
+  ],
+  "vocab": [
+    {"kr":"잊지 못하다","en":"to never forget"},
+    {"kr":"할머니","en":"grandmother"},
+    {"kr":"오랜만","en":"after a long time"},
+    {"kr":"어린 시절","en":"childhood"},
+    {"kr":"떠오르다","en":"to come to mind"},
+    {"kr":"함께하다","en":"to spend time together"},
+    {"kr":"소중하다","en":"precious"},
+    {"kr":"특별하다","en":"special"},
+    {"kr":"의미","en":"meaning"}
+  ],
+  "quiz": [
+    {"q":"누가 그 음식을 만들어 주셨어요?","opts":["할머니","어머니","친구","선생님"],"ans":0},
+    {"q":"언제 자주 만들어 주셨어요?","opts":["어릴 때","작년에","지난달","어제"],"ans":0},
+    {"q":"오랜만에 먹으면 무엇이 떠올라요?","opts":["어린 시절","학교","회사","여행"],"ans":0},
+    {"q":"무엇이 더 소중하게 느껴져요?","opts":["함께했던 시간","가격","식당","접시"],"ans":0},
+    {"q":"그 음식은 어떤 의미가 있어요?","opts":["특별한 의미","슬픈 의미","없어요","평범한 의미"],"ans":0}
+  ],
+  "cloze":["할머니","오랜만","어린 시절","소중","의미"]
+}
